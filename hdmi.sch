@@ -14443,7 +14443,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <instance part="R12" gate="G$1" x="83.82" y="40.64"/>
 <instance part="R13" gate="G$1" x="96.52" y="88.9"/>
 <instance part="+3V4" gate="G$1" x="88.9" y="93.98"/>
-<instance part="U0" gate="BNA" x="246.38" y="137.16" rot="R180"/>
+<instance part="U0" gate="BNA" x="248.92" y="129.54" rot="R180"/>
 <instance part="L4" gate="G$3" x="30.48" y="182.88"/>
 <instance part="L5" gate="G$3" x="30.48" y="172.72"/>
 <instance part="C53" gate="G$1" x="83.82" y="165.1"/>
@@ -14461,7 +14461,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <instance part="GND39" gate="1" x="162.56" y="157.48"/>
 <instance part="C60" gate="G$1" x="187.96" y="170.18"/>
 <instance part="C61" gate="G$1" x="198.12" y="170.18"/>
-<instance part="GND41" gate="1" x="238.76" y="127"/>
+<instance part="GND41" gate="1" x="241.3" y="119.38"/>
 <instance part="GND33" gate="1" x="187.96" y="157.48"/>
 <instance part="L6" gate="G$3" x="-60.96" y="127"/>
 <instance part="U$10" gate="G$1" x="-5.08" y="129.54"/>
@@ -14600,12 +14600,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <junction x="162.56" y="162.56"/>
 </segment>
 <segment>
-<pinref part="U0" gate="BNA" pin="SUSPEND"/>
-<pinref part="GND41" gate="1" pin="GND"/>
-<wire x1="241.3" y1="132.08" x2="238.76" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="132.08" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C60" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="165.1" x2="187.96" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C61" gate="G$1" pin="2"/>
@@ -14647,6 +14641,12 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <wire x1="190.5" y1="114.3" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="114.3" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
 <label x="193.04" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="GND41" gate="1" pin="GND"/>
+<wire x1="241.3" y1="121.92" x2="241.3" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="U0" gate="BNA" pin="SUSPEND"/>
+<wire x1="241.3" y1="124.46" x2="243.84" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -14919,15 +14919,15 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <pinref part="IC1" gate="G$1" pin="ADBUS0"/>
 <wire x1="172.72" y1="142.24" x2="218.44" y2="142.24" width="0.1524" layer="91"/>
 <label x="175.26" y="142.24" size="1.778" layer="95"/>
-<wire x1="218.44" y1="142.24" x2="231.14" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="142.24" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U0" gate="BNA" pin="TCK"/>
-<wire x1="231.14" y1="134.62" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="142.24" x2="233.68" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="142.24" x2="218.44" y2="116.84" width="0.1524" layer="91"/>
 <junction x="218.44" y="142.24"/>
 <pinref part="SV1" gate="1" pin="3"/>
 <wire x1="218.44" y1="116.84" x2="190.5" y2="116.84" width="0.1524" layer="91"/>
 <label x="193.04" y="116.84" size="1.778" layer="95"/>
+<pinref part="U0" gate="BNA" pin="TCK"/>
+<wire x1="243.84" y1="127" x2="233.68" y2="127" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="127" x2="233.68" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_TDI" class="0">
@@ -14935,15 +14935,15 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <pinref part="IC1" gate="G$1" pin="ADBUS1"/>
 <wire x1="172.72" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
 <label x="175.26" y="139.7" size="1.778" layer="95"/>
-<wire x1="213.36" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="139.7" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U0" gate="BNA" pin="TDI"/>
-<wire x1="228.6" y1="137.16" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="139.7" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
 <junction x="213.36" y="139.7"/>
 <pinref part="SV1" gate="1" pin="5"/>
 <wire x1="213.36" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
 <label x="193.04" y="121.92" size="1.778" layer="95"/>
+<wire x1="213.36" y1="139.7" x2="236.22" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U0" gate="BNA" pin="TDI"/>
+<wire x1="243.84" y1="129.54" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="129.54" x2="236.22" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_TDO" class="0">
@@ -14951,17 +14951,15 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <pinref part="IC1" gate="G$1" pin="ADBUS2"/>
 <wire x1="172.72" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
 <label x="175.26" y="137.16" size="1.778" layer="95"/>
-<wire x1="215.9" y1="137.16" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="137.16" x2="226.06" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="132.08" x2="233.68" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="132.08" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U0" gate="BNA" pin="TDO"/>
-<wire x1="233.68" y1="139.7" x2="241.3" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="137.16" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
 <junction x="215.9" y="137.16"/>
 <pinref part="SV1" gate="1" pin="4"/>
 <wire x1="215.9" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
 <label x="193.04" y="119.38" size="1.778" layer="95"/>
+<wire x1="215.9" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U0" gate="BNA" pin="TDO"/>
+<wire x1="243.84" y1="132.08" x2="238.76" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="132.08" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_TMS" class="0">
@@ -14969,17 +14967,13 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <pinref part="IC1" gate="G$1" pin="ADBUS3"/>
 <wire x1="172.72" y1="134.62" x2="210.82" y2="134.62" width="0.1524" layer="91"/>
 <label x="175.26" y="134.62" size="1.778" layer="95"/>
-<wire x1="210.82" y1="134.62" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="134.62" x2="223.52" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="144.78" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="144.78" x2="233.68" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U0" gate="BNA" pin="TMS"/>
-<wire x1="233.68" y1="142.24" x2="241.3" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="134.62" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
 <junction x="210.82" y="134.62"/>
 <pinref part="SV1" gate="1" pin="6"/>
 <wire x1="210.82" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
 <label x="193.04" y="124.46" size="1.778" layer="95"/>
+<pinref part="U0" gate="BNA" pin="TMS"/>
+<wire x1="210.82" y1="134.62" x2="243.84" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_PWRSAVE#" class="0">
