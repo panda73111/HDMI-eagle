@@ -14538,13 +14538,13 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <junction x="149.86" y="149.86"/>
 </segment>
 </net>
-<net name="USB_5V_DISABLE" class="0">
+<net name="N$19" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="PG"/>
 <wire x1="96.52" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="129.54" x2="93.98" y2="127" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
 <pinref part="R48" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="127" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15933,6 +15933,13 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <label x="30.48" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="TOS_IN0" class="0">
+<segment>
+<pinref part="U0" gate="B0" pin="IO_L2N_0"/>
+<wire x1="27.94" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
+<label x="30.48" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -16514,6 +16521,13 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <pinref part="U0" gate="B1" pin="IO_L36N_A8_M1BA1_1"/>
 <wire x1="27.94" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
 <label x="30.48" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOS_IN1" class="0">
+<segment>
+<pinref part="U0" gate="B1" pin="IO_L51N_M1DQ13_1"/>
+<wire x1="27.94" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
+<label x="30.48" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -17126,6 +17140,13 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <pinref part="R27" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="88.9" y1="180.34" x2="88.9" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TOS_OUT0" class="0">
+<segment>
+<pinref part="U0" gate="B2" pin="IO_L45N_2"/>
+<wire x1="30.48" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<label x="33.02" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -18401,18 +18422,18 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="U$14" gate="G$1" x="101.6" y="25.4"/>
+<instance part="U$14" gate="G$1" x="101.6" y="63.5"/>
 <instance part="U$17" gate="G$1" x="48.26" y="25.4"/>
 <instance part="U$18" gate="G$1" x="48.26" y="63.5"/>
 <instance part="GND61" gate="1" x="35.56" y="7.62"/>
 <instance part="GND62" gate="1" x="35.56" y="45.72"/>
-<instance part="GND63" gate="1" x="88.9" y="7.62"/>
+<instance part="GND63" gate="1" x="88.9" y="45.72"/>
 <instance part="+3V16" gate="G$1" x="12.7" y="68.58"/>
-<instance part="+3V17" gate="G$1" x="81.28" y="30.48"/>
+<instance part="+3V17" gate="G$1" x="81.28" y="68.58"/>
 <instance part="+3V18" gate="G$1" x="12.7" y="30.48"/>
 <instance part="C23" gate="G$1" x="27.94" y="58.42"/>
 <instance part="C62" gate="G$1" x="27.94" y="20.32"/>
-<instance part="C63" gate="G$1" x="81.28" y="20.32"/>
+<instance part="C63" gate="G$1" x="81.28" y="58.42"/>
 <instance part="L8" gate="G$1" x="20.32" y="63.5"/>
 <instance part="L9" gate="G$1" x="20.32" y="25.4"/>
 </instances>
@@ -18422,14 +18443,14 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND63" gate="1" pin="GND"/>
-<wire x1="88.9" y1="10.16" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="48.26" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="GND"/>
-<wire x1="88.9" y1="12.7" x2="88.9" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="17.78" x2="91.44" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="50.8" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C63" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="12.7" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
-<junction x="88.9" y="12.7"/>
+<wire x1="88.9" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="50.8" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
+<junction x="88.9" y="50.8"/>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="GND"/>
@@ -18458,11 +18479,11 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <segment>
 <pinref part="U$14" gate="G$1" pin="VCC"/>
 <pinref part="+3V17" gate="G$1" pin="+3V3"/>
-<wire x1="91.44" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="25.4" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="63.5" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C63" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="22.86" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
-<junction x="81.28" y="25.4"/>
+<wire x1="81.28" y1="60.96" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
+<junction x="81.28" y="63.5"/>
 </segment>
 <segment>
 <pinref part="L8" gate="G$1" pin="1"/>
@@ -18516,20 +18537,21 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <net name="TOS_OUT0" class="0">
 <segment>
 <pinref part="U$14" gate="G$1" pin="VIN"/>
-<wire x1="91.44" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
-<label x="76.2" y="33.02" size="1.778" layer="95"/>
+<wire x1="91.44" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<label x="76.2" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,20.32,134.62,BARREL,GND,,,,"/>
-<approved hash="102,1,129.54,137.16,OUT,OUT@8,,,,"/>
-<approved hash="102,1,129.54,139.7,OUT,OUT@8,,,,"/>
-<approved hash="102,1,129.54,142.24,OUT,OUT@8,,,,"/>
-<approved hash="102,2,12.7,127,VBUS_OUT,+5V,,,,"/>
-<approved hash="102,2,12.7,124.46,VBUS_OUT,+5V,,,,"/>
+<approved hash="102,1,43.18,134.62,BARREL,GND,,,,"/>
+<approved hash="102,1,127,149.86,SW,SW@16,,,,"/>
+<approved hash="102,1,127,147.32,SW,SW@16,,,,"/>
+<approved hash="102,1,127,144.78,SW,SW@16,,,,"/>
+<approved hash="102,1,127,142.24,SW,SW@16,,,,"/>
+<approved hash="102,2,12.7,127,VBUS_OUT,USB_VBUS,,,,"/>
+<approved hash="102,2,12.7,124.46,VBUS_OUT,USB_VBUS,,,,"/>
 <approved hash="104,6,220.98,66.04,U1,VDD,+1V5,,,"/>
 <approved hash="104,6,220.98,63.5,U1,VDD,+1V5,,,"/>
 <approved hash="104,6,220.98,60.96,U1,VDD,+1V5,,,"/>
@@ -18608,8 +18630,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <approved hash="104,2,137.16,152.4,IC1,VCORE,+1V8,,,"/>
 <approved hash="104,2,124.46,152.4,IC1,VPHY,N$28,,,"/>
 <approved hash="104,2,127,152.4,IC1,VPLL,N$31,,,"/>
-<approved hash="104,2,35.56,33.02,U$5,VCC,+3V3,,,"/>
-<approved hash="104,2,35.56,17.78,U$5,VSS,GND,,,"/>
+<approved hash="104,2,43.18,40.64,U$5,VCC,+3V3,,,"/>
+<approved hash="104,2,43.18,25.4,U$5,VSS,GND,,,"/>
 <approved hash="104,1,81.28,25.4,U$6,AGND,GND,,,"/>
 <approved hash="104,1,81.28,22.86,U$6,ANGD,GND,,,"/>
 <approved hash="104,1,81.28,71.12,U$6,AVIN1,N$15,,,"/>
@@ -18629,13 +18651,16 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <approved hash="104,2,-22.86,127,U$10,VBUS,N$48,,,"/>
 <approved hash="103,2,12.7,119.38,U$10,PAD,GND,,,"/>
 <approved hash="104,2,-22.86,124.46,U$10,VBUS,N$48,,,"/>
-<approved hash="104,1,93.98,137.16,U$17,VIN,N$29,,,"/>
-<approved hash="104,1,93.98,139.7,U$17,VIN,N$29,,,"/>
-<approved hash="104,1,93.98,142.24,U$17,VIN,N$29,,,"/>
-<approved hash="104,7,35.56,40.64,U$12,VCCA,+3V3,,,"/>
-<approved hash="104,7,66.04,40.64,U$12,VCCB,+5V,,,"/>
-<approved hash="104,7,66.04,38.1,U$12,VCCB,+5V,,,"/>
-<approved hash="103,7,66.04,27.94,U$12,ETP,GND,,,"/>
+<approved hash="104,1,96.52,142.24,U$11,VCC,CENTER,,,"/>
+<approved hash="104,1,96.52,139.7,U$11,VCC,CENTER,,,"/>
+<approved hash="202,1,96.52,121.92,U$11,EN,,,,"/>
+<approved hash="104,1,127,121.92,U$11,PGND,GND,,,"/>
+<approved hash="104,1,127,119.38,U$11,PGND,GND,,,"/>
+<approved hash="104,1,127,116.84,U$11,ETP,GND,,,"/>
+<approved hash="104,1,96.52,137.16,U$11,VCC,CENTER,,,"/>
+<approved hash="104,8,91.44,25.4,U$14,VCC,+3V3,,,"/>
+<approved hash="104,8,38.1,25.4,U$17,VCC,N$4,,,"/>
+<approved hash="104,8,38.1,63.5,U$18,VCC,N$36,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -6265,10 +6265,6 @@ design rules under a new name.</description>
 <signal name="USB_5V_DISABLE">
 <contactref element="U$10" pad="3"/>
 <contactref element="R44" pad="2"/>
-<contactref element="U$11" pad="8"/>
-<contactref element="R48" pad="1"/>
-<wire x1="-161.2766" y1="-818.9098" x2="-167.2232" y2="-847.344" width="0" layer="19" extent="1-1"/>
-<wire x1="-147.94" y1="-660.4" x2="-161.2766" y2="-818.9098" width="0" layer="19" extent="1-1"/>
 <wire x1="-148.59" y1="-655.1" x2="-147.94" y2="-660.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$50">
@@ -6467,12 +6463,23 @@ design rules under a new name.</description>
 </signal>
 <signal name="TOS_IN0">
 <contactref element="U$18" pad="3"/>
+<contactref element="U0" pad="A2"/>
+<wire x1="-45.4" y1="16" x2="-213.1822" y2="-913.9312" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TOS_IN1">
 <contactref element="U$17" pad="3"/>
+<contactref element="U0" pad="T18"/>
+<wire x1="-32.6" y1="4" x2="-202.4888" y2="-913.9312" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TOS_OUT0">
 <contactref element="U$14" pad="3"/>
+<contactref element="U0" pad="V6"/>
+<wire x1="-42.2" y1="2.4" x2="-191.7954" y2="-913.9312" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="U$11" pad="8"/>
+<contactref element="R48" pad="1"/>
+<wire x1="-161.2766" y1="-818.9098" x2="-167.2232" y2="-847.344" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
