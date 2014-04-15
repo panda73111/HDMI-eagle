@@ -11946,16 +11946,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <pin name="2" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="3" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
-<symbol name="R-EU">
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="MA02-1">
 <wire x1="3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
@@ -13206,23 +13196,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R-EU_" prefix="R" uservalue="yes">
-<description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
-<gates>
-<gate name="G$1" symbol="R-EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0402" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MA02-1" prefix="SV" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="MA02-1" x="0" y="0"/>
@@ -13604,7 +13577,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <part name="C15" library="prj-hdmi" deviceset="C-EU" device="0603" value="0.1u"/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
-<part name="R48" library="prj-hdmi" deviceset="R-EU_" device="0402" value="10k"/>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="SV3" library="prj-hdmi" deviceset="MA02-1" device="" value="EXT_SUP"/>
 <part name="U$12" library="prj-hdmi" deviceset="PMOD-2X6" device=""/>
@@ -13639,6 +13611,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <sheet>
 <description>Power</description>
 <plain>
+<text x="48.26" y="144.78" size="2.54" layer="97">6-18V, 15 Watt max.</text>
+<text x="132.08" y="139.7" size="2.54" layer="97">5V, 3A max.</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="320.04" y="33.02"/>
@@ -13710,7 +13684,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <instance part="C15" gate="G$1" x="111.76" y="160.02" rot="R90"/>
 <instance part="GND47" gate="1" x="134.62" y="109.22"/>
 <instance part="GND59" gate="1" x="134.62" y="119.38"/>
-<instance part="R48" gate="G$1" x="86.36" y="134.62" rot="R90"/>
 <instance part="GND53" gate="1" x="73.66" y="127"/>
 <instance part="SV3" gate="G$1" x="55.88" y="119.38" rot="R90"/>
 <instance part="L7" gate="G$1" x="139.7" y="149.86"/>
@@ -14466,8 +14439,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <junction x="58.42" y="142.24"/>
 <pinref part="U$11" gate="G$1" pin="VCC@2"/>
 <pinref part="U$11" gate="G$1" pin="VCC@3"/>
-<wire x1="73.66" y1="142.24" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="142.24" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="139.7" x2="93.98" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="139.7" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
@@ -14476,9 +14448,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <wire x1="96.52" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="137.16" x2="93.98" y2="139.7" width="0.1524" layer="91"/>
 <junction x="93.98" y="139.7"/>
-<pinref part="R48" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="139.7" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
-<junction x="86.36" y="142.24"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="139.7" x2="73.66" y2="142.24" width="0.1524" layer="91"/>
 <junction x="73.66" y="142.24"/>
@@ -14502,7 +14471,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <wire x1="93.98" y1="160.02" x2="109.22" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SW@16" class="0">
+<net name="SW@16" class="1">
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
@@ -14525,27 +14494,17 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <wire x1="134.62" y1="149.86" x2="129.54" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="N$30" class="1">
 <segment>
 <pinref part="JP1" gate="1" pin="1"/>
-<wire x1="149.86" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="149.86" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="137.16" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="137.16" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="FB"/>
-<wire x1="149.86" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="L7" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="149.86" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
-<junction x="149.86" y="149.86"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U$11" gate="G$1" pin="PG"/>
-<wire x1="96.52" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="129.54" x2="93.98" y2="127" width="0.1524" layer="91"/>
-<pinref part="R48" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="127" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="149.86" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
+<junction x="152.4" y="149.86"/>
 </segment>
 </net>
 </nets>
