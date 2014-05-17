@@ -9552,67 +9552,64 @@ by exp-lbrs.ulp</description>
 <wire x1="-2.25" y1="-0.6" x2="-2.25" y2="-1.15" width="0.127" layer="21"/>
 <wire x1="-2.25" y1="-1.15" x2="-2.1" y2="-1.15" width="0.127" layer="21"/>
 </package>
-<package name="SOP24">
-<description>&lt;b&gt;SMALL OUTLINE PACKAGE&lt;/b&gt;</description>
-<wire x1="-8.4" y1="5.9" x2="8.4" y2="5.9" width="0.1998" layer="39"/>
-<wire x1="8.4" y1="5.9" x2="8.4" y2="-5.9" width="0.1998" layer="39"/>
-<wire x1="-8.4" y1="-5.9" x2="-8.4" y2="5.9" width="0.1998" layer="39"/>
-<wire x1="8.145" y1="3.96" x2="8.145" y2="-3.96" width="0.2032" layer="21"/>
-<wire x1="8.145" y1="-3.96" x2="-8.145" y2="-3.96" width="0.2032" layer="21"/>
-<wire x1="-8.145" y1="-3.96" x2="-8.145" y2="3.96" width="0.2032" layer="21"/>
-<wire x1="-8.145" y1="3.96" x2="8.145" y2="3.96" width="0.2032" layer="21"/>
-<wire x1="8.4" y1="-5.9" x2="-8.4" y2="-5.9" width="0.1998" layer="39"/>
-<rectangle x1="-7.2349" y1="-5.3899" x2="-6.7351" y2="-4.0599" layer="51"/>
-<rectangle x1="-5.9649" y1="-5.3899" x2="-5.4651" y2="-4.0599" layer="51"/>
-<rectangle x1="-4.6949" y1="-5.3899" x2="-4.1951" y2="-4.0599" layer="51"/>
-<rectangle x1="-3.4249" y1="-5.3899" x2="-2.9251" y2="-4.0599" layer="51"/>
-<rectangle x1="-2.1549" y1="-5.3899" x2="-1.6551" y2="-4.0599" layer="51"/>
-<rectangle x1="-0.8849" y1="-5.3899" x2="-0.3851" y2="-4.0599" layer="51"/>
-<rectangle x1="0.3851" y1="-5.3899" x2="0.8849" y2="-4.0599" layer="51"/>
-<rectangle x1="1.6551" y1="-5.3899" x2="2.1549" y2="-4.0599" layer="51"/>
-<rectangle x1="2.9251" y1="-5.3899" x2="3.4249" y2="-4.0599" layer="51"/>
-<rectangle x1="4.1951" y1="-5.3899" x2="4.6949" y2="-4.0599" layer="51"/>
-<rectangle x1="5.4651" y1="-5.3899" x2="5.9649" y2="-4.0599" layer="51"/>
-<rectangle x1="6.7351" y1="-5.3899" x2="7.2349" y2="-4.0599" layer="51"/>
-<rectangle x1="6.7351" y1="4.0599" x2="7.2349" y2="5.3899" layer="51"/>
-<rectangle x1="5.4651" y1="4.0599" x2="5.9649" y2="5.3899" layer="51"/>
-<rectangle x1="4.1951" y1="4.0599" x2="4.6949" y2="5.3899" layer="51"/>
-<rectangle x1="2.9251" y1="4.0599" x2="3.4249" y2="5.3899" layer="51"/>
-<rectangle x1="1.6551" y1="4.0599" x2="2.1549" y2="5.3899" layer="51"/>
-<rectangle x1="0.3851" y1="4.0599" x2="0.8849" y2="5.3899" layer="51"/>
-<rectangle x1="-0.8849" y1="4.0599" x2="-0.3851" y2="5.3899" layer="51"/>
-<rectangle x1="-2.1549" y1="4.0599" x2="-1.6551" y2="5.3899" layer="51"/>
-<rectangle x1="-3.4249" y1="4.0599" x2="-2.9251" y2="5.3899" layer="51"/>
-<rectangle x1="-4.6949" y1="4.0599" x2="-4.1951" y2="5.3899" layer="51"/>
-<rectangle x1="-5.9649" y1="4.0599" x2="-5.4651" y2="5.3899" layer="51"/>
-<rectangle x1="-7.2349" y1="4.0599" x2="-6.7351" y2="5.3899" layer="51"/>
-<smd name="1" x="-6.985" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="2" x="-5.715" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="-4.445" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="-3.175" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="-1.905" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="-0.635" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="0.635" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="1.905" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="9" x="3.175" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="10" x="4.445" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="11" x="5.715" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="12" x="6.985" y="-4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="13" x="6.985" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="14" x="5.715" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="15" x="4.445" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="16" x="3.175" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="17" x="1.905" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="18" x="0.635" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="19" x="-0.635" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="20" x="-1.905" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="21" x="-3.175" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="22" x="-4.445" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="23" x="-5.715" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<smd name="24" x="-6.985" y="4.5" dx="0.6" dy="2.2" layer="1"/>
-<text x="-6.985" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6.985" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-6.35" y="-3.175" size="1.27" layer="51" rot="R90">1</text>
+<package name="PW_R-PDSO-G24">
+<description>&lt;b&gt;PLASTIC SMALL-OUTLINE PACKAGE SO 24&lt;/b&gt; JEDEC MO-153, PW Type&lt;p&gt;
+Source: www.ti.com/.. slvs087l.pdf</description>
+<wire x1="-3.85" y1="2.15" x2="3.85" y2="2.15" width="0.2032" layer="21"/>
+<wire x1="3.85" y1="2.15" x2="3.85" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="3.85" y1="-2.15" x2="-3.85" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="-3.85" y1="-2.15" x2="-3.85" y2="2.15" width="0.2032" layer="21"/>
+<circle x="-3.175" y="-1.3" radius="0.325" width="0.2032" layer="21"/>
+<smd name="1" x="-3.575" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="2" x="-2.925" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="3" x="-2.275" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="4" x="-1.625" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="5" x="-0.975" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="6" x="-0.325" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="7" x="0.325" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="8" x="0.975" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="9" x="1.625" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="10" x="2.275" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="11" x="2.925" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="12" x="3.575" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
+<smd name="13" x="3.575" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="14" x="2.925" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="15" x="2.275" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="16" x="1.625" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="17" x="0.975" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="18" x="0.325" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="19" x="-0.325" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="20" x="-0.975" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="21" x="-1.625" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="22" x="-2.275" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="23" x="-2.925" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<smd name="24" x="-3.575" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
+<text x="-4.225" y="-2.275" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.525" y="-2.275" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-3.725" y1="-3.3" x2="-3.425" y2="-2.23" layer="51"/>
+<rectangle x1="-3.075" y1="-3.3" x2="-2.775" y2="-2.23" layer="51"/>
+<rectangle x1="-2.425" y1="-3.3" x2="-2.125" y2="-2.23" layer="51"/>
+<rectangle x1="-1.775" y1="-3.3" x2="-1.475" y2="-2.23" layer="51"/>
+<rectangle x1="-1.125" y1="-3.3" x2="-0.825" y2="-2.23" layer="51"/>
+<rectangle x1="-0.475" y1="-3.3" x2="-0.175" y2="-2.23" layer="51"/>
+<rectangle x1="0.175" y1="-3.3" x2="0.475" y2="-2.23" layer="51"/>
+<rectangle x1="0.825" y1="-3.3" x2="1.125" y2="-2.23" layer="51"/>
+<rectangle x1="1.475" y1="-3.3" x2="1.775" y2="-2.23" layer="51"/>
+<rectangle x1="2.125" y1="-3.3" x2="2.425" y2="-2.23" layer="51"/>
+<rectangle x1="2.775" y1="-3.3" x2="3.075" y2="-2.23" layer="51"/>
+<rectangle x1="3.425" y1="-3.3" x2="3.725" y2="-2.23" layer="51"/>
+<rectangle x1="3.425" y1="2.23" x2="3.725" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="2.775" y1="2.23" x2="3.075" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="2.125" y1="2.23" x2="2.425" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="1.475" y1="2.23" x2="1.775" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="0.825" y1="2.23" x2="1.125" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="0.175" y1="2.23" x2="0.475" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-0.475" y1="2.23" x2="-0.175" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-1.125" y1="2.23" x2="-0.825" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-1.775" y1="2.23" x2="-1.475" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-2.425" y1="2.23" x2="-2.125" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-3.075" y1="2.23" x2="-2.775" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-3.725" y1="2.23" x2="-3.425" y2="3.3" layer="51" rot="R180"/>
 </package>
 <package name="V-PDFN-8_8X6">
 <circle x="-3.15" y="2.6" radius="0.25" width="0" layer="21"/>
@@ -12599,37 +12596,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <gate name="G$1" symbol="TPD12S016" x="0" y="0"/>
 </gates>
 <devices>
-<device name="PWR" package="SOP24">
-<connects>
-<connect gate="G$1" pin="5V_OUT" pad="13"/>
-<connect gate="G$1" pin="CEC_A" pad="1"/>
-<connect gate="G$1" pin="CEC_B" pad="7"/>
-<connect gate="G$1" pin="CLK+" pad="16"/>
-<connect gate="G$1" pin="CLK-" pad="15"/>
-<connect gate="G$1" pin="CT_HPD" pad="12"/>
-<connect gate="G$1" pin="D0+" pad="18"/>
-<connect gate="G$1" pin="D0-" pad="17"/>
-<connect gate="G$1" pin="D1+" pad="21"/>
-<connect gate="G$1" pin="D1-" pad="20"/>
-<connect gate="G$1" pin="D2+" pad="23"/>
-<connect gate="G$1" pin="D2-" pad="22"/>
-<connect gate="G$1" pin="GND@0" pad="6"/>
-<connect gate="G$1" pin="GND@1" pad="14"/>
-<connect gate="G$1" pin="GND@2" pad="19"/>
-<connect gate="G$1" pin="HPD_A" pad="4"/>
-<connect gate="G$1" pin="HPD_B" pad="10"/>
-<connect gate="G$1" pin="LS_OE" pad="5"/>
-<connect gate="G$1" pin="SCL_A" pad="2"/>
-<connect gate="G$1" pin="SCL_B" pad="8"/>
-<connect gate="G$1" pin="SDA_A" pad="3"/>
-<connect gate="G$1" pin="SDA_B" pad="9"/>
-<connect gate="G$1" pin="VCC5V" pad="11"/>
-<connect gate="G$1" pin="VCCA" pad="24"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="RKTR" package="UQFN24">
 <connects>
 <connect gate="G$1" pin="5V_OUT" pad="12"/>
@@ -12656,6 +12622,37 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <connect gate="G$1" pin="SDA_B" pad="8"/>
 <connect gate="G$1" pin="VCC5V" pad="10"/>
 <connect gate="G$1" pin="VCCA" pad="23"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PWR" package="PW_R-PDSO-G24">
+<connects>
+<connect gate="G$1" pin="5V_OUT" pad="13"/>
+<connect gate="G$1" pin="CEC_A" pad="1"/>
+<connect gate="G$1" pin="CEC_B" pad="7"/>
+<connect gate="G$1" pin="CLK+" pad="16"/>
+<connect gate="G$1" pin="CLK-" pad="15"/>
+<connect gate="G$1" pin="CT_HPD" pad="12"/>
+<connect gate="G$1" pin="D0+" pad="18"/>
+<connect gate="G$1" pin="D0-" pad="17"/>
+<connect gate="G$1" pin="D1+" pad="21"/>
+<connect gate="G$1" pin="D1-" pad="20"/>
+<connect gate="G$1" pin="D2+" pad="23"/>
+<connect gate="G$1" pin="D2-" pad="22"/>
+<connect gate="G$1" pin="GND@0" pad="6"/>
+<connect gate="G$1" pin="GND@1" pad="14"/>
+<connect gate="G$1" pin="GND@2" pad="19"/>
+<connect gate="G$1" pin="HPD_A" pad="4"/>
+<connect gate="G$1" pin="HPD_B" pad="10"/>
+<connect gate="G$1" pin="LS_OE" pad="5"/>
+<connect gate="G$1" pin="SCL_A" pad="2"/>
+<connect gate="G$1" pin="SCL_B" pad="8"/>
+<connect gate="G$1" pin="SDA_A" pad="3"/>
+<connect gate="G$1" pin="SDA_B" pad="9"/>
+<connect gate="G$1" pin="VCC5V" pad="11"/>
+<connect gate="G$1" pin="VCCA" pad="24"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13388,7 +13385,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <part name="C32" library="rcl" deviceset="C-EU" device="C0402" value="0.47u"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0402" value="0.47u"/>
-<part name="U2" library="prj-hdmi" deviceset="TPD12S016" device="RKTR"/>
+<part name="U2" library="prj-hdmi" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="VCC4" library="supply1" deviceset="+3V3" device=""/>
 <part name="C34" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
@@ -13398,7 +13395,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="CONN1" library="prj-hdmi" deviceset="HDMI_TYPE_A_RECEPTICAL" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="U3" library="prj-hdmi" deviceset="TPD12S016" device="RKTR"/>
+<part name="U3" library="prj-hdmi" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR"/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="VCC5" library="supply1" deviceset="+3V3" device=""/>
 <part name="C37" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
@@ -13408,7 +13405,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="CONN2" library="prj-hdmi" deviceset="HDMI_TYPE_A_RECEPTICAL" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="U4" library="prj-hdmi" deviceset="TPD12S016" device="RKTR"/>
+<part name="U4" library="prj-hdmi" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="VCC6" library="supply1" deviceset="+3V3" device=""/>
 <part name="C40" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
@@ -13672,7 +13669,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <instance part="+3V8" gate="G$1" x="27.94" y="20.32"/>
 <instance part="JP1" gate="1" x="157.48" y="154.94"/>
 <instance part="GND53" gate="1" x="154.94" y="137.16"/>
-<instance part="SV3" gate="G$1" x="137.16" y="144.78"/>
+<instance part="SV3" gate="G$1" x="137.16" y="142.24" rot="MR180"/>
 <instance part="GND47" gate="1" x="154.94" y="106.68"/>
 <instance part="C15" gate="G$1" x="172.72" y="139.7"/>
 <instance part="C19" gate="G$1" x="154.94" y="124.46"/>
@@ -13965,7 +13962,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <junction x="187.96" y="119.38"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="G$1" pin="1"/>
+<pinref part="SV3" gate="G$1" pin="2"/>
 <pinref part="GND53" gate="1" pin="GND"/>
 <wire x1="144.78" y1="142.24" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="142.24" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
@@ -14418,7 +14415,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <segment>
 <pinref part="JP1" gate="1" pin="1"/>
 <wire x1="154.94" y1="144.78" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="SV3" gate="G$1" pin="2"/>
+<pinref part="SV3" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="DC_JACK" gate="G$1" pin="CENTER"/>
 <wire x1="149.86" y1="144.78" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
