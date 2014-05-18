@@ -4174,6 +4174,35 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <rectangle x1="-3.075" y1="2.23" x2="-2.775" y2="3.3" layer="51" rot="R180"/>
 <rectangle x1="-3.725" y1="2.23" x2="-3.425" y2="3.3" layer="51" rot="R180"/>
 </package>
+<package name="C1206">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="TP10R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="-0.5001" y="0.5499" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.381" y="-0.508" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+<package name="TP10SQ">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" cream="no"/>
+<text x="-0.5001" y="0.5499" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.508" y="-0.635" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ABM8G">
@@ -4265,7 +4294,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <wire x1="12.7" y1="30.48" x2="12.7" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-33.02" x2="-12.7" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-33.02" x2="-12.7" y2="30.48" width="0.254" layer="94"/>
-<pin name="5V_OUT" x="17.78" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="5V_OUT" x="17.78" y="-17.78" length="middle" direction="sup" rot="R180"/>
 <pin name="CEC_A" x="-17.78" y="2.54" length="middle" direction="out"/>
 <pin name="CEC_B" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
 <pin name="CLK+" x="-17.78" y="12.7" length="middle" direction="in"/>
@@ -4316,7 +4345,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <wire x1="-12.7" y1="-35.56" x2="15.24" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-35.56" x2="15.24" y2="27.94" width="0.254" layer="94"/>
 <wire x1="15.24" y1="27.94" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
-<pin name="+5V" x="-17.78" y="-17.78" length="middle" direction="pwr"/>
+<pin name="+5V_SUPPLY" x="-17.78" y="-17.78" length="middle" direction="pwr"/>
 <pin name="CEC" x="-17.78" y="-5.08" length="middle"/>
 <pin name="DDC/CDC/HEAC_GND" x="-17.78" y="-15.24" length="middle" direction="pwr"/>
 <pin name="HPD/HEAC_N" x="-17.78" y="-20.32" length="middle"/>
@@ -5742,6 +5771,14 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <text x="-17.78" y="43.18" size="2.54" layer="95">&gt;NAME</text>
 <text x="-17.78" y="-50.8" size="2.54" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TP">
+<wire x1="-0.762" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<text x="-2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ABM8G">
@@ -5820,13 +5857,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <connect gate="A" pin="VSS" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MPN" value="93LC46BT-I/OT" constant="no"/>
-<attribute name="OC_FARNELL" value="1556164" constant="no"/>
-<attribute name="OC_NEWARK" value="75M3689" constant="no"/>
-<attribute name="PACKAGE" value="SOT-6" constant="no"/>
-<attribute name="SUPPLIER" value="Microchip" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5948,7 +5979,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <devices>
 <device name="" package="HDMI_TYPE_A_RECEPTICAL">
 <connects>
-<connect gate="G$1" pin="+5V" pad="18"/>
+<connect gate="G$1" pin="+5V_SUPPLY" pad="18"/>
 <connect gate="G$1" pin="CEC" pad="13"/>
 <connect gate="G$1" pin="DDC/CDC/HEAC_GND" pad="17"/>
 <connect gate="G$1" pin="HPD/HEAC_N" pad="19"/>
@@ -6421,6 +6452,15 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </technologies>
 </device>
 <device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1206" package="C1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -7698,6 +7738,29 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <connect gate="G$1" pin="VSUPPLY@A4" pad="A4"/>
 <connect gate="G$1" pin="VSUPPLY@A5" pad="A5"/>
 <connect gate="G$1" pin="VSUPPLY@A6" pad="A6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TP">
+<gates>
+<gate name="G$1" symbol="TP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="10R" package="TP10R">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="10SQ" package="TP10SQ">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
 </connects>
 <technologies>
 <technology name=""/>
