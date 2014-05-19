@@ -3288,7 +3288,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="6SLX45CSG324" prefix="U">
+<deviceset name="6SLX45CSG324">
 <description>Xilinx FPGA: 6SLX45CSG324</description>
 <gates>
 <gate name="B0" symbol="6SLX45CSG324_0" x="0" y="0"/>
@@ -4118,6 +4118,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="LED" prefix="LED" uservalue="yes">
+<description>generic LED</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -4134,6 +4135,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="FERRITE" prefix="L" uservalue="yes">
+<description>generic ferrite bead</description>
 <gates>
 <gate name="G$3" symbol="DRK" x="0" y="0"/>
 </gates>
@@ -4168,6 +4170,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="INDUCTOR" prefix="L" uservalue="yes">
+<description>generic inductor</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
@@ -4326,7 +4329,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MA06-1" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>6-pin male header</description>
 <gates>
 <gate name="1" symbol="MA06-1" x="0" y="0"/>
 </gates>
@@ -4347,6 +4350,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MA02-1" prefix="SV" uservalue="yes">
+<description>2-pin male header</description>
 <gates>
 <gate name="G$1" symbol="MA02-1" x="0" y="0"/>
 </gates>
@@ -4389,7 +4393,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="JP2E" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<description>3-pin jumper</description>
 <gates>
 <gate name="1" symbol="JP3E" x="0" y="0"/>
 </gates>
@@ -4407,7 +4411,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<description>ground symbol</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
 </gates>
@@ -4419,8 +4423,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+3V3" prefix="+3V3">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<deviceset name="+3V3" prefix="SUP_+3V3">
+<description>supply symbol</description>
 <gates>
 <gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
@@ -4432,8 +4436,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+5V" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<deviceset name="+5V" prefix="SUP_+5V">
+<description>supply symbol</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
@@ -4623,7 +4627,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+1V5">
+<deviceset name="+1V5" prefix="SUP_+1V5">
+<description>supply symbol</description>
 <gates>
 <gate name="G$1" symbol="+1V5" x="0" y="0"/>
 </gates>
@@ -4635,8 +4640,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+1V2" prefix="+1V2">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<deviceset name="+1V2" prefix="SUP_+1V2">
+<description>supply symbol</description>
 <gates>
 <gate name="G$1" symbol="+1V2" x="0" y="0"/>
 </gates>

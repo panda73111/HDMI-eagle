@@ -232,7 +232,7 @@ by exp-lbrs.ulp</description>
 <vertex x="-0.75" y="-0.18"/>
 </polygon>
 </package>
-<package name="SOT95P280X145-6N">
+<package name="SOT23-6">
 <wire x1="-0.8636" y1="0.7112" x2="-0.8636" y2="1.1938" width="0.127" layer="51"/>
 <wire x1="-0.8636" y1="1.1938" x2="-1.4986" y2="1.1938" width="0.127" layer="51"/>
 <wire x1="-1.4986" y1="1.1938" x2="-1.4986" y2="0.7112" width="0.127" layer="51"/>
@@ -275,8 +275,8 @@ by exp-lbrs.ulp</description>
 <smd name="4" x="1.2192" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="5" x="1.2192" y="0" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="6" x="1.2192" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
-<text x="-4.4704" y="2.2352" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.7404" y="-4.1656" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-0.9" y="2" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-0.9" y="-3.9" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="SON10">
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
@@ -5800,6 +5800,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MIC23451">
+<description>high-efficiency, 3 MHz, triple 2A, synchronous buck regulator</description>
 <gates>
 <gate name="G$1" symbol="MIC23451" x="0" y="0" swaplevel="3"/>
 </gates>
@@ -5841,13 +5842,13 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="93LC46BT-I/OT">
+<deviceset name="93LC46BT-I">
 <description>1K Microwire Compatible Serial EEPROM</description>
 <gates>
 <gate name="A" symbol="93LC46BT-I/OT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT95P280X145-6N">
+<device name="/OT" package="SOT23-6">
 <connects>
 <connect gate="A" pin="CLK" pad="4"/>
 <connect gate="A" pin="CS" pad="5"/>
@@ -5972,12 +5973,13 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HDMI_TYPE_A_RECEPTICAL">
+<deviceset name="HDMI_RECEPTICAL">
+<description>HDMI receptical</description>
 <gates>
 <gate name="G$1" symbol="HDMI_RECEPTICAL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HDMI_TYPE_A_RECEPTICAL">
+<device name="_A" package="HDMI_TYPE_A_RECEPTICAL">
 <connects>
 <connect gate="G$1" pin="+5V_SUPPLY" pad="18"/>
 <connect gate="G$1" pin="CEC" pad="13"/>
@@ -6179,6 +6181,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="INDUCTOR" prefix="L" uservalue="yes">
+<description>generic inductor</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
@@ -6231,6 +6234,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="FERRITE" prefix="L" uservalue="yes">
+<description>generic ferrite bead</description>
 <gates>
 <gate name="G$3" symbol="DRK" x="0" y="0"/>
 </gates>
@@ -6265,6 +6269,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="LED" prefix="LED" uservalue="yes">
+<description>generic LED</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -6427,8 +6432,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C-EU" prefix="C" uservalue="yes">
-<description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
+<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
+<description>generic capacitor</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -6518,8 +6523,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+1V2" prefix="+1V2">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<deviceset name="+1V2" prefix="SUP_+1V2">
+<description>supply symbol</description>
 <gates>
 <gate name="G$1" symbol="+1V2" x="0" y="0"/>
 </gates>
@@ -6531,7 +6536,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+1V5">
+<deviceset name="+1V5" prefix="SUP_+1V5">
+<description>supply symbol</description>
 <gates>
 <gate name="G$1" symbol="+1V5" x="0" y="0"/>
 </gates>
@@ -6543,8 +6549,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+3V3" prefix="+3V3">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<deviceset name="+3V3" prefix="SUP_+3V3">
+<description>supply symbol</description>
 <gates>
 <gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
@@ -6556,8 +6562,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+5V" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<deviceset name="+5V" prefix="SUP_+5V">
+<description>supply symbol</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
@@ -6570,7 +6576,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<description>ground symbol</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
 </gates>
@@ -6582,7 +6588,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="6SLX45CSG324" prefix="U">
+<deviceset name="6SLX45">
 <description>Xilinx FPGA: 6SLX45CSG324</description>
 <gates>
 <gate name="B0" symbol="6SLX45CSG324_0" x="0" y="0"/>
@@ -6596,7 +6602,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <gate name="BVCCINT" symbol="6SLX45CSG324_VCCINT" x="365.76" y="0"/>
 </gates>
 <devices>
-<device name="" package="CS324">
+<device name="CSG324" package="CS324">
 <connects>
 <connect gate="B0" pin="IO_L10N_0" pad="A7"/>
 <connect gate="B0" pin="IO_L10P_0" pad="C7"/>
@@ -7121,23 +7127,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BZX84CSMD" prefix="D" uservalue="yes">
-<description>&lt;b&gt;Z DIODE&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="ZENER-DIODE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="TO236" package="TO236">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ZENER-DIODE" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ZENER-DIODE" x="0" y="0"/>
@@ -7234,50 +7223,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FE06-1" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="FE06-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FE06">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FE08-1" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="FE08-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FE08">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SN74LVC8T245">
 <gates>
 <gate name="G$1" symbol="SN74LVC8T245" x="0" y="0" swaplevel="4"/>
@@ -7317,156 +7262,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FE08-2" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="FE08-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FE08-2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FE09-2" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="FE09-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FE09-2">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="10" pad="10"/>
-<connect gate="1" pin="11" pad="11"/>
-<connect gate="1" pin="12" pad="12"/>
-<connect gate="1" pin="13" pad="13"/>
-<connect gate="1" pin="14" pad="14"/>
-<connect gate="1" pin="15" pad="15"/>
-<connect gate="1" pin="16" pad="16"/>
-<connect gate="1" pin="17" pad="17"/>
-<connect gate="1" pin="18" pad="18"/>
-<connect gate="1" pin="2" pad="2"/>
-<connect gate="1" pin="3" pad="3"/>
-<connect gate="1" pin="4" pad="4"/>
-<connect gate="1" pin="5" pad="5"/>
-<connect gate="1" pin="6" pad="6"/>
-<connect gate="1" pin="7" pad="7"/>
-<connect gate="1" pin="8" pad="8"/>
-<connect gate="1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FE09-1" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="FE09-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FE09">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FE10-1" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="FE10-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FE10">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FE10-2" prefix="SV">
-<description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="FE10-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FE10-2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MA06-1" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>6-pin male header</description>
 <gates>
 <gate name="1" symbol="MA06-1" x="0" y="0"/>
 </gates>
@@ -7486,39 +7283,8 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC24085">
-<gates>
-<gate name="G$1" symbol="MIC24085" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="QFN-16-3X3">
-<connects>
-<connect gate="G$1" pin="BST" pad="10"/>
-<connect gate="G$1" pin="EN" pad="9"/>
-<connect gate="G$1" pin="ETP" pad="ETP"/>
-<connect gate="G$1" pin="FB" pad="5"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="NC@6" pad="6"/>
-<connect gate="G$1" pin="NC@7" pad="7"/>
-<connect gate="G$1" pin="PG" pad="8"/>
-<connect gate="G$1" pin="PGND@14" pad="14"/>
-<connect gate="G$1" pin="PGND@15" pad="15"/>
-<connect gate="G$1" pin="SW@1" pad="1"/>
-<connect gate="G$1" pin="SW@12" pad="12"/>
-<connect gate="G$1" pin="SW@13" pad="13"/>
-<connect gate="G$1" pin="SW@16" pad="16"/>
-<connect gate="G$1" pin="VCC@11" pad="11"/>
-<connect gate="G$1" pin="VCC@2" pad="2"/>
-<connect gate="G$1" pin="VCC@3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="JP1E" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<description>2-pin jumper</description>
 <gates>
 <gate name="A" symbol="JP2E" x="2.54" y="0"/>
 </gates>
@@ -7535,7 +7301,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="JP2E" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<description>3-pin jumper</description>
 <gates>
 <gate name="1" symbol="JP3E" x="0" y="0"/>
 </gates>
@@ -7553,7 +7319,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="JP2W" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<description>3-pin jumper, horizontal</description>
 <gates>
 <gate name="1" symbol="JP3E" x="0" y="0"/>
 </gates>
@@ -7571,6 +7337,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MA02-1" prefix="SV" uservalue="yes">
+<description>2-pin male header</description>
 <gates>
 <gate name="G$1" symbol="MA02-1" x="0" y="0"/>
 </gates>
@@ -7579,33 +7346,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FE06-2W" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="FE06-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FE06-2W">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
