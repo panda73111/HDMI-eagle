@@ -6396,6 +6396,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="N25Q128A">
+<description>128Mb, 3V, Multiple I/O Serial Flash Memory</description>
 <gates>
 <gate name="G$1" symbol="N25Q128A" x="0" y="0"/>
 </gates>
@@ -7136,24 +7137,6 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="N-MOSFET" prefix="Q">
-<description>&lt;b&gt;N-Channel Enhancement MOSFET&lt;/b&gt; 200V; 0,16A; 11Ohm</description>
-<gates>
-<gate name="G$1" symbol="IGFET-EN-GDS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOT23" package="SOT23">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
