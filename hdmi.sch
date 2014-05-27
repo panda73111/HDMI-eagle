@@ -727,7 +727,7 @@ by exp-lbrs.ulp</description>
 <text x="-5.08" y="5.715" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="ABM8G-32X25">
+<package name="403-3.2X2.5">
 <wire x1="-1.3" y1="1.3" x2="1.3" y2="1.3" width="0.127" layer="51"/>
 <wire x1="1.6" y1="1" x2="1.6" y2="-0.9" width="0.127" layer="51"/>
 <wire x1="1.3" y1="-1.2" x2="-1.3" y2="-1.2" width="0.127" layer="51"/>
@@ -740,18 +740,18 @@ by exp-lbrs.ulp</description>
 <wire x1="1.6" y1="1" x2="1.3" y2="1.3" width="0.127" layer="51" curve="-60"/>
 <wire x1="1.6" y1="-0.9" x2="1.3" y2="-1.2" width="0.127" layer="51" curve="60"/>
 <wire x1="-1.3" y1="-1.2" x2="-1.6" y2="-0.9" width="0.127" layer="51" curve="60"/>
-<smd name="1" x="-1.1" y="-0.8" dx="1.4" dy="1.2" layer="1"/>
-<smd name="2" x="1.1" y="-0.8" dx="1.4" dy="1.2" layer="1"/>
-<smd name="3" x="1.1" y="0.9" dx="1.4" dy="1.2" layer="1"/>
-<smd name="4" x="-1.1" y="0.9" dx="1.4" dy="1.2" layer="1"/>
-<text x="-2" y="1.9" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2" y="-2.6" size="0.8128" layer="27">&gt;VALUE</text>
-<wire x1="-2" y1="-1" x2="-2" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1.6" x2="-1.4" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-1.8" y1="0.1" x2="-1.8" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.2" y1="1.5" x2="0.2" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.8" y1="0.1" x2="1.8" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.2" y1="-1.4" x2="0.2" y2="-1.4" width="0.127" layer="21"/>
+<smd name="1" x="-1.1" y="-0.8" dx="1" dy="0.9" layer="1"/>
+<smd name="2" x="1.1" y="-0.8" dx="1" dy="0.9" layer="1"/>
+<smd name="3" x="1.1" y="0.9" dx="1" dy="0.9" layer="1"/>
+<smd name="4" x="-1.1" y="0.9" dx="1" dy="0.9" layer="1"/>
+<text x="-1.6" y="1.7" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.6" y="-2.4" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-1.8" y1="-0.95" x2="-1.8" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="-1.45" x2="-1.3" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.2" x2="-1.6" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="1.3" x2="0.4" y2="1.3" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.2" x2="1.6" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-1.2" x2="0.4" y2="-1.2" width="0.127" layer="21"/>
 </package>
 <package name="UQFN24">
 <wire x1="2" y1="1" x2="2" y2="-1" width="0.127" layer="51"/>
@@ -828,61 +828,65 @@ by exp-lbrs.ulp</description>
 <package name="PW_R-PDSO-G24">
 <description>&lt;b&gt;PLASTIC SMALL-OUTLINE PACKAGE SO 24&lt;/b&gt; JEDEC MO-153, PW Type&lt;p&gt;
 Source: www.ti.com/.. slvs087l.pdf</description>
-<wire x1="-3.85" y1="2.15" x2="3.85" y2="2.15" width="0.2032" layer="21"/>
-<wire x1="3.85" y1="2.15" x2="3.85" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="3.85" y1="-2.15" x2="-3.85" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="-3.85" y1="-2.15" x2="-3.85" y2="2.15" width="0.2032" layer="21"/>
-<circle x="-3.175" y="-1.3" radius="0.325" width="0.2032" layer="21"/>
-<smd name="1" x="-3.575" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="2" x="-2.925" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="3" x="-2.275" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="4" x="-1.625" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="5" x="-0.975" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="6" x="-0.325" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="7" x="0.325" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="8" x="0.975" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="9" x="1.625" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="10" x="2.275" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="11" x="2.925" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="12" x="3.575" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
-<smd name="13" x="3.575" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="14" x="2.925" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="15" x="2.275" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="16" x="1.625" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="17" x="0.975" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="18" x="0.325" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="19" x="-0.325" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="20" x="-0.975" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="21" x="-1.625" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="22" x="-2.275" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="23" x="-2.925" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<smd name="24" x="-3.575" y="2.9" dx="0.4" dy="1.2" layer="1" rot="R180"/>
-<text x="-4.225" y="-2.275" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.525" y="-2.275" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-3.725" y1="-3.3" x2="-3.425" y2="-2.23" layer="51"/>
-<rectangle x1="-3.075" y1="-3.3" x2="-2.775" y2="-2.23" layer="51"/>
-<rectangle x1="-2.425" y1="-3.3" x2="-2.125" y2="-2.23" layer="51"/>
-<rectangle x1="-1.775" y1="-3.3" x2="-1.475" y2="-2.23" layer="51"/>
-<rectangle x1="-1.125" y1="-3.3" x2="-0.825" y2="-2.23" layer="51"/>
-<rectangle x1="-0.475" y1="-3.3" x2="-0.175" y2="-2.23" layer="51"/>
-<rectangle x1="0.175" y1="-3.3" x2="0.475" y2="-2.23" layer="51"/>
-<rectangle x1="0.825" y1="-3.3" x2="1.125" y2="-2.23" layer="51"/>
-<rectangle x1="1.475" y1="-3.3" x2="1.775" y2="-2.23" layer="51"/>
-<rectangle x1="2.125" y1="-3.3" x2="2.425" y2="-2.23" layer="51"/>
-<rectangle x1="2.775" y1="-3.3" x2="3.075" y2="-2.23" layer="51"/>
-<rectangle x1="3.425" y1="-3.3" x2="3.725" y2="-2.23" layer="51"/>
-<rectangle x1="3.425" y1="2.23" x2="3.725" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="2.775" y1="2.23" x2="3.075" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="2.125" y1="2.23" x2="2.425" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="1.475" y1="2.23" x2="1.775" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="0.825" y1="2.23" x2="1.125" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="0.175" y1="2.23" x2="0.475" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-0.475" y1="2.23" x2="-0.175" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-1.125" y1="2.23" x2="-0.825" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-1.775" y1="2.23" x2="-1.475" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-2.425" y1="2.23" x2="-2.125" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-3.075" y1="2.23" x2="-2.775" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-3.725" y1="2.23" x2="-3.425" y2="3.3" layer="51" rot="R180"/>
+<wire x1="2.15" y1="3.85" x2="2.15" y2="-3.85" width="0.2032" layer="21"/>
+<wire x1="2.15" y1="-3.85" x2="-2.15" y2="-3.85" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="-3.85" x2="-2.15" y2="3.85" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="3.85" x2="2.15" y2="3.85" width="0.2032" layer="21"/>
+<circle x="-1.3" y="3.175" radius="0.325" width="0.2032" layer="21"/>
+<smd name="1" x="-2.9" y="3.575" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="2" x="-2.9" y="2.925" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="3" x="-2.9" y="2.275" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="4" x="-2.9" y="1.625" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="5" x="-2.9" y="0.975" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="6" x="-2.9" y="0.325" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="7" x="-2.9" y="-0.325" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="8" x="-2.9" y="-0.975" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="9" x="-2.9" y="-1.625" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="10" x="-2.9" y="-2.275" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="11" x="-2.9" y="-2.925" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="12" x="-2.9" y="-3.575" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="13" x="2.9" y="-3.575" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="14" x="2.9" y="-2.925" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="15" x="2.9" y="-2.275" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="16" x="2.9" y="-1.625" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="17" x="2.9" y="-0.975" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="18" x="2.9" y="-0.325" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="19" x="2.9" y="0.325" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="20" x="2.9" y="0.975" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="21" x="2.9" y="1.625" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="22" x="2.9" y="2.275" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="23" x="2.9" y="2.925" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<smd name="24" x="2.9" y="3.575" dx="0.4" dy="1.2" layer="1" rot="R90"/>
+<text x="-2.1" y="4.6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.1" y="-5.7" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.915" y1="3.04" x2="-2.615" y2="4.11" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="2.39" x2="-2.615" y2="3.46" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="1.74" x2="-2.615" y2="2.81" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="1.09" x2="-2.615" y2="2.16" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="0.44" x2="-2.615" y2="1.51" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="-0.21" x2="-2.615" y2="0.86" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="-0.86" x2="-2.615" y2="0.21" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="-1.51" x2="-2.615" y2="-0.44" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="-2.16" x2="-2.615" y2="-1.09" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="-2.81" x2="-2.615" y2="-1.74" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="-3.46" x2="-2.615" y2="-2.39" layer="51" rot="R270"/>
+<rectangle x1="-2.915" y1="-4.11" x2="-2.615" y2="-3.04" layer="51" rot="R270"/>
+<rectangle x1="2.615" y1="-4.11" x2="2.915" y2="-3.04" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="-3.46" x2="2.915" y2="-2.39" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="-2.81" x2="2.915" y2="-1.74" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="-2.16" x2="2.915" y2="-1.09" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="-1.51" x2="2.915" y2="-0.44" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="-0.86" x2="2.915" y2="0.21" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="-0.21" x2="2.915" y2="0.86" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="0.44" x2="2.915" y2="1.51" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="1.09" x2="2.915" y2="2.16" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="1.74" x2="2.915" y2="2.81" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="2.39" x2="2.915" y2="3.46" layer="51" rot="R90"/>
+<rectangle x1="2.615" y1="3.04" x2="2.915" y2="4.11" layer="51" rot="R90"/>
+<wire x1="3.5" y1="4.1" x2="3.5" y2="-4.1" width="0.127" layer="39"/>
+<wire x1="3.5" y1="-4.1" x2="-3.4" y2="-4.1" width="0.127" layer="39"/>
+<wire x1="-3.4" y1="-4.1" x2="-3.4" y2="4.1" width="0.127" layer="39"/>
+<wire x1="-3.4" y1="4.1" x2="3.5" y2="4.1" width="0.127" layer="39"/>
 </package>
 <package name="V-PDFN-8_8X6">
 <circle x="-3.15" y="2.6" radius="0.25" width="0" layer="21"/>
@@ -1167,7 +1171,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <text x="-7.7" y="-6.2" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="USB-MB-S">
-<description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
+<description>USB Series Mini-B Surface Mounted</description>
 <wire x1="-5.95" y1="3.85" x2="-5.95" y2="-3.85" width="0.127" layer="22"/>
 <wire x1="-5.95" y1="3.85" x2="3.3" y2="3.85" width="0.127" layer="22"/>
 <wire x1="3.3" y1="3.85" x2="3.3" y2="-3.85" width="0.127" layer="22"/>
@@ -1194,6 +1198,10 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <smd name="VBUS" x="2.5" y="1.6" dx="2.5" dy="0.5" layer="1"/>
 <text x="-6" y="6.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-6" y="-7.5" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="-6.2" y1="4.2" x2="3.9" y2="4.2" width="0.127" layer="39"/>
+<wire x1="3.9" y1="4.2" x2="3.9" y2="-4.2" width="0.127" layer="39"/>
+<wire x1="3.9" y1="-4.2" x2="-6.2" y2="-4.2" width="0.127" layer="39"/>
+<wire x1="-6.2" y1="-4.2" x2="-6.2" y2="4.2" width="0.127" layer="39"/>
 </package>
 <package name="SOT95P280X145-6N">
 <wire x1="-0.8636" y1="0.7112" x2="-0.8636" y2="1.1938" width="0.127" layer="51"/>
@@ -1327,84 +1335,25 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <text x="-1.65" y="1.45" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.65" y="-2.05" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
-<package name="CRYSTAL-OSC-SMD-2.5X2">
-<wire x1="-1.7" y1="1.4" x2="1.7" y2="1.4" width="0.127" layer="21"/>
-<wire x1="1.7" y1="1.4" x2="1.7" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="1.7" y1="-1.4" x2="-1.7" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-1.7" y1="1.4" x2="-1.7" y2="-1.4" width="0.127" layer="21"/>
-<smd name="1" x="-0.9" y="-0.7" dx="1.1" dy="0.9" layer="1"/>
-<smd name="2" x="0.9" y="-0.7" dx="1.1" dy="0.9" layer="1"/>
-<smd name="3" x="0.9" y="0.7" dx="1.1" dy="0.9" layer="1"/>
-<smd name="4" x="-0.9" y="0.7" dx="1.1" dy="0.9" layer="1"/>
-<text x="-1.7" y="1.7" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.7" y="-3" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.9" y1="-0.9" x2="-1.9" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="-1.6" x2="-1.2" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="1.6" x2="1.9" y2="1.6" width="0.127" layer="39"/>
-<wire x1="1.9" y1="1.6" x2="1.9" y2="-1.6" width="0.127" layer="39"/>
-<wire x1="1.9" y1="-1.6" x2="-1.9" y2="-1.6" width="0.127" layer="39"/>
-<wire x1="-1.9" y1="-1.6" x2="-1.9" y2="1.6" width="0.127" layer="39"/>
-</package>
-<package name="CRYSTAL-SMD-5X3">
-<wire x1="-0.6" y1="1.6" x2="0.6" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="0.3" x2="2.5" y2="-0.3" width="0.2032" layer="21"/>
-<wire x1="0.6" y1="-1.6" x2="-0.6" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0.3" x2="-2.5" y2="-0.3" width="0.2032" layer="21"/>
-<smd name="1" x="-1.85" y="-1.15" dx="1.9" dy="1.1" layer="1"/>
-<smd name="2" x="1.85" y="-1.15" dx="1.9" dy="1.1" layer="1"/>
-<smd name="3" x="1.85" y="1.15" dx="1.9" dy="1.1" layer="1"/>
-<smd name="4" x="-1.85" y="1.15" dx="1.9" dy="1.1" layer="1"/>
-<text x="-2.54" y="1.905" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="CRYSTAL-OSC-SMD-5X3">
-<circle x="-3.4986" y="-1.2794" radius="0.2653" width="0.127" layer="21"/>
-<circle x="-3.4986" y="-1.2794" radius="0.1456" width="0.127" layer="21"/>
-<circle x="-3.4986" y="-1.2794" radius="0.0284" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="1.6" x2="0.6" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="0.3" x2="2.5" y2="-0.3" width="0.2032" layer="21"/>
-<wire x1="0.6" y1="-1.6" x2="-0.6" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0.3" x2="-2.5" y2="-0.3" width="0.2032" layer="21"/>
-<smd name="1" x="-1.85" y="-1.15" dx="1.9" dy="1.1" layer="1"/>
-<smd name="2" x="1.85" y="-1.15" dx="1.9" dy="1.1" layer="1"/>
-<smd name="3" x="1.85" y="1.15" dx="1.9" dy="1.1" layer="1"/>
-<smd name="4" x="-1.85" y="1.15" dx="1.9" dy="1.1" layer="1"/>
-<text x="-2.54" y="1.905" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="CRYSTAL-SMD-7X5">
-<circle x="1.402" y="-0.5094" radius="0.3" width="0.127" layer="21"/>
-<circle x="1.402" y="-0.5094" radius="0.2236" width="0.127" layer="21"/>
-<circle x="1.402" y="-0.5094" radius="0.1" width="0.127" layer="21"/>
-<wire x1="1.402" y1="-0.4094" x2="1.402" y2="-0.6094" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="1.27" x2="-0.889" y2="2.921" width="0.2032" layer="21"/>
-<wire x1="5.969" y1="1.27" x2="5.969" y2="2.921" width="0.2032" layer="21"/>
-<wire x1="3.937" y1="5.207" x2="1.143" y2="5.207" width="0.2032" layer="21"/>
-<wire x1="3.937" y1="-1.016" x2="1.143" y2="-1.016" width="0.2032" layer="21"/>
-<smd name="P$1" x="0" y="0" dx="2" dy="1.8" layer="1" rot="R90"/>
-<smd name="P$2" x="5.08" y="0" dx="2" dy="1.8" layer="1" rot="R90"/>
-<smd name="P$3" x="5.08" y="4.2" dx="2" dy="1.8" layer="1" rot="R90"/>
-<smd name="P$4" x="0" y="4.2" dx="2" dy="1.8" layer="1" rot="R90"/>
-<text x="-1.016" y="5.842" size="1.27" layer="25" ratio="15">&gt;Name</text>
-<text x="-1.016" y="-2.921" size="1.27" layer="27" ratio="15">&gt;Value</text>
-</package>
-<package name="CRYSTAL-SMD-7.5X5.2-6PIN">
-<description>FXO-HC73 Series Oscillator. 7.5x5.2mm 6-pin package</description>
-<circle x="-3" y="-0.5" radius="0.3605" width="0.127" layer="21"/>
-<wire x1="3.75" y1="2.6" x2="-3.75" y2="2.6" width="0.127" layer="51"/>
-<wire x1="-3.75" y1="2.6" x2="-3.75" y2="-2.6" width="0.127" layer="51"/>
-<wire x1="-3.75" y1="-2.6" x2="3.75" y2="-2.6" width="0.127" layer="51"/>
-<wire x1="3.75" y1="-2.6" x2="3.75" y2="2.6" width="0.127" layer="51"/>
-<wire x1="-3.8" y1="2.4" x2="-3.8" y2="-2.4" width="0.127" layer="21"/>
-<wire x1="3.8" y1="2.4" x2="3.8" y2="-2.4" width="0.127" layer="21"/>
-<smd name="1" x="-2.54" y="-2.1" dx="2" dy="1.8" layer="1" rot="R90"/>
-<smd name="2" x="2.54" y="-2.1" dx="2" dy="1.8" layer="1" rot="R90"/>
-<smd name="3" x="2.54" y="2.1" dx="2" dy="1.8" layer="1" rot="R90"/>
-<smd name="4" x="-2.54" y="2.1" dx="2" dy="1.8" layer="1" rot="R90"/>
-<smd name="NC0" x="0" y="-2.1" dx="2" dy="1.4" layer="1" rot="R90"/>
-<smd name="NC1" x="0" y="2.1" dx="2" dy="1.4" layer="1" rot="R90"/>
-<text x="-3.6" y="3.4" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-3.7" y="-3.8" size="0.4064" layer="27">&gt;VALUE</text>
+<package name="636">
+<smd name="4" x="-1.27" y="1.1" dx="1.4" dy="1.2" layer="1"/>
+<smd name="3" x="1.27" y="1.1" dx="1.4" dy="1.2" layer="1"/>
+<smd name="2" x="1.27" y="-1.1" dx="1.4" dy="1.2" layer="1"/>
+<smd name="1" x="-1.27" y="-1.1" dx="1.4" dy="1.2" layer="1"/>
+<wire x1="-2.2" y1="1.6" x2="2.2" y2="1.6" width="0.127" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.6" x2="-2.2" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-1.6" x2="0.4" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="1.6" x2="0.4" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-2.2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.6" x2="2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="-1.3" x2="-2.7" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="-1.8" x2="-2.2" y2="-1.8" width="0.127" layer="21"/>
+<text x="-2.5" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-3.3" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="MA06-1">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -2074,6 +2023,23 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </polygon>
 <wire x1="-1.51" y1="-0.8" x2="-1.49" y2="-0.8" width="0.127" layer="21"/>
 </package>
+<package name="1206">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 <package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -2102,6 +2068,67 @@ chip</description>
 <smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" cream="no"/>
 <text x="-0.5001" y="0.5499" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.508" y="-0.635" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+<package name="USB-UB-S">
+<description>USB Series Micro-B Surface Mounted</description>
+<smd name="SH0" x="-3.8" y="0" dx="1.8" dy="1.9" layer="1"/>
+<smd name="SH3" x="3.8" y="0" dx="1.8" dy="1.9" layer="1"/>
+<smd name="SH1" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="SH2" x="1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="SH5" x="-3.1" y="2.55" dx="2.1" dy="1.6" layer="1"/>
+<smd name="D+" x="0" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="ID" x="0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="GND" x="1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="D-" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="VBUS" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
+<smd name="SH4" x="3.1" y="2.55" dx="2.1" dy="1.6" layer="1"/>
+<wire x1="-5" y1="-1.45" x2="5" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-3.8" y1="-0.45" x2="-3.85" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="-3.85" y1="-0.45" x2="-3.95" y2="-0.35" width="0.127" layer="51" curve="-90"/>
+<wire x1="-3.95" y1="-0.35" x2="-3.95" y2="0.35" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="0.35" x2="-3.85" y2="0.45" width="0.127" layer="51" curve="-90"/>
+<wire x1="-3.85" y1="0.45" x2="-3.8" y2="0.45" width="0.127" layer="51"/>
+<wire x1="3.8" y1="0.45" x2="3.85" y2="0.45" width="0.127" layer="51"/>
+<wire x1="3.85" y1="0.45" x2="3.95" y2="0.35" width="0.127" layer="51" curve="-90"/>
+<wire x1="3.95" y1="0.35" x2="3.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="3.95" y1="-0.35" x2="3.85" y2="-0.45" width="0.127" layer="51" curve="-90"/>
+<wire x1="3.85" y1="-0.45" x2="3.8" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="-3.8" y1="-0.45" x2="-3.8" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-3.8" y1="-2.3" x2="-4" y2="-2.65" width="0.127" layer="51"/>
+<wire x1="-4" y1="-2.65" x2="-3.7" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="-3.7" y1="-2.8" x2="-3.45" y2="-2.4" width="0.127" layer="51"/>
+<wire x1="-3.45" y1="-2.4" x2="-3.45" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-3.45" y1="-2.3" x2="-3.25" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="-2.3" x2="-3.05" y2="-2.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="-3.05" y1="-2.5" x2="-3.05" y2="-2.75" width="0.127" layer="51"/>
+<wire x1="-3.05" y1="-2.75" x2="-2.8" y2="-3" width="0.127" layer="51" curve="90"/>
+<wire x1="-2.8" y1="-3" x2="2.8" y2="-3" width="0.127" layer="51"/>
+<wire x1="2.8" y1="-3" x2="3.05" y2="-2.75" width="0.127" layer="51" curve="90"/>
+<wire x1="3.05" y1="-2.75" x2="3.05" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3.05" y1="-2.5" x2="3.25" y2="-2.3" width="0.127" layer="51" curve="-90"/>
+<wire x1="3.25" y1="-2.3" x2="3.45" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="3.45" y1="-2.4" x2="3.45" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="3.8" y1="-0.45" x2="3.8" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="3.8" y1="-2.3" x2="4" y2="-2.65" width="0.127" layer="51"/>
+<wire x1="4" y1="-2.65" x2="3.7" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="3.7" y1="-2.8" x2="3.45" y2="-2.4" width="0.127" layer="51"/>
+<wire x1="-3.8" y1="0.45" x2="-3.8" y2="2.85" width="0.127" layer="51"/>
+<wire x1="-3.8" y1="2.85" x2="-1.95" y2="2.85" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="2.85" x2="-1.95" y2="2.6" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="2.6" x2="-1.4" y2="2.6" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="2.6" x2="-1.4" y2="2.9" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="2.9" x2="1.4" y2="2.9" width="0.127" layer="51"/>
+<wire x1="1.4" y1="2.9" x2="1.4" y2="2.6" width="0.127" layer="51"/>
+<wire x1="1.4" y1="2.6" x2="1.95" y2="2.6" width="0.127" layer="51"/>
+<wire x1="1.95" y1="2.6" x2="1.95" y2="2.85" width="0.127" layer="51"/>
+<wire x1="1.95" y1="2.85" x2="3.8" y2="2.85" width="0.127" layer="51"/>
+<wire x1="3.8" y1="2.85" x2="3.8" y2="0.45" width="0.127" layer="51"/>
+<wire x1="-4.35" y1="3.15" x2="4.35" y2="3.15" width="0.127" layer="39"/>
+<wire x1="4.35" y1="3.15" x2="4.35" y2="-3.25" width="0.127" layer="39"/>
+<wire x1="4.35" y1="-3.25" x2="-4.35" y2="-3.25" width="0.127" layer="39"/>
+<wire x1="-4.35" y1="-3.25" x2="-4.35" y2="3.15" width="0.127" layer="39"/>
+<text x="-3.8" y="3.55" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.8" y="-4.75" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -2874,12 +2901,24 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <text x="-3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.937" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="L">
+<symbol name="INDUCTOR">
+<description>generic inductor</description>
 <rectangle x1="-2.54" y1="-0.889" x2="2.54" y2="0.889" layer="94"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CAPACITOR">
+<description>generic capacitor</description>
+<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
+<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="1.524" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.524" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="C-EU">
 <rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
@@ -3636,6 +3675,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MT41J64M16">
+<description>1Gb: x4, x8, x16 DDR3 SDRAM</description>
 <gates>
 <gate name="G$1" symbol="MT41J64M16" x="0" y="0"/>
 </gates>
@@ -3895,12 +3935,13 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ABM8G">
+<deviceset name="403">
+<description>Surface Mount Quartz Crystal</description>
 <gates>
 <gate name="G$1" symbol="ABM8G" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ABM8G-32X25">
+<device name="" package="403-3.2X2.5">
 <connects>
 <connect gate="G$1" pin="GND@2" pad="2"/>
 <connect gate="G$1" pin="GND@4" pad="4"/>
@@ -3914,6 +3955,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="TPD12S016">
+<description>HDMI Companion Chip</description>
 <gates>
 <gate name="G$1" symbol="TPD12S016" x="0" y="0"/>
 </gates>
@@ -3983,6 +4025,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="N25Q128A">
+<description>128Mb, 3V, Multiple I/O Serial Flash Memory</description>
 <gates>
 <gate name="G$1" symbol="N25Q128A" x="0" y="0"/>
 </gates>
@@ -3999,7 +4042,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <connect gate="G$1" pin="VSS" pad="4"/>
 </connects>
 <technologies>
-<technology name="13E"/>
+<technology name=""/>
 </technologies>
 </device>
 <device name="F8" package="V-PDFN-8_8X6">
@@ -4014,12 +4057,13 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <connect gate="G$1" pin="VSS" pad="4"/>
 </connects>
 <technologies>
-<technology name="13E"/>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MIC23451">
+<description>high-efficiency, 3 MHz, triple 2A, synchronous buck regulator</description>
 <gates>
 <gate name="G$1" symbol="MIC23451" x="0" y="0" swaplevel="3"/>
 </gates>
@@ -4062,6 +4106,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="PJ-037A">
+<description>DC Power Jack</description>
 <gates>
 <gate name="G$1" symbol="POWER-JACK_2PIN" x="0" y="0"/>
 </gates>
@@ -4077,13 +4122,24 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB" prefix="X">
-<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="USB">
+<description>USB Connectors</description>
 <gates>
 <gate name="G$1" symbol="USB" x="0" y="0"/>
 </gates>
 <devices>
 <device name="MB-S" package="USB-MB-S">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UB-S" package="USB-UB-S">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
@@ -4172,7 +4228,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <deviceset name="INDUCTOR" prefix="L" uservalue="yes">
 <description>generic inductor</description>
 <gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="1008" package="1008">
@@ -4212,6 +4268,50 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </technologies>
 </device>
 <device name="SRTP5030T" package="SRP5030T">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
+<description>generic capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1206" package="1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4266,56 +4366,13 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="OSCILLATOR" prefix="U" uservalue="yes">
+<deviceset name="636">
+<description>HCMOS/TTL clock oscillator</description>
 <gates>
 <gate name="G$1" symbol="OSCILLATOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="2.5X2" package="CRYSTAL-OSC-SMD-2.5X2">
-<connects>
-<connect gate="G$1" pin="EN" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="5X3" package="CRYSTAL-SMD-5X3">
-<connects>
-<connect gate="G$1" pin="EN" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="5X3-PIN1-INDICATED" package="CRYSTAL-OSC-SMD-5X3">
-<connects>
-<connect gate="G$1" pin="EN" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="CRYSTAL-SMD-7X5">
-<connects>
-<connect gate="G$1" pin="EN" pad="P$1"/>
-<connect gate="G$1" pin="GND" pad="P$2"/>
-<connect gate="G$1" pin="OUT" pad="P$3"/>
-<connect gate="G$1" pin="VCC" pad="P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD6" package="CRYSTAL-SMD-7.5X5.2-6PIN">
+<device name="" package="636">
 <connects>
 <connect gate="G$1" pin="EN" pad="1"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -4367,6 +4424,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="PMOD-2X6">
+<description>2x6 PMOD connector</description>
 <gates>
 <gate name="G$1" symbol="PMOD-2X6" x="0" y="0"/>
 </gates>
@@ -4450,6 +4508,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="PLT133-T10W">
+<description>Photo-link Light Transmitter Unit</description>
 <gates>
 <gate name="G$1" symbol="PLT133-T10W" x="0" y="0"/>
 </gates>
@@ -4467,6 +4526,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="PLR135-T10">
+<description>Photolink- Fiber Optic Receiver</description>
 <gates>
 <gate name="G$1" symbol="PLR135-T10" x="0" y="0"/>
 </gates>
@@ -4484,6 +4544,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="PAN1322">
+<description>All-In-One, Place and Play Bluetooth Module</description>
 <gates>
 <gate name="G$1" symbol="PAN1322" x="0" y="0"/>
 </gates>
@@ -4573,6 +4634,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="TPD4S014">
+<description>Complete USB Port Protection Device</description>
 <gates>
 <gate name="G$1" symbol="TPD4S014" x="0" y="0"/>
 </gates>
@@ -4598,6 +4660,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="MNR18">
+<description>8 element chip resistor network</description>
 <gates>
 <gate name="G$1" symbol="MNR18" x="0" y="0" swaplevel="8"/>
 </gates>
@@ -4796,9 +4859,9 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <part name="VCC7" library="prj-hdmi" deviceset="+3V3" device=""/>
 <part name="VCC8" library="prj-hdmi" deviceset="+3V3" device=""/>
 <part name="IC1" library="prj-hdmi" deviceset="FT2232H" device="L" value="FT2232HL"/>
-<part name="CONN3" library="prj-hdmi" deviceset="USB" device="MB-S"/>
+<part name="CONN3" library="prj-hdmi" deviceset="USB" device="UB-S" value="USBUB-S"/>
 <part name="GND25" library="prj-hdmi" deviceset="GND" device=""/>
-<part name="U$1" library="prj-hdmi" deviceset="ABM8G" device=""/>
+<part name="U$1" library="prj-hdmi" deviceset="403" device=""/>
 <part name="C43" library="prj-hdmi" deviceset="C-EU" device="0402" value="27p"/>
 <part name="C44" library="prj-hdmi" deviceset="C-EU" device="0402" value="27p"/>
 <part name="GND26" library="prj-hdmi" deviceset="GND" device=""/>
@@ -4887,7 +4950,7 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <part name="R35" library="prj-hdmi" deviceset="R-EU_" device="0402" value="10k"/>
 <part name="GND44" library="prj-hdmi" deviceset="GND" device=""/>
 <part name="VCC10" library="prj-hdmi" deviceset="+3V3" device=""/>
-<part name="U$9" library="prj-hdmi" deviceset="N25Q128A" device="F8" technology="13E"/>
+<part name="U$9" library="prj-hdmi" deviceset="N25Q128A" device="F8"/>
 <part name="GND45" library="prj-hdmi" deviceset="GND" device=""/>
 <part name="VCC11" library="prj-hdmi" deviceset="+3V3" device=""/>
 <part name="R36" library="prj-hdmi" deviceset="R-EU_" device="0402" value="2.4k"/>
@@ -4913,9 +4976,9 @@ Datasheet: http://www.abracon.com/Resonators/ABM8G.pdf</description>
 <part name="+3V8" library="prj-hdmi" deviceset="+3V3" device=""/>
 <part name="R43" library="prj-hdmi" deviceset="R-EU_" device="0402" value="10k"/>
 <part name="+3V12" library="prj-hdmi" deviceset="+3V3" device=""/>
-<part name="C7" library="prj-hdmi" deviceset="C-EU" device="0805" value="100u"/>
+<part name="C7" library="prj-hdmi" deviceset="CAPACITOR" device="1206" value="100u"/>
 <part name="GND52" library="prj-hdmi" deviceset="GND" device=""/>
-<part name="U8" library="prj-hdmi" deviceset="OSCILLATOR" device="2.5X2" value="20Mhz"/>
+<part name="U8" library="prj-hdmi" deviceset="636" device="" value="20Mhz"/>
 <part name="GND55" library="prj-hdmi" deviceset="GND" device=""/>
 <part name="VCC14" library="prj-hdmi" deviceset="+3V3" device=""/>
 <part name="C49" library="prj-hdmi" deviceset="C-EU" device="0402" value="0.1u"/>
