@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -537,115 +537,110 @@ by exp-lbrs.ulp</description>
 <text x="-7.5" y="7.9" size="0.8" layer="25" font="vector" ratio="19">&gt;NAME</text>
 <text x="-7.9" y="-7.5" size="0.8" layer="27" font="vector" ratio="19" rot="R90">&gt;VALUE</text>
 </package>
-<package name="FBGA96-JT">
-<wire x1="-4" y1="-6.6" x2="-4" y2="6.4" width="0.127" layer="21"/>
-<wire x1="-4" y1="-6.6" x2="4" y2="-6.6" width="0.127" layer="21"/>
-<wire x1="4" y1="-6.6" x2="4" y2="7.4" width="0.127" layer="21"/>
-<wire x1="4" y1="7.4" x2="-3" y2="7.4" width="0.127" layer="21"/>
-<wire x1="-3" y1="7.4" x2="-4" y2="6.4" width="0.127" layer="21"/>
-<smd name="A1" x="-3.2" y="6.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="A2" x="-2.4" y="6.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="A3" x="-1.6" y="6.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="A7" x="1.6" y="6.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="A8" x="2.4" y="6.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="A9" x="3.2" y="6.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="B1" x="-3.2" y="5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="B2" x="-2.4" y="5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="B3" x="-1.6" y="5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="B7" x="1.6" y="5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="B8" x="2.4" y="5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="B9" x="3.2" y="5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="C1" x="-3.2" y="4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="C2" x="-2.4" y="4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="C3" x="-1.6" y="4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="C7" x="1.6" y="4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="C8" x="2.4" y="4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="C9" x="3.2" y="4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="D1" x="-3.2" y="4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="D2" x="-2.4" y="4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="D3" x="-1.6" y="4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="D7" x="1.6" y="4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="D8" x="2.4" y="4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="D9" x="3.2" y="4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="E1" x="-3.2" y="3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="E2" x="-2.4" y="3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="E3" x="-1.6" y="3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="E7" x="1.6" y="3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="E8" x="2.4" y="3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="E9" x="3.2" y="3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="F1" x="-3.2" y="2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="F2" x="-2.4" y="2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="F3" x="-1.6" y="2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="F7" x="1.6" y="2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="F8" x="2.4" y="2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="F9" x="3.2" y="2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="G1" x="-3.2" y="1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="G2" x="-2.4" y="1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="G3" x="-1.6" y="1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="G7" x="1.6" y="1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="G8" x="2.4" y="1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="G9" x="3.2" y="1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="H1" x="-3.2" y="0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="H2" x="-2.4" y="0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="H3" x="-1.6" y="0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="H7" x="1.6" y="0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="H8" x="2.4" y="0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="H9" x="3.2" y="0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="J1" x="-3.2" y="0" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="J2" x="-2.4" y="0" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="J3" x="-1.6" y="0" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="J7" x="1.6" y="0" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="J8" x="2.4" y="0" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="J9" x="3.2" y="0" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="K1" x="-3.2" y="-0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="K2" x="-2.4" y="-0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="K3" x="-1.6" y="-0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="K7" x="1.6" y="-0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="K8" x="2.4" y="-0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="K9" x="3.2" y="-0.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="L1" x="-3.2" y="-1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="L2" x="-2.4" y="-1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="L3" x="-1.6" y="-1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="L7" x="1.6" y="-1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="L8" x="2.4" y="-1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="L9" x="3.2" y="-1.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="M1" x="-3.2" y="-2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="M2" x="-2.4" y="-2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="M3" x="-1.6" y="-2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="M7" x="1.6" y="-2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="M8" x="2.4" y="-2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="M9" x="3.2" y="-2.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="N1" x="-3.2" y="-3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="N2" x="-2.4" y="-3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="N3" x="-1.6" y="-3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="N7" x="1.6" y="-3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="N8" x="2.4" y="-3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="N9" x="3.2" y="-3.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="P1" x="-3.2" y="-4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="P2" x="-2.4" y="-4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="P3" x="-1.6" y="-4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="P7" x="1.6" y="-4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="P8" x="2.4" y="-4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="P9" x="3.2" y="-4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="R1" x="-3.2" y="-4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="R2" x="-2.4" y="-4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="R3" x="-1.6" y="-4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="R7" x="1.6" y="-4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="R8" x="2.4" y="-4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="R9" x="3.2" y="-4.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="T1" x="-3.2" y="-5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="T2" x="-2.4" y="-5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="T3" x="-1.6" y="-5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="T7" x="1.6" y="-5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="T8" x="2.4" y="-5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<smd name="T9" x="3.2" y="-5.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
-<text x="-3.81" y="7.62" size="1.27" layer="21">&gt;NAME</text>
-<text x="-3.81" y="-8.128" size="1.27" layer="21">&gt;VALUE</text>
-<polygon width="0.127" layer="21">
-<vertex x="-4" y="7.4"/>
-<vertex x="-3" y="7.4"/>
-<vertex x="-4" y="6.4"/>
-</polygon>
+<package name="96-FBGA_13X9">
+<smd name="A1" x="-3.2" y="6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="A2" x="-2.4" y="6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="A3" x="-1.6" y="6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="A7" x="1.6" y="6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="A8" x="2.4" y="6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="A9" x="3.2" y="6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="B1" x="-3.2" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="B2" x="-2.4" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="B3" x="-1.6" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="B7" x="1.6" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="B8" x="2.4" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="B9" x="3.2" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="C1" x="-3.2" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="C2" x="-2.4" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="C3" x="-1.6" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="C7" x="1.6" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="C8" x="2.4" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="C9" x="3.2" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="D1" x="-3.2" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="D2" x="-2.4" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="D3" x="-1.6" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="D7" x="1.6" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="D8" x="2.4" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="D9" x="3.2" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="E1" x="-3.2" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="E2" x="-2.4" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="E3" x="-1.6" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="E7" x="1.6" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="E8" x="2.4" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="E9" x="3.2" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="F1" x="-3.2" y="2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="F2" x="-2.4" y="2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="F3" x="-1.6" y="2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="F7" x="1.6" y="2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="F8" x="2.4" y="2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="F9" x="3.2" y="2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="G1" x="-3.2" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="G2" x="-2.4" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="G3" x="-1.6" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="G7" x="1.6" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="G8" x="2.4" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="G9" x="3.2" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="H1" x="-3.2" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="H2" x="-2.4" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="H3" x="-1.6" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="H7" x="1.6" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="H8" x="2.4" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="H9" x="3.2" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="J1" x="-3.2" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="J2" x="-2.4" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="J3" x="-1.6" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="J7" x="1.6" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="J8" x="2.4" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="J9" x="3.2" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="K1" x="-3.2" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="K2" x="-2.4" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="K3" x="-1.6" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="K7" x="1.6" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="K8" x="2.4" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="K9" x="3.2" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="L1" x="-3.2" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="L2" x="-2.4" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="L3" x="-1.6" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="L7" x="1.6" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="L8" x="2.4" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="L9" x="3.2" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="M1" x="-3.2" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="M2" x="-2.4" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="M3" x="-1.6" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="M7" x="1.6" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="M8" x="2.4" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="M9" x="3.2" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="N1" x="-3.2" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="N2" x="-2.4" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="N3" x="-1.6" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="N7" x="1.6" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="N8" x="2.4" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="N9" x="3.2" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="P1" x="-3.2" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="P2" x="-2.4" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="P3" x="-1.6" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="P7" x="1.6" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="P8" x="2.4" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="P9" x="3.2" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="R1" x="-3.2" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="R2" x="-2.4" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="R3" x="-1.6" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="R7" x="1.6" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="R8" x="2.4" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="R9" x="3.2" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="T1" x="-3.2" y="-6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="T2" x="-2.4" y="-6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="T3" x="-1.6" y="-6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="T7" x="1.6" y="-6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="T8" x="2.4" y="-6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<smd name="T9" x="3.2" y="-6" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+<text x="-4.5" y="6.8" size="1.27" layer="21">&gt;NAME</text>
+<text x="-4.5" y="-8" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="-4.5" y1="6.5" x2="4.5" y2="6.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="6.5" x2="4.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-6.5" x2="-4.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-6.5" x2="-4.5" y2="6.5" width="0.127" layer="21"/>
+<circle x="-4" y="6" radius="0.2" width="0" layer="21"/>
 </package>
 <package name="QFN64">
 <description>64 pin Quad Flat No Lead Package</description>
@@ -3657,13 +3652,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MT41J64M16">
-<description>1Gb: x4, x8, x16 DDR3 SDRAM</description>
+<deviceset name="AS4C128M16D3">
+<description>2Gb (128M x 16 bit) DDR3 Synchronous DRAM (SDRAM)</description>
 <gates>
 <gate name="G$1" symbol="MT41J64M16" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FBGA96-JT">
+<device name="" package="96-FBGA_13X9">
 <connects>
 <connect gate="G$1" pin="A0" pad="N3"/>
 <connect gate="G$1" pin="A1" pad="P7"/>
@@ -4656,6 +4651,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </devices>
 </deviceset>
 <deviceset name="TP">
+<description>generic test point</description>
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
 </gates>
@@ -4712,8 +4708,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="U2" library="pandaLight" deviceset="6SLX45" device="CSG324">
 <attribute name="PARTNO" value="XC6SLX45-3CSG324C"/>
 </part>
-<part name="U10" library="pandaLight" deviceset="MT41J64M16" device="">
-<attribute name="PARTNO" value="*"/>
+<part name="U10" library="pandaLight" deviceset="AS4C128M16D3" device="">
+<attribute name="PARTNO" value="AS4C128M16D3-12BCN"/>
 </part>
 <part name="GND52" library="pandaLight" deviceset="GND" device=""/>
 <part name="R42" library="pandaLight" deviceset="RESISTOR" device="0402" value="240">
@@ -4845,7 +4841,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
 <part name="U6" library="pandaLight" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="TPD12S016PWR"/>
 </part>
 <part name="PS25" library="pandaLight" deviceset="+5V" device=""/>
 <part name="PS26" library="pandaLight" deviceset="+3V3" device=""/>
@@ -4865,7 +4861,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </part>
 <part name="GND35" library="pandaLight" deviceset="GND" device=""/>
 <part name="U7" library="pandaLight" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="TPD12S016PWR"/>
 </part>
 <part name="PS30" library="pandaLight" deviceset="+5V" device=""/>
 <part name="PS31" library="pandaLight" deviceset="+3V3" device=""/>
@@ -4885,7 +4881,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </part>
 <part name="GND43" library="pandaLight" deviceset="GND" device=""/>
 <part name="U9" library="pandaLight" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="TPD12S016PWR"/>
 </part>
 <part name="PS36" library="pandaLight" deviceset="+5V" device=""/>
 <part name="PS37" library="pandaLight" deviceset="+3V3" device=""/>
@@ -4912,7 +4908,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="FT2232HL-REEL"/>
 </part>
 <part name="X1" library="pandaLight" deviceset="USB" device="UB-S" value="USBUB-S">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="10118192-0001LF"/>
 </part>
 <part name="GND25" library="pandaLight" deviceset="GND" device=""/>
 <part name="Y1" library="pandaLight" deviceset="403" device="">
@@ -5103,7 +5099,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="ERJ-2RKF1001X"/>
 </part>
 <part name="LED2" library="pandaLight" deviceset="LED" device="0603" value="Yellow">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="LY Q976-P1S2-36"/>
 </part>
 <part name="R38" library="pandaLight" deviceset="RESISTOR" device="0402" value="4.7k">
 <attribute name="PARTNO" value="ERJ-2RKF4701X"/>
@@ -5115,7 +5111,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="GND44" library="pandaLight" deviceset="GND" device=""/>
 <part name="PS33" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="U8" library="pandaLight" deviceset="N25Q128A" device="F8">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="N25Q128A13EF840E"/>
 </part>
 <part name="GND40" library="pandaLight" deviceset="GND" device=""/>
 <part name="PS35" library="pandaLight" deviceset="+3V3" device=""/>
@@ -5145,7 +5141,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="GND3" library="pandaLight" deviceset="GND" device=""/>
 <part name="GND13" library="pandaLight" deviceset="GND" device=""/>
 <part name="U3" library="pandaLight" deviceset="TPD4S014" device="SON">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="TPD4S014DSQR"/>
 </part>
 <part name="GND18" library="pandaLight" deviceset="GND" device=""/>
 <part name="R17" library="pandaLight" deviceset="RESISTOR" device="0402" value="10k">
@@ -5160,7 +5156,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="ERJ-2RKF1001X"/>
 </part>
 <part name="J1" library="pandaLight" deviceset="PJ-037A" device="">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="PJ-037A"/>
 </part>
 <part name="PS1" library="pandaLight" deviceset="+5V" device=""/>
 <part name="PS12" library="pandaLight" deviceset="+3V3" device=""/>
@@ -5194,12 +5190,12 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="*"/>
 </part>
 <part name="U11" library="pandaLight" deviceset="PMOD-2X6" device="">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="PPTC062LJBN-RC"/>
 </part>
 <part name="GND56" library="pandaLight" deviceset="GND" device=""/>
 <part name="GND57" library="pandaLight" deviceset="GND" device=""/>
 <part name="U12" library="pandaLight" deviceset="PMOD-2X6" device="">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="PPTC062LJBN-RC"/>
 </part>
 <part name="JP3" library="pandaLight" deviceset="JP2E" device="" value="PMOD2-3_VCC_SEL">
 <attribute name="PARTNO" value="*"/>
@@ -5214,13 +5210,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="PS42" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="PS43" library="pandaLight" deviceset="+5V" device=""/>
 <part name="U14" library="pandaLight" deviceset="PLT133-T10W" device="">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="PLT133/T10W"/>
 </part>
 <part name="U15" library="pandaLight" deviceset="PLR135-T10" device="">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="PLR135/T10"/>
 </part>
 <part name="U13" library="pandaLight" deviceset="PLR135-T10" device="">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="PLR135/T10"/>
 </part>
 <part name="GND62" library="pandaLight" deviceset="GND" device=""/>
 <part name="GND60" library="pandaLight" deviceset="GND" device=""/>
@@ -5251,7 +5247,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="CL31A107MQHNNNE"/>
 </part>
 <part name="U18" library="pandaLight" deviceset="PAN1322" device="">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="ENW-89841A3KF"/>
 </part>
 <part name="PS50" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="GND65" library="pandaLight" deviceset="GND" device=""/>
@@ -5288,9 +5284,11 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </part>
 <part name="GND24" library="pandaLight" deviceset="GND" device=""/>
 <part name="U16" library="pandaLight" deviceset="TP" device="10SQ">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="*"/>
 </part>
 <part name="U17" library="pandaLight" deviceset="TP" device="10SQ">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="*"/>
 </part>
 </parts>
@@ -10538,9 +10536,11 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="PS49" gate="G$1" x="2.54" y="71.12"/>
 <instance part="U16" gate="G$1" x="10.16" y="66.04">
 <attribute name="PARTNO" x="10.16" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" x="10.16" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U17" gate="G$1" x="15.24" y="63.5">
 <attribute name="PARTNO" x="15.24" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" x="15.24" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 </instances>
 <busses>
