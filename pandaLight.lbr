@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2956,10 +2956,10 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <pin name="RESERVED/HEAC_P" x="-17.78" y="-7.62" length="middle"/>
 <pin name="SCL" x="-17.78" y="-10.16" length="middle"/>
 <pin name="SDA" x="-17.78" y="-12.7" length="middle"/>
-<pin name="SHIELD0" x="20.32" y="-25.4" visible="pin" length="middle" direction="nc" rot="R180"/>
-<pin name="SHIELD1" x="20.32" y="-27.94" visible="pin" length="middle" direction="nc" rot="R180"/>
-<pin name="SHIELD2" x="20.32" y="-30.48" visible="pin" length="middle" direction="nc" rot="R180"/>
-<pin name="SHIELD3" x="20.32" y="-33.02" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="SHIELD0" x="20.32" y="-25.4" visible="pin" length="middle" direction="nc" swaplevel="1" rot="R180"/>
+<pin name="SHIELD1" x="20.32" y="-27.94" visible="pin" length="middle" direction="nc" swaplevel="1" rot="R180"/>
+<pin name="SHIELD2" x="20.32" y="-30.48" visible="pin" length="middle" direction="nc" swaplevel="1" rot="R180"/>
+<pin name="SHIELD3" x="20.32" y="-33.02" visible="pin" length="middle" direction="nc" swaplevel="1" rot="R180"/>
 <pin name="TMDS_CLK_N" x="-17.78" y="-2.54" length="middle"/>
 <pin name="TMDS_CLK_P" x="-17.78" y="2.54" length="middle"/>
 <pin name="TMDS_CLK_SHIELD" x="-17.78" y="0" length="middle" direction="pwr"/>

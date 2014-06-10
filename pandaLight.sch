@@ -2338,10 +2338,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pin name="RESERVED/HEAC_P" x="-17.78" y="-7.62" length="middle"/>
 <pin name="SCL" x="-17.78" y="-10.16" length="middle"/>
 <pin name="SDA" x="-17.78" y="-12.7" length="middle"/>
-<pin name="SHIELD0" x="20.32" y="-25.4" visible="pin" length="middle" direction="nc" rot="R180"/>
-<pin name="SHIELD1" x="20.32" y="-27.94" visible="pin" length="middle" direction="nc" rot="R180"/>
-<pin name="SHIELD2" x="20.32" y="-30.48" visible="pin" length="middle" direction="nc" rot="R180"/>
-<pin name="SHIELD3" x="20.32" y="-33.02" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="SHIELD0" x="20.32" y="-25.4" visible="pin" length="middle" direction="nc" swaplevel="1" rot="R180"/>
+<pin name="SHIELD1" x="20.32" y="-27.94" visible="pin" length="middle" direction="nc" swaplevel="1" rot="R180"/>
+<pin name="SHIELD2" x="20.32" y="-30.48" visible="pin" length="middle" direction="nc" swaplevel="1" rot="R180"/>
+<pin name="SHIELD3" x="20.32" y="-33.02" visible="pin" length="middle" direction="nc" swaplevel="1" rot="R180"/>
 <pin name="TMDS_CLK_N" x="-17.78" y="-2.54" length="middle"/>
 <pin name="TMDS_CLK_P" x="-17.78" y="2.54" length="middle"/>
 <pin name="TMDS_CLK_SHIELD" x="-17.78" y="0" length="middle" direction="pwr"/>
@@ -11090,19 +11090,19 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <approved hash="104,2,226.06,144.78,U4,VPLL,N$31,,,"/>
 <approved hash="104,2,142.24,33.02,U5,VCC,+3V3,,,"/>
 <approved hash="104,2,142.24,17.78,U5,VSS,GND,,,"/>
-<approved hash="104,1,81.28,25.4,U1,AGND,GND,,,"/>
-<approved hash="104,1,81.28,22.86,U1,ANGD,GND,,,"/>
+<approved hash="104,1,81.28,12.7,U1,AGND3,GND,,,"/>
+<approved hash="104,1,81.28,17.78,U1,ANGD1,GND,,,"/>
 <approved hash="104,1,81.28,71.12,U1,AVIN1,N$15,,,"/>
-<approved hash="104,1,81.28,68.58,U1,AVIN2,N$15,,,"/>
-<approved hash="104,1,81.28,66.04,U1,AVIN3,N$15,,,"/>
-<approved hash="104,1,81.28,20.32,U1,EP1,GND,,,"/>
-<approved hash="104,1,81.28,38.1,U1,EP2,GND,,,"/>
-<approved hash="104,1,81.28,35.56,U1,PGND,GND,,,"/>
-<approved hash="104,1,81.28,33.02,U1,PGND,GND,,,"/>
-<approved hash="104,1,81.28,30.48,U1,PGND,GND,,,"/>
+<approved hash="104,1,81.28,68.58,U1,AVIN2,N$30,,,"/>
+<approved hash="104,1,81.28,66.04,U1,AVIN3,N$48,,,"/>
+<approved hash="104,1,81.28,5.08,U1,EPAD,GND,,,"/>
+<approved hash="104,1,81.28,25.4,U1,PGND3,GND,,,"/>
+<approved hash="104,1,81.28,27.94,U1,PGND2,GND,,,"/>
+<approved hash="104,1,81.28,30.48,U1,PGND1,GND,,,"/>
 <approved hash="104,1,81.28,78.74,U1,PVIN1,+5V,,,"/>
 <approved hash="104,1,81.28,76.2,U1,PVIN2,+5V,,,"/>
 <approved hash="104,1,81.28,73.66,U1,PVIN3,+5V,,,"/>
+<approved hash="104,1,81.28,15.24,U1,ANGD2,GND,,,"/>
 <approved hash="104,5,162.56,157.48,U8,VCC,+3V3,,,"/>
 <approved hash="104,5,162.56,154.94,U8,VSS,GND,,,"/>
 <approved hash="202,2,76.2,124.46,U3,ID,,,,"/>
@@ -11114,11 +11114,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <approved hash="104,8,38.1,63.5,U13,VCC,N$36,,,"/>
 <approved hash="202,9,25.4,40.64,U18,JTAG#,,,,"/>
 <approved hash="202,9,25.4,38.1,U18,TRST#,,,,"/>
-<approved hash="104,9,76.2,60.96,U18,VSUPPLY,+3V3,,,"/>
-<approved hash="104,9,76.2,58.42,U18,VSUPPLY,+3V3,,,"/>
-<approved hash="104,9,76.2,55.88,U18,VSUPPLY,+3V3,,,"/>
-<approved hash="104,9,76.2,50.8,U18,VDDUART,+3V3,,,"/>
 <approved hash="104,9,76.2,53.34,U18,VDD1,+3V3,,,"/>
+<approved hash="104,9,76.2,50.8,U18,VDDUART,+3V3,,,"/>
 <approved hash="104,9,76.2,43.18,U18,VSS,GND,,,"/>
 <approved hash="104,9,76.2,40.64,U18,VSS,GND,,,"/>
 <approved hash="104,9,76.2,38.1,U18,VSS,GND,,,"/>
@@ -11134,6 +11131,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <approved hash="104,9,76.2,12.7,U18,VSS,GND,,,"/>
 <approved hash="104,9,76.2,10.16,U18,VSS,GND,,,"/>
 <approved hash="104,9,76.2,7.62,U18,VSS,GND,,,"/>
+<approved hash="104,9,76.2,60.96,U18,VSUPPLY,+3V3,,,"/>
+<approved hash="104,9,76.2,58.42,U18,VSUPPLY,+3V3,,,"/>
+<approved hash="104,9,76.2,55.88,U18,VSUPPLY,+3V3,,,"/>
 <approved hash="117,9,76.2,48.26,VREG,,,,,"/>
 </errors>
 </schematic>
