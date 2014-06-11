@@ -1501,9 +1501,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <pad name="5" x="3.81" y="0" drill="1.016" rot="R90"/>
 <pad name="6" x="6.35" y="0" drill="1.016" rot="R90"/>
 <text x="-7.62" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-6.985" y="-2.921" size="1.27" layer="21" ratio="10">1</text>
-<text x="5.715" y="1.651" size="1.27" layer="21" ratio="10">6</text>
-<text x="-2.54" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-7.62" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="MA02-1">
 <wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
@@ -1525,8 +1523,7 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <pad name="1" x="-1.27" y="0" drill="1.016" shape="square" rot="R90" first="yes"/>
 <pad name="2" x="1.27" y="0" drill="1.016" rot="R90"/>
 <text x="-2.54" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.905" y="-2.921" size="1.27" layer="21" ratio="10">1</text>
-<text x="0" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="PMOD-2X6">
 <wire x1="-7.62" y1="-2.909" x2="-6.858" y2="-2.909" width="0.1524" layer="21"/>
