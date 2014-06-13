@@ -128,8 +128,7 @@
 by exp-lbrs.ulp</description>
 <packages>
 <package name="0402">
-<description>&lt;b&gt;EMIFIL (R) Chip Ferrite Bead for GHz Noise&lt;/b&gt;&lt;p&gt;
-Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
+<description>generic 0402 package</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
 <wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
@@ -1349,8 +1348,8 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <pad name="1" x="2.54" y="-2.63" drill="0.8"/>
 <pad name="2" x="0" y="-2.63" drill="0.8"/>
 <pad name="3" x="-2.54" y="-2.63" drill="0.8"/>
-<pad name="P$1" x="-2.54" y="0" drill="1.1"/>
-<pad name="P$2" x="2.54" y="0" drill="1.1"/>
+<pad name="NC2" x="-2.54" y="0" drill="1.1"/>
+<pad name="NC1" x="2.54" y="0" drill="1.1"/>
 <text x="-5" y="9" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
 </package>

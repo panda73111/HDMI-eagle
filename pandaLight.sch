@@ -1394,8 +1394,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="0402">
-<description>&lt;b&gt;EMIFIL (R) Chip Ferrite Bead for GHz Noise&lt;/b&gt;&lt;p&gt;
-Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
+<description>generic 0402 package</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
 <wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
@@ -1618,8 +1617,8 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <pad name="1" x="2.54" y="-2.63" drill="0.8"/>
 <pad name="2" x="0" y="-2.63" drill="0.8"/>
 <pad name="3" x="-2.54" y="-2.63" drill="0.8"/>
-<pad name="P$1" x="-2.54" y="0" drill="1.1"/>
-<pad name="P$2" x="2.54" y="0" drill="1.1"/>
+<pad name="NC2" x="-2.54" y="0" drill="1.1"/>
+<pad name="NC1" x="2.54" y="0" drill="1.1"/>
 <text x="-5" y="9" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -7882,13 +7881,6 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <label x="30.48" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TOS_IN0" class="0">
-<segment>
-<pinref part="U2" gate="B0" pin="IO_L2N_0"/>
-<wire x1="27.94" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
-<label x="30.48" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
@@ -8399,13 +8391,6 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <segment>
 <wire x1="83.82" y1="119.38" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
 <label x="83.82" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TOS_IN1" class="0">
-<segment>
-<pinref part="U2" gate="B1" pin="IO_L51N_M1DQ13_1"/>
-<wire x1="27.94" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
-<label x="30.48" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
