@@ -8288,33 +8288,33 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <segment>
 <pinref part="U7" gate="G$1" pin="CEC_A"/>
 <label x="134.62" y="81.28" size="1.778" layer="95"/>
-<wire x1="162.56" y1="81.28" x2="86.36" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="81.28" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U2" gate="B1" pin="IO_L47P_FWE_B_M1DQ0_1"/>
-<wire x1="86.36" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
-<label x="30.48" y="55.88" size="1.778" layer="95"/>
+<wire x1="162.56" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U2" gate="B1" pin="IO_L38N_A4_M1CLKN_1"/>
+<wire x1="58.42" y1="81.28" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
+<label x="30.48" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HDMI_RX1_SCL_3V3" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="SCL_A"/>
 <label x="134.62" y="78.74" size="1.778" layer="95"/>
-<wire x1="162.56" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="78.74" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U2" gate="B1" pin="IO_L47N_LDC_M1DQ1_1"/>
-<wire x1="88.9" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
-<label x="30.48" y="53.34" size="1.778" layer="95"/>
+<wire x1="162.56" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="78.74" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U2" gate="B1" pin="IO_L43P_GCLK5_M1DQ4_1"/>
+<wire x1="58.42" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+<label x="30.48" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HDMI_RX1_SDA_3V3" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="SDA_A"/>
 <label x="134.62" y="76.2" size="1.778" layer="95"/>
-<wire x1="162.56" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="76.2" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U2" gate="B1" pin="IO_L48P_HDC_M1DQ8_1"/>
-<wire x1="91.44" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
-<label x="30.48" y="50.8" size="1.778" layer="95"/>
+<wire x1="162.56" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="76.2" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U2" gate="B1" pin="IO_L43N_GCLK4_M1DQ5_1"/>
+<wire x1="60.96" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<label x="30.48" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HDMI_RX1_CTRL_EN" class="0">
@@ -8323,11 +8323,11 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <label x="134.62" y="71.12" size="1.778" layer="95"/>
 <wire x1="162.56" y1="71.12" x2="160.02" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="71.12" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U2" gate="B1" pin="IO_L48N_M1DQ9_1"/>
-<wire x1="96.52" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
-<label x="30.48" y="48.26" size="1.778" layer="95"/>
+<wire x1="121.92" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="71.12" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U2" gate="B1" pin="IO_L44N_A2_M1DQ7_1"/>
+<wire x1="60.96" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
+<label x="30.48" y="68.58" size="1.778" layer="95"/>
 <pinref part="R30" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="68.58" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
 <junction x="121.92" y="71.12"/>
