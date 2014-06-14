@@ -7881,6 +7881,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <label x="30.48" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="TOS_IN0" class="0">
+<segment>
+<pinref part="U2" gate="B0" pin="IO_L66N_SCP0_0"/>
+<wire x1="27.94" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
+<label x="30.48" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -8391,6 +8398,55 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <segment>
 <wire x1="83.82" y1="119.38" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
 <label x="83.82" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOS_IN1" class="0">
+<segment>
+<pinref part="U2" gate="B1" pin="IO_L45N_A0_M1LDQSN_1"/>
+<wire x1="27.94" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
+<label x="30.48" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT_RX" class="0">
+<segment>
+<wire x1="27.94" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
+<label x="30.48" y="50.8" size="1.778" layer="95"/>
+<pinref part="U2" gate="B1" pin="IO_L48P_HDC_M1DQ8_1"/>
+</segment>
+</net>
+<net name="BT_RTS" class="0">
+<segment>
+<wire x1="27.94" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
+<label x="30.48" y="58.42" size="1.778" layer="95"/>
+<pinref part="U2" gate="B1" pin="IO_L46N_FOE_B_M1DQ3_1"/>
+</segment>
+</net>
+<net name="BT_CTS" class="0">
+<segment>
+<wire x1="27.94" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
+<label x="30.48" y="53.34" size="1.778" layer="95"/>
+<pinref part="U2" gate="B1" pin="IO_L47N_LDC_M1DQ1_1"/>
+</segment>
+</net>
+<net name="BT_TX" class="0">
+<segment>
+<wire x1="27.94" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
+<label x="30.48" y="55.88" size="1.778" layer="95"/>
+<pinref part="U2" gate="B1" pin="IO_L47P_FWE_B_M1DQ0_1"/>
+</segment>
+</net>
+<net name="BT_WAKE" class="0">
+<segment>
+<wire x1="27.94" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
+<label x="30.48" y="48.26" size="1.778" layer="95"/>
+<pinref part="U2" gate="B1" pin="IO_L48N_M1DQ9_1"/>
+</segment>
+</net>
+<net name="BT_RESET#" class="0">
+<segment>
+<wire x1="27.94" y1="45.72" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
+<label x="30.48" y="45.72" size="1.778" layer="95"/>
+<pinref part="U2" gate="B1" pin="IO_L49P_M1DQ10_1"/>
 </segment>
 </net>
 </nets>
@@ -9048,48 +9104,6 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="U2" gate="B2" pin="IO_L45N_2"/>
 <wire x1="40.64" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
 <label x="43.18" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_RX" class="0">
-<segment>
-<pinref part="U2" gate="B2" pin="IO_L62N_D6_2"/>
-<wire x1="40.64" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
-<label x="43.18" y="25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_RTS" class="0">
-<segment>
-<pinref part="U2" gate="B2" pin="IO_L63P_2"/>
-<wire x1="40.64" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
-<label x="43.18" y="22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_CTS" class="0">
-<segment>
-<pinref part="U2" gate="B2" pin="IO_L63N_2"/>
-<wire x1="40.64" y1="20.32" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
-<label x="43.18" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_TX" class="0">
-<segment>
-<pinref part="U2" gate="B2" pin="IO_L62P_D5_2"/>
-<wire x1="40.64" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
-<label x="43.18" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_WAKE" class="0">
-<segment>
-<pinref part="U2" gate="B2" pin="IO_L49P_D3_2"/>
-<wire x1="40.64" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
-<label x="43.18" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_RESET#" class="0">
-<segment>
-<pinref part="U2" gate="B2" pin="IO_L49N_D4_2"/>
-<wire x1="40.64" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
-<label x="43.18" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
