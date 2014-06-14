@@ -2327,7 +2327,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="-12.7" y1="-35.56" x2="15.24" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-35.56" x2="15.24" y2="27.94" width="0.254" layer="94"/>
 <wire x1="15.24" y1="27.94" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
-<pin name="+5V_SUPPLY" x="-17.78" y="-17.78" length="middle" direction="pwr"/>
+<pin name="+5V_SUPPLY" x="-17.78" y="-17.78" length="middle"/>
 <pin name="CEC" x="-17.78" y="-5.08" length="middle"/>
 <pin name="DDC/CDC/HEAC_GND" x="-17.78" y="-15.24" length="middle" direction="pwr"/>
 <pin name="HPD/HEAC_N" x="-17.78" y="-20.32" length="middle"/>
@@ -4222,7 +4222,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <connect gate="G$1" pin="S#" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VPP/W#/DQ2" pad="3"/>
-<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="4 ETP"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4237,7 +4237,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <connect gate="G$1" pin="S#" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VPP/W#/DQ2" pad="3"/>
-<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="4 ETP"/>
 </connects>
 <technologies>
 <technology name=""/>
