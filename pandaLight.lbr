@@ -2405,6 +2405,24 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <text x="-2.5" y="2.9" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.5" y="-4.2" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="741C083">
+<smd name="7" x="-0.25" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="6" x="0.25" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="2" x="-0.25" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="3" x="0.25" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="4" x="0.75" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="5" x="0.75" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="8" x="-0.75" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="1" x="-0.75" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<wire x1="-1" y1="0.5" x2="1" y2="0.5" width="0.127" layer="51"/>
+<wire x1="1" y1="0.5" x2="1" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.5" x2="-1" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.5" x2="-1" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="0.5" x2="-1.1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1.1" y1="0.5" x2="1.1" y2="-0.5" width="0.127" layer="21"/>
+<text x="-1.1" y="1.1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-2.4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="+1V2">
@@ -3590,6 +3608,53 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <pin name="NC@17" x="17.78" y="-38.1" length="middle" direction="nc" rot="R180"/>
 <pin name="NC@16" x="17.78" y="-35.56" length="middle" direction="nc" rot="R180"/>
 <pin name="ANGD2" x="-17.78" y="-35.56" length="middle" direction="pwr" swaplevel="3"/>
+</symbol>
+<symbol name="741C083">
+<wire x1="-2.548" y1="1.778" x2="2.532" y2="1.778" width="0.254" layer="94"/>
+<wire x1="2.532" y1="3.302" x2="-2.548" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="3.302" x2="-2.548" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="2.54" x2="-2.548" y2="1.778" width="0.254" layer="94"/>
+<wire x1="2.532" y1="1.778" x2="2.532" y2="3.302" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.318" x2="-5.08" y2="4.318" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-6.858" x2="-5.08" y2="-6.858" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="4.318" x2="-5.08" y2="0.04" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="0.04" x2="-5.08" y2="-2.56" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-2.56" x2="-5.08" y2="-5.06" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-5.06" x2="-5.08" y2="-6.858" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="4.318" x2="5.08" y2="-6.858" width="0.4064" layer="94"/>
+<wire x1="5.052" y1="2.54" x2="2.52" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="-0.722" x2="2.532" y2="-0.722" width="0.254" layer="94"/>
+<wire x1="2.532" y1="0.802" x2="-2.548" y2="0.802" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="0.802" x2="-2.548" y2="0.04" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="0.04" x2="-5.08" y2="0.04" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="0.04" x2="-2.548" y2="-0.722" width="0.254" layer="94"/>
+<wire x1="2.532" y1="-0.722" x2="2.532" y2="0.802" width="0.254" layer="94"/>
+<wire x1="5.052" y1="0.04" x2="2.52" y2="0.04" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="-3.322" x2="2.532" y2="-3.322" width="0.254" layer="94"/>
+<wire x1="2.532" y1="-1.798" x2="-2.548" y2="-1.798" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="-1.798" x2="-2.548" y2="-2.56" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="-2.56" x2="-5.08" y2="-2.56" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="-2.56" x2="-2.548" y2="-3.322" width="0.254" layer="94"/>
+<wire x1="2.532" y1="-3.322" x2="2.532" y2="-1.798" width="0.254" layer="94"/>
+<wire x1="5.052" y1="-2.56" x2="2.52" y2="-2.56" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="-5.822" x2="2.532" y2="-5.822" width="0.254" layer="94"/>
+<wire x1="2.532" y1="-4.298" x2="-2.548" y2="-4.298" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="-4.298" x2="-2.548" y2="-5.06" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="-5.06" x2="-5.08" y2="-5.06" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="-5.06" x2="-2.548" y2="-5.822" width="0.254" layer="94"/>
+<wire x1="2.532" y1="-5.822" x2="2.532" y2="-4.298" width="0.254" layer="94"/>
+<wire x1="5.052" y1="-5.06" x2="2.52" y2="-5.06" width="0.1524" layer="94"/>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="3"/>
+<pin name="4" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="4"/>
+<pin name="13" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="4" rot="R180"/>
+<pin name="15" x="7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="16" x="7.62" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="C3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="3" rot="R180"/>
+<text x="-4.445" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-9.398" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5041,6 +5106,29 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <connect gate="G$1" pin="SW1" pad="26"/>
 <connect gate="G$1" pin="SW2" pad="23"/>
 <connect gate="G$1" pin="SW3" pad="21"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="741C083" uservalue="yes">
+<description>4 element chip resistor array</description>
+<gates>
+<gate name="G$1" symbol="741C083" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="741C083">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="13" pad="5"/>
+<connect gate="G$1" pin="15" pad="6"/>
+<connect gate="G$1" pin="16" pad="7"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="C3" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>

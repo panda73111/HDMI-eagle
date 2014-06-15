@@ -1818,269 +1818,23 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <text x="-3.81" y="6.985" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-7.9375" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="MNR18">
-<wire x1="2" y1="0.3" x2="2" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-2" y1="0.8" x2="2" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-2" y1="-0.8" x2="2" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="-2" y1="0.3" x2="-2" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-1.95" y1="-0.45" x2="1.95" y2="-0.45" width="0.01" layer="51"/>
-<wire x1="-1.95" y1="0.45" x2="1.95" y2="0.45" width="0.01" layer="51"/>
-<wire x1="-1.55" y1="0.575" x2="-1.525" y2="0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="-1.525" y1="0.55" x2="-1.475" y2="0.55" width="0.01" layer="51"/>
-<wire x1="-1.475" y1="0.55" x2="-1.45" y2="0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="-1.45" y1="0.575" x2="-1.45" y2="0.675" width="0.01" layer="51"/>
-<wire x1="-1.55" y1="0.575" x2="-1.55" y2="0.675" width="0.01" layer="51"/>
-<wire x1="-1.05" y1="0.575" x2="-1.025" y2="0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="-1.025" y1="0.55" x2="-0.975" y2="0.55" width="0.01" layer="51"/>
-<wire x1="-0.975" y1="0.55" x2="-0.95" y2="0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="-0.95" y1="0.575" x2="-0.95" y2="0.675" width="0.01" layer="51"/>
-<wire x1="-1.05" y1="0.575" x2="-1.05" y2="0.675" width="0.01" layer="51"/>
-<wire x1="-0.55" y1="0.575" x2="-0.525" y2="0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="-0.525" y1="0.55" x2="-0.475" y2="0.55" width="0.01" layer="51"/>
-<wire x1="-0.475" y1="0.55" x2="-0.45" y2="0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="-0.45" y1="0.575" x2="-0.45" y2="0.675" width="0.01" layer="51"/>
-<wire x1="-0.55" y1="0.575" x2="-0.55" y2="0.675" width="0.01" layer="51"/>
-<wire x1="-0.05" y1="0.575" x2="-0.025" y2="0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="-0.025" y1="0.55" x2="0.025" y2="0.55" width="0.01" layer="51"/>
-<wire x1="0.025" y1="0.55" x2="0.05" y2="0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="0.05" y1="0.575" x2="0.05" y2="0.675" width="0.01" layer="51"/>
-<wire x1="-0.05" y1="0.575" x2="-0.05" y2="0.675" width="0.01" layer="51"/>
-<wire x1="0.45" y1="0.575" x2="0.475" y2="0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="0.475" y1="0.55" x2="0.525" y2="0.55" width="0.01" layer="51"/>
-<wire x1="0.525" y1="0.55" x2="0.55" y2="0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="0.55" y1="0.575" x2="0.55" y2="0.675" width="0.01" layer="51"/>
-<wire x1="0.45" y1="0.575" x2="0.45" y2="0.675" width="0.01" layer="51"/>
-<wire x1="0.95" y1="0.575" x2="0.975" y2="0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="0.975" y1="0.55" x2="1.025" y2="0.55" width="0.01" layer="51"/>
-<wire x1="1.025" y1="0.55" x2="1.05" y2="0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="1.05" y1="0.575" x2="1.05" y2="0.675" width="0.01" layer="51"/>
-<wire x1="0.95" y1="0.575" x2="0.95" y2="0.675" width="0.01" layer="51"/>
-<wire x1="1.45" y1="0.575" x2="1.475" y2="0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="1.475" y1="0.55" x2="1.525" y2="0.55" width="0.01" layer="51"/>
-<wire x1="1.525" y1="0.55" x2="1.55" y2="0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="1.55" y1="0.575" x2="1.55" y2="0.675" width="0.01" layer="51"/>
-<wire x1="1.45" y1="0.575" x2="1.45" y2="0.675" width="0.01" layer="51"/>
-<wire x1="1.55" y1="-0.575" x2="1.525" y2="-0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="1.525" y1="-0.55" x2="1.475" y2="-0.55" width="0.01" layer="51"/>
-<wire x1="1.475" y1="-0.55" x2="1.45" y2="-0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="1.45" y1="-0.575" x2="1.45" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="1.55" y1="-0.575" x2="1.55" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="1.05" y1="-0.575" x2="1.025" y2="-0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="1.025" y1="-0.55" x2="0.975" y2="-0.55" width="0.01" layer="51"/>
-<wire x1="0.975" y1="-0.55" x2="0.95" y2="-0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="0.95" y1="-0.575" x2="0.95" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="1.05" y1="-0.575" x2="1.05" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="0.55" y1="-0.575" x2="0.525" y2="-0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="0.525" y1="-0.55" x2="0.475" y2="-0.55" width="0.01" layer="51"/>
-<wire x1="0.475" y1="-0.55" x2="0.45" y2="-0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="0.45" y1="-0.575" x2="0.45" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="0.55" y1="-0.575" x2="0.55" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="0.05" y1="-0.575" x2="0.025" y2="-0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="0.025" y1="-0.55" x2="-0.025" y2="-0.55" width="0.01" layer="51"/>
-<wire x1="-0.025" y1="-0.55" x2="-0.05" y2="-0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="-0.05" y1="-0.575" x2="-0.05" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="0.05" y1="-0.575" x2="0.05" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="-0.45" y1="-0.575" x2="-0.475" y2="-0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="-0.475" y1="-0.55" x2="-0.525" y2="-0.55" width="0.01" layer="51"/>
-<wire x1="-0.525" y1="-0.55" x2="-0.55" y2="-0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="-0.55" y1="-0.575" x2="-0.55" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="-0.45" y1="-0.575" x2="-0.45" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="-0.95" y1="-0.575" x2="-0.975" y2="-0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="-0.975" y1="-0.55" x2="-1.025" y2="-0.55" width="0.01" layer="51"/>
-<wire x1="-1.025" y1="-0.55" x2="-1.05" y2="-0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="-1.05" y1="-0.575" x2="-1.05" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="-0.95" y1="-0.575" x2="-0.95" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="-1.45" y1="-0.575" x2="-1.475" y2="-0.55" width="0.01" layer="51" curve="90"/>
-<wire x1="-1.475" y1="-0.55" x2="-1.525" y2="-0.55" width="0.01" layer="51"/>
-<wire x1="-1.525" y1="-0.55" x2="-1.55" y2="-0.575" width="0.01" layer="51" curve="90"/>
-<wire x1="-1.55" y1="-0.575" x2="-1.55" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="-1.45" y1="-0.575" x2="-1.45" y2="-0.675" width="0.01" layer="51"/>
-<wire x1="-2.15" y1="0.95" x2="2.15" y2="0.95" width="0.127" layer="39"/>
-<wire x1="2.15" y1="0.95" x2="2.15" y2="-0.95" width="0.127" layer="39"/>
-<wire x1="2.15" y1="-0.95" x2="-2.15" y2="-0.95" width="0.127" layer="39"/>
-<wire x1="-2.15" y1="-0.95" x2="-2.15" y2="0.95" width="0.127" layer="39"/>
-<smd name="1" x="-1.75" y="-0.9" dx="0.3" dy="0.8" layer="1"/>
-<smd name="2" x="-1.25" y="-0.9" dx="0.3" dy="0.8" layer="1"/>
-<smd name="3" x="-0.75" y="-0.9" dx="0.3" dy="0.8" layer="1"/>
-<smd name="4" x="-0.25" y="-0.9" dx="0.3" dy="0.8" layer="1"/>
-<smd name="5" x="0.25" y="-0.9" dx="0.3" dy="0.8" layer="1"/>
-<smd name="6" x="0.75" y="-0.9" dx="0.3" dy="0.8" layer="1"/>
-<smd name="7" x="1.25" y="-0.9" dx="0.3" dy="0.8" layer="1"/>
-<smd name="8" x="1.75" y="-0.9" dx="0.3" dy="0.8" layer="1"/>
-<smd name="9" x="1.75" y="0.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
-<smd name="10" x="1.25" y="0.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
-<smd name="11" x="0.75" y="0.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
-<smd name="12" x="0.25" y="0.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
-<smd name="13" x="-0.25" y="0.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
-<smd name="14" x="-0.75" y="0.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
-<smd name="15" x="-1.25" y="0.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
-<smd name="16" x="-1.75" y="0.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
-<text x="-2" y="1.6" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2" y="-2.8" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.01" layer="51">
-<vertex x="-1.95" y="0.75"/>
-<vertex x="-1.55" y="0.75"/>
-<vertex x="-1.55" y="0.675"/>
-<vertex x="-1.6" y="0.675"/>
-<vertex x="-1.6" y="0.45"/>
-<vertex x="-1.9" y="0.45"/>
-<vertex x="-1.9" y="0.675"/>
-<vertex x="-1.95" y="0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="-1.45" y="0.75"/>
-<vertex x="-1.05" y="0.75"/>
-<vertex x="-1.05" y="0.675"/>
-<vertex x="-1.1" y="0.675"/>
-<vertex x="-1.1" y="0.45"/>
-<vertex x="-1.4" y="0.45"/>
-<vertex x="-1.4" y="0.675"/>
-<vertex x="-1.45" y="0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="-0.95" y="0.75"/>
-<vertex x="-0.55" y="0.75"/>
-<vertex x="-0.55" y="0.675"/>
-<vertex x="-0.6" y="0.675"/>
-<vertex x="-0.6" y="0.45"/>
-<vertex x="-0.9" y="0.45"/>
-<vertex x="-0.9" y="0.675"/>
-<vertex x="-0.95" y="0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="-0.45" y="0.75"/>
-<vertex x="-0.05" y="0.75"/>
-<vertex x="-0.05" y="0.675"/>
-<vertex x="-0.1" y="0.675"/>
-<vertex x="-0.1" y="0.45"/>
-<vertex x="-0.4" y="0.45"/>
-<vertex x="-0.4" y="0.675"/>
-<vertex x="-0.45" y="0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="0.05" y="0.75"/>
-<vertex x="0.45" y="0.75"/>
-<vertex x="0.45" y="0.675"/>
-<vertex x="0.4" y="0.675"/>
-<vertex x="0.4" y="0.45"/>
-<vertex x="0.1" y="0.45"/>
-<vertex x="0.1" y="0.675"/>
-<vertex x="0.05" y="0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="0.55" y="0.75"/>
-<vertex x="0.95" y="0.75"/>
-<vertex x="0.95" y="0.675"/>
-<vertex x="0.9" y="0.675"/>
-<vertex x="0.9" y="0.45"/>
-<vertex x="0.6" y="0.45"/>
-<vertex x="0.6" y="0.675"/>
-<vertex x="0.55" y="0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="1.05" y="0.75"/>
-<vertex x="1.45" y="0.75"/>
-<vertex x="1.45" y="0.675"/>
-<vertex x="1.4" y="0.675"/>
-<vertex x="1.4" y="0.45"/>
-<vertex x="1.1" y="0.45"/>
-<vertex x="1.1" y="0.675"/>
-<vertex x="1.05" y="0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="1.55" y="0.75"/>
-<vertex x="1.95" y="0.75"/>
-<vertex x="1.95" y="0.675"/>
-<vertex x="1.9" y="0.675"/>
-<vertex x="1.9" y="0.45"/>
-<vertex x="1.6" y="0.45"/>
-<vertex x="1.6" y="0.675"/>
-<vertex x="1.55" y="0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="-1.55" y="-0.75"/>
-<vertex x="-1.95" y="-0.75"/>
-<vertex x="-1.95" y="-0.675"/>
-<vertex x="-1.9" y="-0.675"/>
-<vertex x="-1.9" y="-0.45"/>
-<vertex x="-1.6" y="-0.45"/>
-<vertex x="-1.6" y="-0.675"/>
-<vertex x="-1.55" y="-0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="-1.05" y="-0.75"/>
-<vertex x="-1.45" y="-0.75"/>
-<vertex x="-1.45" y="-0.675"/>
-<vertex x="-1.4" y="-0.675"/>
-<vertex x="-1.4" y="-0.45"/>
-<vertex x="-1.1" y="-0.45"/>
-<vertex x="-1.1" y="-0.675"/>
-<vertex x="-1.05" y="-0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="-0.55" y="-0.75"/>
-<vertex x="-0.95" y="-0.75"/>
-<vertex x="-0.95" y="-0.675"/>
-<vertex x="-0.9" y="-0.675"/>
-<vertex x="-0.9" y="-0.45"/>
-<vertex x="-0.6" y="-0.45"/>
-<vertex x="-0.6" y="-0.675"/>
-<vertex x="-0.55" y="-0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="-0.05" y="-0.75"/>
-<vertex x="-0.45" y="-0.75"/>
-<vertex x="-0.45" y="-0.675"/>
-<vertex x="-0.4" y="-0.675"/>
-<vertex x="-0.4" y="-0.45"/>
-<vertex x="-0.1" y="-0.45"/>
-<vertex x="-0.1" y="-0.675"/>
-<vertex x="-0.05" y="-0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="0.45" y="-0.75"/>
-<vertex x="0.05" y="-0.75"/>
-<vertex x="0.05" y="-0.675"/>
-<vertex x="0.1" y="-0.675"/>
-<vertex x="0.1" y="-0.45"/>
-<vertex x="0.4" y="-0.45"/>
-<vertex x="0.4" y="-0.675"/>
-<vertex x="0.45" y="-0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="0.95" y="-0.75"/>
-<vertex x="0.55" y="-0.75"/>
-<vertex x="0.55" y="-0.675"/>
-<vertex x="0.6" y="-0.675"/>
-<vertex x="0.6" y="-0.45"/>
-<vertex x="0.9" y="-0.45"/>
-<vertex x="0.9" y="-0.675"/>
-<vertex x="0.95" y="-0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="1.45" y="-0.75"/>
-<vertex x="1.05" y="-0.75"/>
-<vertex x="1.05" y="-0.675"/>
-<vertex x="1.1" y="-0.675"/>
-<vertex x="1.1" y="-0.45"/>
-<vertex x="1.4" y="-0.45"/>
-<vertex x="1.4" y="-0.675"/>
-<vertex x="1.45" y="-0.675"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="1.95" y="-0.75"/>
-<vertex x="1.55" y="-0.75"/>
-<vertex x="1.55" y="-0.675"/>
-<vertex x="1.6" y="-0.675"/>
-<vertex x="1.6" y="-0.45"/>
-<vertex x="1.9" y="-0.45"/>
-<vertex x="1.9" y="-0.675"/>
-<vertex x="1.95" y="-0.675"/>
-</polygon>
-<wire x1="-2" y1="0.8" x2="-2" y2="0.3" width="0.127" layer="51"/>
-<wire x1="-2" y1="-0.3" x2="-2" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="2" y1="0.8" x2="2" y2="0.3" width="0.127" layer="51"/>
-<wire x1="2" y1="-0.8" x2="2" y2="-0.3" width="0.127" layer="51"/>
+<package name="741C083">
+<smd name="7" x="-0.25" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="6" x="0.25" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="2" x="-0.25" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="3" x="0.25" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="4" x="0.75" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="5" x="0.75" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="8" x="-0.75" y="0.575" dx="0.3" dy="0.65" layer="1"/>
+<smd name="1" x="-0.75" y="-0.575" dx="0.3" dy="0.65" layer="1"/>
+<wire x1="-1" y1="0.5" x2="1" y2="0.5" width="0.127" layer="51"/>
+<wire x1="1" y1="0.5" x2="1" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.5" x2="-1" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.5" x2="-1" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="0.5" x2="-1.1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1.1" y1="0.5" x2="1.1" y2="-0.5" width="0.127" layer="21"/>
+<text x="-1.1" y="1.1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-2.4" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -3363,92 +3117,52 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <text x="-12.7" y="11.43" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="MNR18">
-<wire x1="-2.548" y1="6.858" x2="2.532" y2="6.858" width="0.254" layer="94"/>
-<wire x1="2.532" y1="8.382" x2="-2.548" y2="8.382" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="8.382" x2="-2.548" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="7.62" x2="-2.548" y2="6.858" width="0.254" layer="94"/>
-<wire x1="2.532" y1="6.858" x2="2.532" y2="8.382" width="0.254" layer="94"/>
-<wire x1="5.08" y1="9.398" x2="-5.08" y2="9.398" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-11.938" x2="-5.08" y2="-11.938" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="9.398" x2="-5.08" y2="5.12" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="5.12" x2="-5.08" y2="2.52" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="2.52" x2="-5.08" y2="0.02" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="0.02" x2="-5.08" y2="-2.58" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-2.58" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-7.58" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-7.58" x2="-5.08" y2="-10.18" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-10.18" x2="-5.08" y2="-11.938" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="9.398" x2="5.08" y2="-11.938" width="0.4064" layer="94"/>
-<wire x1="5.052" y1="7.62" x2="2.52" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="4.358" x2="2.532" y2="4.358" width="0.254" layer="94"/>
-<wire x1="2.532" y1="5.882" x2="-2.548" y2="5.882" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="5.882" x2="-2.548" y2="5.12" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="5.12" x2="-5.08" y2="5.12" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="5.12" x2="-2.548" y2="4.358" width="0.254" layer="94"/>
-<wire x1="2.532" y1="4.358" x2="2.532" y2="5.882" width="0.254" layer="94"/>
-<wire x1="5.052" y1="5.12" x2="2.52" y2="5.12" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="1.758" x2="2.532" y2="1.758" width="0.254" layer="94"/>
-<wire x1="2.532" y1="3.282" x2="-2.548" y2="3.282" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="3.282" x2="-2.548" y2="2.52" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="2.52" x2="-5.08" y2="2.52" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="2.52" x2="-2.548" y2="1.758" width="0.254" layer="94"/>
-<wire x1="2.532" y1="1.758" x2="2.532" y2="3.282" width="0.254" layer="94"/>
-<wire x1="5.052" y1="2.52" x2="2.52" y2="2.52" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="-0.742" x2="2.532" y2="-0.742" width="0.254" layer="94"/>
-<wire x1="2.532" y1="0.782" x2="-2.548" y2="0.782" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="0.782" x2="-2.548" y2="0.02" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="0.02" x2="-5.08" y2="0.02" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="0.02" x2="-2.548" y2="-0.742" width="0.254" layer="94"/>
-<wire x1="2.532" y1="-0.742" x2="2.532" y2="0.782" width="0.254" layer="94"/>
-<wire x1="5.052" y1="0.02" x2="2.52" y2="0.02" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="-3.342" x2="2.532" y2="-3.342" width="0.254" layer="94"/>
-<wire x1="2.532" y1="-1.818" x2="-2.548" y2="-1.818" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="-1.818" x2="-2.548" y2="-2.58" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="-2.58" x2="-5.08" y2="-2.58" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="-2.58" x2="-2.548" y2="-3.342" width="0.254" layer="94"/>
-<wire x1="2.532" y1="-3.342" x2="2.532" y2="-1.818" width="0.254" layer="94"/>
-<wire x1="5.052" y1="-2.58" x2="2.52" y2="-2.58" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="-5.842" x2="2.532" y2="-5.842" width="0.254" layer="94"/>
-<wire x1="2.532" y1="-4.318" x2="-2.548" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="-4.318" x2="-2.548" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="-5.08" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="-5.08" x2="-2.548" y2="-5.842" width="0.254" layer="94"/>
-<wire x1="2.532" y1="-5.842" x2="2.532" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="5.052" y1="-5.08" x2="2.52" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="-8.342" x2="2.532" y2="-8.342" width="0.254" layer="94"/>
-<wire x1="2.532" y1="-6.818" x2="-2.548" y2="-6.818" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="-6.818" x2="-2.548" y2="-7.58" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="-7.58" x2="-5.08" y2="-7.58" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="-7.58" x2="-2.548" y2="-8.342" width="0.254" layer="94"/>
-<wire x1="2.532" y1="-8.342" x2="2.532" y2="-6.818" width="0.254" layer="94"/>
-<wire x1="5.052" y1="-7.58" x2="2.52" y2="-7.58" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="-10.942" x2="2.532" y2="-10.942" width="0.254" layer="94"/>
-<wire x1="2.532" y1="-9.418" x2="-2.548" y2="-9.418" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="-9.418" x2="-2.548" y2="-10.18" width="0.254" layer="94"/>
-<wire x1="-2.548" y1="-10.18" x2="-5.08" y2="-10.18" width="0.1524" layer="94"/>
-<wire x1="-2.548" y1="-10.18" x2="-2.548" y2="-10.942" width="0.254" layer="94"/>
-<wire x1="2.532" y1="-10.942" x2="2.532" y2="-9.418" width="0.254" layer="94"/>
-<wire x1="5.052" y1="-10.18" x2="2.52" y2="-10.18" width="0.1524" layer="94"/>
-<pin name="1" x="-7.62" y="7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="-7.62" y="5.08" visible="pad" length="short" direction="pas" swaplevel="2"/>
-<pin name="3" x="-7.62" y="2.54" visible="pad" length="short" direction="pas" swaplevel="3"/>
-<pin name="4" x="-7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="4"/>
-<pin name="5" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="5"/>
-<pin name="6" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="6"/>
-<pin name="7" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="7"/>
-<pin name="8" x="-7.62" y="-10.16" visible="pad" length="short" direction="pas" swaplevel="8"/>
-<pin name="9" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" swaplevel="8" rot="R180"/>
-<pin name="10" x="7.62" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="7" rot="R180"/>
-<pin name="11" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="6" rot="R180"/>
-<pin name="12" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="5" rot="R180"/>
-<pin name="13" x="7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="4" rot="R180"/>
-<pin name="15" x="7.62" y="5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R180"/>
-<pin name="16" x="7.62" y="7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="C3" x="7.62" y="2.54" visible="pad" length="short" direction="pas" swaplevel="3" rot="R180"/>
-<text x="-4.445" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-14.478" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="741C083">
+<wire x1="-2.548" y1="1.778" x2="2.532" y2="1.778" width="0.254" layer="94"/>
+<wire x1="2.532" y1="3.302" x2="-2.548" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="3.302" x2="-2.548" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="2.54" x2="-2.548" y2="1.778" width="0.254" layer="94"/>
+<wire x1="2.532" y1="1.778" x2="2.532" y2="3.302" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.318" x2="-5.08" y2="4.318" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-6.858" x2="-5.08" y2="-6.858" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="4.318" x2="-5.08" y2="0.04" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="0.04" x2="-5.08" y2="-2.56" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-2.56" x2="-5.08" y2="-5.06" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-5.06" x2="-5.08" y2="-6.858" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="4.318" x2="5.08" y2="-6.858" width="0.4064" layer="94"/>
+<wire x1="5.052" y1="2.54" x2="2.52" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="-0.722" x2="2.532" y2="-0.722" width="0.254" layer="94"/>
+<wire x1="2.532" y1="0.802" x2="-2.548" y2="0.802" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="0.802" x2="-2.548" y2="0.04" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="0.04" x2="-5.08" y2="0.04" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="0.04" x2="-2.548" y2="-0.722" width="0.254" layer="94"/>
+<wire x1="2.532" y1="-0.722" x2="2.532" y2="0.802" width="0.254" layer="94"/>
+<wire x1="5.052" y1="0.04" x2="2.52" y2="0.04" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="-3.322" x2="2.532" y2="-3.322" width="0.254" layer="94"/>
+<wire x1="2.532" y1="-1.798" x2="-2.548" y2="-1.798" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="-1.798" x2="-2.548" y2="-2.56" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="-2.56" x2="-5.08" y2="-2.56" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="-2.56" x2="-2.548" y2="-3.322" width="0.254" layer="94"/>
+<wire x1="2.532" y1="-3.322" x2="2.532" y2="-1.798" width="0.254" layer="94"/>
+<wire x1="5.052" y1="-2.56" x2="2.52" y2="-2.56" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="-5.822" x2="2.532" y2="-5.822" width="0.254" layer="94"/>
+<wire x1="2.532" y1="-4.298" x2="-2.548" y2="-4.298" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="-4.298" x2="-2.548" y2="-5.06" width="0.254" layer="94"/>
+<wire x1="-2.548" y1="-5.06" x2="-5.08" y2="-5.06" width="0.1524" layer="94"/>
+<wire x1="-2.548" y1="-5.06" x2="-2.548" y2="-5.822" width="0.254" layer="94"/>
+<wire x1="2.532" y1="-5.822" x2="2.532" y2="-4.298" width="0.254" layer="94"/>
+<wire x1="5.052" y1="-5.06" x2="2.52" y2="-5.06" width="0.1524" layer="94"/>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="3"/>
+<pin name="4" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="4"/>
+<pin name="13" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="4" rot="R180"/>
+<pin name="15" x="7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="16" x="7.62" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="C3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="3" rot="R180"/>
+<text x="-4.445" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-9.398" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="+1V5">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
@@ -4803,30 +4517,22 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MNR18" prefix="RN">
-<description>8 element chip resistor network</description>
+<deviceset name="741C083" uservalue="yes">
+<description>4 element chip resistor array</description>
 <gates>
-<gate name="G$1" symbol="MNR18" x="0" y="0" swaplevel="8"/>
+<gate name="G$1" symbol="741C083" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MNR18">
+<device name="" package="741C083">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="15" pad="14"/>
-<connect gate="G$1" pin="16" pad="15"/>
+<connect gate="G$1" pin="13" pad="5"/>
+<connect gate="G$1" pin="15" pad="6"/>
+<connect gate="G$1" pin="16" pad="7"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="C3" pad="16"/>
+<connect gate="G$1" pin="C3" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4918,7 +4624,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="U2" library="pandaLight" deviceset="6SLX45" device="CSG324">
 <attribute name="PARTNO" value="XC6SLX45-3CSG324C"/>
 </part>
-<part name="U10" library="pandaLight" deviceset="AS4C128M16D3" device="">
+<part name="U14" library="pandaLight" deviceset="AS4C128M16D3" device="">
 <attribute name="PARTNO" value="AS4C128M16D3-12BCN"/>
 </part>
 <part name="GND51" library="pandaLight" deviceset="GND" device=""/>
@@ -4939,17 +4645,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="R47" library="pandaLight" deviceset="RESISTOR" device="0402" value="1k">
 <attribute name="PARTNO" value="ERJ-2RKF1001X"/>
 </part>
+<part name="C63" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
+</part>
+<part name="C66" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
+</part>
 <part name="C64" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
-<part name="C67" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
-<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
-</part>
-<part name="C65" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
-<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
-</part>
 <part name="GND52" library="pandaLight" deviceset="GND" device=""/>
-<part name="C66" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C65" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="GND53" library="pandaLight" deviceset="GND" device=""/>
@@ -4960,60 +4666,60 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="R45" library="pandaLight" deviceset="RESISTOR" device="0402" value="100">
 <attribute name="PARTNO" value="ERJ-2GEJ101X"/>
 </part>
-<part name="C57" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C56" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
 </part>
-<part name="C58" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
+<part name="C57" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
-<part name="C59" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
+<part name="C58" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
 <part name="GND47" library="pandaLight" deviceset="GND" device=""/>
 <part name="R41" library="pandaLight" deviceset="RESISTOR" device="0402" value="120">
 <attribute name="PARTNO" value="ERJ-2RKF1200X"/>
 </part>
+<part name="C59" library="pandaLight" deviceset="CAPACITOR" device="0402" value="1u">
+<attribute name="PARTNO" value="C1005X5R0J105M050BB"/>
+</part>
 <part name="C60" library="pandaLight" deviceset="CAPACITOR" device="0402" value="1u">
 <attribute name="PARTNO" value="C1005X5R0J105M050BB"/>
 </part>
-<part name="C61" library="pandaLight" deviceset="CAPACITOR" device="0402" value="1u">
-<attribute name="PARTNO" value="C1005X5R0J105M050BB"/>
+<part name="C61" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="C62" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
-<part name="C63" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
-<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
-</part>
 <part name="GND50" library="pandaLight" deviceset="GND" device=""/>
 <part name="GND46" library="pandaLight" deviceset="GND" device=""/>
-<part name="C38" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C37" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
+</part>
+<part name="C38" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
+<attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
 <part name="C39" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
-<part name="C40" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
-<attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
-</part>
 <part name="GND26" library="pandaLight" deviceset="GND" device=""/>
-<part name="C45" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C44" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
+</part>
+<part name="C45" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
+<attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
 <part name="C46" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
-<part name="C47" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
-<attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
-</part>
 <part name="GND33" library="pandaLight" deviceset="GND" device=""/>
-<part name="C51" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C50" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
 </part>
-<part name="C52" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
+<part name="C51" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
-<part name="C53" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
+<part name="C52" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
 <part name="GND38" library="pandaLight" deviceset="GND" device=""/>
@@ -5021,16 +4727,16 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="10029449-111RLF"/>
 </part>
 <part name="GND27" library="pandaLight" deviceset="GND" device=""/>
-<part name="C11" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C10" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
 </part>
-<part name="C12" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
+<part name="C11" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
-<part name="C10" library="pandaLight" deviceset="CAPACITOR" device="1206" value="100u">
+<part name="C9" library="pandaLight" deviceset="CAPACITOR" device="1206" value="100u">
 <attribute name="PARTNO" value="CL31A107MQHNNNE"/>
 </part>
-<part name="C13" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
+<part name="C12" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
 <part name="GND6" library="pandaLight" deviceset="GND" device=""/>
@@ -5047,21 +4753,21 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
 <part name="GND2" library="pandaLight" deviceset="GND" device=""/>
-<part name="C14" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
+<part name="C13" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
-<part name="U6" library="pandaLight" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR">
+<part name="U8" library="pandaLight" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR">
 <attribute name="PARTNO" value="TPD12S016PWR"/>
 </part>
 <part name="PS25" library="pandaLight" deviceset="+5V" device=""/>
 <part name="PS26" library="pandaLight" deviceset="+3V3" device=""/>
-<part name="C43" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
-<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
-</part>
 <part name="C42" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="C41" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
+</part>
+<part name="C40" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="GND29" library="pandaLight" deviceset="GND" device=""/>
@@ -5070,18 +4776,18 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="10029449-111RLF"/>
 </part>
 <part name="GND34" library="pandaLight" deviceset="GND" device=""/>
-<part name="U7" library="pandaLight" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR">
+<part name="U11" library="pandaLight" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR">
 <attribute name="PARTNO" value="TPD12S016PWR"/>
 </part>
 <part name="PS30" library="pandaLight" deviceset="+5V" device=""/>
 <part name="PS31" library="pandaLight" deviceset="+3V3" device=""/>
-<part name="C50" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
-<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
-</part>
 <part name="C49" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="C48" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
+</part>
+<part name="C47" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="GND36" library="pandaLight" deviceset="GND" device=""/>
@@ -5090,27 +4796,27 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="10029449-111RLF"/>
 </part>
 <part name="GND42" library="pandaLight" deviceset="GND" device=""/>
-<part name="U9" library="pandaLight" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR">
+<part name="U13" library="pandaLight" deviceset="TPD12S016" device="PWR" value="TPD12S016PWR">
 <attribute name="PARTNO" value="TPD12S016PWR"/>
 </part>
 <part name="PS36" library="pandaLight" deviceset="+5V" device=""/>
 <part name="PS37" library="pandaLight" deviceset="+3V3" device=""/>
-<part name="C56" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
-<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
-</part>
 <part name="C55" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="C54" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
+<part name="C53" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
+</part>
 <part name="GND44" library="pandaLight" deviceset="GND" device=""/>
 <part name="GND45" library="pandaLight" deviceset="GND" device=""/>
-<part name="RN1" library="pandaLight" deviceset="MNR18" device="">
-<attribute name="PARTNO" value="MNR18ERAPJ510"/>
+<part name="U6" library="pandaLight" deviceset="741C083" device="" value="51">
+<attribute name="PARTNO" value="741C083510JP"/>
 </part>
-<part name="RN2" library="pandaLight" deviceset="MNR18" device="">
-<attribute name="PARTNO" value="MNR18ERAPJ510"/>
+<part name="U9" library="pandaLight" deviceset="741C083" device="" value="51">
+<attribute name="PARTNO" value="741C083510JP"/>
 </part>
 <part name="PS29" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="PS24" library="pandaLight" deviceset="+3V3" device=""/>
@@ -5124,10 +4830,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="Y1" library="pandaLight" deviceset="403" device="">
 <attribute name="PARTNO" value="403C35D12M00000"/>
 </part>
-<part name="C35" library="pandaLight" deviceset="CAPACITOR" device="0402" value="27p">
+<part name="C34" library="pandaLight" deviceset="CAPACITOR" device="0402" value="27p">
 <attribute name="PARTNO" value="CL05C270JB5NNNC"/>
 </part>
-<part name="C36" library="pandaLight" deviceset="CAPACITOR" device="0402" value="27p">
+<part name="C35" library="pandaLight" deviceset="CAPACITOR" device="0402" value="27p">
 <attribute name="PARTNO" value="CL05C270JB5NNNC"/>
 </part>
 <part name="GND19" library="pandaLight" deviceset="GND" device=""/>
@@ -5172,7 +4878,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="R4" library="pandaLight" deviceset="RESISTOR" device="0402" value="51">
 <attribute name="PARTNO" value="ERJ-2RKF51R0X"/>
 </part>
-<part name="C17" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C16" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="GND7" library="pandaLight" deviceset="GND" device=""/>
@@ -5191,7 +4897,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="R6" library="pandaLight" deviceset="RESISTOR" device="0402" value="71.5k">
 <attribute name="PARTNO" value="ERJ-2RKF7152X"/>
 </part>
-<part name="C18" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C17" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
 </part>
 <part name="PS6" library="pandaLight" deviceset="+3V3" device=""/>
@@ -5201,7 +4907,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="R11" library="pandaLight" deviceset="RESISTOR" device="0402" value="221k">
 <attribute name="PARTNO" value="ERJ-2RKF2213X"/>
 </part>
-<part name="C19" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C18" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
 </part>
 <part name="PS7" library="pandaLight" deviceset="+1V5" device=""/>
@@ -5211,7 +4917,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="R15" library="pandaLight" deviceset="RESISTOR" device="0402" value="294k">
 <attribute name="PARTNO" value="ERJ-2RKF2943X"/>
 </part>
-<part name="C20" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C19" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
 </part>
 <part name="PS11" library="pandaLight" deviceset="+1V2" device=""/>
@@ -5246,37 +4952,37 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="FB2" library="pandaLight" deviceset="FERRITE" device="0402" value="1A">
 <attribute name="PARTNO" value="BK1005HS100-T"/>
 </part>
-<part name="C31" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C30" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
 </part>
-<part name="C32" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C31" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
-<part name="C30" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C29" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
-<part name="C29" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C28" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
 </part>
 <part name="GND13" library="pandaLight" deviceset="GND" device=""/>
 <part name="PS14" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="PS16" library="pandaLight" deviceset="+3V3" device=""/>
-<part name="C33" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C32" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
 </part>
 <part name="GND14" library="pandaLight" deviceset="GND" device=""/>
-<part name="C21" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C20" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
-<part name="C22" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C21" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="PS15" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="GND11" library="pandaLight" deviceset="GND" device=""/>
-<part name="C25" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
+<part name="C24" library="pandaLight" deviceset="CAPACITOR" device="0603" value="4.7u">
 <attribute name="PARTNO" value="C0603C475K9PACTU"/>
 </part>
-<part name="C26" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C25" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="R36" library="pandaLight" deviceset="RESISTOR" device="0402" value="1k">
@@ -5285,7 +4991,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="R37" library="pandaLight" deviceset="RESISTOR" device="0402" value="4.7k">
 <attribute name="PARTNO" value="ERJ-2RKF4701X"/>
 </part>
-<part name="GND40" library="pandaLight" deviceset="GND" device=""/>
+<part name="GND41" library="pandaLight" deviceset="GND" device=""/>
 <part name="GND15" library="pandaLight" deviceset="GND" device=""/>
 <part name="R27" library="pandaLight" deviceset="RESISTOR" device="0402" value="1k">
 <attribute name="PARTNO" value="ERJ-2RKF1001X"/>
@@ -5316,7 +5022,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </part>
 <part name="GND43" library="pandaLight" deviceset="GND" device=""/>
 <part name="PS33" library="pandaLight" deviceset="+3V3" device=""/>
-<part name="U8" library="pandaLight" deviceset="N25Q128A" device="F8">
+<part name="U12" library="pandaLight" deviceset="N25Q128A" device="F8">
 <attribute name="PARTNO" value="N25Q128A13EF840E"/>
 </part>
 <part name="GND39" library="pandaLight" deviceset="GND" device=""/>
@@ -5337,7 +5043,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="R38" library="pandaLight" deviceset="RESISTOR" device="0402" value="100">
 <attribute name="PARTNO" value="ERJ-2GEJ101X"/>
 </part>
-<part name="GND41" library="pandaLight" deviceset="GND" device=""/>
+<part name="GND40" library="pandaLight" deviceset="GND" device=""/>
 <part name="R1" library="pandaLight" deviceset="RESISTOR" device="0402" value="1k">
 <attribute name="PARTNO" value="ERJ-2RKF1001X"/>
 </part>
@@ -5370,7 +5076,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="ERJ-2RKF1002X"/>
 </part>
 <part name="PS21" library="pandaLight" deviceset="+3V3" device=""/>
-<part name="C34" library="pandaLight" deviceset="CAPACITOR" device="1206" value="100u">
+<part name="C33" library="pandaLight" deviceset="CAPACITOR" device="1206" value="100u">
 <attribute name="PARTNO" value="CL31A107MQHNNNE"/>
 </part>
 <part name="GND18" library="pandaLight" deviceset="GND" device=""/>
@@ -5379,7 +5085,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </part>
 <part name="GND30" library="pandaLight" deviceset="GND" device=""/>
 <part name="PS27" library="pandaLight" deviceset="+3V3" device=""/>
-<part name="C44" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C43" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="GND32" library="pandaLight" deviceset="GND" device=""/>
@@ -5398,12 +5104,12 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="*"/>
 </part>
-<part name="U11" library="pandaLight" deviceset="PMOD-2X6" device="">
+<part name="U15" library="pandaLight" deviceset="PMOD-2X6" device="">
 <attribute name="PARTNO" value="PPTC062LJBN-RC"/>
 </part>
 <part name="GND55" library="pandaLight" deviceset="GND" device=""/>
 <part name="GND56" library="pandaLight" deviceset="GND" device=""/>
-<part name="U12" library="pandaLight" deviceset="PMOD-2X6" device="">
+<part name="U16" library="pandaLight" deviceset="PMOD-2X6" device="">
 <attribute name="PARTNO" value="PPTC062LJBN-RC"/>
 </part>
 <part name="JP3" library="pandaLight" deviceset="JP2E" device="" value="PMOD2-3_VCC_SEL">
@@ -5420,13 +5126,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </part>
 <part name="PS42" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="PS43" library="pandaLight" deviceset="+5V" device=""/>
-<part name="U14" library="pandaLight" deviceset="PLT133-T10W" device="">
+<part name="U18" library="pandaLight" deviceset="PLT133-T10W" device="">
 <attribute name="PARTNO" value="PLT133/T10W"/>
 </part>
-<part name="U15" library="pandaLight" deviceset="PLR135-T10" device="">
+<part name="U19" library="pandaLight" deviceset="PLR135-T10" device="">
 <attribute name="PARTNO" value="PLR135/T10"/>
 </part>
-<part name="U13" library="pandaLight" deviceset="PLR135-T10" device="">
+<part name="U17" library="pandaLight" deviceset="PLR135-T10" device="">
 <attribute name="PARTNO" value="PLR135/T10"/>
 </part>
 <part name="GND61" library="pandaLight" deviceset="GND" device=""/>
@@ -5435,13 +5141,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="PS46" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="PS47" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="PS48" library="pandaLight" deviceset="+3V3" device=""/>
-<part name="C68" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
-<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
-</part>
-<part name="C70" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C67" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="C69" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
+</part>
+<part name="C68" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="L4" library="pandaLight" deviceset="INDUCTOR" device="0603" value="47u">
@@ -5457,15 +5163,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="C6" library="pandaLight" deviceset="CAPACITOR" device="1206" value="100u">
 <attribute name="PARTNO" value="CL31A107MQHNNNE"/>
 </part>
-<part name="U18" library="pandaLight" deviceset="PAN1322" device="">
+<part name="U22" library="pandaLight" deviceset="PAN1322" device="">
 <attribute name="PARTNO" value="ENW-89841A3KF"/>
 </part>
 <part name="PS50" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="GND64" library="pandaLight" deviceset="GND" device=""/>
-<part name="C71" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C70" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
-<part name="C72" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C71" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="GND62" library="pandaLight" deviceset="GND" device=""/>
@@ -5478,34 +5184,34 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" value="ERJ-2RKF1002X"/>
 </part>
 <part name="PS49" library="pandaLight" deviceset="+3V3" device=""/>
+<part name="C26" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
+</part>
 <part name="C27" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
-<part name="C28" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C22" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="C23" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
-<part name="C24" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
-<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
-</part>
-<part name="C37" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<part name="C36" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="GND23" library="pandaLight" deviceset="GND" device=""/>
-<part name="U16" library="pandaLight" deviceset="TP" device="10SQ">
+<part name="U20" library="pandaLight" deviceset="TP" device="10SQ">
 <attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="*"/>
 </part>
-<part name="U17" library="pandaLight" deviceset="TP" device="10SQ">
+<part name="U21" library="pandaLight" deviceset="TP" device="10SQ">
 <attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="*"/>
-</part>
-<part name="C16" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
-<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="C15" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
+</part>
+<part name="C14" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
 <attribute name="PARTNO" value="CL05B104KP5NNNC"/>
 </part>
 <part name="R3" library="pandaLight" deviceset="RESISTOR" device="0402" value="51">
@@ -5513,6 +5219,12 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </part>
 <part name="R2" library="pandaLight" deviceset="RESISTOR" device="0402" value="51">
 <attribute name="PARTNO" value="ERJ-2RKF51R0X"/>
+</part>
+<part name="U7" library="pandaLight" deviceset="741C083" device="" value="51">
+<attribute name="PARTNO" value="741C083510JP"/>
+</part>
+<part name="U10" library="pandaLight" deviceset="741C083" device="" value="51">
+<attribute name="PARTNO" value="741C083510JP"/>
 </part>
 </parts>
 <sheets>
@@ -5533,16 +5245,16 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </instance>
 <instance part="U2" gate="BVCCAUX" x="226.06" y="73.66"/>
 <instance part="U2" gate="BVCCINT" x="226.06" y="127"/>
-<instance part="C11" gate="G$1" x="254" y="81.28">
+<instance part="C10" gate="G$1" x="254" y="81.28">
 <attribute name="PARTNO" x="254" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C12" gate="G$1" x="264.16" y="81.28">
+<instance part="C11" gate="G$1" x="264.16" y="81.28">
 <attribute name="PARTNO" x="264.16" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C10" gate="G$1" x="243.84" y="81.28">
+<instance part="C9" gate="G$1" x="243.84" y="81.28">
 <attribute name="PARTNO" x="243.84" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C13" gate="G$1" x="274.32" y="81.28">
+<instance part="C12" gate="G$1" x="274.32" y="81.28">
 <attribute name="DIGIKEY_PARTNO" x="274.32" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="274.32" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
@@ -5560,7 +5272,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" x="274.32" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="274.32" y="121.92"/>
-<instance part="C14" gate="G$1" x="284.48" y="81.28">
+<instance part="C13" gate="G$1" x="284.48" y="81.28">
 <attribute name="PARTNO" x="284.48" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U1" gate="G$1" x="99.06" y="50.8">
@@ -5577,7 +5289,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="R4" gate="G$1" x="33.02" y="91.44" rot="R90">
 <attribute name="PARTNO" x="33.02" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C17" gate="G$1" x="33.02" y="78.74">
+<instance part="C16" gate="G$1" x="33.02" y="78.74">
 <attribute name="PARTNO" x="33.02" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="7.62" y="66.04"/>
@@ -5596,7 +5308,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="R6" gate="G$1" x="152.4" y="63.5">
 <attribute name="PARTNO" x="152.4" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C18" gate="G$1" x="160.02" y="73.66">
+<instance part="C17" gate="G$1" x="160.02" y="73.66">
 <attribute name="PARTNO" x="160.02" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PS6" gate="G$1" x="185.42" y="86.36"/>
@@ -5606,7 +5318,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="R11" gate="G$1" x="152.4" y="40.64">
 <attribute name="PARTNO" x="152.4" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C19" gate="G$1" x="160.02" y="50.8">
+<instance part="C18" gate="G$1" x="160.02" y="50.8">
 <attribute name="PARTNO" x="160.02" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PS7" gate="G$1" x="185.42" y="63.5"/>
@@ -5616,7 +5328,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="R15" gate="G$1" x="152.4" y="17.78">
 <attribute name="PARTNO" x="152.4" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C20" gate="G$1" x="160.02" y="27.94">
+<instance part="C19" gate="G$1" x="160.02" y="27.94">
 <attribute name="PARTNO" x="160.02" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PS11" gate="G$1" x="185.42" y="40.64"/>
@@ -5674,10 +5386,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="C6" gate="G$1" x="154.94" y="124.46">
 <attribute name="PARTNO" x="154.94" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C16" gate="G$1" x="20.32" y="78.74">
+<instance part="C15" gate="G$1" x="20.32" y="78.74">
 <attribute name="PARTNO" x="20.32" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C15" gate="G$1" x="7.62" y="78.74">
+<instance part="C14" gate="G$1" x="7.62" y="78.74">
 <attribute name="PARTNO" x="7.62" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="20.32" y="91.44" rot="R90">
@@ -5863,10 +5575,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="274.32" y1="124.46" x2="274.32" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="73.66" x2="264.16" y2="76.2" width="0.1524" layer="91"/>
 <junction x="264.16" y="73.66"/>
 <wire x1="264.16" y1="73.66" x2="274.32" y2="73.66" width="0.1524" layer="91"/>
@@ -5879,7 +5591,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="243.84" y1="73.66" x2="254" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="73.66" x2="243.84" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="73.66" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="284.48" y1="73.66" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="284.48" y1="71.12" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
@@ -5888,7 +5600,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="63.5" x2="160.02" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="63.5" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="63.5" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
@@ -5896,7 +5608,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="40.64" x2="160.02" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="40.64" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="40.64" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
 <junction x="160.02" y="40.64"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
@@ -5906,7 +5618,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="172.72" y1="17.78" x2="172.72" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="17.78" x2="160.02" y2="17.78" width="0.1524" layer="91"/>
 <junction x="172.72" y="17.78"/>
-<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="17.78" x2="172.72" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="22.86" x2="160.02" y2="17.78" width="0.1524" layer="91"/>
 <junction x="160.02" y="17.78"/>
@@ -5967,15 +5679,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <junction x="154.94" y="111.76"/>
 </segment>
 <segment>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="7.62" y1="73.66" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="71.12" x2="7.62" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="71.12" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="71.12" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
 <junction x="7.62" y="71.12"/>
-<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="71.12" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="71.12" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 <junction x="20.32" y="71.12"/>
@@ -6041,22 +5753,22 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="U2" gate="BVCCAUX" pin="VCCAUX@8"/>
 <pinref part="U2" gate="BVCCAUX" pin="VCCAUX@9"/>
 <pinref part="U2" gate="BVCCAUX" pin="VCCAUX@10"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="86.36" x2="284.48" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="284.48" y1="86.36" x2="284.48" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="83.82" x2="274.32" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="86.36" x2="284.48" y2="86.36" width="0.1524" layer="91"/>
 <junction x="274.32" y="86.36"/>
 <wire x1="264.16" y1="86.36" x2="274.32" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="83.82" x2="264.16" y2="86.36" width="0.1524" layer="91"/>
 <junction x="264.16" y="86.36"/>
 <wire x1="254" y1="86.36" x2="264.16" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="254" y1="83.82" x2="254" y2="86.36" width="0.1524" layer="91"/>
 <junction x="254" y="86.36"/>
 <wire x1="254" y1="86.36" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="83.82" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="86.36" x2="236.22" y2="86.36" width="0.1524" layer="91"/>
 <junction x="243.84" y="86.36"/>
@@ -6073,7 +5785,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <junction x="134.62" y="78.74"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="78.74" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="78.74" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="78.74" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
 <junction x="142.24" y="78.74"/>
@@ -6171,7 +5883,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="134.62" y1="33.02" x2="142.24" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="33.02" x2="142.24" y2="30.48" width="0.1524" layer="91"/>
 <junction x="134.62" y="33.02"/>
-<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="33.02" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="33.02" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
 <junction x="142.24" y="33.02"/>
@@ -6249,7 +5961,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="134.62" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="55.88" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
 <junction x="134.62" y="55.88"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="55.88" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="55.88" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
 <junction x="142.24" y="55.88"/>
@@ -6434,7 +6146,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="81.28" y1="66.04" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="66.04" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="83.82" x2="7.62" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="83.82" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
@@ -6447,7 +6159,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="81.28" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="71.12" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="83.82" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="83.82" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="83.82" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
 <junction x="33.02" y="83.82"/>
@@ -6460,7 +6172,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="81.28" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="68.58" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="83.82" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="83.82" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
@@ -6484,10 +6196,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="Y1" gate="G$1" x="172.72" y="119.38">
 <attribute name="PARTNO" x="172.72" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C35" gate="G$1" x="157.48" y="104.14">
+<instance part="C34" gate="G$1" x="157.48" y="104.14">
 <attribute name="PARTNO" x="157.48" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C36" gate="G$1" x="193.04" y="104.14">
+<instance part="C35" gate="G$1" x="193.04" y="104.14">
 <attribute name="PARTNO" x="193.04" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="147.32" y="99.06"/>
@@ -6525,37 +6237,37 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="FB2" gate="G$3" x="129.54" y="165.1">
 <attribute name="PARTNO" x="129.54" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C31" gate="G$1" x="172.72" y="157.48">
+<instance part="C30" gate="G$1" x="172.72" y="157.48">
 <attribute name="PARTNO" x="172.72" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C32" gate="G$1" x="182.88" y="157.48">
+<instance part="C31" gate="G$1" x="182.88" y="157.48">
 <attribute name="PARTNO" x="182.88" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C30" gate="G$1" x="160.02" y="157.48">
+<instance part="C29" gate="G$1" x="160.02" y="157.48">
 <attribute name="PARTNO" x="160.02" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C29" gate="G$1" x="149.86" y="157.48">
+<instance part="C28" gate="G$1" x="149.86" y="157.48">
 <attribute name="PARTNO" x="149.86" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="149.86" y="144.78"/>
 <instance part="PS14" gate="G$1" x="119.38" y="182.88"/>
 <instance part="PS16" gate="G$1" x="198.12" y="152.4"/>
-<instance part="C33" gate="G$1" x="187.96" y="139.7">
+<instance part="C32" gate="G$1" x="187.96" y="139.7">
 <attribute name="PARTNO" x="187.96" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="187.96" y="129.54"/>
-<instance part="C21" gate="G$1" x="261.62" y="162.56">
+<instance part="C20" gate="G$1" x="261.62" y="162.56">
 <attribute name="PARTNO" x="261.62" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C22" gate="G$1" x="271.78" y="162.56">
+<instance part="C21" gate="G$1" x="271.78" y="162.56">
 <attribute name="PARTNO" x="271.78" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PS15" gate="G$1" x="243.84" y="154.94"/>
 <instance part="GND11" gate="1" x="261.62" y="149.86"/>
-<instance part="C25" gate="G$1" x="307.34" y="162.56">
+<instance part="C24" gate="G$1" x="307.34" y="162.56">
 <attribute name="PARTNO" x="307.34" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C26" gate="G$1" x="317.5" y="162.56">
+<instance part="C25" gate="G$1" x="317.5" y="162.56">
 <attribute name="PARTNO" x="317.5" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="340.36" y="111.76"/>
@@ -6579,7 +6291,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" x="312.42" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PS21" gate="G$1" x="312.42" y="63.5"/>
-<instance part="C34" gate="G$1" x="50.8" y="114.3">
+<instance part="C33" gate="G$1" x="50.8" y="114.3">
 <attribute name="PARTNO" x="50.8" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND18" gate="1" x="50.8" y="104.14"/>
@@ -6589,19 +6301,19 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </instance>
 <instance part="PS18" gate="G$1" x="325.12" y="111.76"/>
 <instance part="GND20" gate="1" x="317.5" y="99.06"/>
-<instance part="C27" gate="G$1" x="327.66" y="162.56">
+<instance part="C26" gate="G$1" x="327.66" y="162.56">
 <attribute name="PARTNO" x="327.66" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C28" gate="G$1" x="337.82" y="162.56">
+<instance part="C27" gate="G$1" x="337.82" y="162.56">
 <attribute name="PARTNO" x="337.82" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C23" gate="G$1" x="281.94" y="162.56">
+<instance part="C22" gate="G$1" x="281.94" y="162.56">
 <attribute name="PARTNO" x="281.94" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C24" gate="G$1" x="292.1" y="162.56">
+<instance part="C23" gate="G$1" x="292.1" y="162.56">
 <attribute name="PARTNO" x="292.1" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C37" gate="G$1" x="124.46" y="43.18">
+<instance part="C36" gate="G$1" x="124.46" y="43.18">
 <attribute name="PARTNO" x="124.46" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="124.46" y="33.02"/>
@@ -6664,13 +6376,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="Y1" gate="G$1" pin="GND@4"/>
 <wire x1="147.32" y1="104.14" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="C35" gate="G$1" pin="2"/>
+<pinref part="C34" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="99.06" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="96.52" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
 <junction x="147.32" y="104.14"/>
-<pinref part="C36" gate="G$1" pin="2"/>
+<pinref part="C35" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="99.06" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
 <junction x="157.48" y="96.52"/>
@@ -6704,50 +6416,50 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="172.72" y1="149.86" x2="160.02" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="149.86" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="152.4" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
 <junction x="149.86" y="149.86"/>
-<pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="152.4" x2="160.02" y2="149.86" width="0.1524" layer="91"/>
 <junction x="160.02" y="149.86"/>
-<pinref part="C32" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="149.86" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="C31" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="149.86" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="C30" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="152.4" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
 <junction x="172.72" y="149.86"/>
 </segment>
 <segment>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="157.48" x2="271.78" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="154.94" x2="261.62" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="261.62" y1="154.94" x2="261.62" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="157.48" x2="261.62" y2="154.94" width="0.1524" layer="91"/>
 <junction x="261.62" y="154.94"/>
-<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="154.94" x2="281.94" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="154.94" x2="281.94" y2="157.48" width="0.1524" layer="91"/>
 <junction x="271.78" y="154.94"/>
-<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="281.94" y1="154.94" x2="292.1" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="154.94" x2="292.1" y2="157.48" width="0.1524" layer="91"/>
 <junction x="281.94" y="154.94"/>
 </segment>
 <segment>
-<pinref part="C25" gate="G$1" pin="2"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="307.34" y1="157.48" x2="307.34" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="317.5" y1="157.48" x2="317.5" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="154.94" x2="307.34" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="307.34" y1="152.4" x2="307.34" y2="154.94" width="0.1524" layer="91"/>
 <junction x="307.34" y="154.94"/>
-<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="317.5" y1="154.94" x2="327.66" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="154.94" x2="327.66" y2="157.48" width="0.1524" layer="91"/>
 <junction x="317.5" y="154.94"/>
-<pinref part="C28" gate="G$1" pin="2"/>
+<pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="154.94" x2="337.82" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="154.94" x2="337.82" y2="157.48" width="0.1524" layer="91"/>
 <junction x="327.66" y="154.94"/>
@@ -6769,7 +6481,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="C34" gate="G$1" pin="2"/>
+<pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="106.68" x2="50.8" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6786,13 +6498,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="340.36" y1="116.84" x2="342.9" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C33" gate="G$1" pin="2"/>
+<pinref part="C32" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="187.96" y1="134.62" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="C37" gate="G$1" pin="2"/>
+<pinref part="C36" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="35.56" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6802,7 +6514,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="142.24" y1="33.02" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="33.02" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="PS22" gate="G$1" pin="+3V3"/>
-<pinref part="C37" gate="G$1" pin="1"/>
+<pinref part="C36" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="43.18" x2="139.7" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="45.72" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="48.26" x2="132.08" y2="48.26" width="0.1524" layer="91"/>
@@ -6845,7 +6557,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="205.74" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="137.16" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="PS16" gate="G$1" pin="+3V3"/>
-<pinref part="C33" gate="G$1" pin="1"/>
+<pinref part="C32" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="144.78" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="142.24" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="144.78" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
@@ -6871,17 +6583,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="251.46" y1="147.32" x2="251.46" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="167.64" x2="261.62" y2="167.64" width="0.1524" layer="91"/>
 <junction x="251.46" y="147.32"/>
-<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="167.64" x2="261.62" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="167.64" x2="271.78" y2="167.64" width="0.1524" layer="91"/>
 <junction x="261.62" y="167.64"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="271.78" y1="167.64" x2="271.78" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="271.78" y1="167.64" x2="281.94" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="167.64" x2="281.94" y2="165.1" width="0.1524" layer="91"/>
 <junction x="271.78" y="167.64"/>
-<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="167.64" x2="292.1" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="167.64" x2="292.1" y2="165.1" width="0.1524" layer="91"/>
 <junction x="281.94" y="167.64"/>
@@ -6909,7 +6621,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="U4" gate="G$1" pin="XTIN"/>
 <pinref part="Y1" gate="G$1" pin="OUT"/>
 <wire x1="205.74" y1="121.92" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="C36" gate="G$1" pin="1"/>
+<pinref part="C35" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="121.92" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
 <junction x="193.04" y="121.92"/>
@@ -7014,12 +6726,12 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="FB2" gate="G$3" pin="2"/>
 <wire x1="223.52" y1="144.78" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="165.1" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C32" gate="G$1" pin="1"/>
+<pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="165.1" x2="137.16" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="160.02" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
 <junction x="182.88" y="165.1"/>
-<pinref part="C31" gate="G$1" pin="1"/>
+<pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="160.02" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
 <junction x="172.72" y="165.1"/>
 </segment>
@@ -7030,12 +6742,12 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="FB1" gate="G$3" pin="2"/>
 <wire x1="226.06" y1="144.78" x2="226.06" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="175.26" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="C30" gate="G$1" pin="1"/>
+<pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="175.26" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="175.26" x2="137.16" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="160.02" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
 <junction x="160.02" y="175.26"/>
-<pinref part="C29" gate="G$1" pin="1"/>
+<pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="160.02" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
 <junction x="149.86" y="175.26"/>
 </segment>
@@ -7059,18 +6771,18 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="236.22" y1="147.32" x2="236.22" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="170.18" x2="307.34" y2="170.18" width="0.1524" layer="91"/>
 <junction x="236.22" y="147.32"/>
-<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="170.18" x2="307.34" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="170.18" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="170.18" x2="317.5" y2="165.1" width="0.1524" layer="91"/>
 <junction x="307.34" y="170.18"/>
 <label x="238.76" y="170.18" size="1.778" layer="95"/>
-<pinref part="C27" gate="G$1" pin="1"/>
+<pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="170.18" x2="327.66" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="170.18" x2="327.66" y2="165.1" width="0.1524" layer="91"/>
 <junction x="317.5" y="170.18"/>
-<pinref part="C28" gate="G$1" pin="1"/>
+<pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="170.18" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="170.18" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
 <junction x="327.66" y="170.18"/>
@@ -7168,7 +6880,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <junction x="73.66" y="119.38"/>
 <pinref part="U3" gate="G$1" pin="VBUS@10"/>
 <wire x1="73.66" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C34" gate="G$1" pin="1"/>
+<pinref part="C33" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="116.84" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
 <junction x="50.8" y="119.38"/>
 <wire x1="27.94" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
@@ -7302,7 +7014,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="157.48" y1="109.22" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="IN"/>
 <wire x1="157.48" y1="116.84" x2="160.02" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C35" gate="G$1" pin="1"/>
+<pinref part="C34" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="109.22" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
 <junction x="157.48" y="109.22"/>
 </segment>
@@ -7330,40 +7042,40 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instances>
 <instance part="PS23" gate="G$1" x="33.02" y="152.4"/>
 <instance part="U2" gate="B0" x="22.86" y="78.74"/>
-<instance part="C38" gate="G$1" x="50.8" y="142.24">
+<instance part="C37" gate="G$1" x="50.8" y="142.24">
 <attribute name="PARTNO" x="50.8" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C39" gate="G$1" x="60.96" y="142.24">
+<instance part="C38" gate="G$1" x="60.96" y="142.24">
 <attribute name="PARTNO" x="60.96" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C40" gate="G$1" x="71.12" y="142.24">
+<instance part="C39" gate="G$1" x="71.12" y="142.24">
 <attribute name="PARTNO" x="71.12" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND26" gate="1" x="71.12" y="129.54"/>
-<instance part="X2" gate="G$1" x="266.7" y="68.58">
-<attribute name="PARTNO" x="266.7" y="68.58" size="1.778" layer="96" display="off"/>
+<instance part="X2" gate="G$1" x="276.86" y="68.58">
+<attribute name="PARTNO" x="276.86" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND27" gate="1" x="246.38" y="43.18"/>
-<instance part="U6" gate="G$1" x="152.4" y="66.04">
+<instance part="GND27" gate="1" x="256.54" y="43.18"/>
+<instance part="U8" gate="G$1" x="152.4" y="66.04">
 <attribute name="PARTNO" x="152.4" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PS25" gate="1" x="106.68" y="43.18"/>
 <instance part="PS26" gate="G$1" x="119.38" y="43.18"/>
-<instance part="C43" gate="G$1" x="119.38" y="33.02">
+<instance part="C42" gate="G$1" x="119.38" y="33.02">
 <attribute name="PARTNO" x="119.38" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C42" gate="G$1" x="106.68" y="33.02">
+<instance part="C41" gate="G$1" x="106.68" y="33.02">
 <attribute name="PARTNO" x="106.68" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C41" gate="G$1" x="193.04" y="43.18">
+<instance part="C40" gate="G$1" x="193.04" y="43.18">
 <attribute name="PARTNO" x="193.04" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="193.04" y="33.02"/>
 <instance part="GND31" gate="1" x="132.08" y="20.32"/>
-<instance part="RN1" gate="G$1" x="205.74" y="114.3" rot="R90">
-<attribute name="PARTNO" x="205.74" y="114.3" size="1.778" layer="96" display="off"/>
+<instance part="U6" gate="G$1" x="203.2" y="111.76" rot="MR90">
+<attribute name="PARTNO" x="203.2" y="111.76" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="PS24" gate="G$1" x="198.12" y="129.54"/>
+<instance part="PS24" gate="G$1" x="198.12" y="127"/>
 <instance part="R27" gate="G$1" x="40.64" y="134.62" rot="R90">
 <attribute name="PARTNO" x="40.64" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
@@ -7371,18 +7083,21 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" x="93.98" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND28" gate="1" x="93.98" y="40.64"/>
-<instance part="R29" gate="G$1" x="236.22" y="48.26">
-<attribute name="PARTNO" x="236.22" y="48.26" size="1.778" layer="96" display="off"/>
+<instance part="R29" gate="G$1" x="246.38" y="48.26">
+<attribute name="PARTNO" x="246.38" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Y2" gate="G$1" x="71.12" y="30.48">
 <attribute name="PARTNO" x="71.12" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="86.36" y="22.86"/>
 <instance part="PS27" gate="G$1" x="55.88" y="40.64"/>
-<instance part="C44" gate="G$1" x="55.88" y="20.32">
+<instance part="C43" gate="G$1" x="55.88" y="20.32">
 <attribute name="PARTNO" x="55.88" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND32" gate="1" x="55.88" y="10.16"/>
+<instance part="U7" gate="G$1" x="220.98" y="111.76" rot="MR90">
+<attribute name="PARTNO" x="220.98" y="111.76" size="1.778" layer="96" rot="MR90" display="off"/>
+</instance>
 </instances>
 <busses>
 <bus name="PMOD0_[0..3],PMOD1_[0..3],PMOD2_[0..3],PMOD3_[0..3]">
@@ -7394,9 +7109,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C38" gate="G$1" pin="2"/>
-<pinref part="C40" gate="G$1" pin="2"/>
+<pinref part="C37" gate="G$1" pin="2"/>
 <pinref part="C39" gate="G$1" pin="2"/>
+<pinref part="C38" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="134.62" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
 <junction x="60.96" y="134.62"/>
 <wire x1="60.96" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
@@ -7411,53 +7126,53 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="TMDS_DATA2_SHIELD"/>
-<wire x1="248.92" y1="91.44" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="91.44" x2="246.38" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="83.82" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="76.2" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="68.58" x2="246.38" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="60.96" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="53.34" x2="246.38" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="91.44" x2="256.54" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="91.44" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="83.82" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="76.2" x2="256.54" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="68.58" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="60.96" x2="256.54" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="53.34" x2="256.54" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="TMDS_DATA1_SHIELD"/>
-<wire x1="248.92" y1="83.82" x2="246.38" y2="83.82" width="0.1524" layer="91"/>
-<junction x="246.38" y="83.82"/>
+<wire x1="259.08" y1="83.82" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
+<junction x="256.54" y="83.82"/>
 <pinref part="X2" gate="G$1" pin="TMDS_DATA0_SHIELD"/>
-<wire x1="248.92" y1="76.2" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
-<junction x="246.38" y="76.2"/>
+<wire x1="259.08" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
+<junction x="256.54" y="76.2"/>
 <pinref part="X2" gate="G$1" pin="TMDS_CLK_SHIELD"/>
-<wire x1="248.92" y1="68.58" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
-<junction x="246.38" y="68.58"/>
+<wire x1="259.08" y1="68.58" x2="256.54" y2="68.58" width="0.1524" layer="91"/>
+<junction x="256.54" y="68.58"/>
 <pinref part="X2" gate="G$1" pin="DDC/CDC/HEAC_GND"/>
-<wire x1="248.92" y1="53.34" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
-<junction x="246.38" y="53.34"/>
+<wire x1="259.08" y1="53.34" x2="256.54" y2="53.34" width="0.1524" layer="91"/>
+<junction x="256.54" y="53.34"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <pinref part="X2" gate="G$1" pin="RESERVED/HEAC_P"/>
-<wire x1="248.92" y1="60.96" x2="246.38" y2="60.96" width="0.1524" layer="91"/>
-<junction x="246.38" y="60.96"/>
+<wire x1="259.08" y1="60.96" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
+<junction x="256.54" y="60.96"/>
 </segment>
 <segment>
 <pinref part="GND29" gate="1" pin="GND"/>
-<pinref part="C41" gate="G$1" pin="2"/>
+<pinref part="C40" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="35.56" x2="193.04" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="GND@0"/>
+<pinref part="U8" gate="G$1" pin="GND@0"/>
 <wire x1="134.62" y1="40.64" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="40.64" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="38.1" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="GND@2"/>
+<pinref part="U8" gate="G$1" pin="GND@2"/>
 <wire x1="132.08" y1="22.86" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="25.4" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="35.56" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="GND@1"/>
+<pinref part="U8" gate="G$1" pin="GND@1"/>
 <wire x1="134.62" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
 <junction x="132.08" y="38.1"/>
 <junction x="132.08" y="35.56"/>
 <pinref part="GND31" gate="1" pin="GND"/>
-<pinref part="C42" gate="G$1" pin="2"/>
+<pinref part="C41" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="27.94" x2="106.68" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C43" gate="G$1" pin="2"/>
+<pinref part="C42" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="27.94" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
 <junction x="119.38" y="25.4"/>
@@ -7475,7 +7190,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C44" gate="G$1" pin="2"/>
+<pinref part="C43" gate="G$1" pin="2"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="55.88" y1="15.24" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 </segment>
@@ -7483,15 +7198,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_DATA2_P" class="2">
 <segment>
 <pinref part="X2" gate="G$1" pin="TMDS_DATA2_P"/>
-<label x="220.98" y="93.98" size="1.778" layer="95"/>
-<wire x1="248.92" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="93.98" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
+<label x="231.14" y="93.98" size="1.778" layer="95"/>
+<wire x1="259.08" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="4"/>
 <wire x1="198.12" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="104.14" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
 <junction x="198.12" y="93.98"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="D2+"/>
+<pinref part="U8" gate="G$1" pin="D2+"/>
 <wire x1="134.62" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
 <label x="106.68" y="93.98" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L4P_0"/>
@@ -7503,15 +7218,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_DATA2_N" class="2">
 <segment>
 <pinref part="X2" gate="G$1" pin="TMDS_DATA2_N"/>
-<wire x1="248.92" y1="88.9" x2="200.66" y2="88.9" width="0.1524" layer="91"/>
-<label x="220.98" y="88.9" size="1.778" layer="95"/>
-<pinref part="RN1" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="88.9" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="88.9" x2="200.66" y2="88.9" width="0.1524" layer="91"/>
+<label x="231.14" y="88.9" size="1.778" layer="95"/>
+<pinref part="U6" gate="G$1" pin="3"/>
 <wire x1="200.66" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="104.14" x2="200.66" y2="88.9" width="0.1524" layer="91"/>
 <junction x="200.66" y="88.9"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="D2-"/>
+<pinref part="U8" gate="G$1" pin="D2-"/>
 <wire x1="134.62" y1="91.44" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
 <label x="106.68" y="91.44" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L4N_0"/>
@@ -7523,15 +7238,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_DATA1_P" class="2">
 <segment>
 <pinref part="X2" gate="G$1" pin="TMDS_DATA1_P"/>
-<wire x1="248.92" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
-<label x="220.98" y="86.36" size="1.778" layer="95"/>
-<pinref part="RN1" gate="G$1" pin="3"/>
-<wire x1="203.2" y1="86.36" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
+<label x="231.14" y="86.36" size="1.778" layer="95"/>
+<pinref part="U6" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="104.14" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 <junction x="203.2" y="86.36"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="D1+"/>
+<pinref part="U8" gate="G$1" pin="D1+"/>
 <wire x1="134.62" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 <label x="106.68" y="88.9" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L5P_0"/>
@@ -7543,15 +7258,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_DATA1_N" class="2">
 <segment>
 <pinref part="X2" gate="G$1" pin="TMDS_DATA1_N"/>
-<wire x1="248.92" y1="81.28" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
-<label x="220.98" y="81.28" size="1.778" layer="95"/>
-<pinref part="RN1" gate="G$1" pin="4"/>
-<wire x1="205.74" y1="81.28" x2="205.74" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="81.28" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
+<label x="231.14" y="81.28" size="1.778" layer="95"/>
+<pinref part="U6" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="104.14" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
 <junction x="205.74" y="81.28"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="D1-"/>
+<pinref part="U8" gate="G$1" pin="D1-"/>
 <wire x1="134.62" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
 <label x="106.68" y="86.36" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L5N_0"/>
@@ -7563,15 +7278,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_DATA0_P" class="2">
 <segment>
 <pinref part="X2" gate="G$1" pin="TMDS_DATA0_P"/>
-<wire x1="248.92" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
-<label x="220.98" y="78.74" size="1.778" layer="95"/>
-<pinref part="RN1" gate="G$1" pin="5"/>
-<wire x1="208.28" y1="78.74" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="78.74" x2="205.74" y2="78.74" width="0.1524" layer="91"/>
-<junction x="208.28" y="78.74"/>
+<wire x1="259.08" y1="78.74" x2="215.9" y2="78.74" width="0.1524" layer="91"/>
+<label x="231.14" y="78.74" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$1" pin="4"/>
+<wire x1="215.9" y1="78.74" x2="205.74" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="104.14" x2="215.9" y2="78.74" width="0.1524" layer="91"/>
+<junction x="215.9" y="78.74"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="D0+"/>
+<pinref part="U8" gate="G$1" pin="D0+"/>
 <wire x1="134.62" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <label x="106.68" y="83.82" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L6P_0"/>
@@ -7583,15 +7298,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_DATA0_N" class="2">
 <segment>
 <pinref part="X2" gate="G$1" pin="TMDS_DATA0_N"/>
-<wire x1="248.92" y1="73.66" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
-<label x="220.98" y="73.66" size="1.778" layer="95"/>
-<pinref part="RN1" gate="G$1" pin="6"/>
-<wire x1="210.82" y1="73.66" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="73.66" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
-<junction x="210.82" y="73.66"/>
+<wire x1="259.08" y1="73.66" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
+<label x="231.14" y="73.66" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$1" pin="3"/>
+<wire x1="218.44" y1="73.66" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="104.14" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
+<junction x="218.44" y="73.66"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="D0-"/>
+<pinref part="U8" gate="G$1" pin="D0-"/>
 <wire x1="134.62" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
 <label x="106.68" y="81.28" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L6N_0"/>
@@ -7603,15 +7318,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_CLK_P" class="2">
 <segment>
 <pinref part="X2" gate="G$1" pin="TMDS_CLK_P"/>
-<wire x1="248.92" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
-<label x="220.98" y="71.12" size="1.778" layer="95"/>
-<pinref part="RN1" gate="G$1" pin="7"/>
-<wire x1="213.36" y1="71.12" x2="213.36" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="71.12" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
-<junction x="213.36" y="71.12"/>
+<wire x1="259.08" y1="71.12" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
+<label x="231.14" y="71.12" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="71.12" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="104.14" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
+<junction x="220.98" y="71.12"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="CLK+"/>
+<pinref part="U8" gate="G$1" pin="CLK+"/>
 <wire x1="134.62" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 <label x="106.68" y="78.74" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L8P_0"/>
@@ -7623,15 +7338,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_CLK_N" class="2">
 <segment>
 <pinref part="X2" gate="G$1" pin="TMDS_CLK_N"/>
-<wire x1="248.92" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
-<label x="220.98" y="66.04" size="1.778" layer="95"/>
-<pinref part="RN1" gate="G$1" pin="8"/>
-<wire x1="215.9" y1="66.04" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
-<junction x="215.9" y="66.04"/>
+<wire x1="259.08" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="231.14" y="66.04" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="104.14" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+<junction x="223.52" y="66.04"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="CLK-"/>
+<pinref part="U8" gate="G$1" pin="CLK-"/>
 <wire x1="134.62" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <label x="106.68" y="76.2" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L8N_VREF_0"/>
@@ -7643,10 +7358,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_CEC" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="CEC"/>
-<wire x1="248.92" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
-<label x="220.98" y="63.5" size="1.778" layer="95"/>
+<wire x1="259.08" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
+<label x="231.14" y="63.5" size="1.778" layer="95"/>
 <wire x1="208.28" y1="63.5" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="CEC_B"/>
+<pinref part="U8" gate="G$1" pin="CEC_B"/>
 <wire x1="208.28" y1="68.58" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
 <label x="172.72" y="68.58" size="1.778" layer="95"/>
 </segment>
@@ -7654,10 +7369,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_SCL_5V" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="SCL"/>
-<wire x1="248.92" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
-<label x="220.98" y="58.42" size="1.778" layer="95"/>
+<wire x1="259.08" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
+<label x="231.14" y="58.42" size="1.778" layer="95"/>
 <wire x1="205.74" y1="58.42" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="SCL_B"/>
+<pinref part="U8" gate="G$1" pin="SCL_B"/>
 <wire x1="205.74" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 <label x="172.72" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -7665,29 +7380,29 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX0_SDA_5V" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="SDA"/>
-<wire x1="248.92" y1="55.88" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
-<label x="220.98" y="55.88" size="1.778" layer="95"/>
+<wire x1="259.08" y1="55.88" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
+<label x="231.14" y="55.88" size="1.778" layer="95"/>
 <wire x1="203.2" y1="55.88" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="63.5" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="SDA_B"/>
+<pinref part="U8" gate="G$1" pin="SDA_B"/>
 <label x="172.72" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HDMI_RX0_5V" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="5V_OUT"/>
+<pinref part="U8" gate="G$1" pin="5V_OUT"/>
 <wire x1="170.18" y1="48.26" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
 <label x="172.72" y="48.26" size="1.778" layer="95"/>
-<pinref part="C41" gate="G$1" pin="1"/>
+<pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="45.72" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="48.26" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="48.26" x2="241.3" y2="48.26" width="0.1524" layer="91"/>
 <junction x="193.04" y="48.26"/>
 </segment>
 </net>
 <net name="HDMI_RX0_CEC_3V3" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="CEC_A"/>
+<pinref part="U8" gate="G$1" pin="CEC_A"/>
 <wire x1="134.62" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <label x="106.68" y="68.58" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L10N_0"/>
@@ -7698,7 +7413,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_RX0_SCL_3V3" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="SCL_A"/>
+<pinref part="U8" gate="G$1" pin="SCL_A"/>
 <wire x1="134.62" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 <label x="106.68" y="66.04" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L10P_0"/>
@@ -7709,7 +7424,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_RX0_SDA_3V3" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="SDA_A"/>
+<pinref part="U8" gate="G$1" pin="SDA_A"/>
 <wire x1="134.62" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <label x="106.68" y="63.5" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L33N_0"/>
@@ -7720,7 +7435,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_RX0_CTRL_EN" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="LS_OE"/>
+<pinref part="U8" gate="G$1" pin="LS_OE"/>
 <wire x1="134.62" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
 <label x="106.68" y="58.42" size="1.778" layer="95"/>
 <pinref part="U2" gate="B0" pin="IO_L35N_GCLK16_0"/>
@@ -7729,7 +7444,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="68.58" y1="58.42" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
 <label x="30.48" y="68.58" size="1.778" layer="95"/>
-<pinref part="U6" gate="G$1" pin="CT_HPD"/>
+<pinref part="U8" gate="G$1" pin="CT_HPD"/>
 <wire x1="134.62" y1="55.88" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="55.88" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
 <junction x="132.08" y="58.42"/>
@@ -7740,13 +7455,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="+5V" class="1">
 <segment>
-<pinref part="U6" gate="G$1" pin="VCC5V"/>
+<pinref part="U8" gate="G$1" pin="VCC5V"/>
 <wire x1="134.62" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="48.26" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="38.1" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="38.1" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="PS25" gate="1" pin="+5V"/>
-<pinref part="C42" gate="G$1" pin="1"/>
+<pinref part="C41" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="35.56" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
 <junction x="106.68" y="38.1"/>
 </segment>
@@ -7754,9 +7469,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="+3V3" class="1">
 <segment>
 <pinref part="PS26" gate="G$1" pin="+3V3"/>
-<pinref part="C43" gate="G$1" pin="1"/>
+<pinref part="C42" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="35.56" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="VCCA"/>
+<pinref part="U8" gate="G$1" pin="VCCA"/>
 <wire x1="119.38" y1="38.1" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="127" y1="45.72" x2="127" y2="38.1" width="0.1524" layer="91"/>
@@ -7764,38 +7479,38 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <junction x="119.38" y="38.1"/>
 </segment>
 <segment>
-<pinref part="RN1" gate="G$1" pin="9"/>
-<wire x1="215.9" y1="121.92" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="PS24" gate="G$1" pin="+3V3"/>
-<wire x1="215.9" y1="124.46" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="124.46" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="124.46" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="124.46" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="124.46" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="124.46" x2="198.12" y2="127" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="G$1" pin="16"/>
 <wire x1="198.12" y1="121.92" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
-<junction x="198.12" y="124.46"/>
-<pinref part="RN1" gate="G$1" pin="15"/>
-<wire x1="200.66" y1="121.92" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
-<junction x="200.66" y="124.46"/>
-<pinref part="RN1" gate="G$1" pin="C3"/>
-<wire x1="203.2" y1="121.92" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
-<junction x="203.2" y="124.46"/>
-<pinref part="RN1" gate="G$1" pin="13"/>
-<wire x1="205.74" y1="121.92" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
-<junction x="205.74" y="124.46"/>
-<pinref part="RN1" gate="G$1" pin="12"/>
-<wire x1="208.28" y1="121.92" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
-<junction x="208.28" y="124.46"/>
-<pinref part="RN1" gate="G$1" pin="11"/>
-<wire x1="210.82" y1="121.92" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
-<junction x="210.82" y="124.46"/>
-<pinref part="RN1" gate="G$1" pin="10"/>
-<wire x1="213.36" y1="121.92" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
-<junction x="213.36" y="124.46"/>
+<wire x1="198.12" y1="121.92" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="13"/>
+<wire x1="200.66" y1="121.92" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="121.92" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="121.92" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="121.92" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
+<junction x="198.12" y="121.92"/>
+<pinref part="U6" gate="G$1" pin="C3"/>
+<wire x1="200.66" y1="121.92" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
+<junction x="200.66" y="121.92"/>
+<pinref part="U6" gate="G$1" pin="15"/>
+<wire x1="203.2" y1="121.92" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
+<junction x="203.2" y="121.92"/>
+<pinref part="U6" gate="G$1" pin="16"/>
+<wire x1="205.74" y1="121.92" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
+<junction x="205.74" y="121.92"/>
+<pinref part="U7" gate="G$1" pin="13"/>
+<wire x1="215.9" y1="121.92" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
+<junction x="215.9" y="121.92"/>
+<pinref part="U7" gate="G$1" pin="C3"/>
+<wire x1="218.44" y1="121.92" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
+<junction x="218.44" y="121.92"/>
+<pinref part="U7" gate="G$1" pin="15"/>
+<wire x1="220.98" y1="121.92" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
+<junction x="220.98" y="121.92"/>
+<pinref part="U7" gate="G$1" pin="16"/>
+<wire x1="223.52" y1="121.92" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
@@ -7822,15 +7537,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="U2" gate="B0" pin="VCCO_0@3"/>
 <pinref part="U2" gate="B0" pin="VCCO_0@4"/>
 <pinref part="U2" gate="B0" pin="VCCO_0@5"/>
-<pinref part="C40" gate="G$1" pin="1"/>
+<pinref part="C39" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="147.32" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="144.78" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="147.32" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C38" gate="G$1" pin="1"/>
+<pinref part="C37" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="144.78" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
 <junction x="50.8" y="147.32"/>
-<pinref part="C39" gate="G$1" pin="1"/>
+<pinref part="C38" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="144.78" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <junction x="60.96" y="147.32"/>
 <wire x1="50.8" y1="147.32" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
@@ -7850,7 +7565,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <junction x="55.88" y="33.02"/>
 <pinref part="PS27" gate="G$1" pin="+3V3"/>
 <junction x="55.88" y="27.94"/>
-<pinref part="C44" gate="G$1" pin="1"/>
+<pinref part="C43" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="27.94" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7866,7 +7581,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
 <pinref part="X2" gate="G$1" pin="HPD/HEAC_N"/>
-<wire x1="241.3" y1="48.26" x2="248.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="48.26" x2="259.08" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FPGA_OSC1" class="0">
@@ -7897,46 +7612,49 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instances>
 <instance part="PS28" gate="G$1" x="33.02" y="177.8"/>
 <instance part="U2" gate="B1" x="22.86" y="91.44"/>
-<instance part="C45" gate="G$1" x="40.64" y="167.64">
+<instance part="C44" gate="G$1" x="40.64" y="167.64">
 <attribute name="PARTNO" x="40.64" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C46" gate="G$1" x="50.8" y="167.64">
+<instance part="C45" gate="G$1" x="50.8" y="167.64">
 <attribute name="PARTNO" x="50.8" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C47" gate="G$1" x="60.96" y="167.64">
+<instance part="C46" gate="G$1" x="60.96" y="167.64">
 <attribute name="PARTNO" x="60.96" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND33" gate="1" x="60.96" y="154.94"/>
-<instance part="X3" gate="G$1" x="294.64" y="81.28">
-<attribute name="PARTNO" x="294.64" y="81.28" size="1.778" layer="96" display="off"/>
+<instance part="X3" gate="G$1" x="304.8" y="81.28">
+<attribute name="PARTNO" x="304.8" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND34" gate="1" x="274.32" y="55.88"/>
-<instance part="U7" gate="G$1" x="180.34" y="78.74">
+<instance part="GND34" gate="1" x="284.48" y="55.88"/>
+<instance part="U11" gate="G$1" x="180.34" y="78.74">
 <attribute name="PARTNO" x="180.34" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PS30" gate="1" x="134.62" y="55.88"/>
 <instance part="PS31" gate="G$1" x="147.32" y="55.88"/>
-<instance part="C50" gate="G$1" x="147.32" y="45.72">
+<instance part="C49" gate="G$1" x="147.32" y="45.72">
 <attribute name="PARTNO" x="147.32" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C49" gate="G$1" x="134.62" y="45.72">
+<instance part="C48" gate="G$1" x="134.62" y="45.72">
 <attribute name="PARTNO" x="134.62" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C48" gate="G$1" x="220.98" y="55.88">
+<instance part="C47" gate="G$1" x="220.98" y="55.88">
 <attribute name="PARTNO" x="220.98" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND36" gate="1" x="220.98" y="45.72"/>
 <instance part="GND37" gate="1" x="160.02" y="33.02"/>
-<instance part="RN2" gate="G$1" x="233.68" y="127" rot="R90">
-<attribute name="PARTNO" x="233.68" y="127" size="1.778" layer="96" display="off"/>
+<instance part="U9" gate="G$1" x="231.14" y="127" rot="MR90">
+<attribute name="PARTNO" x="231.14" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="PS29" gate="G$1" x="226.06" y="142.24"/>
 <instance part="R30" gate="G$1" x="121.92" y="63.5" rot="R90">
 <attribute name="PARTNO" x="121.92" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND35" gate="1" x="121.92" y="53.34"/>
-<instance part="R31" gate="G$1" x="264.16" y="60.96">
-<attribute name="PARTNO" x="264.16" y="60.96" size="1.778" layer="96" display="off"/>
+<instance part="R31" gate="G$1" x="274.32" y="60.96">
+<attribute name="PARTNO" x="274.32" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U10" gate="G$1" x="248.92" y="127" rot="MR90">
+<attribute name="PARTNO" x="248.92" y="127" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -7949,9 +7667,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C45" gate="G$1" pin="2"/>
-<pinref part="C47" gate="G$1" pin="2"/>
+<pinref part="C44" gate="G$1" pin="2"/>
 <pinref part="C46" gate="G$1" pin="2"/>
+<pinref part="C45" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="160.02" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
 <junction x="50.8" y="160.02"/>
 <wire x1="50.8" y1="160.02" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
@@ -7966,53 +7684,53 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="TMDS_DATA2_SHIELD"/>
-<wire x1="276.86" y1="104.14" x2="274.32" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="104.14" x2="274.32" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="96.52" x2="274.32" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="88.9" x2="274.32" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="81.28" x2="274.32" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="73.66" x2="274.32" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="66.04" x2="274.32" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="104.14" x2="284.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="104.14" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="96.52" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="88.9" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="81.28" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="73.66" x2="284.48" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="66.04" x2="284.48" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="X3" gate="G$1" pin="TMDS_DATA1_SHIELD"/>
-<wire x1="276.86" y1="96.52" x2="274.32" y2="96.52" width="0.1524" layer="91"/>
-<junction x="274.32" y="96.52"/>
+<wire x1="287.02" y1="96.52" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
+<junction x="284.48" y="96.52"/>
 <pinref part="X3" gate="G$1" pin="TMDS_DATA0_SHIELD"/>
-<wire x1="276.86" y1="88.9" x2="274.32" y2="88.9" width="0.1524" layer="91"/>
-<junction x="274.32" y="88.9"/>
+<wire x1="287.02" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
+<junction x="284.48" y="88.9"/>
 <pinref part="X3" gate="G$1" pin="TMDS_CLK_SHIELD"/>
-<wire x1="276.86" y1="81.28" x2="274.32" y2="81.28" width="0.1524" layer="91"/>
-<junction x="274.32" y="81.28"/>
+<wire x1="287.02" y1="81.28" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
+<junction x="284.48" y="81.28"/>
 <pinref part="X3" gate="G$1" pin="DDC/CDC/HEAC_GND"/>
-<wire x1="276.86" y1="66.04" x2="274.32" y2="66.04" width="0.1524" layer="91"/>
-<junction x="274.32" y="66.04"/>
+<wire x1="287.02" y1="66.04" x2="284.48" y2="66.04" width="0.1524" layer="91"/>
+<junction x="284.48" y="66.04"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 <pinref part="X3" gate="G$1" pin="RESERVED/HEAC_P"/>
-<wire x1="276.86" y1="73.66" x2="274.32" y2="73.66" width="0.1524" layer="91"/>
-<junction x="274.32" y="73.66"/>
+<wire x1="287.02" y1="73.66" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
+<junction x="284.48" y="73.66"/>
 </segment>
 <segment>
 <pinref part="GND36" gate="1" pin="GND"/>
-<pinref part="C48" gate="G$1" pin="2"/>
+<pinref part="C47" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="48.26" x2="220.98" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="GND@0"/>
+<pinref part="U11" gate="G$1" pin="GND@0"/>
 <wire x1="162.56" y1="53.34" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="53.34" x2="160.02" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="50.8" x2="160.02" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="GND@2"/>
+<pinref part="U11" gate="G$1" pin="GND@2"/>
 <wire x1="160.02" y1="35.56" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="38.1" x2="160.02" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="48.26" x2="160.02" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="GND@1"/>
+<pinref part="U11" gate="G$1" pin="GND@1"/>
 <wire x1="162.56" y1="50.8" x2="160.02" y2="50.8" width="0.1524" layer="91"/>
 <junction x="160.02" y="50.8"/>
 <junction x="160.02" y="48.26"/>
 <pinref part="GND37" gate="1" pin="GND"/>
-<pinref part="C49" gate="G$1" pin="2"/>
+<pinref part="C48" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="40.64" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C50" gate="G$1" pin="2"/>
+<pinref part="C49" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="38.1" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="40.64" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
 <junction x="147.32" y="38.1"/>
@@ -8026,13 +7744,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="+5V" class="1">
 <segment>
-<pinref part="U7" gate="G$1" pin="VCC5V"/>
+<pinref part="U11" gate="G$1" pin="VCC5V"/>
 <wire x1="162.56" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="60.96" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="50.8" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="PS30" gate="1" pin="+5V"/>
-<pinref part="C49" gate="G$1" pin="1"/>
+<pinref part="C48" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="48.26" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
 <junction x="134.62" y="50.8"/>
 </segment>
@@ -8040,9 +7758,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="+3V3" class="1">
 <segment>
 <pinref part="PS31" gate="G$1" pin="+3V3"/>
-<pinref part="C50" gate="G$1" pin="1"/>
+<pinref part="C49" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="48.26" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="VCCA"/>
+<pinref part="U11" gate="G$1" pin="VCCA"/>
 <wire x1="147.32" y1="50.8" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="58.42" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="58.42" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
@@ -8050,38 +7768,38 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <junction x="147.32" y="50.8"/>
 </segment>
 <segment>
-<pinref part="RN2" gate="G$1" pin="9"/>
-<wire x1="243.84" y1="134.62" x2="243.84" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="PS29" gate="G$1" pin="+3V3"/>
-<wire x1="243.84" y1="137.16" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="137.16" x2="236.22" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="137.16" x2="231.14" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="137.16" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="137.16" x2="226.06" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="G$1" pin="10"/>
-<wire x1="241.3" y1="134.62" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
-<junction x="241.3" y="137.16"/>
-<pinref part="RN2" gate="G$1" pin="11"/>
-<wire x1="238.76" y1="134.62" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
-<junction x="238.76" y="137.16"/>
-<pinref part="RN2" gate="G$1" pin="12"/>
-<wire x1="236.22" y1="134.62" x2="236.22" y2="137.16" width="0.1524" layer="91"/>
-<junction x="236.22" y="137.16"/>
-<pinref part="RN2" gate="G$1" pin="13"/>
-<wire x1="233.68" y1="134.62" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
-<junction x="233.68" y="137.16"/>
-<pinref part="RN2" gate="G$1" pin="C3"/>
-<wire x1="231.14" y1="134.62" x2="231.14" y2="137.16" width="0.1524" layer="91"/>
-<junction x="231.14" y="137.16"/>
-<pinref part="RN2" gate="G$1" pin="15"/>
-<wire x1="228.6" y1="134.62" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
-<junction x="228.6" y="137.16"/>
-<pinref part="RN2" gate="G$1" pin="16"/>
+<wire x1="226.06" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="13"/>
+<wire x1="228.6" y1="137.16" x2="231.14" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="137.16" x2="243.84" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="137.16" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="137.16" x2="251.46" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="134.62" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
 <junction x="226.06" y="137.16"/>
+<pinref part="U9" gate="G$1" pin="C3"/>
+<wire x1="228.6" y1="134.62" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
+<junction x="228.6" y="137.16"/>
+<pinref part="U9" gate="G$1" pin="15"/>
+<wire x1="231.14" y1="134.62" x2="231.14" y2="137.16" width="0.1524" layer="91"/>
+<junction x="231.14" y="137.16"/>
+<pinref part="U9" gate="G$1" pin="16"/>
+<wire x1="233.68" y1="134.62" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
+<junction x="233.68" y="137.16"/>
+<pinref part="U10" gate="G$1" pin="13"/>
+<wire x1="243.84" y1="134.62" x2="243.84" y2="137.16" width="0.1524" layer="91"/>
+<junction x="243.84" y="137.16"/>
+<pinref part="U10" gate="G$1" pin="C3"/>
+<wire x1="246.38" y1="134.62" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
+<junction x="246.38" y="137.16"/>
+<pinref part="U10" gate="G$1" pin="15"/>
+<wire x1="248.92" y1="134.62" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
+<junction x="248.92" y="137.16"/>
+<pinref part="U10" gate="G$1" pin="16"/>
+<wire x1="251.46" y1="134.62" x2="251.46" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="160.02" x2="33.02" y2="160.02" width="0.1524" layer="91"/>
@@ -8109,14 +7827,14 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="U2" gate="B1" pin="VCCO_1@1"/>
 <pinref part="U2" gate="B1" pin="VCCO_1@2"/>
 <pinref part="U2" gate="B1" pin="VCCO_1@3"/>
-<pinref part="C47" gate="G$1" pin="1"/>
+<pinref part="C46" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="170.18" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="172.72" x2="50.8" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="172.72" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="C45" gate="G$1" pin="1"/>
+<pinref part="C44" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="170.18" x2="40.64" y2="172.72" width="0.1524" layer="91"/>
 <junction x="40.64" y="172.72"/>
-<pinref part="C46" gate="G$1" pin="1"/>
+<pinref part="C45" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="170.18" x2="50.8" y2="172.72" width="0.1524" layer="91"/>
 <junction x="50.8" y="172.72"/>
 <wire x1="40.64" y1="172.72" x2="33.02" y2="172.72" width="0.1524" layer="91"/>
@@ -8125,7 +7843,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_RX1_DATA2_P" class="2">
 <segment>
-<pinref part="U7" gate="G$1" pin="D2+"/>
+<pinref part="U11" gate="G$1" pin="D2+"/>
 <label x="134.62" y="106.68" size="1.778" layer="95"/>
 <pinref part="U2" gate="B1" pin="IO_L29P_A23_M1A13_1"/>
 <wire x1="27.94" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
@@ -8135,17 +7853,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="TMDS_DATA2_P"/>
-<label x="248.92" y="106.68" size="1.778" layer="95"/>
-<wire x1="276.86" y1="106.68" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="106.68" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="106.68" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
+<label x="259.08" y="106.68" size="1.778" layer="95"/>
+<wire x1="287.02" y1="106.68" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="4"/>
+<wire x1="226.06" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="119.38" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
 <junction x="226.06" y="106.68"/>
 </segment>
 </net>
 <net name="HDMI_RX1_DATA2_N" class="2">
 <segment>
-<pinref part="U7" gate="G$1" pin="D2-"/>
+<pinref part="U11" gate="G$1" pin="D2-"/>
 <label x="134.62" y="104.14" size="1.778" layer="95"/>
 <wire x1="162.56" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="104.14" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
@@ -8155,17 +7873,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="TMDS_DATA2_N"/>
-<wire x1="276.86" y1="101.6" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
-<label x="248.92" y="101.6" size="1.778" layer="95"/>
-<pinref part="RN2" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="101.6" x2="228.6" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="101.6" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
+<label x="259.08" y="101.6" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="3"/>
 <wire x1="228.6" y1="101.6" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="119.38" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
 <junction x="228.6" y="101.6"/>
 </segment>
 </net>
 <net name="HDMI_RX1_DATA1_P" class="2">
 <segment>
-<pinref part="U7" gate="G$1" pin="D1+"/>
+<pinref part="U11" gate="G$1" pin="D1+"/>
 <label x="134.62" y="101.6" size="1.778" layer="95"/>
 <wire x1="162.56" y1="101.6" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="101.6" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
@@ -8175,17 +7893,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="TMDS_DATA1_P"/>
-<wire x1="276.86" y1="99.06" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
-<label x="248.92" y="99.06" size="1.778" layer="95"/>
-<pinref part="RN2" gate="G$1" pin="3"/>
-<wire x1="231.14" y1="99.06" x2="231.14" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="99.06" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
+<label x="259.08" y="99.06" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="99.06" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="119.38" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
 <junction x="231.14" y="99.06"/>
 </segment>
 </net>
 <net name="HDMI_RX1_DATA1_N" class="2">
 <segment>
-<pinref part="U7" gate="G$1" pin="D1-"/>
+<pinref part="U11" gate="G$1" pin="D1-"/>
 <wire x1="162.56" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 <label x="134.62" y="99.06" size="1.778" layer="95"/>
 <wire x1="71.12" y1="99.06" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
@@ -8195,17 +7913,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="TMDS_DATA1_N"/>
-<wire x1="276.86" y1="93.98" x2="233.68" y2="93.98" width="0.1524" layer="91"/>
-<label x="248.92" y="93.98" size="1.778" layer="95"/>
-<pinref part="RN2" gate="G$1" pin="4"/>
-<wire x1="233.68" y1="93.98" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="93.98" x2="233.68" y2="93.98" width="0.1524" layer="91"/>
+<label x="259.08" y="93.98" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="119.38" x2="233.68" y2="93.98" width="0.1524" layer="91"/>
 <junction x="233.68" y="93.98"/>
 </segment>
 </net>
 <net name="HDMI_RX1_DATA0_P" class="2">
 <segment>
-<pinref part="U7" gate="G$1" pin="D0+"/>
+<pinref part="U11" gate="G$1" pin="D0+"/>
 <wire x1="162.56" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
 <label x="134.62" y="96.52" size="1.778" layer="95"/>
 <wire x1="68.58" y1="96.52" x2="68.58" y2="127" width="0.1524" layer="91"/>
@@ -8215,17 +7933,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="TMDS_DATA0_P"/>
-<wire x1="276.86" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
-<label x="248.92" y="91.44" size="1.778" layer="95"/>
-<pinref part="RN2" gate="G$1" pin="5"/>
-<wire x1="236.22" y1="91.44" x2="236.22" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
-<junction x="236.22" y="91.44"/>
+<wire x1="287.02" y1="91.44" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
+<label x="259.08" y="91.44" size="1.778" layer="95"/>
+<pinref part="U10" gate="G$1" pin="4"/>
+<wire x1="243.84" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="119.38" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
+<junction x="243.84" y="91.44"/>
 </segment>
 </net>
 <net name="HDMI_RX1_DATA0_N" class="2">
 <segment>
-<pinref part="U7" gate="G$1" pin="D0-"/>
+<pinref part="U11" gate="G$1" pin="D0-"/>
 <wire x1="162.56" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
 <label x="134.62" y="93.98" size="1.778" layer="95"/>
 <wire x1="66.04" y1="93.98" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
@@ -8235,26 +7953,26 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="TMDS_DATA0_N"/>
-<wire x1="276.86" y1="86.36" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
-<label x="248.92" y="86.36" size="1.778" layer="95"/>
-<pinref part="RN2" gate="G$1" pin="6"/>
-<wire x1="238.76" y1="86.36" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="86.36" x2="236.22" y2="86.36" width="0.1524" layer="91"/>
-<junction x="238.76" y="86.36"/>
+<wire x1="287.02" y1="86.36" x2="246.38" y2="86.36" width="0.1524" layer="91"/>
+<label x="259.08" y="86.36" size="1.778" layer="95"/>
+<pinref part="U10" gate="G$1" pin="3"/>
+<wire x1="246.38" y1="86.36" x2="236.22" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="119.38" x2="246.38" y2="86.36" width="0.1524" layer="91"/>
+<junction x="246.38" y="86.36"/>
 </segment>
 </net>
 <net name="HDMI_RX1_CLK_P" class="2">
 <segment>
 <pinref part="X3" gate="G$1" pin="TMDS_CLK_P"/>
-<wire x1="276.86" y1="83.82" x2="241.3" y2="83.82" width="0.1524" layer="91"/>
-<label x="248.92" y="83.82" size="1.778" layer="95"/>
-<pinref part="RN2" gate="G$1" pin="7"/>
-<wire x1="241.3" y1="83.82" x2="241.3" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
-<junction x="241.3" y="83.82"/>
+<wire x1="287.02" y1="83.82" x2="248.92" y2="83.82" width="0.1524" layer="91"/>
+<label x="259.08" y="83.82" size="1.778" layer="95"/>
+<pinref part="U10" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="119.38" x2="248.92" y2="83.82" width="0.1524" layer="91"/>
+<junction x="248.92" y="83.82"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="CLK+"/>
+<pinref part="U11" gate="G$1" pin="CLK+"/>
 <wire x1="162.56" y1="91.44" x2="63.5" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="91.44" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
 <label x="134.62" y="91.44" size="1.778" layer="95"/>
@@ -8266,15 +7984,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX1_CLK_N" class="2">
 <segment>
 <pinref part="X3" gate="G$1" pin="TMDS_CLK_N"/>
-<wire x1="276.86" y1="78.74" x2="243.84" y2="78.74" width="0.1524" layer="91"/>
-<label x="248.92" y="78.74" size="1.778" layer="95"/>
-<pinref part="RN2" gate="G$1" pin="8"/>
-<wire x1="243.84" y1="78.74" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="78.74" x2="241.3" y2="78.74" width="0.1524" layer="91"/>
-<junction x="243.84" y="78.74"/>
+<wire x1="287.02" y1="78.74" x2="251.46" y2="78.74" width="0.1524" layer="91"/>
+<label x="259.08" y="78.74" size="1.778" layer="95"/>
+<pinref part="U10" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="78.74" x2="241.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="119.38" x2="251.46" y2="78.74" width="0.1524" layer="91"/>
+<junction x="251.46" y="78.74"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="CLK-"/>
+<pinref part="U11" gate="G$1" pin="CLK-"/>
 <wire x1="162.56" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="88.9" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
 <label x="134.62" y="88.9" size="1.778" layer="95"/>
@@ -8285,7 +8003,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_RX1_CEC_3V3" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="CEC_A"/>
+<pinref part="U11" gate="G$1" pin="CEC_A"/>
 <label x="134.62" y="81.28" size="1.778" layer="95"/>
 <wire x1="162.56" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U2" gate="B1" pin="IO_L38N_A4_M1CLKN_1"/>
@@ -8296,7 +8014,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_RX1_SCL_3V3" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="SCL_A"/>
+<pinref part="U11" gate="G$1" pin="SCL_A"/>
 <label x="134.62" y="78.74" size="1.778" layer="95"/>
 <wire x1="162.56" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="78.74" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
@@ -8307,7 +8025,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_RX1_SDA_3V3" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="SDA_A"/>
+<pinref part="U11" gate="G$1" pin="SDA_A"/>
 <label x="134.62" y="76.2" size="1.778" layer="95"/>
 <wire x1="162.56" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="76.2" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
@@ -8318,7 +8036,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_RX1_CTRL_EN" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="LS_OE"/>
+<pinref part="U11" gate="G$1" pin="LS_OE"/>
 <label x="134.62" y="71.12" size="1.778" layer="95"/>
 <wire x1="162.56" y1="71.12" x2="160.02" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
@@ -8330,7 +8048,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="R30" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="68.58" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
 <junction x="121.92" y="71.12"/>
-<pinref part="U7" gate="G$1" pin="CT_HPD"/>
+<pinref part="U11" gate="G$1" pin="CT_HPD"/>
 <wire x1="162.56" y1="68.58" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="68.58" x2="160.02" y2="71.12" width="0.1524" layer="91"/>
 <junction x="160.02" y="71.12"/>
@@ -8339,10 +8057,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX1_CEC" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="CEC"/>
-<wire x1="276.86" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
-<label x="248.92" y="76.2" size="1.778" layer="95"/>
+<wire x1="287.02" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
+<label x="259.08" y="76.2" size="1.778" layer="95"/>
 <wire x1="236.22" y1="76.2" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="CEC_B"/>
+<pinref part="U11" gate="G$1" pin="CEC_B"/>
 <wire x1="236.22" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
 <label x="200.66" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -8350,10 +8068,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX1_SCL_5V" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="SCL"/>
-<wire x1="276.86" y1="71.12" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
-<label x="248.92" y="71.12" size="1.778" layer="95"/>
+<wire x1="287.02" y1="71.12" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
+<label x="259.08" y="71.12" size="1.778" layer="95"/>
 <wire x1="233.68" y1="71.12" x2="233.68" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="SCL_B"/>
+<pinref part="U11" gate="G$1" pin="SCL_B"/>
 <wire x1="233.68" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
 <label x="200.66" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -8361,30 +8079,30 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="HDMI_RX1_SDA_5V" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="SDA"/>
-<wire x1="276.86" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
-<label x="248.92" y="68.58" size="1.778" layer="95"/>
+<wire x1="287.02" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
+<label x="259.08" y="68.58" size="1.778" layer="95"/>
 <wire x1="231.14" y1="68.58" x2="231.14" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="76.2" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="SDA_B"/>
+<pinref part="U11" gate="G$1" pin="SDA_B"/>
 <label x="200.66" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HDMI_RX1_5V" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="5V_OUT"/>
+<pinref part="U11" gate="G$1" pin="5V_OUT"/>
 <wire x1="198.12" y1="60.96" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
 <label x="200.66" y="60.96" size="1.778" layer="95"/>
-<pinref part="C48" gate="G$1" pin="1"/>
+<pinref part="C47" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="58.42" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="60.96" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="60.96" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
 <junction x="220.98" y="60.96"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="HPD/HEAC_N"/>
-<wire x1="269.24" y1="60.96" x2="276.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="60.96" x2="287.02" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -8458,13 +8176,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instances>
 <instance part="PS34" gate="G$1" x="45.72" y="198.12"/>
 <instance part="U2" gate="B2" x="35.56" y="96.52"/>
-<instance part="C51" gate="G$1" x="53.34" y="185.42">
+<instance part="C50" gate="G$1" x="53.34" y="185.42">
 <attribute name="PARTNO" x="53.34" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C52" gate="G$1" x="63.5" y="185.42">
+<instance part="C51" gate="G$1" x="63.5" y="185.42">
 <attribute name="PARTNO" x="63.5" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C53" gate="G$1" x="73.66" y="185.42">
+<instance part="C52" gate="G$1" x="73.66" y="185.42">
 <attribute name="PARTNO" x="73.66" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND38" gate="1" x="73.66" y="172.72"/>
@@ -8472,18 +8190,18 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" x="304.8" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND42" gate="1" x="284.48" y="66.04"/>
-<instance part="U9" gate="G$1" x="190.5" y="88.9">
+<instance part="U13" gate="G$1" x="190.5" y="88.9">
 <attribute name="PARTNO" x="190.5" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PS36" gate="1" x="144.78" y="66.04"/>
 <instance part="PS37" gate="G$1" x="157.48" y="66.04"/>
-<instance part="C56" gate="G$1" x="157.48" y="55.88">
+<instance part="C55" gate="G$1" x="157.48" y="55.88">
 <attribute name="PARTNO" x="157.48" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C55" gate="G$1" x="144.78" y="55.88">
+<instance part="C54" gate="G$1" x="144.78" y="55.88">
 <attribute name="PARTNO" x="144.78" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C54" gate="G$1" x="231.14" y="66.04">
+<instance part="C53" gate="G$1" x="231.14" y="66.04">
 <attribute name="PARTNO" x="231.14" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND44" gate="1" x="231.14" y="55.88"/>
@@ -8494,7 +8212,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="R37" gate="G$1" x="109.22" y="172.72" rot="R90">
 <attribute name="PARTNO" x="109.22" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND40" gate="1" x="71.12" y="121.92"/>
+<instance part="GND41" gate="1" x="71.12" y="121.92"/>
 <instance part="LED2" gate="G$1" x="99.06" y="172.72" rot="R270">
 <attribute name="PARTNO" x="99.06" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
@@ -8507,7 +8225,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </instance>
 <instance part="GND43" gate="1" x="132.08" y="63.5"/>
 <instance part="PS33" gate="G$1" x="99.06" y="200.66"/>
-<instance part="U8" gate="G$1" x="177.8" y="165.1">
+<instance part="U12" gate="G$1" x="177.8" y="165.1">
 <attribute name="PARTNO" x="177.8" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND39" gate="1" x="160.02" y="149.86"/>
@@ -8528,16 +8246,16 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="R38" gate="G$1" x="139.7" y="137.16" rot="R90">
 <attribute name="PARTNO" x="139.7" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND41" gate="1" x="139.7" y="127"/>
+<instance part="GND40" gate="1" x="139.7" y="127"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C51" gate="G$1" pin="2"/>
-<pinref part="C53" gate="G$1" pin="2"/>
+<pinref part="C50" gate="G$1" pin="2"/>
 <pinref part="C52" gate="G$1" pin="2"/>
+<pinref part="C51" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="177.8" x2="63.5" y2="180.34" width="0.1524" layer="91"/>
 <junction x="63.5" y="177.8"/>
 <wire x1="63.5" y1="177.8" x2="73.66" y2="177.8" width="0.1524" layer="91"/>
@@ -8578,34 +8296,34 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="GND44" gate="1" pin="GND"/>
-<pinref part="C54" gate="G$1" pin="2"/>
+<pinref part="C53" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="58.42" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="GND@0"/>
+<pinref part="U13" gate="G$1" pin="GND@0"/>
 <wire x1="172.72" y1="63.5" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="63.5" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="60.96" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="GND@2"/>
+<pinref part="U13" gate="G$1" pin="GND@2"/>
 <wire x1="170.18" y1="45.72" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="48.26" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="GND@1"/>
+<pinref part="U13" gate="G$1" pin="GND@1"/>
 <wire x1="172.72" y1="60.96" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
 <junction x="170.18" y="60.96"/>
 <junction x="170.18" y="58.42"/>
 <pinref part="GND45" gate="1" pin="GND"/>
-<pinref part="C55" gate="G$1" pin="2"/>
+<pinref part="C54" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="50.8" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="48.26" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C56" gate="G$1" pin="2"/>
+<pinref part="C55" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="48.26" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="50.8" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
 <junction x="157.48" y="48.26"/>
 <junction x="170.18" y="48.26"/>
 </segment>
 <segment>
-<pinref part="GND40" gate="1" pin="GND"/>
+<pinref part="GND41" gate="1" pin="GND"/>
 <wire x1="71.12" y1="134.62" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U2" gate="B2" pin="IO_L13P_M1_2"/>
 <wire x1="40.64" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
@@ -8616,26 +8334,26 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="132.08" y1="66.04" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="VSS"/>
+<pinref part="U12" gate="G$1" pin="VSS"/>
 <wire x1="162.56" y1="154.94" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="154.94" x2="160.02" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND41" gate="1" pin="GND"/>
+<pinref part="GND40" gate="1" pin="GND"/>
 <pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="129.54" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="1">
 <segment>
-<pinref part="U9" gate="G$1" pin="VCC5V"/>
+<pinref part="U13" gate="G$1" pin="VCC5V"/>
 <wire x1="172.72" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="71.12" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="60.96" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="PS36" gate="1" pin="+5V"/>
-<pinref part="C55" gate="G$1" pin="1"/>
+<pinref part="C54" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="58.42" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
 <junction x="144.78" y="60.96"/>
 </segment>
@@ -8643,9 +8361,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <net name="+3V3" class="1">
 <segment>
 <pinref part="PS37" gate="G$1" pin="+3V3"/>
-<pinref part="C56" gate="G$1" pin="1"/>
+<pinref part="C55" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="58.42" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="VCCA"/>
+<pinref part="U13" gate="G$1" pin="VCCA"/>
 <wire x1="157.48" y1="60.96" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="68.58" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
@@ -8673,7 +8391,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="149.86" y1="154.94" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="149.86" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="VCC"/>
+<pinref part="U12" gate="G$1" pin="VCC"/>
 <wire x1="154.94" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8724,15 +8442,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="40.64" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="157.48" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
 <junction x="45.72" y="170.18"/>
-<pinref part="C53" gate="G$1" pin="1"/>
+<pinref part="C52" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="187.96" x2="73.66" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="190.5" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="190.5" x2="63.5" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="190.5" x2="73.66" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="C51" gate="G$1" pin="1"/>
+<pinref part="C50" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="187.96" x2="53.34" y2="190.5" width="0.1524" layer="91"/>
 <junction x="53.34" y="190.5"/>
-<pinref part="C52" gate="G$1" pin="1"/>
+<pinref part="C51" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="187.96" x2="63.5" y2="190.5" width="0.1524" layer="91"/>
 <junction x="63.5" y="190.5"/>
 <junction x="45.72" y="190.5"/>
@@ -8740,7 +8458,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_DATA2_P" class="2">
 <segment>
-<pinref part="U9" gate="G$1" pin="D2+"/>
+<pinref part="U13" gate="G$1" pin="D2+"/>
 <label x="144.78" y="116.84" size="1.778" layer="95"/>
 <wire x1="172.72" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="116.84" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
@@ -8756,7 +8474,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_DATA1_P" class="2">
 <segment>
-<pinref part="U9" gate="G$1" pin="D1+"/>
+<pinref part="U13" gate="G$1" pin="D1+"/>
 <label x="144.78" y="111.76" size="1.778" layer="95"/>
 <wire x1="172.72" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="111.76" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
@@ -8772,7 +8490,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_DATA2_N" class="2">
 <segment>
-<pinref part="U9" gate="G$1" pin="D2-"/>
+<pinref part="U13" gate="G$1" pin="D2-"/>
 <label x="144.78" y="114.3" size="1.778" layer="95"/>
 <wire x1="172.72" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="114.3" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
@@ -8788,7 +8506,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_DATA1_N" class="2">
 <segment>
-<pinref part="U9" gate="G$1" pin="D1-"/>
+<pinref part="U13" gate="G$1" pin="D1-"/>
 <label x="144.78" y="109.22" size="1.778" layer="95"/>
 <wire x1="172.72" y1="109.22" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="109.22" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
@@ -8804,7 +8522,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_DATA0_P" class="2">
 <segment>
-<pinref part="U9" gate="G$1" pin="D0+"/>
+<pinref part="U13" gate="G$1" pin="D0+"/>
 <label x="144.78" y="106.68" size="1.778" layer="95"/>
 <wire x1="172.72" y1="106.68" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="106.68" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
@@ -8820,7 +8538,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_DATA0_N" class="2">
 <segment>
-<pinref part="U9" gate="G$1" pin="D0-"/>
+<pinref part="U13" gate="G$1" pin="D0-"/>
 <label x="144.78" y="104.14" size="1.778" layer="95"/>
 <wire x1="172.72" y1="104.14" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="104.14" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
@@ -8836,7 +8554,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_CLK_P" class="2">
 <segment>
-<pinref part="U9" gate="G$1" pin="CLK+"/>
+<pinref part="U13" gate="G$1" pin="CLK+"/>
 <label x="144.78" y="101.6" size="1.778" layer="95"/>
 <wire x1="172.72" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="101.6" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
@@ -8852,7 +8570,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_CLK_N" class="2">
 <segment>
-<pinref part="U9" gate="G$1" pin="CLK-"/>
+<pinref part="U13" gate="G$1" pin="CLK-"/>
 <label x="144.78" y="99.06" size="1.778" layer="95"/>
 <wire x1="172.72" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="99.06" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
@@ -8868,7 +8586,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_HPD_3V3" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="HPD_A"/>
+<pinref part="U13" gate="G$1" pin="HPD_A"/>
 <label x="144.78" y="93.98" size="1.778" layer="95"/>
 <pinref part="U2" gate="B2" pin="IO_L19N_2"/>
 <wire x1="172.72" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
@@ -8879,7 +8597,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_CEC_3V3" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="CEC_A"/>
+<pinref part="U13" gate="G$1" pin="CEC_A"/>
 <label x="144.78" y="91.44" size="1.778" layer="95"/>
 <pinref part="U2" gate="B2" pin="IO_L5N_2"/>
 <wire x1="172.72" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
@@ -8890,7 +8608,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_SCL_3V3" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="SCL_A"/>
+<pinref part="U13" gate="G$1" pin="SCL_A"/>
 <wire x1="172.72" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
 <label x="144.78" y="88.9" size="1.778" layer="95"/>
 <wire x1="114.3" y1="88.9" x2="114.3" y2="129.54" width="0.1524" layer="91"/>
@@ -8901,7 +8619,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_SDA_3V3" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="SDA_A"/>
+<pinref part="U13" gate="G$1" pin="SDA_A"/>
 <wire x1="172.72" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <label x="144.78" y="86.36" size="1.778" layer="95"/>
 <wire x1="111.76" y1="86.36" x2="111.76" y2="127" width="0.1524" layer="91"/>
@@ -8912,10 +8630,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="HDMI_TX0_CTRL_EN" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="LS_OE"/>
+<pinref part="U13" gate="G$1" pin="LS_OE"/>
 <wire x1="172.72" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
 <label x="144.78" y="81.28" size="1.778" layer="95"/>
-<pinref part="U9" gate="G$1" pin="CT_HPD"/>
+<pinref part="U13" gate="G$1" pin="CT_HPD"/>
 <wire x1="170.18" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="78.74" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="78.74" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
@@ -8936,7 +8654,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="287.02" y1="86.36" x2="246.38" y2="86.36" width="0.1524" layer="91"/>
 <label x="259.08" y="86.36" size="1.778" layer="95"/>
 <wire x1="246.38" y1="86.36" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="CEC_B"/>
+<pinref part="U13" gate="G$1" pin="CEC_B"/>
 <wire x1="246.38" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
 <label x="210.82" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -8947,7 +8665,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="287.02" y1="81.28" x2="243.84" y2="81.28" width="0.1524" layer="91"/>
 <label x="259.08" y="81.28" size="1.778" layer="95"/>
 <wire x1="243.84" y1="81.28" x2="243.84" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="SCL_B"/>
+<pinref part="U13" gate="G$1" pin="SCL_B"/>
 <wire x1="243.84" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
 <label x="210.82" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -8959,13 +8677,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <label x="259.08" y="78.74" size="1.778" layer="95"/>
 <wire x1="241.3" y1="78.74" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="SDA_B"/>
+<pinref part="U13" gate="G$1" pin="SDA_B"/>
 <label x="210.82" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HDMI_TX0_5V" class="1">
 <segment>
-<pinref part="U9" gate="G$1" pin="5V_OUT"/>
+<pinref part="U13" gate="G$1" pin="5V_OUT"/>
 <wire x1="208.28" y1="71.12" x2="231.14" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="71.12" x2="254" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="254" y1="71.12" x2="254" y2="73.66" width="0.1524" layer="91"/>
@@ -8973,7 +8691,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="254" y1="73.66" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
 <label x="259.08" y="73.66" size="1.778" layer="95"/>
 <label x="210.82" y="71.12" size="1.778" layer="95"/>
-<pinref part="C54" gate="G$1" pin="1"/>
+<pinref part="C53" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="68.58" x2="231.14" y2="71.12" width="0.1524" layer="91"/>
 <junction x="231.14" y="71.12"/>
 </segment>
@@ -8985,7 +8703,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="256.54" y1="71.12" x2="256.54" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="68.58" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="HPD_B"/>
+<pinref part="U13" gate="G$1" pin="HPD_B"/>
 <wire x1="238.76" y1="93.98" x2="208.28" y2="93.98" width="0.1524" layer="91"/>
 <label x="259.08" y="71.12" size="1.778" layer="95"/>
 <label x="210.82" y="93.98" size="1.778" layer="95"/>
@@ -9023,7 +8741,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="81.28" y1="10.16" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="157.48" x2="124.46" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="157.48" x2="124.46" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="S#"/>
+<pinref part="U12" gate="G$1" pin="S#"/>
 <wire x1="124.46" y1="167.64" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="167.64" x2="162.56" y2="167.64" width="0.1524" layer="91"/>
@@ -9036,7 +8754,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="U2" gate="B2" pin="IO_L1P_CCLK_2"/>
 <wire x1="40.64" y1="160.02" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="160.02" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="C"/>
+<pinref part="U12" gate="G$1" pin="C"/>
 <wire x1="121.92" y1="170.18" x2="139.7" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="170.18" x2="162.56" y2="170.18" width="0.1524" layer="91"/>
@@ -9051,13 +8769,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="U2" gate="B2" pin="IO_L3N_MOSI_CSI_B_MISO0_2"/>
 <wire x1="40.64" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="127" y1="147.32" x2="127" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="DQ0"/>
+<pinref part="U12" gate="G$1" pin="DQ0"/>
 <wire x1="127" y1="172.72" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="DQ1"/>
+<pinref part="U12" gate="G$1" pin="DQ1"/>
 <wire x1="193.04" y1="172.72" x2="195.58" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="172.72" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
@@ -9068,7 +8786,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="VPP/W#/DQ2"/>
+<pinref part="U12" gate="G$1" pin="VPP/W#/DQ2"/>
 <wire x1="162.56" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U2" gate="B2" pin="IO_L12P_D1_MISO2_2"/>
 <wire x1="152.4" y1="165.1" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
@@ -9084,7 +8802,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="U2" gate="B2" pin="IO_L12N_D2_MISO3_2"/>
 <wire x1="40.64" y1="137.16" x2="132.08" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="137.16" x2="132.08" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="HOLD#/DQ3"/>
+<pinref part="U12" gate="G$1" pin="HOLD#/DQ3"/>
 <wire x1="132.08" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="162.56" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
@@ -9114,7 +8832,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </plain>
 <instances>
 <instance part="U2" gate="B3" x="40.64" y="104.14"/>
-<instance part="U10" gate="G$1" x="213.36" y="106.68">
+<instance part="U14" gate="G$1" x="213.36" y="106.68">
 <attribute name="PARTNO" x="213.36" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND51" gate="1" x="190.5" y="27.94"/>
@@ -9135,17 +8853,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="R47" gate="G$1" x="119.38" y="17.78" rot="R90">
 <attribute name="PARTNO" x="119.38" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C64" gate="G$1" x="104.14" y="35.56">
+<instance part="C63" gate="G$1" x="104.14" y="35.56">
 <attribute name="PARTNO" x="104.14" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C67" gate="G$1" x="104.14" y="20.32">
+<instance part="C66" gate="G$1" x="104.14" y="20.32">
 <attribute name="PARTNO" x="104.14" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C65" gate="G$1" x="254" y="30.48">
+<instance part="C64" gate="G$1" x="254" y="30.48">
 <attribute name="PARTNO" x="254" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND52" gate="1" x="254" y="20.32"/>
-<instance part="C66" gate="G$1" x="66.04" y="20.32">
+<instance part="C65" gate="G$1" x="66.04" y="20.32">
 <attribute name="PARTNO" x="66.04" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND53" gate="1" x="66.04" y="10.16"/>
@@ -9156,29 +8874,29 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="R45" gate="G$1" x="91.44" y="68.58">
 <attribute name="PARTNO" x="91.44" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C57" gate="G$1" x="20.32" y="198.12">
+<instance part="C56" gate="G$1" x="20.32" y="198.12">
 <attribute name="PARTNO" x="20.32" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C58" gate="G$1" x="30.48" y="198.12">
+<instance part="C57" gate="G$1" x="30.48" y="198.12">
 <attribute name="PARTNO" x="30.48" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C59" gate="G$1" x="40.64" y="198.12">
+<instance part="C58" gate="G$1" x="40.64" y="198.12">
 <attribute name="PARTNO" x="40.64" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND47" gate="1" x="99.06" y="152.4"/>
 <instance part="R41" gate="G$1" x="88.9" y="157.48">
 <attribute name="PARTNO" x="88.9" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C60" gate="G$1" x="246.38" y="78.74">
+<instance part="C59" gate="G$1" x="246.38" y="78.74">
 <attribute name="PARTNO" x="246.38" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C61" gate="G$1" x="256.54" y="78.74">
+<instance part="C60" gate="G$1" x="256.54" y="78.74">
 <attribute name="PARTNO" x="256.54" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C62" gate="G$1" x="266.7" y="78.74">
+<instance part="C61" gate="G$1" x="266.7" y="78.74">
 <attribute name="PARTNO" x="266.7" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C63" gate="G$1" x="276.86" y="78.74">
+<instance part="C62" gate="G$1" x="276.86" y="78.74">
 <attribute name="PARTNO" x="276.86" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND50" gate="1" x="246.38" y="66.04"/>
@@ -9220,71 +8938,71 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="VSS@A9"/>
+<pinref part="U14" gate="G$1" pin="VSS@A9"/>
 <wire x1="195.58" y1="83.82" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="83.82" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSS@B3"/>
+<pinref part="U14" gate="G$1" pin="VSS@B3"/>
 <wire x1="195.58" y1="81.28" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="81.28" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSS@E1"/>
+<pinref part="U14" gate="G$1" pin="VSS@E1"/>
 <wire x1="195.58" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="78.74" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSS@G8"/>
+<pinref part="U14" gate="G$1" pin="VSS@G8"/>
 <wire x1="195.58" y1="76.2" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="76.2" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSS@J2"/>
+<pinref part="U14" gate="G$1" pin="VSS@J2"/>
 <wire x1="195.58" y1="73.66" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="73.66" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <junction x="190.5" y="81.28"/>
 <junction x="190.5" y="76.2"/>
 <junction x="190.5" y="78.74"/>
 <junction x="190.5" y="73.66"/>
-<pinref part="U10" gate="G$1" pin="VSS@J8"/>
+<pinref part="U14" gate="G$1" pin="VSS@J8"/>
 <wire x1="195.58" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="71.12" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSS@M1"/>
+<pinref part="U14" gate="G$1" pin="VSS@M1"/>
 <wire x1="190.5" y1="68.58" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="68.58" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSS@M9"/>
+<pinref part="U14" gate="G$1" pin="VSS@M9"/>
 <wire x1="195.58" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="66.04" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSS@P1"/>
+<pinref part="U14" gate="G$1" pin="VSS@P1"/>
 <wire x1="195.58" y1="63.5" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="63.5" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSS@P9"/>
+<pinref part="U14" gate="G$1" pin="VSS@P9"/>
 <wire x1="195.58" y1="60.96" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="60.96" x2="190.5" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSS@T1"/>
+<pinref part="U14" gate="G$1" pin="VSS@T1"/>
 <wire x1="195.58" y1="58.42" x2="190.5" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="58.42" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSS@T9"/>
+<pinref part="U14" gate="G$1" pin="VSS@T9"/>
 <wire x1="195.58" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="55.88" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSSQ@B1"/>
+<pinref part="U14" gate="G$1" pin="VSSQ@B1"/>
 <wire x1="195.58" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="53.34" x2="190.5" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSSQ@B9"/>
+<pinref part="U14" gate="G$1" pin="VSSQ@B9"/>
 <wire x1="195.58" y1="50.8" x2="190.5" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="50.8" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSSQ@D1"/>
+<pinref part="U14" gate="G$1" pin="VSSQ@D1"/>
 <wire x1="195.58" y1="48.26" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="48.26" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSSQ@D8"/>
+<pinref part="U14" gate="G$1" pin="VSSQ@D8"/>
 <wire x1="195.58" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="45.72" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSSQ@E2"/>
+<pinref part="U14" gate="G$1" pin="VSSQ@E2"/>
 <wire x1="195.58" y1="43.18" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="43.18" x2="190.5" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSSQ@E8"/>
+<pinref part="U14" gate="G$1" pin="VSSQ@E8"/>
 <wire x1="195.58" y1="40.64" x2="190.5" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="40.64" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSSQ@F9"/>
+<pinref part="U14" gate="G$1" pin="VSSQ@F9"/>
 <wire x1="195.58" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="38.1" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSSQ@G1"/>
+<pinref part="U14" gate="G$1" pin="VSSQ@G1"/>
 <wire x1="195.58" y1="35.56" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="35.56" x2="190.5" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VSSQ@G9"/>
+<pinref part="U14" gate="G$1" pin="VSSQ@G9"/>
 <wire x1="195.58" y1="33.02" x2="190.5" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="33.02" x2="190.5" y2="30.48" width="0.1524" layer="91"/>
 <junction x="190.5" y="71.12"/>
@@ -9309,7 +9027,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <junction x="190.5" y="83.82"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="CS#"/>
+<pinref part="U14" gate="G$1" pin="CS#"/>
 <pinref part="GND48" gate="1" pin="GND"/>
 <wire x1="195.58" y1="134.62" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="134.62" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
@@ -9320,18 +9038,18 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="119.38" y1="10.16" x2="111.76" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND54" gate="1" pin="GND"/>
 <wire x1="111.76" y1="10.16" x2="111.76" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="C67" gate="G$1" pin="2"/>
+<pinref part="C66" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="15.24" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="10.16" x2="111.76" y2="10.16" width="0.1524" layer="91"/>
 <junction x="111.76" y="10.16"/>
 </segment>
 <segment>
-<pinref part="C65" gate="G$1" pin="2"/>
+<pinref part="C64" gate="G$1" pin="2"/>
 <pinref part="GND52" gate="1" pin="GND"/>
 <wire x1="254" y1="25.4" x2="254" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C66" gate="G$1" pin="2"/>
+<pinref part="C65" gate="G$1" pin="2"/>
 <pinref part="GND53" gate="1" pin="GND"/>
 <wire x1="66.04" y1="15.24" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
 </segment>
@@ -9353,26 +9071,26 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </segment>
 <segment>
 <pinref part="GND50" gate="1" pin="GND"/>
-<pinref part="C60" gate="G$1" pin="2"/>
+<pinref part="C59" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="68.58" x2="246.38" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="71.12" x2="246.38" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="71.12" x2="256.54" y2="71.12" width="0.1524" layer="91"/>
 <junction x="246.38" y="71.12"/>
-<pinref part="C61" gate="G$1" pin="2"/>
+<pinref part="C60" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="71.12" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="71.12" x2="266.7" y2="71.12" width="0.1524" layer="91"/>
 <junction x="256.54" y="71.12"/>
-<pinref part="C62" gate="G$1" pin="2"/>
+<pinref part="C61" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="71.12" x2="266.7" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="71.12" x2="276.86" y2="71.12" width="0.1524" layer="91"/>
 <junction x="266.7" y="71.12"/>
-<pinref part="C63" gate="G$1" pin="2"/>
+<pinref part="C62" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="71.12" x2="276.86" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C57" gate="G$1" pin="2"/>
-<pinref part="C59" gate="G$1" pin="2"/>
+<pinref part="C56" gate="G$1" pin="2"/>
 <pinref part="C58" gate="G$1" pin="2"/>
+<pinref part="C57" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="190.5" x2="30.48" y2="193.04" width="0.1524" layer="91"/>
 <junction x="30.48" y="190.5"/>
 <wire x1="30.48" y1="190.5" x2="40.64" y2="190.5" width="0.1524" layer="91"/>
@@ -9388,7 +9106,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="ZQ"/>
+<pinref part="U14" gate="G$1" pin="ZQ"/>
 <pinref part="R44" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="99.06" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
@@ -9396,7 +9114,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ15" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ15"/>
+<pinref part="U14" gate="G$1" pin="DQ15"/>
 <wire x1="231.14" y1="139.7" x2="256.54" y2="139.7" width="0.1524" layer="91"/>
 <label x="236.22" y="139.7" size="1.778" layer="95"/>
 </segment>
@@ -9408,7 +9126,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ0" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ0"/>
+<pinref part="U14" gate="G$1" pin="DQ0"/>
 <wire x1="231.14" y1="177.8" x2="256.54" y2="177.8" width="0.1524" layer="91"/>
 <label x="236.22" y="177.8" size="1.778" layer="95"/>
 </segment>
@@ -9420,7 +9138,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ1" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ1"/>
+<pinref part="U14" gate="G$1" pin="DQ1"/>
 <wire x1="231.14" y1="175.26" x2="256.54" y2="175.26" width="0.1524" layer="91"/>
 <label x="236.22" y="175.26" size="1.778" layer="95"/>
 </segment>
@@ -9432,7 +9150,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ2" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ2"/>
+<pinref part="U14" gate="G$1" pin="DQ2"/>
 <wire x1="231.14" y1="172.72" x2="256.54" y2="172.72" width="0.1524" layer="91"/>
 <label x="236.22" y="172.72" size="1.778" layer="95"/>
 </segment>
@@ -9444,7 +9162,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ4" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ4"/>
+<pinref part="U14" gate="G$1" pin="DQ4"/>
 <wire x1="231.14" y1="167.64" x2="256.54" y2="167.64" width="0.1524" layer="91"/>
 <label x="236.22" y="167.64" size="1.778" layer="95"/>
 </segment>
@@ -9456,7 +9174,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ5" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ5"/>
+<pinref part="U14" gate="G$1" pin="DQ5"/>
 <wire x1="231.14" y1="165.1" x2="256.54" y2="165.1" width="0.1524" layer="91"/>
 <label x="236.22" y="165.1" size="1.778" layer="95"/>
 </segment>
@@ -9468,7 +9186,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ6" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ6"/>
+<pinref part="U14" gate="G$1" pin="DQ6"/>
 <wire x1="231.14" y1="162.56" x2="256.54" y2="162.56" width="0.1524" layer="91"/>
 <label x="236.22" y="162.56" size="1.778" layer="95"/>
 </segment>
@@ -9480,7 +9198,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ7" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ7"/>
+<pinref part="U14" gate="G$1" pin="DQ7"/>
 <wire x1="231.14" y1="160.02" x2="256.54" y2="160.02" width="0.1524" layer="91"/>
 <label x="236.22" y="160.02" size="1.778" layer="95"/>
 </segment>
@@ -9492,7 +9210,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ8" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ8"/>
+<pinref part="U14" gate="G$1" pin="DQ8"/>
 <wire x1="231.14" y1="157.48" x2="256.54" y2="157.48" width="0.1524" layer="91"/>
 <label x="236.22" y="157.48" size="1.778" layer="95"/>
 </segment>
@@ -9504,7 +9222,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ9" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ9"/>
+<pinref part="U14" gate="G$1" pin="DQ9"/>
 <wire x1="231.14" y1="154.94" x2="256.54" y2="154.94" width="0.1524" layer="91"/>
 <label x="236.22" y="154.94" size="1.778" layer="95"/>
 </segment>
@@ -9516,7 +9234,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ10" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ10"/>
+<pinref part="U14" gate="G$1" pin="DQ10"/>
 <wire x1="231.14" y1="152.4" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
 <label x="236.22" y="152.4" size="1.778" layer="95"/>
 </segment>
@@ -9528,7 +9246,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ11" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ11"/>
+<pinref part="U14" gate="G$1" pin="DQ11"/>
 <wire x1="231.14" y1="149.86" x2="256.54" y2="149.86" width="0.1524" layer="91"/>
 <label x="236.22" y="149.86" size="1.778" layer="95"/>
 </segment>
@@ -9540,7 +9258,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ12" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ12"/>
+<pinref part="U14" gate="G$1" pin="DQ12"/>
 <wire x1="231.14" y1="147.32" x2="256.54" y2="147.32" width="0.1524" layer="91"/>
 <label x="236.22" y="147.32" size="1.778" layer="95"/>
 </segment>
@@ -9552,7 +9270,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ13" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ13"/>
+<pinref part="U14" gate="G$1" pin="DQ13"/>
 <wire x1="231.14" y1="144.78" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
 <label x="236.22" y="144.78" size="1.778" layer="95"/>
 </segment>
@@ -9564,7 +9282,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_DQ14" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ14"/>
+<pinref part="U14" gate="G$1" pin="DQ14"/>
 <wire x1="231.14" y1="142.24" x2="256.54" y2="142.24" width="0.1524" layer="91"/>
 <label x="236.22" y="142.24" size="1.778" layer="95"/>
 </segment>
@@ -9576,7 +9294,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A0" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A0"/>
+<pinref part="U14" gate="G$1" pin="A0"/>
 <wire x1="195.58" y1="177.8" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
 <label x="177.8" y="177.8" size="1.778" layer="95"/>
 </segment>
@@ -9588,7 +9306,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A1" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A1"/>
+<pinref part="U14" gate="G$1" pin="A1"/>
 <wire x1="195.58" y1="175.26" x2="175.26" y2="175.26" width="0.1524" layer="91"/>
 <label x="177.8" y="175.26" size="1.778" layer="95"/>
 </segment>
@@ -9600,7 +9318,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A2" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A2"/>
+<pinref part="U14" gate="G$1" pin="A2"/>
 <wire x1="195.58" y1="172.72" x2="175.26" y2="172.72" width="0.1524" layer="91"/>
 <label x="177.8" y="172.72" size="1.778" layer="95"/>
 </segment>
@@ -9612,7 +9330,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A3" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A3"/>
+<pinref part="U14" gate="G$1" pin="A3"/>
 <wire x1="195.58" y1="170.18" x2="175.26" y2="170.18" width="0.1524" layer="91"/>
 <label x="177.8" y="170.18" size="1.778" layer="95"/>
 </segment>
@@ -9624,7 +9342,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A4" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A4"/>
+<pinref part="U14" gate="G$1" pin="A4"/>
 <wire x1="195.58" y1="167.64" x2="175.26" y2="167.64" width="0.1524" layer="91"/>
 <label x="177.8" y="167.64" size="1.778" layer="95"/>
 </segment>
@@ -9636,7 +9354,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A5" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A5"/>
+<pinref part="U14" gate="G$1" pin="A5"/>
 <wire x1="195.58" y1="165.1" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
 <label x="177.8" y="165.1" size="1.778" layer="95"/>
 </segment>
@@ -9648,7 +9366,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A6" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A6"/>
+<pinref part="U14" gate="G$1" pin="A6"/>
 <wire x1="195.58" y1="162.56" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
 <label x="177.8" y="162.56" size="1.778" layer="95"/>
 </segment>
@@ -9660,7 +9378,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A7" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A7"/>
+<pinref part="U14" gate="G$1" pin="A7"/>
 <wire x1="195.58" y1="160.02" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
 <label x="177.8" y="160.02" size="1.778" layer="95"/>
 </segment>
@@ -9672,7 +9390,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A8" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A8"/>
+<pinref part="U14" gate="G$1" pin="A8"/>
 <wire x1="195.58" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 <label x="177.8" y="157.48" size="1.778" layer="95"/>
 </segment>
@@ -9684,7 +9402,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A9" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A9"/>
+<pinref part="U14" gate="G$1" pin="A9"/>
 <wire x1="195.58" y1="154.94" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
 <label x="177.8" y="154.94" size="1.778" layer="95"/>
 </segment>
@@ -9696,7 +9414,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A10" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A10/AP"/>
+<pinref part="U14" gate="G$1" pin="A10/AP"/>
 <wire x1="195.58" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
 <label x="177.8" y="152.4" size="1.778" layer="95"/>
 </segment>
@@ -9708,7 +9426,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A11" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A11"/>
+<pinref part="U14" gate="G$1" pin="A11"/>
 <wire x1="195.58" y1="149.86" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
 <label x="177.8" y="149.86" size="1.778" layer="95"/>
 </segment>
@@ -9720,7 +9438,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_A12" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="A12/BC#"/>
+<pinref part="U14" gate="G$1" pin="A12/BC#"/>
 <wire x1="195.58" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 <label x="177.8" y="147.32" size="1.778" layer="95"/>
 </segment>
@@ -9737,65 +9455,65 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <label x="50.8" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="DQ3"/>
+<pinref part="U14" gate="G$1" pin="DQ3"/>
 <wire x1="231.14" y1="170.18" x2="256.54" y2="170.18" width="0.1524" layer="91"/>
 <label x="236.22" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+1V5" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="VDDQ@H9"/>
+<pinref part="U14" gate="G$1" pin="VDDQ@H9"/>
 <wire x1="231.14" y1="40.64" x2="236.22" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="40.64" x2="236.22" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDDQ@H2"/>
+<pinref part="U14" gate="G$1" pin="VDDQ@H2"/>
 <wire x1="231.14" y1="43.18" x2="236.22" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="43.18" x2="236.22" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDDQ@F1"/>
+<pinref part="U14" gate="G$1" pin="VDDQ@F1"/>
 <wire x1="231.14" y1="45.72" x2="236.22" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="45.72" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDDQ@E9"/>
+<pinref part="U14" gate="G$1" pin="VDDQ@E9"/>
 <wire x1="231.14" y1="48.26" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="48.26" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDDQ@D2"/>
+<pinref part="U14" gate="G$1" pin="VDDQ@D2"/>
 <wire x1="231.14" y1="50.8" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="50.8" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDDQ@C9"/>
+<pinref part="U14" gate="G$1" pin="VDDQ@C9"/>
 <wire x1="231.14" y1="53.34" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="53.34" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDDQ@C1"/>
+<pinref part="U14" gate="G$1" pin="VDDQ@C1"/>
 <wire x1="231.14" y1="55.88" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="55.88" x2="236.22" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDDQ@A8"/>
+<pinref part="U14" gate="G$1" pin="VDDQ@A8"/>
 <wire x1="231.14" y1="58.42" x2="236.22" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="58.42" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDDQ@A1"/>
+<pinref part="U14" gate="G$1" pin="VDDQ@A1"/>
 <wire x1="231.14" y1="60.96" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="60.96" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDD@R9"/>
+<pinref part="U14" gate="G$1" pin="VDD@R9"/>
 <wire x1="231.14" y1="63.5" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="63.5" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDD@R1"/>
+<pinref part="U14" gate="G$1" pin="VDD@R1"/>
 <wire x1="231.14" y1="66.04" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="66.04" x2="236.22" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDD@N9"/>
+<pinref part="U14" gate="G$1" pin="VDD@N9"/>
 <wire x1="231.14" y1="68.58" x2="236.22" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="68.58" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDD@N1"/>
+<pinref part="U14" gate="G$1" pin="VDD@N1"/>
 <wire x1="231.14" y1="71.12" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="71.12" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDD@K8"/>
+<pinref part="U14" gate="G$1" pin="VDD@K8"/>
 <wire x1="231.14" y1="73.66" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="73.66" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDD@K2"/>
+<pinref part="U14" gate="G$1" pin="VDD@K2"/>
 <wire x1="231.14" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="76.2" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDD@G7"/>
+<pinref part="U14" gate="G$1" pin="VDD@G7"/>
 <wire x1="231.14" y1="78.74" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="78.74" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDD@D9"/>
+<pinref part="U14" gate="G$1" pin="VDD@D9"/>
 <wire x1="231.14" y1="81.28" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="81.28" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VDD@B2"/>
+<pinref part="U14" gate="G$1" pin="VDD@B2"/>
 <wire x1="231.14" y1="83.82" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="83.82" x2="246.38" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="83.82" x2="246.38" y2="88.9" width="0.1524" layer="91"/>
@@ -9818,19 +9536,19 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <junction x="236.22" y="45.72"/>
 <junction x="236.22" y="43.18"/>
 <junction x="236.22" y="40.64"/>
-<pinref part="C63" gate="G$1" pin="1"/>
+<pinref part="C62" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="81.28" x2="276.86" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="83.82" x2="266.7" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="83.82" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="83.82" x2="246.38" y2="83.82" width="0.1524" layer="91"/>
 <junction x="246.38" y="83.82"/>
-<pinref part="C62" gate="G$1" pin="1"/>
+<pinref part="C61" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="81.28" x2="266.7" y2="83.82" width="0.1524" layer="91"/>
 <junction x="266.7" y="83.82"/>
-<pinref part="C61" gate="G$1" pin="1"/>
+<pinref part="C60" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="81.28" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
 <junction x="256.54" y="83.82"/>
-<pinref part="C60" gate="G$1" pin="1"/>
+<pinref part="C59" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="81.28" x2="246.38" y2="83.82" width="0.1524" layer="91"/>
 <junction x="246.38" y="83.82"/>
 </segment>
@@ -9860,17 +9578,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="PS39" gate="G$1" pin="+1V5"/>
 <wire x1="50.8" y1="180.34" x2="50.8" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="203.2" x2="50.8" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="C59" gate="G$1" pin="1"/>
+<pinref part="C58" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="200.66" x2="40.64" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="203.2" x2="30.48" y2="203.2" width="0.1524" layer="91"/>
 <junction x="50.8" y="203.2"/>
 <wire x1="30.48" y1="203.2" x2="20.32" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="203.2" x2="40.64" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="203.2" x2="50.8" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="C57" gate="G$1" pin="1"/>
+<pinref part="C56" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="200.66" x2="20.32" y2="203.2" width="0.1524" layer="91"/>
 <junction x="20.32" y="203.2"/>
-<pinref part="C58" gate="G$1" pin="1"/>
+<pinref part="C57" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="200.66" x2="30.48" y2="203.2" width="0.1524" layer="91"/>
 <junction x="30.48" y="203.2"/>
 <junction x="40.64" y="203.2"/>
@@ -9883,13 +9601,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="119.38" y1="40.64" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="40.64" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C64" gate="G$1" pin="1"/>
+<pinref part="C63" gate="G$1" pin="1"/>
 <junction x="111.76" y="40.64"/>
 </segment>
 </net>
 <net name="DDR3_BA0" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="BA0"/>
+<pinref part="U14" gate="G$1" pin="BA0"/>
 <wire x1="195.58" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
 <label x="177.8" y="144.78" size="1.778" layer="95"/>
 </segment>
@@ -9901,7 +9619,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_BA1" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="BA1"/>
+<pinref part="U14" gate="G$1" pin="BA1"/>
 <wire x1="195.58" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
 <label x="177.8" y="142.24" size="1.778" layer="95"/>
 </segment>
@@ -9913,7 +9631,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_BA2" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="BA2"/>
+<pinref part="U14" gate="G$1" pin="BA2"/>
 <wire x1="195.58" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 <label x="177.8" y="139.7" size="1.778" layer="95"/>
 </segment>
@@ -9925,7 +9643,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_CKE" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="CKE"/>
+<pinref part="U14" gate="G$1" pin="CKE"/>
 <wire x1="195.58" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
 <label x="177.8" y="121.92" size="1.778" layer="95"/>
 <wire x1="162.56" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
@@ -9941,7 +9659,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_CK" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="CK"/>
+<pinref part="U14" gate="G$1" pin="CK"/>
 <label x="177.8" y="119.38" size="1.778" layer="95"/>
 <wire x1="195.58" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
 </segment>
@@ -9958,7 +9676,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_CK#" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="CK#"/>
+<pinref part="U14" gate="G$1" pin="CK#"/>
 <label x="177.8" y="116.84" size="1.778" layer="95"/>
 <wire x1="195.58" y1="116.84" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
 </segment>
@@ -9975,7 +9693,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_LDQS" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="LDQS"/>
+<pinref part="U14" gate="G$1" pin="LDQS"/>
 <wire x1="231.14" y1="134.62" x2="254" y2="134.62" width="0.1524" layer="91"/>
 <label x="236.22" y="134.62" size="1.778" layer="95"/>
 </segment>
@@ -9987,7 +9705,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_LDQS#" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="LDQS#"/>
+<pinref part="U14" gate="G$1" pin="LDQS#"/>
 <wire x1="231.14" y1="132.08" x2="254" y2="132.08" width="0.1524" layer="91"/>
 <label x="236.22" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -9999,7 +9717,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_UDQS" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="UDQS"/>
+<pinref part="U14" gate="G$1" pin="UDQS"/>
 <wire x1="231.14" y1="127" x2="254" y2="127" width="0.1524" layer="91"/>
 <label x="236.22" y="127" size="1.778" layer="95"/>
 </segment>
@@ -10011,7 +9729,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_UDQS#" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="UDQS#"/>
+<pinref part="U14" gate="G$1" pin="UDQS#"/>
 <wire x1="231.14" y1="124.46" x2="254" y2="124.46" width="0.1524" layer="91"/>
 <label x="236.22" y="124.46" size="1.778" layer="95"/>
 </segment>
@@ -10023,7 +9741,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_UDM" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="UDM"/>
+<pinref part="U14" gate="G$1" pin="UDM"/>
 <wire x1="231.14" y1="119.38" x2="254" y2="119.38" width="0.1524" layer="91"/>
 <label x="236.22" y="119.38" size="1.778" layer="95"/>
 </segment>
@@ -10035,7 +9753,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_LDM" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="LDM"/>
+<pinref part="U14" gate="G$1" pin="LDM"/>
 <wire x1="231.14" y1="116.84" x2="254" y2="116.84" width="0.1524" layer="91"/>
 <label x="236.22" y="116.84" size="1.778" layer="95"/>
 </segment>
@@ -10047,7 +9765,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_RESET#" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="RESET#"/>
+<pinref part="U14" gate="G$1" pin="RESET#"/>
 <wire x1="195.58" y1="106.68" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
 <label x="177.8" y="106.68" size="1.778" layer="95"/>
 <wire x1="175.26" y1="106.68" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
@@ -10063,7 +9781,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_RAS#" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="RAS#"/>
+<pinref part="U14" gate="G$1" pin="RAS#"/>
 <wire x1="195.58" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
 <label x="177.8" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -10075,7 +9793,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_CAS#" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="CAS#"/>
+<pinref part="U14" gate="G$1" pin="CAS#"/>
 <wire x1="195.58" y1="129.54" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
 <label x="177.8" y="129.54" size="1.778" layer="95"/>
 </segment>
@@ -10087,7 +9805,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="DDR3_WE#" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="WE#"/>
+<pinref part="U14" gate="G$1" pin="WE#"/>
 <wire x1="195.58" y1="127" x2="175.26" y2="127" width="0.1524" layer="91"/>
 <label x="177.8" y="127" size="1.778" layer="95"/>
 </segment>
@@ -10104,7 +9822,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <label x="50.8" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="ODT"/>
+<pinref part="U14" gate="G$1" pin="ODT"/>
 <wire x1="195.58" y1="111.76" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
 <label x="177.8" y="111.76" size="1.778" layer="95"/>
 </segment>
@@ -10119,24 +9837,24 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="U2" gate="B3" pin="IO_L83N_VREF_3"/>
 <wire x1="45.72" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 <label x="50.8" y="25.4" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="VREFCA"/>
+<pinref part="U14" gate="G$1" pin="VREFCA"/>
 <wire x1="231.14" y1="35.56" x2="236.22" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="33.02" x2="236.22" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U10" gate="G$1" pin="VREFDQ"/>
+<pinref part="U14" gate="G$1" pin="VREFDQ"/>
 <wire x1="231.14" y1="33.02" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
 <junction x="236.22" y="35.56"/>
 <label x="236.22" y="35.56" size="1.778" layer="95"/>
 <wire x1="236.22" y1="35.56" x2="254" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C65" gate="G$1" pin="1"/>
+<pinref part="C64" gate="G$1" pin="1"/>
 <wire x1="254" y1="33.02" x2="254" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="254" y1="35.56" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="35.56" x2="264.16" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="12.7" x2="137.16" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="12.7" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C66" gate="G$1" pin="1"/>
+<pinref part="C65" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="22.86" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C64" gate="G$1" pin="2"/>
-<pinref part="C67" gate="G$1" pin="1"/>
+<pinref part="C63" gate="G$1" pin="2"/>
+<pinref part="C66" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="30.48" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
 <junction x="104.14" y="25.4"/>
 <wire x1="104.14" y1="25.4" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
@@ -10174,12 +9892,12 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <plain>
 </plain>
 <instances>
-<instance part="U11" gate="G$1" x="25.4" y="55.88">
+<instance part="U15" gate="G$1" x="25.4" y="55.88">
 <attribute name="PARTNO" x="25.4" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND55" gate="1" x="10.16" y="45.72"/>
 <instance part="GND56" gate="1" x="40.64" y="45.72"/>
-<instance part="U12" gate="G$1" x="25.4" y="20.32">
+<instance part="U16" gate="G$1" x="25.4" y="20.32">
 <attribute name="PARTNO" x="25.4" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP3" gate="1" x="71.12" y="12.7">
@@ -10222,56 +9940,56 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <nets>
 <net name="PMOD0_0" class="0">
 <segment>
-<pinref part="U11" gate="G$1" pin="1"/>
+<pinref part="U15" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
 <label x="5.08" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD0_1" class="0">
 <segment>
-<pinref part="U11" gate="G$1" pin="2"/>
+<pinref part="U15" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
 <label x="5.08" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD0_2" class="0">
 <segment>
-<pinref part="U11" gate="G$1" pin="3"/>
+<pinref part="U15" gate="G$1" pin="3"/>
 <wire x1="2.54" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="5.08" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD0_3" class="0">
 <segment>
-<pinref part="U11" gate="G$1" pin="4"/>
+<pinref part="U15" gate="G$1" pin="4"/>
 <wire x1="2.54" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
 <label x="5.08" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD1_0" class="0">
 <segment>
-<pinref part="U11" gate="G$1" pin="7"/>
+<pinref part="U15" gate="G$1" pin="7"/>
 <wire x1="48.26" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 <label x="35.56" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD1_1" class="0">
 <segment>
-<pinref part="U11" gate="G$1" pin="8"/>
+<pinref part="U15" gate="G$1" pin="8"/>
 <wire x1="48.26" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
 <label x="35.56" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD1_2" class="0">
 <segment>
-<pinref part="U11" gate="G$1" pin="9"/>
+<pinref part="U15" gate="G$1" pin="9"/>
 <wire x1="48.26" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 <label x="35.56" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD1_3" class="0">
 <segment>
-<pinref part="U11" gate="G$1" pin="10"/>
+<pinref part="U15" gate="G$1" pin="10"/>
 <wire x1="48.26" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <label x="35.56" y="53.34" size="1.778" layer="95"/>
 </segment>
@@ -10280,11 +9998,11 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <segment>
 <pinref part="GND55" gate="1" pin="GND"/>
 <wire x1="10.16" y1="48.26" x2="10.16" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="5"/>
+<pinref part="U15" gate="G$1" pin="5"/>
 <wire x1="10.16" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="11"/>
+<pinref part="U15" gate="G$1" pin="11"/>
 <pinref part="GND56" gate="1" pin="GND"/>
 <wire x1="33.02" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="50.8" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
@@ -10292,11 +10010,11 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <segment>
 <pinref part="GND57" gate="1" pin="GND"/>
 <wire x1="10.16" y1="12.7" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="5"/>
+<pinref part="U16" gate="G$1" pin="5"/>
 <wire x1="10.16" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U12" gate="G$1" pin="11"/>
+<pinref part="U16" gate="G$1" pin="11"/>
 <pinref part="GND58" gate="1" pin="GND"/>
 <wire x1="33.02" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="15.24" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
@@ -10308,9 +10026,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="71.12" y1="10.16" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="5.08" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="12"/>
+<pinref part="U16" gate="G$1" pin="12"/>
 <wire x1="35.56" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="6"/>
+<pinref part="U16" gate="G$1" pin="6"/>
 <wire x1="17.78" y1="12.7" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
@@ -10319,65 +10037,65 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="PMOD2_0" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="1"/>
+<pinref part="U16" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
 <label x="5.08" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD2_1" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="2"/>
+<pinref part="U16" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="22.86" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
 <label x="5.08" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD2_2" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="3"/>
+<pinref part="U16" gate="G$1" pin="3"/>
 <wire x1="2.54" y1="20.32" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
 <label x="5.08" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD2_3" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="4"/>
+<pinref part="U16" gate="G$1" pin="4"/>
 <wire x1="2.54" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
 <label x="5.08" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD3_0" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="7"/>
+<pinref part="U16" gate="G$1" pin="7"/>
 <wire x1="48.26" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
 <label x="35.56" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD3_1" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="8"/>
+<pinref part="U16" gate="G$1" pin="8"/>
 <wire x1="48.26" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
 <label x="35.56" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD3_2" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="9"/>
+<pinref part="U16" gate="G$1" pin="9"/>
 <wire x1="48.26" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
 <label x="35.56" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PMOD3_3" class="0">
 <segment>
-<pinref part="U12" gate="G$1" pin="10"/>
+<pinref part="U16" gate="G$1" pin="10"/>
 <wire x1="48.26" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 <label x="35.56" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="U11" gate="G$1" pin="6"/>
+<pinref part="U15" gate="G$1" pin="6"/>
 <wire x1="17.78" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="12"/>
+<pinref part="U15" gate="G$1" pin="12"/>
 <wire x1="35.56" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="1" pin="2"/>
 <wire x1="71.12" y1="45.72" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
@@ -10427,13 +10145,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <plain>
 </plain>
 <instances>
-<instance part="U14" gate="G$1" x="101.6" y="63.5">
+<instance part="U18" gate="G$1" x="101.6" y="63.5">
 <attribute name="PARTNO" x="101.6" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U15" gate="G$1" x="48.26" y="25.4">
+<instance part="U19" gate="G$1" x="48.26" y="25.4">
 <attribute name="PARTNO" x="48.26" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U13" gate="G$1" x="48.26" y="63.5">
+<instance part="U17" gate="G$1" x="48.26" y="63.5">
 <attribute name="PARTNO" x="48.26" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND61" gate="1" x="35.56" y="7.62"/>
@@ -10442,13 +10160,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="PS46" gate="G$1" x="12.7" y="68.58"/>
 <instance part="PS47" gate="G$1" x="81.28" y="68.58"/>
 <instance part="PS48" gate="G$1" x="12.7" y="30.48"/>
-<instance part="C68" gate="G$1" x="27.94" y="58.42">
+<instance part="C67" gate="G$1" x="27.94" y="58.42">
 <attribute name="PARTNO" x="27.94" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C70" gate="G$1" x="27.94" y="20.32">
+<instance part="C69" gate="G$1" x="27.94" y="20.32">
 <attribute name="PARTNO" x="27.94" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C69" gate="G$1" x="81.28" y="58.42">
+<instance part="C68" gate="G$1" x="81.28" y="58.42">
 <attribute name="PARTNO" x="81.28" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L4" gate="G$1" x="20.32" y="63.5">
@@ -10465,31 +10183,31 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <segment>
 <pinref part="GND60" gate="1" pin="GND"/>
 <wire x1="88.9" y1="48.26" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U14" gate="G$1" pin="GND"/>
+<pinref part="U18" gate="G$1" pin="GND"/>
 <wire x1="88.9" y1="50.8" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C69" gate="G$1" pin="2"/>
+<pinref part="C68" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="50.8" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
 <junction x="88.9" y="50.8"/>
 </segment>
 <segment>
-<pinref part="U15" gate="G$1" pin="GND"/>
+<pinref part="U19" gate="G$1" pin="GND"/>
 <pinref part="GND61" gate="1" pin="GND"/>
 <wire x1="38.1" y1="17.78" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="17.78" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C70" gate="G$1" pin="2"/>
+<pinref part="C69" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="12.7" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="15.24" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="12.7" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
 <junction x="35.56" y="12.7"/>
 </segment>
 <segment>
-<pinref part="U13" gate="G$1" pin="GND"/>
+<pinref part="U17" gate="G$1" pin="GND"/>
 <pinref part="GND59" gate="1" pin="GND"/>
 <wire x1="38.1" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="55.88" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C68" gate="G$1" pin="2"/>
+<pinref part="C67" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="50.8" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="53.34" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
@@ -10498,11 +10216,11 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="+3V3" class="1">
 <segment>
-<pinref part="U14" gate="G$1" pin="VCC"/>
+<pinref part="U18" gate="G$1" pin="VCC"/>
 <pinref part="PS47" gate="G$1" pin="+3V3"/>
 <wire x1="91.44" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="63.5" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C69" gate="G$1" pin="1"/>
+<pinref part="C68" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="60.96" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <junction x="81.28" y="63.5"/>
 </segment>
@@ -10521,9 +10239,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="N$36" class="1">
 <segment>
-<pinref part="U13" gate="G$1" pin="VCC"/>
+<pinref part="U17" gate="G$1" pin="VCC"/>
 <wire x1="38.1" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C68" gate="G$1" pin="1"/>
+<pinref part="C67" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="60.96" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="L4" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
@@ -10532,9 +10250,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="N$4" class="1">
 <segment>
-<pinref part="U15" gate="G$1" pin="VCC"/>
+<pinref part="U19" gate="G$1" pin="VCC"/>
 <wire x1="38.1" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C70" gate="G$1" pin="1"/>
+<pinref part="C69" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="22.86" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="L5" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -10543,21 +10261,21 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="TOS_IN0" class="0">
 <segment>
-<pinref part="U13" gate="G$1" pin="VOUT"/>
+<pinref part="U17" gate="G$1" pin="VOUT"/>
 <wire x1="38.1" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <label x="25.4" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TOS_IN1" class="0">
 <segment>
-<pinref part="U15" gate="G$1" pin="VOUT"/>
+<pinref part="U19" gate="G$1" pin="VOUT"/>
 <wire x1="38.1" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
 <label x="25.4" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TOS_OUT0" class="0">
 <segment>
-<pinref part="U14" gate="G$1" pin="VIN"/>
+<pinref part="U18" gate="G$1" pin="VIN"/>
 <wire x1="91.44" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
 <label x="76.2" y="71.12" size="1.778" layer="95"/>
 </segment>
@@ -10569,15 +10287,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <plain>
 </plain>
 <instances>
-<instance part="U18" gate="G$1" x="50.8" y="50.8">
+<instance part="U22" gate="G$1" x="50.8" y="50.8">
 <attribute name="PARTNO" x="50.8" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PS50" gate="G$1" x="99.06" y="68.58"/>
 <instance part="GND64" gate="1" x="78.74" y="2.54"/>
-<instance part="C71" gate="G$1" x="88.9" y="55.88">
+<instance part="C70" gate="G$1" x="88.9" y="55.88">
 <attribute name="PARTNO" x="88.9" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C72" gate="G$1" x="99.06" y="55.88">
+<instance part="C71" gate="G$1" x="99.06" y="55.88">
 <attribute name="PARTNO" x="99.06" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND62" gate="1" x="88.9" y="43.18"/>
@@ -10590,11 +10308,11 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <attribute name="PARTNO" x="2.54" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PS49" gate="G$1" x="2.54" y="71.12"/>
-<instance part="U16" gate="G$1" x="10.16" y="66.04">
+<instance part="U20" gate="G$1" x="10.16" y="66.04">
 <attribute name="PARTNO" x="10.16" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="10.16" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U17" gate="G$1" x="15.24" y="63.5">
+<instance part="U21" gate="G$1" x="15.24" y="63.5">
 <attribute name="PARTNO" x="15.24" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="15.24" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -10604,15 +10322,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="U18" gate="G$1" pin="VSS@F12"/>
+<pinref part="U22" gate="G$1" pin="VSS@F12"/>
 <wire x1="76.2" y1="7.62" x2="78.74" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="7.62" x2="78.74" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="GND64" gate="1" pin="GND"/>
-<pinref part="U18" gate="G$1" pin="VSS@A1"/>
+<pinref part="U22" gate="G$1" pin="VSS@A1"/>
 <wire x1="76.2" y1="43.18" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="43.18" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
 <junction x="78.74" y="7.62"/>
-<pinref part="U18" gate="G$1" pin="VSS@A7"/>
+<pinref part="U22" gate="G$1" pin="VSS@A7"/>
 <wire x1="78.74" y1="40.64" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="38.1" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="35.56" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
@@ -10628,48 +10346,48 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="78.74" y1="10.16" x2="78.74" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
 <junction x="78.74" y="40.64"/>
-<pinref part="U18" gate="G$1" pin="VSS@A9"/>
+<pinref part="U22" gate="G$1" pin="VSS@A9"/>
 <wire x1="76.2" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 <junction x="78.74" y="38.1"/>
-<pinref part="U18" gate="G$1" pin="VSS@A12"/>
+<pinref part="U22" gate="G$1" pin="VSS@A12"/>
 <wire x1="76.2" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <junction x="78.74" y="33.02"/>
-<pinref part="U18" gate="G$1" pin="VSS@A11"/>
+<pinref part="U22" gate="G$1" pin="VSS@A11"/>
 <wire x1="76.2" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <junction x="78.74" y="35.56"/>
-<pinref part="U18" gate="G$1" pin="VSS@C8"/>
+<pinref part="U22" gate="G$1" pin="VSS@C8"/>
 <wire x1="76.2" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 <junction x="78.74" y="30.48"/>
-<pinref part="U18" gate="G$1" pin="VSS@C9"/>
+<pinref part="U22" gate="G$1" pin="VSS@C9"/>
 <wire x1="76.2" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
 <junction x="78.74" y="27.94"/>
-<pinref part="U18" gate="G$1" pin="VSS@D7"/>
+<pinref part="U22" gate="G$1" pin="VSS@D7"/>
 <wire x1="76.2" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
 <junction x="78.74" y="25.4"/>
-<pinref part="U18" gate="G$1" pin="VSS@D8"/>
+<pinref part="U22" gate="G$1" pin="VSS@D8"/>
 <wire x1="76.2" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
 <junction x="78.74" y="22.86"/>
-<pinref part="U18" gate="G$1" pin="VSS@E8"/>
+<pinref part="U22" gate="G$1" pin="VSS@E8"/>
 <wire x1="76.2" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
 <junction x="78.74" y="20.32"/>
-<pinref part="U18" gate="G$1" pin="VSS@E9"/>
+<pinref part="U22" gate="G$1" pin="VSS@E9"/>
 <wire x1="76.2" y1="17.78" x2="78.74" y2="17.78" width="0.1524" layer="91"/>
 <junction x="78.74" y="17.78"/>
-<pinref part="U18" gate="G$1" pin="VSS@F1"/>
+<pinref part="U22" gate="G$1" pin="VSS@F1"/>
 <wire x1="76.2" y1="15.24" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
 <junction x="78.74" y="15.24"/>
-<pinref part="U18" gate="G$1" pin="VSS@F11"/>
+<pinref part="U22" gate="G$1" pin="VSS@F11"/>
 <wire x1="76.2" y1="10.16" x2="78.74" y2="10.16" width="0.1524" layer="91"/>
 <junction x="78.74" y="10.16"/>
-<pinref part="U18" gate="G$1" pin="VSS@F9"/>
+<pinref part="U22" gate="G$1" pin="VSS@F9"/>
 <wire x1="76.2" y1="12.7" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
 <junction x="78.74" y="12.7"/>
 </segment>
 <segment>
 <pinref part="GND62" gate="1" pin="GND"/>
-<pinref part="C71" gate="G$1" pin="2"/>
+<pinref part="C70" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="45.72" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C72" gate="G$1" pin="2"/>
+<pinref part="C71" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="48.26" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="48.26" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
@@ -10683,7 +10401,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="+3V3" class="1">
 <segment>
-<pinref part="U18" gate="G$1" pin="ONOFF"/>
+<pinref part="U22" gate="G$1" pin="ONOFF"/>
 <wire x1="25.4" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="43.18" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="PS51" gate="G$1" pin="+3V3"/>
@@ -10691,28 +10409,28 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="17.78" y1="35.56" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U18" gate="G$1" pin="VDDUART"/>
+<pinref part="U22" gate="G$1" pin="VDDUART"/>
 <wire x1="76.2" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U18" gate="G$1" pin="VDD1"/>
+<pinref part="U22" gate="G$1" pin="VDD1"/>
 <wire x1="76.2" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="50.8" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U18" gate="G$1" pin="VSUPPLY@A4"/>
+<pinref part="U22" gate="G$1" pin="VSUPPLY@A4"/>
 <wire x1="76.2" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C71" gate="G$1" pin="1"/>
+<pinref part="C70" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="60.96" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C72" gate="G$1" pin="1"/>
+<pinref part="C71" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="60.96" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
 <junction x="88.9" y="60.96"/>
 <pinref part="PS50" gate="G$1" pin="+3V3"/>
 <wire x1="99.06" y1="60.96" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
 <junction x="99.06" y="60.96"/>
-<pinref part="U18" gate="G$1" pin="VSUPPLY@A5"/>
+<pinref part="U22" gate="G$1" pin="VSUPPLY@A5"/>
 <wire x1="76.2" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="58.42" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
 <junction x="78.74" y="60.96"/>
-<pinref part="U18" gate="G$1" pin="VSUPPLY@A6"/>
+<pinref part="U22" gate="G$1" pin="VSUPPLY@A6"/>
 <wire x1="76.2" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="55.88" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <junction x="78.74" y="58.42"/>
@@ -10732,42 +10450,42 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="2.54" y1="45.72" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91"/>
 <label x="10.16" y="45.72" size="1.778" layer="95"/>
-<pinref part="U18" gate="G$1" pin="RESET#"/>
+<pinref part="U22" gate="G$1" pin="RESET#"/>
 <wire x1="25.4" y1="45.72" x2="2.54" y2="45.72" width="0.1524" layer="91"/>
 <junction x="2.54" y="45.72"/>
 </segment>
 </net>
 <net name="BT_TX" class="0">
 <segment>
-<pinref part="U18" gate="G$1" pin="P0.4_UARTTXD"/>
+<pinref part="U22" gate="G$1" pin="P0.4_UARTTXD"/>
 <wire x1="25.4" y1="78.74" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
 <label x="10.16" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT_RX" class="0">
 <segment>
-<pinref part="U18" gate="G$1" pin="P0.5_UARTRXD"/>
+<pinref part="U22" gate="G$1" pin="P0.5_UARTRXD"/>
 <wire x1="25.4" y1="76.2" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
 <label x="10.16" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT_RTS" class="0">
 <segment>
-<pinref part="U18" gate="G$1" pin="P0.6_UARTRTS"/>
+<pinref part="U22" gate="G$1" pin="P0.6_UARTRTS"/>
 <wire x1="25.4" y1="73.66" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
 <label x="10.16" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT_CTS" class="0">
 <segment>
-<pinref part="U18" gate="G$1" pin="P0.7_UARTCTS"/>
+<pinref part="U22" gate="G$1" pin="P0.7_UARTCTS"/>
 <wire x1="25.4" y1="71.12" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
 <label x="10.16" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BT_WAKE" class="0">
 <segment>
-<pinref part="U18" gate="G$1" pin="P0.14_LPMIN"/>
+<pinref part="U22" gate="G$1" pin="P0.14_LPMIN"/>
 <wire x1="25.4" y1="53.34" x2="2.54" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R48" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
@@ -10778,16 +10496,16 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="U18" gate="G$1" pin="P0.12_SDA0"/>
-<pinref part="U17" gate="G$1" pin="TP"/>
+<pinref part="U22" gate="G$1" pin="P0.12_SDA0"/>
+<pinref part="U21" gate="G$1" pin="TP"/>
 <wire x1="25.4" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="58.42" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="U18" gate="G$1" pin="P0.13_SCL0"/>
-<pinref part="U16" gate="G$1" pin="TP"/>
+<pinref part="U22" gate="G$1" pin="P0.13_SCL0"/>
+<pinref part="U20" gate="G$1" pin="TP"/>
 <wire x1="25.4" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="55.88" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 </segment>
