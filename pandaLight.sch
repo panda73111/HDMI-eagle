@@ -4605,7 +4605,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <clearance class="1" value="0.127"/>
 </class>
 <class number="2" name="tmds" width="0.127" drill="0">
-<clearance class="2" value="0.254"/>
+<clearance class="2" value="0.127"/>
 </class>
 <class number="3" name="ddr3_vref" width="0.508" drill="0">
 <clearance class="3" value="0.254"/>
