@@ -5226,6 +5226,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <part name="U10" library="pandaLight" deviceset="741C083" device="" value="51">
 <attribute name="PARTNO" value="741C083510JP"/>
 </part>
+<part name="C72" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.1u">
+<attribute name="PARTNO" value="CL05B104KP5NNNC"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -8862,7 +8865,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <instance part="C64" gate="G$1" x="254" y="30.48">
 <attribute name="PARTNO" x="254" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND52" gate="1" x="254" y="20.32"/>
+<instance part="GND52" gate="1" x="254" y="17.78"/>
 <instance part="C65" gate="G$1" x="66.04" y="20.32">
 <attribute name="PARTNO" x="66.04" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
@@ -8901,6 +8904,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 </instance>
 <instance part="GND50" gate="1" x="246.38" y="66.04"/>
 <instance part="GND46" gate="1" x="20.32" y="185.42"/>
+<instance part="C72" gate="G$1" x="264.16" y="30.48">
+<attribute name="PARTNO" x="264.16" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 <bus name="DDR3_DQ[0..15]">
@@ -9047,6 +9053,11 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="C64" gate="G$1" pin="2"/>
 <pinref part="GND52" gate="1" pin="GND"/>
 <wire x1="254" y1="25.4" x2="254" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C72" gate="G$1" pin="2"/>
+<wire x1="254" y1="22.86" x2="254" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="254" y1="22.86" x2="264.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="22.86" x2="264.16" y2="25.4" width="0.1524" layer="91"/>
+<junction x="254" y="22.86"/>
 </segment>
 <segment>
 <pinref part="C65" gate="G$1" pin="2"/>
@@ -9848,9 +9859,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <pinref part="C64" gate="G$1" pin="1"/>
 <wire x1="254" y1="33.02" x2="254" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="254" y1="35.56" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="35.56" x2="264.16" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="12.7" x2="137.16" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="12.7" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="35.56" x2="276.86" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="35.56" x2="276.86" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="10.16" x2="137.16" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="10.16" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C65" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="22.86" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C63" gate="G$1" pin="2"/>
@@ -9868,6 +9880,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="137.16" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
 <junction x="66.04" y="25.4"/>
 <junction x="254" y="35.56"/>
+<pinref part="C72" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="33.02" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
+<junction x="264.16" y="35.56"/>
 </segment>
 <segment>
 <pinref part="U2" gate="B3" pin="IO_L31N_VREF_3"/>
