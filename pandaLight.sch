@@ -7041,6 +7041,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <sheet>
 <description>B0, HDMI Rx0</description>
 <plain>
+<text x="58.42" y="114.3" size="1.778" layer="97">NEEDS A DIFFERENTIAL CLOCK INPUT!</text>
 </plain>
 <instances>
 <instance part="PS23" gate="G$1" x="33.02" y="152.4"/>
@@ -7611,6 +7612,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <sheet>
 <description>B1, HDMI Rx1</description>
 <plain>
+<text x="71.12" y="149.86" size="1.778" layer="97">NEEDS A DIFFERENTIAL CLOCK INPUT!</text>
 </plain>
 <instances>
 <instance part="PS28" gate="G$1" x="33.02" y="177.8"/>
@@ -7663,7 +7665,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <busses>
 <bus name="USB_BD[0..7],USB_BC[0..4]">
 <segment>
-<wire x1="111.76" y1="172.72" x2="111.76" y2="119.38" width="0.762" layer="92"/>
+<wire x1="132.08" y1="172.72" x2="132.08" y2="119.38" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
