@@ -5896,22 +5896,21 @@ step-down DC/DC converter</description>
 <segment>
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="139.7" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="142.24" x2="152.4" y2="142.24" width="0.1524" layer="91"/>
 <junction x="147.32" y="142.24"/>
-<wire x1="152.4" y1="142.24" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
-<junction x="152.4" y="142.24"/>
+<wire x1="147.32" y1="142.24" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="134.62" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="142.24" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="PS32" gate="G$1" pin="+3V3"/>
 <wire x1="139.7" y1="142.24" x2="139.7" y2="147.32" width="0.1524" layer="91"/>
 <junction x="139.7" y="142.24"/>
-<wire x1="162.56" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="142.24" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="111.76" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="W#"/>
+<wire x1="154.94" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="111.76" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="HOLD#"/>
+<pinref part="U$1" gate="G$1" pin="W#"/>
+<wire x1="154.94" y1="114.3" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="114.3" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
+<junction x="154.94" y="114.3"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="101.6" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
@@ -6129,7 +6128,7 @@ step-down DC/DC converter</description>
 <wire x1="99.06" y1="121.92" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="HDMI_TX_DATA2_P" class="0">
+<net name="HDMI_TX_DATA2_P" class="2">
 <segment>
 <pinref part="U13" gate="G$1" pin="D2+"/>
 <wire x1="134.62" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
