@@ -5196,6 +5196,11 @@ step-down DC/DC converter</description>
 <instance part="U23" gate="B0" x="20.32" y="58.42"/>
 </instances>
 <busses>
+<bus name="PMOD2_[0..3],PMOD3_[0..3]">
+<segment>
+<wire x1="50.8" y1="48.26" x2="50.8" y2="30.48" width="0.762" layer="92"/>
+</segment>
+</bus>
 </busses>
 <nets>
 <net name="GND" class="0">
@@ -5625,6 +5630,62 @@ step-down DC/DC converter</description>
 <pinref part="U23" gate="B0" pin="IO_L37P_GCLK13_0"/>
 </segment>
 </net>
+<net name="PMOD3_0" class="0">
+<segment>
+<pinref part="U23" gate="B0" pin="IO_L37N_GCLK12_0"/>
+<wire x1="50.8" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<label x="30.48" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD2_0" class="0">
+<segment>
+<pinref part="U23" gate="B0" pin="IO_L62P_0"/>
+<wire x1="50.8" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<label x="30.48" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD3_1" class="0">
+<segment>
+<pinref part="U23" gate="B0" pin="IO_L62N_VREF_0"/>
+<wire x1="50.8" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<label x="30.48" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD2_1" class="0">
+<segment>
+<pinref part="U23" gate="B0" pin="IO_L63P_SCP7_0"/>
+<wire x1="50.8" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<label x="30.48" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD3_2" class="0">
+<segment>
+<pinref part="U23" gate="B0" pin="IO_L63N_SCP6_0"/>
+<wire x1="50.8" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
+<label x="30.48" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD2_2" class="0">
+<segment>
+<pinref part="U23" gate="B0" pin="IO_L64P_SCP5_0"/>
+<wire x1="50.8" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<label x="30.48" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD3_3" class="0">
+<segment>
+<pinref part="U23" gate="B0" pin="IO_L64N_SCP4_0"/>
+<wire x1="50.8" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<label x="30.48" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD2_3" class="0">
+<segment>
+<pinref part="U23" gate="B0" pin="IO_L65P_SCP3_0"/>
+<wire x1="50.8" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<label x="30.48" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -5665,9 +5726,9 @@ step-down DC/DC converter</description>
 <instance part="GND18" gate="1" x="101.6" y="-7.62"/>
 </instances>
 <busses>
-<bus name="PMOD0_[0..3],PMOD1_[0..3],PMOD2_[0..3],PMOD3_[0..3]">
+<bus name="PMOD0_[0..3],PMOD1_[0..3]">
 <segment>
-<wire x1="195.58" y1="-30.48" x2="195.58" y2="10.16" width="0.762" layer="92"/>
+<wire x1="50.8" y1="50.8" x2="50.8" y2="68.58" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="USB_RI#,USB_DCD#,USB_DSR#,USB_DTR#,USB_TXD,USB_RXD,USB_RTS#,USB_CTS#">
@@ -5775,42 +5836,6 @@ step-down DC/DC converter</description>
 <wire x1="63.5" y1="12.7" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="12.7" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
 <junction x="63.5" y="12.7"/>
-</segment>
-</net>
-<net name="BT_RX" class="0">
-<segment>
-<wire x1="185.42" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
-<label x="187.96" y="66.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_RTS" class="0">
-<segment>
-<wire x1="185.42" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
-<label x="187.96" y="73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_CTS" class="0">
-<segment>
-<wire x1="185.42" y1="68.58" x2="205.74" y2="68.58" width="0.1524" layer="91"/>
-<label x="187.96" y="68.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_TX" class="0">
-<segment>
-<wire x1="185.42" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
-<label x="187.96" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_WAKE" class="0">
-<segment>
-<wire x1="185.42" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
-<label x="187.96" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BT_RESET#" class="0">
-<segment>
-<wire x1="185.42" y1="60.96" x2="205.74" y2="60.96" width="0.1524" layer="91"/>
-<label x="187.96" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LEDS1_CLK_5V" class="0">
@@ -5976,6 +6001,62 @@ step-down DC/DC converter</description>
 <wire x1="50.8" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U23" gate="B1" pin="IO_L40N_GCLK10_1"/>
 <label x="30.48" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD1_0" class="0">
+<segment>
+<pinref part="U23" gate="B1" pin="IO_L1N_VREF_1"/>
+<wire x1="50.8" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
+<label x="30.48" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD0_0" class="0">
+<segment>
+<pinref part="U23" gate="B1" pin="IO_L32P_1"/>
+<wire x1="50.8" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
+<label x="30.48" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD1_1" class="0">
+<segment>
+<pinref part="U23" gate="B1" pin="IO_L32N_1"/>
+<wire x1="50.8" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<label x="30.48" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD0_1" class="0">
+<segment>
+<pinref part="U23" gate="B1" pin="IO_L33P_1"/>
+<wire x1="50.8" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
+<label x="30.48" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD1_2" class="0">
+<segment>
+<pinref part="U23" gate="B1" pin="IO_L33N_1"/>
+<wire x1="50.8" y1="58.42" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
+<label x="30.48" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD0_2" class="0">
+<segment>
+<pinref part="U23" gate="B1" pin="IO_L34P_1"/>
+<wire x1="50.8" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
+<label x="30.48" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD1_3" class="0">
+<segment>
+<pinref part="U23" gate="B1" pin="IO_L34N_1"/>
+<wire x1="50.8" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<label x="30.48" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PMOD0_3" class="0">
+<segment>
+<pinref part="U23" gate="B1" pin="IO_L40P_GCLK11_1"/>
+<wire x1="50.8" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
+<label x="30.48" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -6665,6 +6746,42 @@ step-down DC/DC converter</description>
 <wire x1="58.42" y1="48.26" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
 <label x="38.1" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT_RX" class="0">
+<segment>
+<wire x1="53.34" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
+<label x="55.88" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT_RTS" class="0">
+<segment>
+<wire x1="53.34" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="55.88" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT_CTS" class="0">
+<segment>
+<wire x1="53.34" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+<label x="55.88" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT_TX" class="0">
+<segment>
+<wire x1="53.34" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
+<label x="55.88" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT_WAKE" class="0">
+<segment>
+<wire x1="53.34" y1="17.78" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
+<label x="55.88" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT_RESET#" class="0">
+<segment>
+<wire x1="53.34" y1="15.24" x2="73.66" y2="15.24" width="0.1524" layer="91"/>
+<label x="55.88" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
