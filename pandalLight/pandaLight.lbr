@@ -5048,9 +5048,9 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <devices>
 <device name="" package="PLR135-T10_PLT133-T10W">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
