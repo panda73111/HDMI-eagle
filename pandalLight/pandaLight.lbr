@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1347,10 +1347,10 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <wire x1="4.85" y1="8.49" x2="4.85" y2="0" width="0.127" layer="51"/>
 </package>
 <package name="PMOD-2X6">
-<wire x1="-7.62" y1="-2.909" x2="7.62" y2="-2.909" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-2.909" x2="-7.62" y2="-11.41" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-2.909" x2="7.62" y2="-11.41" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-11.41" x2="-7.62" y2="-11.41" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-2.909" x2="7.62" y2="-2.909" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="-2.909" x2="-7.62" y2="-11.41" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-2.909" x2="7.62" y2="-11.41" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-11.41" x2="-7.62" y2="-11.41" width="0.127" layer="51"/>
 <pad name="1" x="6.35" y="1.27" drill="1.016" shape="square" first="yes"/>
 <pad name="2" x="3.81" y="1.27" drill="1.016"/>
 <pad name="3" x="1.27" y="1.27" drill="1.016"/>
@@ -1371,6 +1371,9 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <rectangle x1="0.9398" y1="-2.8448" x2="1.6002" y2="1.5748" layer="51"/>
 <rectangle x1="3.4798" y1="-2.8448" x2="4.1402" y2="1.5748" layer="51"/>
 <rectangle x1="6.0198" y1="-2.8448" x2="6.6802" y2="1.5748" layer="51"/>
+<wire x1="-7.62" y1="-2.909" x2="7.62" y2="-2.909" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-2.909" x2="-7.62" y2="-4.01" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.909" x2="7.62" y2="-4.01" width="0.127" layer="21"/>
 </package>
 <package name="PW_R-PDSO-G24">
 <description>&lt;b&gt;PLASTIC SMALL-OUTLINE PACKAGE SO 24&lt;/b&gt; JEDEC MO-153, PW Type&lt;p&gt;
@@ -1679,10 +1682,10 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <wire x1="-0.3048" y1="1.5494" x2="-0.8636" y2="1.5494" width="0.127" layer="51"/>
 <wire x1="-0.8636" y1="1.5494" x2="-0.8636" y2="-1.5494" width="0.127" layer="51"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.127" layer="51" curve="-180"/>
-<wire x1="-0.5334" y1="-1.5494" x2="0.5334" y2="-1.5494" width="0.127" layer="21"/>
-<wire x1="0.5334" y1="1.5494" x2="0.3048" y2="1.5494" width="0.127" layer="21"/>
+<wire x1="-0.8636" y1="-1.5494" x2="0.8636" y2="-1.5494" width="0.127" layer="21"/>
+<wire x1="0.8636" y1="1.5494" x2="0.3048" y2="1.5494" width="0.127" layer="21"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.127" layer="21"/>
-<wire x1="-0.3048" y1="1.5494" x2="-0.5334" y2="1.5494" width="0.127" layer="21"/>
+<wire x1="-0.3048" y1="1.5494" x2="-0.8636" y2="1.5494" width="0.127" layer="21"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.127" layer="21" curve="-180"/>
 <smd name="1" x="-1.2192" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="2" x="-1.2192" y="0" dx="1.27" dy="0.5588" layer="1"/>
@@ -2534,11 +2537,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <description>1.27mm x 2.10mm pad dimention, 2.69mm pitch</description>
 <wire x1="-2.285" y1="1.46" x2="2.285" y2="1.46" width="0.1524" layer="21"/>
 <wire x1="-2.285" y1="-1.46" x2="2.285" y2="-1.46" width="0.1524" layer="21"/>
-<wire x1="-0.5" y1="1.0607" x2="-0.5" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.5" y1="0" x2="-0.5" y2="-1.0607" width="0.1524" layer="21"/>
-<wire x1="0.5607" y1="-1.0607" x2="-0.5" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.5" y1="0" x2="0.5607" y2="1.0607" width="0.1524" layer="21"/>
-<wire x1="0.5607" y1="1.0607" x2="0.5607" y2="-1.0607" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="1.0607" x2="-0.9" y2="-1.0607" width="0.1524" layer="21"/>
 <wire x1="-2.285" y1="1.46" x2="-2.285" y2="-1.46" width="0.1524" layer="51"/>
 <wire x1="2.285" y1="1.46" x2="2.285" y2="-1.46" width="0.1524" layer="51"/>
 <smd name="A" x="1.98" y="0" dx="1.27" dy="2.1" layer="1"/>
@@ -4449,7 +4448,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="6SLX45">
+<deviceset name="6SLX45" prefix="U">
 <description>Xilinx FPGA: 6SLX45CSG324</description>
 <gates>
 <gate name="B0" symbol="6SLX45CSG324_0" x="0" y="0"/>
@@ -4796,7 +4795,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="93LC46BT-I">
+<deviceset name="93LC46BT-I" prefix="U">
 <description>1K Microwire Compatible Serial EEPROM</description>
 <gates>
 <gate name="A" symbol="93LC46BT-I/OT" x="0" y="0"/>
@@ -4934,7 +4933,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FT2232H">
+<deviceset name="FT2232H" prefix="U">
 <description>FT2232H USB2.0 High speed dual  Serial/FIFO controller 64 pin device</description>
 <gates>
 <gate name="G$1" symbol="FT2232H" x="0" y="2.54"/>
@@ -5261,7 +5260,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC23451">
+<deviceset name="MIC23451" prefix="U">
 <description>high-efficiency, 3 MHz, triple 2A, synchronous buck regulator</description>
 <gates>
 <gate name="G$1" symbol="MIC23451" x="0" y="0" swaplevel="3"/>
@@ -5335,7 +5334,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AS4C128M16D3">
+<deviceset name="AS4C128M16D3" prefix="U">
 <description>2Gb (128M x 16 bit) DDR3 Synchronous DRAM (SDRAM)</description>
 <gates>
 <gate name="G$1" symbol="MT41J64M16" x="0" y="0"/>
@@ -5446,7 +5445,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="N25Q128A">
+<deviceset name="N25Q128A" prefix="U">
 <description>128Mb, 3V, Multiple I/O Serial Flash Memory</description>
 <gates>
 <gate name="G$1" symbol="N25Q128A" x="0" y="0"/>
@@ -5484,7 +5483,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PAN1322">
+<deviceset name="PAN1322" prefix="U">
 <description>All-In-One, Place and Play Bluetooth Module</description>
 <gates>
 <gate name="G$1" symbol="PAN1322" x="0" y="0"/>
@@ -5574,7 +5573,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PLR135-T10">
+<deviceset name="PLR135-T10" prefix="X">
 <description>Photolink- Fiber Optic Receiver</description>
 <gates>
 <gate name="G$1" symbol="PLR135-T10" x="0" y="0"/>
@@ -5592,7 +5591,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PLT133-T10W">
+<deviceset name="PLT133-T10W" prefix="X">
 <description>Photo-link Light Transmitter Unit</description>
 <gates>
 <gate name="G$1" symbol="PLT133-T10W" x="0" y="0"/>
@@ -5610,7 +5609,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PMOD-2X6">
+<deviceset name="PMOD-2X6" prefix="X">
 <description>2x6 PMOD connector</description>
 <gates>
 <gate name="G$1" symbol="PMOD-2X6" x="0" y="0"/>
@@ -5654,7 +5653,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP">
+<deviceset name="TP" prefix="TP">
 <description>generic test point</description>
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
@@ -5678,7 +5677,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPD4S014">
+<deviceset name="TPD4S014" prefix="U">
 <description>Complete USB Port Protection Device</description>
 <gates>
 <gate name="G$1" symbol="TPD4S014" x="0" y="0"/>
@@ -5704,7 +5703,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPD12S016">
+<deviceset name="TPD12S016" prefix="U">
 <description>HDMI Companion Chip</description>
 <gates>
 <gate name="G$1" symbol="TPD12S016" x="0" y="0"/>
@@ -5804,7 +5803,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC23450">
+<deviceset name="MIC23450" prefix="U">
 <description>high-efficiency, 3 MHz, triple 2A, buck regulator</description>
 <gates>
 <gate name="G$1" symbol="MIC23450" x="0" y="0"/>
@@ -5852,7 +5851,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="741C083" uservalue="yes">
+<deviceset name="741C083" prefix="RN" uservalue="yes">
 <description>4 element chip resistor array</description>
 <gates>
 <gate name="G$1" symbol="741C083" x="0" y="0"/>
@@ -5875,7 +5874,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="M25P40-V">
+<deviceset name="M25P40-V" prefix="U">
 <description>4MBit SPI NOR Flash</description>
 <gates>
 <gate name="G$1" symbol="M25P40" x="0" y="0"/>
@@ -5898,7 +5897,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC2230-XXYML">
+<deviceset name="MIC2230-XXYML" prefix="U">
 <description>dual output, fixed voltage, high-efficiency synchronous
 step-down DC/DC converter</description>
 <gates>
@@ -5927,7 +5926,7 @@ step-down DC/DC converter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MA04-1" uservalue="yes">
+<deviceset name="MA04-1" prefix="SV" uservalue="yes">
 <description>4-pin male header</description>
 <gates>
 <gate name="G$1" symbol="MA04-1" x="0" y="0"/>
@@ -5946,7 +5945,7 @@ step-down DC/DC converter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN74LVC2T45">
+<deviceset name="SN74LVC2T45" prefix="U">
 <description>dual-bit dual-supply bus transceiver</description>
 <gates>
 <gate name="G$1" symbol="SN74LVC2T45" x="0" y="0" swaplevel="2"/>
@@ -5969,7 +5968,7 @@ step-down DC/DC converter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TXB0104">
+<deviceset name="TXB0104" prefix="U">
 <description>4-bit bidirectional voltage-level translator</description>
 <gates>
 <gate name="G$1" symbol="TXB0104" x="0" y="0" swaplevel="3"/>
@@ -5999,18 +5998,7 @@ step-down DC/DC converter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TVS_DIODE">
-<gates>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ZENER_DIODE" uservalue="yes">
+<deviceset name="ZENER_DIODE" prefix="D" uservalue="yes">
 <description>generic ZENER diode</description>
 <gates>
 <gate name="G$1" symbol="ZENER_DIODE" x="0" y="0"/>
