@@ -3849,7 +3849,7 @@ step-down DC/DC converter</description>
 </part>
 <part name="GND49" library="pandaLight" deviceset="GND" device=""/>
 <part name="R23" library="pandaLight" deviceset="RESISTOR" device="0402" value="4.7k">
-<attribute name="PARTNO" value="ERJ-2RKF1002X"/>
+<attribute name="PARTNO" value="ERJ-2RKF4701X"/>
 </part>
 <part name="GND50" library="pandaLight" deviceset="GND" device=""/>
 <part name="PS40" library="pandaLight" deviceset="+3V3" device=""/>
@@ -3920,8 +3920,12 @@ step-down DC/DC converter</description>
 <part name="GND31" library="pandaLight" deviceset="GND" device=""/>
 <part name="PS21" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="GND29" library="pandaLight" deviceset="GND" device=""/>
-<part name="U6" library="pandaLight" deviceset="TXB0104" device="RGYR"/>
-<part name="RN3" library="pandaLight" deviceset="741C083" device="" value="100k"/>
+<part name="U6" library="pandaLight" deviceset="TXB0104" device="RGYR">
+<attribute name="PARTNO" value="TXB0104RGYR"/>
+</part>
+<part name="RN3" library="pandaLight" deviceset="741C083" device="" value="100k">
+<attribute name="PARTNO" value="741C083104JP"/>
+</part>
 <part name="SV4" library="pandaLight" deviceset="MA04-1" device="" value="LEDS_CON">
 <attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="*"/>
@@ -3939,9 +3943,11 @@ step-down DC/DC converter</description>
 <part name="C10" library="pandaLight" deviceset="CAPACITOR" device="0402" value="0.47u">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB"/>
 </part>
-<part name="D1" library="pandaLight" deviceset="ZENER_DIODE" device="" value="6V"/>
+<part name="D1" library="pandaLight" deviceset="ZENER_DIODE" device="" value="6V">
+<attribute name="PARTNO" value="SMAJ6.0A"/>
+</part>
 <part name="R9" library="pandaLight" deviceset="RESISTOR" device="0402" value="4.7k">
-<attribute name="PARTNO" value="ERJ-2RKF1002X"/>
+<attribute name="PARTNO" value="ERJ-2RKF4701X"/>
 </part>
 <part name="GND22" library="pandaLight" deviceset="GND" device=""/>
 </parts>
@@ -4057,7 +4063,9 @@ step-down DC/DC converter</description>
 <instance part="C10" gate="G$1" x="185.42" y="81.28">
 <attribute name="PARTNO" x="185.42" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D1" gate="G$1" x="40.64" y="106.68" rot="R90"/>
+<instance part="D1" gate="G$1" x="40.64" y="106.68" rot="R90">
+<attribute name="PARTNO" x="40.64" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5719,8 +5727,12 @@ step-down DC/DC converter</description>
 <instance part="GND31" gate="1" x="119.38" y="-7.62"/>
 <instance part="PS21" gate="G$1" x="63.5" y="35.56"/>
 <instance part="GND29" gate="1" x="63.5" y="-5.08"/>
-<instance part="U6" gate="G$1" x="81.28" y="15.24"/>
-<instance part="RN3" gate="G$1" x="121.92" y="7.62" rot="R90"/>
+<instance part="U6" gate="G$1" x="81.28" y="15.24">
+<attribute name="PARTNO" x="81.28" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RN3" gate="G$1" x="121.92" y="7.62" rot="R90">
+<attribute name="PARTNO" x="121.92" y="7.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SV4" gate="G$1" x="187.96" y="0" rot="R180">
 <attribute name="PARTNO" x="187.96" y="0" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="187.96" y="0" size="1.778" layer="96" rot="R180" display="off"/>
