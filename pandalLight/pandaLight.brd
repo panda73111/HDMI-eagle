@@ -113,7 +113,6 @@
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
 <layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
 <layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -171,14 +170,29 @@
 <wire x1="74.3" y1="48.6" x2="74.3" y2="49" width="0.1778" layer="121"/>
 <wire x1="73.9" y1="48.5" x2="73.7" y2="48.7" width="0.1778" layer="121"/>
 <wire x1="73.9" y1="48.1" x2="73.5" y2="48.1" width="0.1778" layer="121"/>
-<text x="41.9" y="54.3" size="1.27" layer="121" ratio="20">OUT</text>
-<text x="45.3" y="2" size="1.27" layer="121" font="vector" ratio="20">IN1</text>
-<text x="78.6" y="20.7" size="1.27" layer="121" font="vector" ratio="20">IN2</text>
+<text x="42.6" y="54.1" size="1.27" layer="121" ratio="20">OUT</text>
+<text x="45.7" y="2" size="1.27" layer="121" font="vector" ratio="20">IN1</text>
+<text x="78.1" y="20.9" size="1.27" layer="121" font="vector" ratio="20">IN2</text>
 <text x="22.5" y="5.9" size="1.27" layer="121" font="vector" ratio="20">PMOD</text>
 <text x="21.6" y="3.4" size="1.27" layer="121" font="vector" ratio="20">0</text>
 <text x="21.6" y="1.6" size="1.27" layer="121" font="vector" ratio="20">1</text>
 <text x="26.8" y="3.4" size="1.27" layer="121" font="vector" ratio="20">2</text>
 <text x="26.8" y="1.6" size="1.27" layer="121" font="vector" ratio="20">3</text>
+<polygon width="0.254" layer="121">
+<vertex x="42.7" y="55.7"/>
+<vertex x="45.7" y="55.7"/>
+<vertex x="44.2" y="56.3"/>
+</polygon>
+<polygon width="0.254" layer="121">
+<vertex x="81.9" y="20"/>
+<vertex x="81.9" y="23"/>
+<vertex x="81.3" y="21.5"/>
+</polygon>
+<polygon width="0.254" layer="121">
+<vertex x="45.6" y="1.1"/>
+<vertex x="48.6" y="1.1"/>
+<vertex x="47.1" y="1.7"/>
+</polygon>
 </plain>
 <libraries>
 <library name="pandaLight">
