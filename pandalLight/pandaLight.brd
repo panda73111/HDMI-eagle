@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -171,6 +171,14 @@
 <wire x1="74.3" y1="48.6" x2="74.3" y2="49" width="0.1778" layer="121"/>
 <wire x1="73.9" y1="48.5" x2="73.7" y2="48.7" width="0.1778" layer="121"/>
 <wire x1="73.9" y1="48.1" x2="73.5" y2="48.1" width="0.1778" layer="121"/>
+<text x="41.9" y="54.3" size="1.27" layer="121" ratio="20">OUT</text>
+<text x="45.3" y="2" size="1.27" layer="121" font="vector" ratio="20">IN1</text>
+<text x="78.6" y="20.7" size="1.27" layer="121" font="vector" ratio="20">IN2</text>
+<text x="22.5" y="5.9" size="1.27" layer="121" font="vector" ratio="20">PMOD</text>
+<text x="21.6" y="3.4" size="1.27" layer="121" font="vector" ratio="20">0</text>
+<text x="21.6" y="1.6" size="1.27" layer="121" font="vector" ratio="20">1</text>
+<text x="26.8" y="3.4" size="1.27" layer="121" font="vector" ratio="20">2</text>
+<text x="26.8" y="1.6" size="1.27" layer="121" font="vector" ratio="20">3</text>
 </plain>
 <libraries>
 <library name="pandaLight">
@@ -1572,62 +1580,62 @@ design rules under a new name.</description>
 <elements>
 <element name="C47" library="pandaLight" package="0603" value="4.7u" x="62.9" y="23" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="-34.89" y="-83.68" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="63.9" y="23.6" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="63.9" y="23.7" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="64.3" y="21" size="0.8128" layer="28" ratio="15" rot="MR0"/>
 </element>
 <element name="C48" library="pandaLight" package="0402" value="0.47u" x="62.9" y="27.3" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="-17.11" y="-74.3" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="63.9" y="27.85" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="63.9" y="27.95" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="63.9" y="25.35" size="0.8128" layer="28" ratio="15" rot="MR0"/>
 </element>
 <element name="C49" library="pandaLight" package="0402" value="0.47u" x="62.9" y="36" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="-23.46" y="-65.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="63.9" y="36.55" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="63.9" y="36.65" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="63.9" y="34.05" size="0.8128" layer="28" ratio="15" rot="MR0"/>
 </element>
 <element name="C31" library="pandaLight" package="0603" value="4.7u" x="50" y="19.9" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="-56.68" y="102.45" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="50.6" y="18.9" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="50.7" y="18.9" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="48" y="18.5" size="0.8128" layer="28" ratio="15" rot="MR90"/>
 </element>
 <element name="C32" library="pandaLight" package="0402" value="0.47u" x="52.4" y="19.9" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="-49.2" y="61.81" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="51.95" y="21" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="51.95" y="21.1" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="50.45" y="18.9" size="0.8128" layer="28" ratio="15" rot="MR90"/>
 </element>
 <element name="C33" library="pandaLight" package="0402" value="0.47u" x="59.3" y="19.9" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="-42.3" y="68.16" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="59.85" y="18.9" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="59.95" y="18.9" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="57.35" y="18.9" size="0.8128" layer="28" ratio="15" rot="MR90"/>
 </element>
 <element name="C36" library="pandaLight" package="0603" value="4.7u" x="45.3" y="34.4" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="132.93" y="141.08" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="46.3" y="35" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="46.3" y="35.1" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="43.9" y="36.4" size="0.8128" layer="28" ratio="15" rot="MR180"/>
 </element>
 <element name="C37" library="pandaLight" package="0402" value="0.47u" x="45.3" y="30" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="99.91" y="131.6" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="46.3" y="30.55" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="46.3" y="30.65" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="44.3" y="31.95" size="0.8128" layer="28" ratio="15" rot="MR180"/>
 </element>
 <element name="C38" library="pandaLight" package="0402" value="0.47u" x="45.3" y="23.6" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="106.26" y="125.2" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="46.3" y="24.15" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="46.3" y="24.25" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="44.3" y="25.55" size="0.8128" layer="28" ratio="15" rot="MR180"/>
 </element>
 <element name="C41" library="pandaLight" package="0603" value="4.7u" x="48.4" y="37.5" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="155.08" y="-55.21" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="47" y="36.5" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="46.9" y="36.5" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="50.4" y="38.9" size="0.8128" layer="28" ratio="15" rot="MR270"/>
 </element>
 <element name="C42" library="pandaLight" package="0402" value="0.47u" x="59.2" y="37.5" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="160.8" y="-29.81" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="59.75" y="36.4" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="59.85" y="36.4" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="61.15" y="38.5" size="0.8128" layer="28" ratio="15" rot="MR270"/>
 </element>
 <element name="C43" library="pandaLight" package="0402" value="0.47u" x="51" y="37.5" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="152.6" y="-36.16" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="49.65" y="36.4" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="49.55" y="36.4" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="52.95" y="38.5" size="0.8128" layer="28" ratio="15" rot="MR270"/>
 </element>
 <element name="X2" library="pandaLight" package="HDMI_TYPE_A_RECEPTICAL" value="HDMI_RECEPTICAL_A" x="58.1" y="4.5" smashed="yes" rot="R270">
@@ -1637,22 +1645,22 @@ design rules under a new name.</description>
 </element>
 <element name="C9" library="pandaLight" package="0603" value="4.7u" x="65.9" y="39.1" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="117.97" y="145.78" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="66.5" y="39.7" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="66.5" y="39.8" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="64.5" y="41.1" size="0.8128" layer="28" ratio="15" rot="MR180"/>
 </element>
 <element name="C15" library="pandaLight" package="0402" value="0.47u" x="56.4" y="19.9" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="-45.2" y="55.46" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="56.95" y="18.9" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="57.05" y="18.9" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="54.45" y="18.9" size="0.8128" layer="28" ratio="15" rot="MR90"/>
 </element>
 <element name="C10" library="pandaLight" package="0603" value="4.7u" x="61.4" y="30.1" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="34.73" y="-76.58" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="62.4" y="30.7" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="65.1" y="29.7" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="62.8" y="28.1" size="0.8128" layer="28" ratio="15" rot="MR0"/>
 </element>
 <element name="C12" library="pandaLight" package="0402" value="0.47u" x="56.5" y="36.2" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="158.1" y="6.99" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="56.05" y="37.3" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="56.05" y="37.4" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="58.45" y="37.2" size="0.8128" layer="28" ratio="15" rot="MR270"/>
 </element>
 <element name="U5" library="pandaLight" package="PW_R-PDSO-G24" value="TPD12S016PWR" x="59.5" y="9.6" smashed="yes" rot="MR90">
@@ -1662,12 +1670,12 @@ design rules under a new name.</description>
 </element>
 <element name="C35" library="pandaLight" package="0402" value="0.1u" x="64.3" y="11.8" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="176.06" y="-60.59" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="64.85" y="10.8" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="64.95" y="10.8" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="66.25" y="12.8" size="0.8128" layer="28" ratio="15" rot="MR270"/>
 </element>
 <element name="C34" library="pandaLight" package="0402" value="0.1u" x="56.4" y="4.6" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="168.16" y="-62.71" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="56.95" y="3.6" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="57.05" y="3.6" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="58.35" y="5.6" size="0.8128" layer="28" ratio="15" rot="MR270"/>
 </element>
 <element name="X3" library="pandaLight" package="HDMI_TYPE_A_RECEPTICAL" value="HDMI_RECEPTICAL_A" x="54.8" y="52.9" smashed="yes" rot="R90">
@@ -1682,22 +1690,22 @@ design rules under a new name.</description>
 </element>
 <element name="C45" library="pandaLight" package="0402" value="0.1u" x="48.6" y="45.6" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="-63.16" y="138.31" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="47.25" y="44.6" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="47.15" y="44.6" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="46.65" y="44.6" size="0.8128" layer="28" ratio="15" rot="MR90"/>
 </element>
 <element name="C44" library="pandaLight" package="0402" value="0.1u" x="56.5" y="52.8" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="-55.26" y="140.43" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="57.05" y="51.8" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="57.15" y="51.8" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="54.55" y="51.8" size="0.8128" layer="28" ratio="15" rot="MR90"/>
 </element>
 <element name="C46" library="pandaLight" package="0402" value="0.1u" x="60.3" y="47" smashed="yes">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="142.85" y="-64.76" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="59.6" y="47.55" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="59.6" y="47.65" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="59.3" y="45.05" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="RN1" library="pandaLight" package="741C083" value="51" x="61.45" y="12.3" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="741C083510JP" x="-22.37" y="107.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="60.45" y="13.3" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="60.45" y="13.4" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="62.55" y="14.7" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="U4" library="pandaLight" package="LQFP64" value="FT2232HL" x="21.4" y="28.6" smashed="yes">
@@ -1717,17 +1725,17 @@ design rules under a new name.</description>
 </element>
 <element name="C18" library="pandaLight" package="0402" value="27p" x="9.4" y="35.4" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="CL05C270JB5NNNC" x="126.24" y="102.71" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="9.75" y="36.5" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="9.75" y="36.6" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="11.35" y="34.4" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="C23" library="pandaLight" package="0402" value="27p" x="12" y="36.2" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="CL05C270JB5NNNC" x="-60.39" y="153.04" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="11" y="36.75" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="11" y="36.85" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="13" y="38.15" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="R9" library="pandaLight" package="0402" value="12k" x="12.2" y="30.2" smashed="yes">
 <attribute name="PARTNO" value="ERJ-2RKF1202X" x="109.99" y="-86.64" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.6" y="30.75" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="11.6" y="30.85" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="11.2" y="28.25" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="U3" library="pandaLight" package="SOT23-6" value="93LC46BT-I/OT" x="17" y="39" smashed="yes">
@@ -1737,37 +1745,37 @@ design rules under a new name.</description>
 </element>
 <element name="R7" library="pandaLight" package="0402" value="10k" x="12" y="39.2" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="ERJ-2RKF1002X" x="-109.92" y="12.53" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="12.35" y="40.5" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="12.35" y="40.4" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="10.05" y="40.2" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="R6" library="pandaLight" package="0402" value="10k" x="20.6" y="39.2" smashed="yes">
 <attribute name="PARTNO" value="ERJ-2RKF1002X" x="37.11" y="-82.72" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.7" y="38.75" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="21.8" y="38.75" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="19.6" y="37.25" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="R5" library="pandaLight" package="0402" value="10k" x="20.6" y="40.4" smashed="yes">
 <attribute name="PARTNO" value="ERJ-2RKF1002X" x="123.47" y="-76.44" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.7" y="39.95" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="21.8" y="39.95" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="19.6" y="38.45" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="R8" library="pandaLight" package="0402" value="2.2k" x="13.2" y="39.2" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="ERJ-2RKF2201X" x="-103.64" y="12.53" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13.55" y="40.5" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="13.55" y="40.4" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="11.25" y="40.2" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="R10" library="pandaLight" package="0402" value="10k" x="12.2" y="25.6" smashed="yes">
 <attribute name="PARTNO" value="ERJ-2RKF1002X" x="104.91" y="-91.24" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.2" y="24.25" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="11.2" y="24.15" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="11.2" y="23.65" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="C1" library="pandaLight" package="0603" value="4.7u" x="29.2" y="42.4" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="135.88" y="79.23" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="29.6" y="43.9" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="29.6" y="44" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="31.2" y="41" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="L2" library="pandaLight" package="1008" value="2.2u, 1.3A" x="36.4" y="38.8" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CIG22E1R0MNE" x="-65.2" y="22.29" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="35.85" y="36.25" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="35.85" y="36.15" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="34.05" y="40.45" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="L1" library="pandaLight" package="1008" value="2.2u, 1.3A" x="30" y="38.8" smashed="yes" rot="R270">
@@ -1777,17 +1785,17 @@ design rules under a new name.</description>
 </element>
 <element name="R3" library="pandaLight" package="0402" value="100k" x="35.6" y="43.7" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="ERJ-2RKF1003X" x="-66" y="-55.36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="35.95" y="44.8" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="35.95" y="44.9" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="33.65" y="44.7" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="R1" library="pandaLight" package="0402" value="100k" x="30.8" y="43.7" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="ERJ-2RKF1003X" x="-75.88" y="27.19" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.15" y="44.8" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="31.15" y="44.9" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="28.85" y="44.7" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="FB2" library="pandaLight" package="0402" value="1A" x="8" y="24.4" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="BK1005HS100-T" x="-38.99" y="141.24" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="7" y="23.05" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="7" y="22.95" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="9" y="26.35" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="FB1" library="pandaLight" package="0402" value="1A" x="8.2" y="35.4" smashed="yes" rot="R270">
@@ -1797,62 +1805,62 @@ design rules under a new name.</description>
 </element>
 <element name="C20" library="pandaLight" package="0603" value="4.7u" x="7.4" y="32.2" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="-99.28" y="-40.19" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="6.8" y="31.2" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="6.7" y="31.2" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="5.4" y="33.6" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="C21" library="pandaLight" package="0402" value="0.1u" x="9" y="32.2" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="-102.76" y="-19.87" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="9.45" y="29.1" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="9.45" y="28.9" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="7.05" y="33.2" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="C19" library="pandaLight" package="0402" value="0.1u" x="9" y="26.6" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="-102.76" y="-20.39" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="10.35" y="25.6" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="10.45" y="25.6" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="7.05" y="27.6" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="C17" library="pandaLight" package="0603" value="4.7u" x="7.4" y="26.6" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="-99.28" y="-40.71" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="6.8" y="25.8" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="6.7" y="25.8" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="5.4" y="28" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="C22" library="pandaLight" package="0603" value="4.7u" x="23.8" y="36.1" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="-53.67" y="142.78" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.8" y="36.7" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="22.8" y="36.8" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="25.2" y="38.1" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="C24" library="pandaLight" package="0402" value="0.1u" x="24" y="21.2" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="-78.87" y="127.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="23" y="19.85" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="23" y="19.75" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="25" y="23.15" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="C25" library="pandaLight" package="0402" value="0.1u" x="20" y="21.2" smashed="yes">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="36.51" y="-90.56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19" y="19.85" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="19" y="19.75" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="19" y="19.25" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="C27" library="pandaLight" package="0603" value="4.7u" x="26.4" y="35.8" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="133.08" y="98.03" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="27.8" y="34.8" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="27.9" y="34.8" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="28.4" y="34.4" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="C28" library="pandaLight" package="0402" value="0.1u" x="12.2" y="26.8" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="-19.55" y="138.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="11.2" y="27.35" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="11.2" y="27.45" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="13.2" y="28.75" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="R18" library="pandaLight" package="0402" value="4.7k" x="63.9" y="42.2" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="ERJ-2RKF4701X" x="180.74" y="79.03" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="65.25" y="41.2" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="65.35" y="41.2" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="65.85" y="41.2" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="R13" library="pandaLight" package="0402" value="1k" x="63.7" y="16.9" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="ERJ-2RKF1001X" x="-58.22" y="-14.85" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="64.25" y="18.1" size="0.8128" layer="25" ratio="15" rot="R270"/>
+<attribute name="NAME" x="64.35" y="18.1" size="0.8128" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="61.75" y="17.9" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="R14" library="pandaLight" package="0402" value="10k" x="52.1" y="10.8" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="ERJ-2RKF1002X" x="174.02" y="47.63" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="51.55" y="9.8" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="51.45" y="9.8" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="54.05" y="9.8" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="R15" library="pandaLight" package="0402" value="1k" x="53.3" y="10.8" smashed="yes" rot="R270">
@@ -1862,37 +1870,37 @@ design rules under a new name.</description>
 </element>
 <element name="R16" library="pandaLight" package="0402" value="4.7k" x="61.7" y="42.2" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="ERJ-2RKF4701X" x="178.54" y="84.11" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="61.15" y="41.2" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="61.05" y="41.2" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="63.65" y="41.2" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="R17" library="pandaLight" package="0402" value="10k" x="60.3" y="45.8" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="ERJ-2RKF1002X" x="-12.09" y="167.72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="59.3" y="44.45" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="59.3" y="44.35" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="61.3" y="47.75" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="R21" library="pandaLight" package="0402" value="2.4k" x="62.8" y="42.2" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="ERJ-2RKF2401X" x="179.64" y="73.95" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="63.15" y="43.3" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="63.15" y="43.4" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="64.75" y="41.2" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="R20" library="pandaLight" package="0402" value="100" x="43.4" y="42.5" smashed="yes">
 <attribute name="PARTNO" value="ERJ-2GEJ101X" x="100.55" y="-79.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="44.5" y="42.05" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="44.6" y="42.05" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="42.4" y="40.55" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="R19" library="pandaLight" package="0402" value="100" x="43.4" y="43.7" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="ERJ-2GEJ101X" x="-23.91" y="165.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="44.5" y="43.25" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="44.6" y="43.25" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="44.4" y="45.65" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="R4" library="pandaLight" package="0402" value="1k" x="25.4" y="40.3" smashed="yes">
 <attribute name="PARTNO" value="ERJ-2RKF1001X" x="116.84" y="-81.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24.8" y="40.85" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="24.8" y="40.95" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="24.4" y="38.35" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="LED1" library="pandaLight" package="LED-0603" value="Green" x="25.4" y="38.9" smashed="yes">
 <attribute name="PARTNO" value="LTST-C191KGKT" x="80.01" y="-53.81" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.45" y="38.05" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="27.55" y="38.05" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="24.25" y="37.2" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="J1" library="pandaLight" package="PJ-037A" value="PJ-037A" x="6" y="47.4" smashed="yes">
@@ -1902,12 +1910,12 @@ design rules under a new name.</description>
 </element>
 <element name="R11" library="pandaLight" package="0402" value="10k" x="20.6" y="36.8" smashed="yes">
 <attribute name="PARTNO" value="ERJ-2RKF1002X" x="42.19" y="-85.12" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.6" y="35.45" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="19.6" y="35.35" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="19.6" y="34.85" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="C4" library="pandaLight" package="1206" value="100u" x="25.8" y="44.1" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="CL31A107MQHNNNE" x="-69.45" y="-34.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="27.6" y="43.4" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="27.7" y="43.4" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="23.8" y="46.3" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="U6" library="pandaLight" package="OSCI-1.6X1.2" value="20Mhz" x="40.6" y="29.1" smashed="yes">
@@ -1957,7 +1965,7 @@ design rules under a new name.</description>
 </element>
 <element name="C3" library="pandaLight" package="1206" value="100u" x="29.2" y="48.7" smashed="yes">
 <attribute name="PARTNO" value="CL31A107MQHNNNE" x="101.59" y="-46.55" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="32.3" y="48" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="32.4" y="48" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="27" y="46.7" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="U11" library="pandaLight" package="PAN1322" value="PAN1322" x="75" y="15" smashed="yes" rot="R270">
@@ -1967,22 +1975,22 @@ design rules under a new name.</description>
 </element>
 <element name="C52" library="pandaLight" package="0402" value="0.1u" x="73.2" y="11" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="190.04" y="-5.51" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="73.75" y="9.9" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="73.85" y="9.9" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="75.15" y="12" size="0.8128" layer="28" ratio="15" rot="MR270"/>
 </element>
 <element name="C53" library="pandaLight" package="0402" value="0.1u" x="75.1" y="20" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="96.69" y="136.84" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="76.1" y="20.55" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="76.1" y="20.65" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="74.1" y="21.95" size="0.8128" layer="28" ratio="15" rot="MR180"/>
 </element>
 <element name="R24" library="pandaLight" package="0402" value="4.7k" x="70.1" y="9.7" smashed="yes">
 <attribute name="PARTNO" value="ERJ-2RKF4701X" x="152.65" y="-112.22" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="69.1" y="8.35" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="69.1" y="8.25" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="69.1" y="7.75" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="R25" library="pandaLight" package="0402" value="10k" x="71.3" y="20.3" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="ERJ-2RKF1002X" x="-6.17" y="142.22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="70.3" y="20.85" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="70.2" y="20.95" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="72.3" y="22.25" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="C29" library="pandaLight" package="0402" value="0.1u" x="30.4" y="26.8" smashed="yes">
@@ -1992,7 +2000,7 @@ design rules under a new name.</description>
 </element>
 <element name="C30" library="pandaLight" package="0402" value="0.1u" x="15.8" y="34.6" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="-26.11" y="146.36" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.8" y="35.15" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="14.8" y="35.25" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="16.8" y="36.55" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="C26" library="pandaLight" package="0402" value="0.1u" x="30.4" y="29.5" smashed="yes">
@@ -2002,7 +2010,7 @@ design rules under a new name.</description>
 </element>
 <element name="C16" library="pandaLight" package="0402" value="0.1u" x="20.6" y="41.6" smashed="yes">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="77.75" y="-70.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.7" y="41.15" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="21.8" y="41.15" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="19.6" y="39.65" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="TP1" library="pandaLight" package="TP10SQ" value="TP10SQ" x="66.2" y="17.8" smashed="yes">
@@ -2017,7 +2025,7 @@ design rules under a new name.</description>
 </element>
 <element name="RN2" library="pandaLight" package="741C083" value="51" x="58.2" y="12.3" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="741C083510JP" x="-29.43" y="107.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="57.2" y="13.3" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="57.2" y="13.4" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="59.3" y="14.7" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="U2" library="pandaLight" package="TQ144" value="6SLX9TQG144" x="54.1" y="28.7" smashed="yes" rot="R180">
@@ -2027,17 +2035,17 @@ design rules under a new name.</description>
 </element>
 <element name="C8" library="pandaLight" package="0603" value="4.7u" x="47.9" y="30.1" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="-58.78" y="51.69" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="48.5" y="29.4" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="48.6" y="29.4" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="45.9" y="28.7" size="0.8128" layer="28" ratio="15" rot="MR90"/>
 </element>
 <element name="C7" library="pandaLight" package="0603" value="4.7u" x="62.9" y="32.2" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="31.15" y="-74.48" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="63.4" y="32.8" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="63.4" y="32.9" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="64.3" y="30.2" size="0.8128" layer="28" ratio="15" rot="MR0"/>
 </element>
 <element name="C11" library="pandaLight" package="0603" value="4.7u" x="45.3" y="27.8" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="102.45" y="134.48" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="46.3" y="26.4" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="46.3" y="26.3" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="43.9" y="29.8" size="0.8128" layer="28" ratio="15" rot="MR180"/>
 </element>
 <element name="U9" library="pandaLight" package="SO8N" value="M25P40-VMN" x="43.4" y="48" smashed="yes" rot="R270">
@@ -2063,17 +2071,17 @@ design rules under a new name.</description>
 </element>
 <element name="C2" library="pandaLight" package="0603" value="4.7u" x="37.2" y="42.4" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C0603C475K9PACTU" x="143.88" y="84.31" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="37.6" y="43.9" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="37.6" y="44" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="39.2" y="41" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="C5" library="pandaLight" package="0603" value="10u" x="38.7" y="38.8" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="CL10A106MQ8NNNC" x="38.7" y="38.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="39.1" y="40.3" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="39.1" y="40.4" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="40.7" y="37.4" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="C6" library="pandaLight" package="0603" value="10u" x="30" y="36" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="CL10A106MQ8NNNC" x="30" y="36" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="31.5" y="35.6" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="31.6" y="35.6" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="31.4" y="38" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="U7" library="pandaLight" package="S-PVQFN-N14" value="TXB0104RGYR" x="39.3" y="34.5" smashed="yes" rot="R270">
@@ -2083,7 +2091,7 @@ design rules under a new name.</description>
 </element>
 <element name="RN3" library="pandaLight" package="741C083" value="100k" x="34.2" y="34.2" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="741C083104JP" x="34.2" y="34.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="33.2" y="32.1" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="33.3" y="32.1" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="31.8" y="35.3" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="SV3" library="pandaLight" package="MA04-1" value="LEDS_CON" x="31.6" y="53.7" smashed="yes">
@@ -2094,17 +2102,17 @@ design rules under a new name.</description>
 </element>
 <element name="C39" library="pandaLight" package="0402" value="0.47u" x="32.6" y="33.4" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="32.6" y="33.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="32.05" y="32.4" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="31.95" y="32.4" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="34.55" y="32.4" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="C14" library="pandaLight" package="0402" value="0.47u" x="53.5" y="21.2" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="53.5" y="21.2" size="1.27" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="54.05" y="20.3" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="54.15" y="20.3" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="51.55" y="20.2" size="0.8128" layer="28" ratio="15" rot="MR90"/>
 </element>
 <element name="C13" library="pandaLight" package="0402" value="0.47u" x="53.8" y="37.5" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="C1005X5R0J474K050BB" x="53.8" y="37.5" size="1.27" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="52.45" y="36.5" size="0.8128" layer="26" ratio="15" rot="MR90"/>
+<attribute name="NAME" x="52.35" y="36.5" size="0.8128" layer="26" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="55.75" y="38.5" size="0.8128" layer="28" ratio="15" rot="MR270"/>
 </element>
 <element name="D1" library="pandaLight" package="DO-214AC" value="6V" x="19.6" y="47.3" smashed="yes" rot="R270">
@@ -2114,7 +2122,7 @@ design rules under a new name.</description>
 </element>
 <element name="R12" library="pandaLight" package="0402" value="4.7k" x="20.6" y="38" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="ERJ-2RKF4701X" x="20.6" y="38" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="21.7" y="37.65" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="21.8" y="37.65" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="21.6" y="39.95" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="X4" library="pandaLight" package="HDMI_TYPE_A_RECEPTICAL" value="HDMI_RECEPTICAL_A" x="78.5" y="31.7" smashed="yes">
@@ -2129,12 +2137,12 @@ design rules under a new name.</description>
 </element>
 <element name="C51" library="pandaLight" package="0402" value="0.1u" x="71.2" y="37.9" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="50.5" y="2.7" size="1.27" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="72.2" y="38.45" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="72.2" y="38.55" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="70.2" y="39.85" size="0.8128" layer="28" ratio="15" rot="MR180"/>
 </element>
 <element name="C50" library="pandaLight" package="0402" value="0.1u" x="78.4" y="30" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="CL05B104KP5NNNC" x="52.6" y="-0.3" size="1.27" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="79.5" y="28.65" size="0.8128" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="79.4" y="28.55" size="0.8128" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="77.4" y="31.95" size="0.8128" layer="28" ratio="15" rot="MR180"/>
 </element>
 <element name="RN4" library="pandaLight" package="741C083" value="51" x="70.7" y="35.05" smashed="yes" rot="R270">
@@ -2144,12 +2152,12 @@ design rules under a new name.</description>
 </element>
 <element name="R22" library="pandaLight" package="0402" value="10k" x="72.2" y="25.7" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="ERJ-2RKF1002X" x="103.1" y="6" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="71.3" y="24.35" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="71.3" y="24.25" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="73.2" y="27.65" size="0.8128" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="R23" library="pandaLight" package="0402" value="1k" x="72.2" y="26.9" smashed="yes">
 <attribute name="PARTNO" value="ERJ-2RKF1001X" x="36.8" y="41.7" size="1.27" layer="27" display="off"/>
-<attribute name="NAME" x="71.2" y="27.45" size="0.8128" layer="25" ratio="15"/>
+<attribute name="NAME" x="71.2" y="27.55" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="71.2" y="24.95" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="RN5" library="pandaLight" package="741C083" value="51" x="70.7" y="31.8" smashed="yes" rot="R270">
