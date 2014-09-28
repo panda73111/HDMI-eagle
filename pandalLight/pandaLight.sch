@@ -363,15 +363,15 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </package>
 <package name="0402">
 <description>generic 0402 package</description>
-<wire x1="-1.4" y1="0.5" x2="1.4" y2="0.5" width="0.0508" layer="39"/>
-<wire x1="1.4" y1="0.5" x2="1.4" y2="-0.5" width="0.0508" layer="39"/>
-<wire x1="1.4" y1="-0.5" x2="-1.4" y2="-0.5" width="0.0508" layer="39"/>
-<wire x1="-1.4" y1="-0.5" x2="-1.4" y2="0.5" width="0.0508" layer="39"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.0508" layer="39"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.0508" layer="39"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.0508" layer="39"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.0508" layer="39"/>
 <rectangle x1="-0.2" y1="-0.4" x2="0.2" y2="0.4" layer="35"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="1" x="-0.45" y="0" dx="0.4" dy="0.5" layer="1"/>
+<smd name="2" x="0.45" y="0" dx="0.4" dy="0.5" layer="1"/>
 <text x="-1" y="0.65" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
-<text x="-1" y="-1.95" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<text x="-1" y="-1.35" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
 <wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.127" layer="51"/>
 <wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.127" layer="51"/>
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.127" layer="51"/>
@@ -379,23 +379,23 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <rectangle x1="-0.45" y1="-0.2" x2="-0.35" y2="0.2" layer="51"/>
 <rectangle x1="0.35" y1="-0.2" x2="0.45" y2="0.2" layer="51"/>
 </package>
-<package name="1008">
+<package name="VLS-E_1008">
 <wire x1="-1.25" y1="-1" x2="1.25" y2="-1" width="0.127" layer="51"/>
 <wire x1="1.25" y1="-1" x2="1.25" y2="1" width="0.127" layer="51"/>
 <wire x1="1.25" y1="1" x2="-1.25" y2="1" width="0.127" layer="51"/>
 <wire x1="-1.25" y1="1" x2="-1.25" y2="-1" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="1.1" x2="1.35" y2="1.1" width="0.127" layer="39"/>
-<wire x1="1.35" y1="1.1" x2="1.35" y2="-1.1" width="0.127" layer="39"/>
-<wire x1="1.35" y1="-1.1" x2="-1.4" y2="-1.1" width="0.127" layer="39"/>
-<wire x1="-1.4" y1="-1.1" x2="-1.4" y2="1.1" width="0.127" layer="39"/>
+<wire x1="-1.5" y1="1.2" x2="1.45" y2="1.2" width="0.127" layer="39"/>
+<wire x1="1.45" y1="1.2" x2="1.45" y2="-1.2" width="0.127" layer="39"/>
+<wire x1="1.45" y1="-1.2" x2="-1.5" y2="-1.2" width="0.127" layer="39"/>
+<wire x1="-1.5" y1="-1.2" x2="-1.5" y2="1.2" width="0.127" layer="39"/>
 <rectangle x1="-1.2" y1="-0.95" x2="-0.7" y2="0.95" layer="51"/>
 <rectangle x1="0.7" y1="-0.95" x2="1.2" y2="0.95" layer="51"/>
-<smd name="1" x="-1.225" y="0" dx="0.85" dy="2.5" layer="1"/>
-<smd name="2" x="1.225" y="0" dx="0.85" dy="2.5" layer="1"/>
+<smd name="1" x="-0.825" y="0" dx="0.85" dy="2" layer="1"/>
+<smd name="2" x="0.825" y="0" dx="0.85" dy="2" layer="1"/>
 <text x="-1.65" y="1.45" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-1.65" y="-2.35" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
-<wire x1="-0.6" y1="1" x2="0.6" y2="1" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-1" x2="0.6" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="1" x2="0.2" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-1" x2="0.2" y2="-1" width="0.127" layer="21"/>
 </package>
 <package name="OSCI-1.6X1.2">
 <wire x1="-0.8" y1="0.6" x2="0.8" y2="0.6" width="0.127" layer="51"/>
@@ -772,13 +772,13 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <package name="1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip</description>
-<wire x1="-2.4" y1="0.95" x2="2.4" y2="0.95" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="-0.95" x2="-2.4" y2="-0.95" width="0.0508" layer="39"/>
-<wire x1="-2.4" y1="-0.95" x2="-2.4" y2="0.95" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="0.95" x2="2.4" y2="-0.95" width="0.0508" layer="39"/>
+<wire x1="-2.1" y1="0.95" x2="2.1" y2="0.95" width="0.0508" layer="39"/>
+<wire x1="2.1" y1="-0.95" x2="-2.1" y2="-0.95" width="0.0508" layer="39"/>
+<wire x1="-2.1" y1="-0.95" x2="-2.1" y2="0.95" width="0.0508" layer="39"/>
+<wire x1="2.1" y1="0.95" x2="2.1" y2="-0.95" width="0.0508" layer="39"/>
 <rectangle x1="-0.2" y1="-0.4" x2="0.2" y2="0.4" layer="35"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="1" x="-1.525" y="0" dx="0.85" dy="1.6" layer="1"/>
+<smd name="2" x="1.525" y="0" dx="0.85" dy="1.6" layer="1"/>
 <text x="-2.2" y="1.1" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-2.2" y="-2" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
 <wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="51"/>
@@ -904,15 +904,15 @@ chip</description>
 </package>
 <package name="0603">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.173" y1="0.583" x2="1.173" y2="0.583" width="0.0508" layer="39"/>
+<wire x1="1.173" y1="0.583" x2="1.173" y2="-0.583" width="0.0508" layer="39"/>
+<wire x1="1.173" y1="-0.583" x2="-1.173" y2="-0.583" width="0.0508" layer="39"/>
+<wire x1="-1.173" y1="-0.583" x2="-1.173" y2="0.583" width="0.0508" layer="39"/>
 <rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="35"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="1" x="-0.75" y="0" dx="0.5" dy="0.8" layer="1"/>
+<smd name="2" x="0.75" y="0" dx="0.5" dy="0.8" layer="1"/>
 <text x="-1.4" y="0.7" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
-<text x="-1.4" y="-2" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<text x="-1.4" y="-1.5" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
 <wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="51"/>
 <wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="51"/>
@@ -1445,25 +1445,6 @@ chip</description>
 <text x="-6" y="5.9" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-6" y="-6.7" size="0.8128" layer="21" ratio="15">&gt;VALUE</text>
 </package>
-<package name="0805">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
-<wire x1="-1.9" y1="0.9" x2="1.9" y2="0.9" width="0.0508" layer="39"/>
-<wire x1="1.9" y1="-0.9" x2="-1.9" y2="-0.9" width="0.0508" layer="39"/>
-<wire x1="-1.9" y1="-0.9" x2="-1.9" y2="0.9" width="0.0508" layer="39"/>
-<wire x1="1.9" y1="0.9" x2="1.9" y2="-0.9" width="0.0508" layer="39"/>
-<rectangle x1="-0.1" y1="-0.4" x2="0.1" y2="0.4" layer="35"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.6" y="1.1" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
-<text x="-1.6" y="-1.9" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
-<rectangle x1="-0.95" y1="-0.6" x2="-0.35" y2="0.6" layer="51"/>
-<rectangle x1="0.35" y1="-0.6" x2="0.95" y2="0.6" layer="51"/>
-</package>
 <package name="SRP5030T">
 <wire x1="2.65" y1="2.3" x2="2.65" y2="-2.3" width="0.127" layer="51"/>
 <wire x1="2.65" y1="-2.3" x2="2.35" y2="-2.6" width="0.127" layer="51" curve="-90"/>
@@ -1494,6 +1475,25 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 <text x="-1.8001" y="0.8499" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+</package>
+<package name="0805">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<rectangle x1="-0.1" y1="-0.4" x2="0.1" y2="0.4" layer="35"/>
+<smd name="1" x="-1" y="0" dx="0.7" dy="1.25" layer="1"/>
+<smd name="2" x="1" y="0" dx="0.7" dy="1.25" layer="1"/>
+<text x="-1.6" y="1.1" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1.6" y="-1.8" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
+<rectangle x1="-0.95" y1="-0.6" x2="-0.35" y2="0.6" layer="51"/>
+<rectangle x1="0.35" y1="-0.6" x2="0.95" y2="0.6" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -2720,7 +2720,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1008" package="1008">
+<device name="1008" package="VLS-E_1008">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3564,10 +3564,10 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="GND1" library="pandaLight" deviceset="GND" device=""/>
 <part name="L2" library="pandaLight" deviceset="INDUCTOR" device="1008" value="2.2u, 1.3A">
-<attribute name="PARTNO" value="CIG22E1R0MNE"/>
+<attribute name="PARTNO" value="VLS252012ET-2R2M"/>
 </part>
 <part name="L1" library="pandaLight" deviceset="INDUCTOR" device="1008" value="2.2u, 1.3A">
-<attribute name="PARTNO" value="CIG22E1R0MNE"/>
+<attribute name="PARTNO" value="VLS252012ET-2R2M"/>
 </part>
 <part name="PS6" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="PS5" library="pandaLight" deviceset="+1V2" device=""/>
