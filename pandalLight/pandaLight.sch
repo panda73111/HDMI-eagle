@@ -361,13 +361,29 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <rectangle x1="-0.75" y1="-0.35" x2="-0.45" y2="0.35" layer="51"/>
 <rectangle x1="0.45" y1="-0.35" x2="0.75" y2="0.35" layer="51"/>
 </package>
-<package name="0402">
+<package name="R0402">
 <description>generic 0402 package</description>
 <wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.0508" layer="39"/>
 <wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.0508" layer="39"/>
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.0508" layer="39"/>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.0508" layer="39"/>
 <rectangle x1="-0.2" y1="-0.4" x2="0.2" y2="0.4" layer="35"/>
+<smd name="1" x="-0.45" y="0" dx="0.4" dy="0.5" layer="1"/>
+<smd name="2" x="0.45" y="0" dx="0.4" dy="0.5" layer="1"/>
+<text x="-1" y="0.65" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1" y="-1.35" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.127" layer="51"/>
+<rectangle x1="-0.45" y1="-0.2" x2="-0.35" y2="0.2" layer="51"/>
+<rectangle x1="0.35" y1="-0.2" x2="0.45" y2="0.2" layer="51"/>
+</package>
+<package name="C0402">
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.0508" layer="39"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.0508" layer="39"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.0508" layer="39"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.0508" layer="39"/>
 <smd name="1" x="-0.45" y="0" dx="0.4" dy="0.5" layer="1"/>
 <smd name="2" x="0.45" y="0" dx="0.4" dy="0.5" layer="1"/>
 <text x="-1" y="0.65" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
@@ -769,7 +785,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <text x="-1.1" y="1.1" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-1.1" y="-2.4" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
 </package>
-<package name="1206">
+<package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-2.1" y1="0.95" x2="2.1" y2="0.95" width="0.0508" layer="39"/>
@@ -901,24 +917,6 @@ chip</description>
 <wire x1="1.7" y1="1.7" x2="1.7" y2="-1.7" width="0.127" layer="39"/>
 <wire x1="1.7" y1="-1.7" x2="-1.7" y2="-1.7" width="0.127" layer="39"/>
 <wire x1="-1.7" y1="-1.7" x2="-1.7" y2="1.7" width="0.127" layer="39"/>
-</package>
-<package name="0603">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.173" y1="0.583" x2="1.173" y2="0.583" width="0.0508" layer="39"/>
-<wire x1="1.173" y1="0.583" x2="1.173" y2="-0.583" width="0.0508" layer="39"/>
-<wire x1="1.173" y1="-0.583" x2="-1.173" y2="-0.583" width="0.0508" layer="39"/>
-<wire x1="-1.173" y1="-0.583" x2="-1.173" y2="0.583" width="0.0508" layer="39"/>
-<rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="35"/>
-<smd name="1" x="-0.75" y="0" dx="0.5" dy="0.8" layer="1"/>
-<smd name="2" x="0.75" y="0" dx="0.5" dy="0.8" layer="1"/>
-<text x="-1.4" y="0.7" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
-<text x="-1.4" y="-1.5" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="51"/>
-<rectangle x1="-0.75" y1="-0.35" x2="-0.5" y2="0.35" layer="51"/>
-<rectangle x1="0.5" y1="-0.35" x2="0.75" y2="0.35" layer="51"/>
 </package>
 <package name="S-PVQFN-N14">
 <wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="51"/>
@@ -1476,7 +1474,25 @@ chip</description>
 <smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 <text x="-1.8001" y="0.8499" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 </package>
-<package name="0805">
+<package name="C0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.173" y1="0.583" x2="1.173" y2="0.583" width="0.0508" layer="39"/>
+<wire x1="1.173" y1="0.583" x2="1.173" y2="-0.583" width="0.0508" layer="39"/>
+<wire x1="1.173" y1="-0.583" x2="-1.173" y2="-0.583" width="0.0508" layer="39"/>
+<wire x1="-1.173" y1="-0.583" x2="-1.173" y2="0.583" width="0.0508" layer="39"/>
+<rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="35"/>
+<smd name="1" x="-0.75" y="0" dx="0.5" dy="0.8" layer="1"/>
+<smd name="2" x="0.75" y="0" dx="0.5" dy="0.8" layer="1"/>
+<text x="-1.4" y="0.7" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1.4" y="-1.5" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="51"/>
+<rectangle x1="-0.75" y1="-0.35" x2="-0.5" y2="0.35" layer="51"/>
+<rectangle x1="0.5" y1="-0.35" x2="0.75" y2="0.35" layer="51"/>
+</package>
+<package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
@@ -2658,7 +2674,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <gate name="G$3" symbol="DRK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0402" package="0402">
+<device name="0402" package="R0402">
 <connects>
 <connect gate="G$3" pin="1" pad="1"/>
 <connect gate="G$3" pin="2" pad="2"/>
@@ -2667,7 +2683,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0603" package="0603">
+<device name="0603" package="C0603">
 <connects>
 <connect gate="G$3" pin="1" pad="1"/>
 <connect gate="G$3" pin="2" pad="2"/>
@@ -2676,7 +2692,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0805" package="0805">
+<device name="0805" package="C0805">
 <connects>
 <connect gate="G$3" pin="1" pad="1"/>
 <connect gate="G$3" pin="2" pad="2"/>
@@ -2693,7 +2709,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0402" package="0402">
+<device name="0402" package="R0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2702,7 +2718,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0603" package="0603">
+<device name="0603" package="C0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2711,7 +2727,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0805" package="0805">
+<device name="0805" package="C0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2746,7 +2762,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0402" package="0402">
+<device name="0603" package="C0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2755,7 +2771,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0603" package="0603">
+<device name="0805" package="C0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2764,7 +2780,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0805" package="0805">
+<device name="1206" package="C1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2773,7 +2789,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206" package="1206">
+<device name="0402" package="C0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3022,7 +3038,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0402" package="0402">
+<device name="0402" package="R0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
