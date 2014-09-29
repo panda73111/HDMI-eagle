@@ -361,6 +361,22 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <rectangle x1="-0.75" y1="-0.35" x2="-0.45" y2="0.35" layer="51"/>
 <rectangle x1="0.45" y1="-0.35" x2="0.75" y2="0.35" layer="51"/>
 </package>
+<package name="FB0402">
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.0508" layer="39"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.0508" layer="39"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.0508" layer="39"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.0508" layer="39"/>
+<smd name="1" x="-0.45" y="0" dx="0.4" dy="0.5" layer="1"/>
+<smd name="2" x="0.45" y="0" dx="0.4" dy="0.5" layer="1"/>
+<text x="-1" y="0.65" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1" y="-1.35" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.127" layer="51"/>
+<rectangle x1="-0.45" y1="-0.2" x2="-0.35" y2="0.2" layer="51"/>
+<rectangle x1="0.35" y1="-0.2" x2="0.45" y2="0.2" layer="51"/>
+</package>
 <package name="R0402">
 <description>generic 0402 package</description>
 <wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.0508" layer="39"/>
@@ -2674,25 +2690,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <gate name="G$3" symbol="DRK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0402" package="R0402">
-<connects>
-<connect gate="G$3" pin="1" pad="1"/>
-<connect gate="G$3" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603" package="C0603">
-<connects>
-<connect gate="G$3" pin="1" pad="1"/>
-<connect gate="G$3" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805" package="C0805">
+<device name="0402" package="FB0402">
 <connects>
 <connect gate="G$3" pin="1" pad="1"/>
 <connect gate="G$3" pin="2" pad="2"/>

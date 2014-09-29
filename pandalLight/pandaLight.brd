@@ -113,6 +113,7 @@
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
 <layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
 <layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -218,6 +219,22 @@ by exp-lbrs.ulp</description>
 <rectangle x1="0.5" y1="-0.35" x2="0.75" y2="0.35" layer="51"/>
 </package>
 <package name="C0402">
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.0508" layer="39"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.0508" layer="39"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.0508" layer="39"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.0508" layer="39"/>
+<smd name="1" x="-0.45" y="0" dx="0.4" dy="0.5" layer="1"/>
+<smd name="2" x="0.45" y="0" dx="0.4" dy="0.5" layer="1"/>
+<text x="-1" y="0.65" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1" y="-1.35" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.127" layer="51"/>
+<rectangle x1="-0.45" y1="-0.2" x2="-0.35" y2="0.2" layer="51"/>
+<rectangle x1="0.35" y1="-0.2" x2="0.45" y2="0.2" layer="51"/>
+</package>
+<package name="FB0402">
 <wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.0508" layer="39"/>
 <wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.0508" layer="39"/>
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.0508" layer="39"/>
@@ -1823,12 +1840,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.85" y="41.5" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="28.55" y="44.6" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
-<element name="FB2" library="pandaLight" package="R0402" value="1A" x="7.5" y="27.5" smashed="yes" rot="R90">
+<element name="FB2" library="pandaLight" package="FB0402" value="1A" x="7.5" y="27.5" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="BK1005HS100-T" x="124.34" y="74.49" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="6.85" y="26.5" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="9.45" y="26.5" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
-<element name="FB1" library="pandaLight" package="R0402" value="1A" x="7.4" y="30.8" smashed="yes" rot="R270">
+<element name="FB1" library="pandaLight" package="FB0402" value="1A" x="7.4" y="30.8" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="BK1005HS100-T" x="-109.44" y="-21.27" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="6.75" y="29.9" size="0.8128" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="5.45" y="31.8" size="0.8128" layer="27" ratio="15" rot="R270"/>
