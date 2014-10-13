@@ -5852,29 +5852,29 @@ Various fiducial points for machine vision alignment.</description>
 </instance>
 <instance part="GND28" gate="1" x="60.96" y="73.66"/>
 <instance part="U2" gate="B1" x="22.86" y="45.72"/>
-<instance part="SV4" gate="G$1" x="187.96" y="22.86" rot="R180">
-<attribute name="PARTNO" x="187.96" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="BOM" x="187.96" y="22.86" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="SV4" gate="G$1" x="203.2" y="22.86" rot="R180">
+<attribute name="PARTNO" x="203.2" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" x="203.2" y="22.86" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="GND33" gate="1" x="144.78" y="-7.62"/>
-<instance part="GND32" gate="1" x="119.38" y="-7.62"/>
-<instance part="PS21" gate="G$1" x="63.5" y="35.56"/>
-<instance part="GND29" gate="1" x="63.5" y="-5.08"/>
-<instance part="U7" gate="G$1" x="81.28" y="15.24">
-<attribute name="PARTNO" x="81.28" y="15.24" size="1.778" layer="96" display="off"/>
+<instance part="GND33" gate="1" x="160.02" y="-7.62"/>
+<instance part="GND32" gate="1" x="134.62" y="-7.62"/>
+<instance part="PS21" gate="G$1" x="78.74" y="35.56"/>
+<instance part="GND29" gate="1" x="78.74" y="-5.08"/>
+<instance part="U7" gate="G$1" x="96.52" y="15.24">
+<attribute name="PARTNO" x="96.52" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="RN3" gate="G$1" x="121.92" y="7.62" rot="R90">
-<attribute name="PARTNO" x="121.92" y="7.62" size="1.778" layer="96" display="off"/>
+<instance part="RN3" gate="G$1" x="137.16" y="7.62" rot="R90">
+<attribute name="PARTNO" x="137.16" y="7.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SV3" gate="G$1" x="187.96" y="0" rot="R180">
-<attribute name="PARTNO" x="187.96" y="0" size="1.778" layer="96" display="off"/>
-<attribute name="BOM" x="187.96" y="0" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="SV3" gate="G$1" x="203.2" y="0" rot="R180">
+<attribute name="PARTNO" x="203.2" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" x="203.2" y="0" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="PS23" gate="1" x="101.6" y="35.56"/>
-<instance part="C39" gate="G$1" x="101.6" y="2.54">
-<attribute name="PARTNO" x="101.6" y="2.54" size="1.778" layer="96" display="off"/>
+<instance part="PS23" gate="1" x="116.84" y="35.56"/>
+<instance part="C39" gate="G$1" x="116.84" y="2.54">
+<attribute name="PARTNO" x="116.84" y="2.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND30" gate="1" x="101.6" y="-7.62"/>
+<instance part="GND30" gate="1" x="116.84" y="-7.62"/>
 <instance part="U6" gate="G$1" x="78.74" y="58.42" rot="MR0">
 <attribute name="PARTNO" x="78.74" y="58.42" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
@@ -5917,41 +5917,41 @@ Various fiducial points for machine vision alignment.</description>
 <segment>
 <pinref part="GND32" gate="1" pin="GND"/>
 <pinref part="RN3" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="-5.08" x2="119.38" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-5.08" x2="134.62" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="RN3" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="-2.54" x2="119.38" y2="0" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-2.54" x2="121.92" y2="0" width="0.1524" layer="91"/>
-<junction x="119.38" y="-2.54"/>
+<wire x1="134.62" y1="-2.54" x2="134.62" y2="0" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-2.54" x2="137.16" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-2.54" x2="137.16" y2="0" width="0.1524" layer="91"/>
+<junction x="134.62" y="-2.54"/>
 <pinref part="RN3" gate="G$1" pin="3"/>
-<wire x1="121.92" y1="-2.54" x2="124.46" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-2.54" x2="124.46" y2="0" width="0.1524" layer="91"/>
-<junction x="121.92" y="-2.54"/>
+<wire x1="137.16" y1="-2.54" x2="139.7" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="-2.54" x2="139.7" y2="0" width="0.1524" layer="91"/>
+<junction x="137.16" y="-2.54"/>
 <pinref part="RN3" gate="G$1" pin="4"/>
-<wire x1="124.46" y1="-2.54" x2="127" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="127" y1="-2.54" x2="127" y2="0" width="0.1524" layer="91"/>
-<junction x="124.46" y="-2.54"/>
+<wire x1="139.7" y1="-2.54" x2="142.24" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="-2.54" x2="142.24" y2="0" width="0.1524" layer="91"/>
+<junction x="139.7" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="GND29" gate="1" pin="GND"/>
-<wire x1="63.5" y1="-2.54" x2="63.5" y2="0" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-2.54" x2="78.74" y2="0" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="GND"/>
-<wire x1="63.5" y1="0" x2="66.04" y2="0" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV3" gate="G$1" pin="4"/>
 <pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="180.34" y1="-2.54" x2="144.78" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="-2.54" x2="144.78" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-2.54" x2="160.02" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-2.54" x2="160.02" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="SV4" gate="G$1" pin="4"/>
-<wire x1="180.34" y1="20.32" x2="144.78" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="20.32" x2="144.78" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="144.78" y="-2.54"/>
+<wire x1="195.58" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="20.32" x2="160.02" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="160.02" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="C39" gate="G$1" pin="2"/>
 <pinref part="GND30" gate="1" pin="GND"/>
-<wire x1="101.6" y1="-2.54" x2="101.6" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-2.54" x2="116.84" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND31" gate="1" pin="GND"/>
@@ -5996,12 +5996,12 @@ Various fiducial points for machine vision alignment.</description>
 <segment>
 <pinref part="U7" gate="G$1" pin="VCCA"/>
 <pinref part="PS21" gate="G$1" pin="+3V3"/>
-<wire x1="66.04" y1="7.62" x2="63.5" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="7.62" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="7.62" x2="78.74" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="7.62" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="OE"/>
-<wire x1="63.5" y1="12.7" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="12.7" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
-<junction x="63.5" y="12.7"/>
+<wire x1="78.74" y1="12.7" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="12.7" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
+<junction x="78.74" y="12.7"/>
 </segment>
 <segment>
 <pinref part="PS22" gate="G$1" pin="+3V3"/>
@@ -6020,92 +6020,100 @@ Various fiducial points for machine vision alignment.</description>
 <net name="LEDS1_CLK_5V" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="B2"/>
-<wire x1="96.52" y1="22.86" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="RN3" gate="G$1" pin="6"/>
-<wire x1="124.46" y1="22.86" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="22.86" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="22.86" x2="134.62" y2="0" width="0.1524" layer="91"/>
-<junction x="124.46" y="22.86"/>
+<wire x1="139.7" y1="22.86" x2="139.7" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="22.86" x2="149.86" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="22.86" x2="149.86" y2="0" width="0.1524" layer="91"/>
+<junction x="139.7" y="22.86"/>
+<label x="172.72" y="0" size="1.778" layer="95"/>
 <pinref part="SV3" gate="G$1" pin="3"/>
-<wire x1="134.62" y1="0" x2="180.34" y2="0" width="0.1524" layer="91"/>
-<label x="157.48" y="0" size="1.778" layer="95"/>
+<wire x1="149.86" y1="0" x2="195.58" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="1">
 <segment>
 <pinref part="U7" gate="G$1" pin="VCCB"/>
 <pinref part="PS23" gate="1" pin="+5V"/>
-<wire x1="96.52" y1="7.62" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="7.62" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="7.62" x2="116.84" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="7.62" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C39" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
-<junction x="101.6" y="7.62"/>
-</segment>
-</net>
-<net name="LEDS0_DATA_5V" class="0">
-<segment>
-<pinref part="SV4" gate="G$1" pin="2"/>
-<pinref part="U7" gate="G$1" pin="B1"/>
-<wire x1="96.52" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="RN3" gate="G$1" pin="5"/>
-<wire x1="127" y1="25.4" x2="180.34" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="127" y1="15.24" x2="127" y2="25.4" width="0.1524" layer="91"/>
-<junction x="127" y="25.4"/>
-<label x="157.48" y="25.4" size="1.778" layer="95"/>
+<wire x1="116.84" y1="5.08" x2="116.84" y2="7.62" width="0.1524" layer="91"/>
+<junction x="116.84" y="7.62"/>
 </segment>
 </net>
 <net name="LEDS1_DATA_5V" class="0">
 <segment>
+<pinref part="U7" gate="G$1" pin="B1"/>
+<wire x1="111.76" y1="25.4" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="RN3" gate="G$1" pin="5"/>
+<wire x1="142.24" y1="15.24" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="25.4" x2="152.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="25.4" x2="152.4" y2="2.54" width="0.1524" layer="91"/>
+<junction x="142.24" y="25.4"/>
+<label x="172.72" y="2.54" size="1.778" layer="95"/>
 <pinref part="SV3" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="2.54" x2="152.4" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LEDS0_DATA_5V" class="0">
+<segment>
 <pinref part="U7" gate="G$1" pin="B3"/>
-<wire x1="96.52" y1="20.32" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="20.32" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="20.32" x2="139.7" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="2.54" x2="139.7" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="20.32" x2="137.16" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="RN3" gate="G$1" pin="7"/>
-<wire x1="121.92" y1="15.24" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
-<junction x="121.92" y="20.32"/>
-<label x="157.48" y="2.54" size="1.778" layer="95"/>
+<wire x1="137.16" y1="15.24" x2="137.16" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="20.32" x2="154.94" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="20.32" x2="154.94" y2="25.4" width="0.1524" layer="91"/>
+<junction x="137.16" y="20.32"/>
+<pinref part="SV4" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="25.4" x2="195.58" y2="25.4" width="0.1524" layer="91"/>
+<label x="172.72" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LEDS0_CLK_5V" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="B4"/>
-<wire x1="137.16" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="22.86" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="RN3" gate="G$1" pin="8"/>
-<wire x1="119.38" y1="17.78" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
-<junction x="119.38" y="17.78"/>
+<wire x1="134.62" y1="17.78" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
+<label x="172.72" y="22.86" size="1.778" layer="95"/>
+<wire x1="134.62" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
+<junction x="134.62" y="17.78"/>
+<wire x1="157.48" y1="17.78" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SV4" gate="G$1" pin="3"/>
-<wire x1="137.16" y1="22.86" x2="180.34" y2="22.86" width="0.1524" layer="91"/>
-<label x="157.48" y="22.86" size="1.778" layer="95"/>
+<wire x1="157.48" y1="22.86" x2="195.58" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V_SUP" class="1">
 <segment>
 <pinref part="SV3" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="5.08" x2="149.86" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="5.08" x2="165.1" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="SV4" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="5.08" x2="149.86" y2="27.94" width="0.1524" layer="91"/>
-<label x="137.16" y="27.94" size="1.778" layer="95"/>
-<wire x1="180.34" y1="27.94" x2="149.86" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="27.94" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
-<junction x="149.86" y="27.94"/>
+<wire x1="165.1" y1="5.08" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
+<label x="152.4" y="27.94" size="1.778" layer="95"/>
+<wire x1="195.58" y1="27.94" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="27.94" x2="149.86" y2="27.94" width="0.1524" layer="91"/>
+<junction x="165.1" y="27.94"/>
 </segment>
 </net>
 <net name="LEDS0_CLK" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="A4"/>
+<pinref part="U7" gate="G$1" pin="A1"/>
 <pinref part="U2" gate="B1" pin="IO_L47N_1"/>
-<wire x1="66.04" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="25.4" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
 <label x="30.48" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LEDS1_DATA" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="A3"/>
+<pinref part="U7" gate="G$1" pin="A2"/>
 <pinref part="U2" gate="B1" pin="IO_L47P_1"/>
+<wire x1="81.28" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="22.86" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="17.78" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
 <label x="30.48" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -6113,16 +6121,22 @@ Various fiducial points for machine vision alignment.</description>
 <net name="LEDS1_CLK" class="0">
 <segment>
 <pinref part="U2" gate="B1" pin="IO_L46N_1"/>
-<pinref part="U7" gate="G$1" pin="A2"/>
-<wire x1="27.94" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
 <label x="30.48" y="22.86" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$1" pin="A3"/>
+<wire x1="68.58" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="20.32" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LEDS0_DATA" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="A1"/>
+<pinref part="U7" gate="G$1" pin="A4"/>
 <pinref part="U2" gate="B1" pin="IO_L46P_1"/>
-<wire x1="66.04" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="17.78" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="17.78" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="27.94" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
 <label x="30.48" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
