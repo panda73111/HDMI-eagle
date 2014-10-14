@@ -267,9 +267,9 @@ by exp-lbrs.ulp</description>
 <circle x="-1.6" y="3.3" radius="0.2" width="0" layer="21"/>
 </package>
 <package name="PJ-037A">
-<wire x1="0" y1="4.5" x2="6.8" y2="4.5" width="0.127" layer="21"/>
-<wire x1="6.8" y1="2.5" x2="6.8" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="0" y1="-4.5" x2="6.8" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="4.5" x2="6.8" y2="4.5" width="0.127" layer="21"/>
+<wire x1="6.8" y1="4.5" x2="6.8" y2="-4.5" width="0.127" layer="51"/>
+<wire x1="-5.1" y1="-4.5" x2="6.8" y2="-4.5" width="0.127" layer="21"/>
 <wire x1="-7.7" y1="4.5" x2="-7.7" y2="-4.5" width="0.127" layer="51"/>
 <wire x1="-4.2" y1="4.5" x2="-4.2" y2="-4.5" width="0.127" layer="51"/>
 <wire x1="-7.9" y1="4.7" x2="7" y2="4.7" width="0.127" layer="39"/>
@@ -278,14 +278,14 @@ by exp-lbrs.ulp</description>
 <wire x1="-7.9" y1="-4.7" x2="-7.9" y2="4.7" width="0.127" layer="39"/>
 <rectangle x1="-6.7" y1="2.5" x2="-5.2" y2="4.5" layer="51"/>
 <rectangle x1="-6.7" y1="-4.5" x2="-5.2" y2="-2.5" layer="51"/>
-<pad name="BARREL" x="0" y="0" drill="3.2"/>
-<pad name="CENTER" x="6" y="0" drill="3.7"/>
+<pad name="BARREL" x="0" y="0" drill="3"/>
+<pad name="CENTER" x="6" y="0" drill="3.5"/>
 <text x="-7.7" y="4.9" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-7.7" y="-5.8" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
 <wire x1="6.8" y1="4.5" x2="6.8" y2="2.5" width="0.127" layer="21"/>
 <wire x1="6.8" y1="-2.5" x2="6.8" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-7.7" y1="4.5" x2="0" y2="4.5" width="0.127" layer="51"/>
-<wire x1="-7.7" y1="-4.5" x2="0" y2="-4.5" width="0.127" layer="51"/>
+<wire x1="-7.7" y1="4.5" x2="6.8" y2="4.5" width="0.127" layer="51"/>
+<wire x1="-7.7" y1="-4.5" x2="6.8" y2="-4.5" width="0.127" layer="51"/>
 </package>
 <package name="SOT23-6">
 <wire x1="-0.8636" y1="0.7112" x2="-0.8636" y2="1.1938" width="0.127" layer="51"/>
@@ -565,8 +565,8 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <rectangle x1="3.4798" y1="-2.8448" x2="4.1402" y2="1.5748" layer="51"/>
 <rectangle x1="6.0198" y1="-2.8448" x2="6.6802" y2="1.5748" layer="51"/>
 <wire x1="-7.62" y1="-2.909" x2="7.62" y2="-2.909" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-2.909" x2="-7.62" y2="-4.01" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-2.909" x2="7.62" y2="-4.01" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-2.909" x2="-7.62" y2="-9.51" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.909" x2="7.62" y2="-9.51" width="0.127" layer="21"/>
 </package>
 <package name="JP2">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
@@ -601,8 +601,8 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </package>
 <package name="PAN1322">
 <wire x1="-4.35" y1="-7.6" x2="4.35" y2="-7.6" width="0.127" layer="21"/>
-<wire x1="4.35" y1="-7.6" x2="4.35" y2="0" width="0.127" layer="21"/>
-<wire x1="-4.35" y1="0" x2="-4.35" y2="-7.6" width="0.127" layer="21"/>
+<wire x1="4.35" y1="-7.6" x2="4.35" y2="7.8" width="0.127" layer="21"/>
+<wire x1="-4.35" y1="7.8" x2="-4.35" y2="-7.6" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="8.15" x2="4.5" y2="8.15" width="0.127" layer="39"/>
 <wire x1="4.5" y1="8.15" x2="4.5" y2="-7.75" width="0.127" layer="39"/>
 <wire x1="4.5" y1="-7.75" x2="-4.5" y2="-7.75" width="0.127" layer="39"/>
@@ -676,8 +676,9 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <smd name="F12" x="-3" y="6.6" dx="0.6" dy="0.6" layer="1" roundness="100"/>
 <text x="-4.4" y="8.35" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-4.4" y="-8.8" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
-<wire x1="-4.35" y1="0" x2="-4.35" y2="8" width="0.127" layer="51"/>
-<wire x1="4.35" y1="0" x2="4.35" y2="8" width="0.127" layer="51"/>
+<wire x1="-4.35" y1="-7.6" x2="-4.35" y2="8" width="0.127" layer="51"/>
+<wire x1="4.35" y1="-7.6" x2="4.35" y2="8" width="0.127" layer="51"/>
+<wire x1="-4.35" y1="-7.6" x2="4.35" y2="-7.6" width="0.127" layer="51"/>
 </package>
 <package name="LQFP64">
 <description>LQFP64 &lt;AUTHOR&gt;Richard Myrick T. Arellaga&lt;/author&gt; &lt;copyright&gt;March2010&lt;/copyright&gt;</description>
@@ -7852,8 +7853,8 @@ Various fiducial points for machine vision alignment.</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,48.26,78.74,BARREL,GND,,,,"/>
-<approved hash="102,1,48.26,86.36,CENTER,5V_SUP,,,,"/>
+<approved hash="102,1,33.02,93.98,BARREL,GND,,,,"/>
+<approved hash="102,1,33.02,101.6,CENTER,5V_SUP,,,,"/>
 <approved hash="102,3,144.78,35.56,5V_OUT,HDMI_RX_5V,,,,"/>
 <approved hash="102,5,170.18,38.1,5V_OUT,HDMI_TX_5V,,,,"/>
 <approved hash="102,6,157.48,25.4,5V_OUT,HDMI_RX1_5V,,,,"/>
@@ -7871,57 +7872,55 @@ Various fiducial points for machine vision alignment.</description>
 <approved hash="104,5,243.84,88.9,X3,TMDS_DATA2_SHIELD,GND,,,"/>
 <approved hash="104,5,134.62,38.1,U8,VCC5V,+5V,,,"/>
 <approved hash="104,5,134.62,35.56,U8,VCCA,+3V3,,,"/>
-<approved hash="104,2,124.46,30.48,U3,AGND,GND,,,"/>
-<approved hash="104,2,149.86,139.7,U3,VCCIO,+3V3,,,"/>
-<approved hash="104,2,147.32,139.7,U3,VCCIO,+3V3,,,"/>
-<approved hash="104,2,152.4,139.7,U3,VCCIO,+3V3,,,"/>
-<approved hash="104,2,154.94,139.7,U3,VCCIO,+3V3,,,"/>
-<approved hash="104,2,134.62,139.7,U3,VCORE,+1V8,,,"/>
-<approved hash="104,2,137.16,139.7,U3,VCORE,+1V8,,,"/>
-<approved hash="104,2,139.7,139.7,U3,VCORE,+1V8,,,"/>
-<approved hash="104,2,127,139.7,U3,VPHY,N$28,,,"/>
-<approved hash="104,2,129.54,139.7,U3,VPLL,N$31,,,"/>
-<approved hash="104,2,45.72,27.94,U4,VCC,+3V3,,,"/>
-<approved hash="104,2,45.72,12.7,U4,VSS,GND,,,"/>
-<approved hash="202,8,25.4,40.64,U9,JTAG#,,,,"/>
-<approved hash="202,8,25.4,38.1,U9,TRST#,,,,"/>
-<approved hash="104,8,76.2,53.34,U9,VDD1,+3V3,,,"/>
-<approved hash="104,8,76.2,50.8,U9,VDDUART,+3V3,,,"/>
-<approved hash="104,8,76.2,43.18,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,40.64,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,38.1,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,35.56,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,33.02,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,30.48,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,27.94,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,25.4,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,22.86,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,20.32,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,17.78,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,15.24,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,12.7,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,10.16,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,7.62,U9,VSS,GND,,,"/>
-<approved hash="104,8,76.2,60.96,U9,VSUPPLY,+3V3,,,"/>
-<approved hash="104,8,76.2,58.42,U9,VSUPPLY,+3V3,,,"/>
-<approved hash="104,8,76.2,55.88,U9,VSUPPLY,+3V3,,,"/>
-<approved hash="104,5,162.56,106.68,U7,VCC,+3V3,,,"/>
-<approved hash="104,5,162.56,104.14,U7,VSS,GND,,,"/>
-<approved hash="104,1,38.1,15.24,U2,AGND,GND,,,"/>
-<approved hash="104,1,38.1,12.7,U2,PGND,GND,,,"/>
-<approved hash="104,1,38.1,20.32,U2,VIN,+5V,,,"/>
-<approved hash="104,1,38.1,22.86,U2,AVIN,+5V,,,"/>
-<approved hash="103,1,73.66,12.7,U2,EP,GND,,,"/>
-<approved hash="104,4,66.04,7.62,U6,VCCA,+3V3,,,"/>
-<approved hash="104,4,96.52,7.62,U6,VCCB,+5V,,,"/>
-<approved hash="103,4,66.04,2.54,U6,EP,GND,,,"/>
-<approved hash="104,6,231.14,38.1,X8,DDC/CDC/HEAC_GND,GND,,,"/>
-<approved hash="104,6,231.14,53.34,X8,TMDS_CLK_SHIELD,GND,,,"/>
-<approved hash="104,6,231.14,60.96,X8,TMDS_DATA0_SHIELD,GND,,,"/>
-<approved hash="104,6,231.14,68.58,X8,TMDS_DATA1_SHIELD,GND,,,"/>
-<approved hash="104,6,231.14,76.2,X8,TMDS_DATA2_SHIELD,GND,,,"/>
+<approved hash="104,2,124.46,30.48,U4,AGND,GND,,,"/>
+<approved hash="104,2,149.86,139.7,U4,VCCIO,+3V3,,,"/>
+<approved hash="104,2,147.32,139.7,U4,VCCIO,+3V3,,,"/>
+<approved hash="104,2,152.4,139.7,U4,VCCIO,+3V3,,,"/>
+<approved hash="104,2,154.94,139.7,U4,VCCIO,+3V3,,,"/>
+<approved hash="104,2,134.62,139.7,U4,VCORE,+1V8,,,"/>
+<approved hash="104,2,137.16,139.7,U4,VCORE,+1V8,,,"/>
+<approved hash="104,2,139.7,139.7,U4,VCORE,+1V8,,,"/>
+<approved hash="104,2,127,139.7,U4,VPHY,N$28,,,"/>
+<approved hash="104,2,129.54,139.7,U4,VPLL,N$31,,,"/>
+<approved hash="104,2,45.72,27.94,U3,VCC,+3V3,,,"/>
+<approved hash="104,2,45.72,12.7,U3,VSS,GND,,,"/>
+<approved hash="202,8,25.4,40.64,U11,JTAG#,,,,"/>
+<approved hash="202,8,25.4,38.1,U11,TRST#,,,,"/>
+<approved hash="104,8,76.2,53.34,U11,VDD1,+3V3,,,"/>
+<approved hash="104,8,76.2,50.8,U11,VDDUART,+3V3,,,"/>
+<approved hash="104,8,76.2,43.18,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,40.64,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,38.1,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,35.56,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,33.02,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,30.48,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,27.94,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,25.4,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,22.86,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,20.32,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,17.78,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,15.24,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,12.7,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,10.16,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,7.62,U11,VSS,GND,,,"/>
+<approved hash="104,8,76.2,60.96,U11,VSUPPLY,+3V3,,,"/>
+<approved hash="104,8,76.2,58.42,U11,VSUPPLY,+3V3,,,"/>
+<approved hash="104,8,76.2,55.88,U11,VSUPPLY,+3V3,,,"/>
+<approved hash="104,5,162.56,106.68,U9,VCC,+3V3,,,"/>
+<approved hash="104,5,162.56,104.14,U9,VSS,GND,,,"/>
+<approved hash="104,4,81.28,7.62,U7,VCCA,+3V3,,,"/>
+<approved hash="104,4,111.76,7.62,U7,VCCB,+5V,,,"/>
+<approved hash="104,6,231.14,38.1,X4,DDC/CDC/HEAC_GND,GND,,,"/>
+<approved hash="104,6,231.14,53.34,X4,TMDS_CLK_SHIELD,GND,,,"/>
+<approved hash="104,6,231.14,60.96,X4,TMDS_DATA0_SHIELD,GND,,,"/>
+<approved hash="104,6,231.14,68.58,X4,TMDS_DATA1_SHIELD,GND,,,"/>
+<approved hash="104,6,231.14,76.2,X4,TMDS_DATA2_SHIELD,GND,,,"/>
 <approved hash="104,6,121.92,25.4,U10,VCC5V,+5V,,,"/>
 <approved hash="104,6,121.92,22.86,U10,VCCA,+3V3,,,"/>
+<approved hash="104,1,22.86,38.1,U12,VIN1,+5V,,,"/>
+<approved hash="104,1,22.86,33.02,U12,VIN2,+5V,,,"/>
+<approved hash="104,1,58.42,58.42,U12,PGND1,GND,,,"/>
+<approved hash="104,1,58.42,30.48,U12,PGND2,GND,,,"/>
 <approved hash="117,8,76.2,48.26,VREG,,,,,"/>
 </errors>
 </schematic>
