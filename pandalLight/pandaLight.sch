@@ -3857,7 +3857,7 @@ Various fiducial points for machine vision alignment.</description>
 <part name="PS21" library="pandaLight" deviceset="+3V3" device=""/>
 <part name="GND29" library="pandaLight" deviceset="GND" device=""/>
 <part name="U7" library="pandaLight" deviceset="TXB0104" device="PWR" value="TXB0104PWR">
-<attribute name="PARTNO" value="TXB0104RGYR"/>
+<attribute name="PARTNO" value="TXB0104PWR"/>
 </part>
 <part name="RN3" library="pandaLight" deviceset="741C083" device="" value="100k">
 <attribute name="PARTNO" value="741C083104JP"/>
