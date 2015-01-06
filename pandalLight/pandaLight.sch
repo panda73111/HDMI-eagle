@@ -6097,7 +6097,7 @@ Various fiducial points for machine vision alignment.</description>
 <junction x="165.1" y="27.94"/>
 </segment>
 </net>
-<net name="LEDS0_CLK" class="0">
+<net name="LEDS1_DATA" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="A1"/>
 <pinref part="U2" gate="B1" pin="IO_L47N_1"/>
@@ -6107,7 +6107,7 @@ Various fiducial points for machine vision alignment.</description>
 <label x="30.48" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LEDS1_DATA" class="0">
+<net name="LEDS1_CLK" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="A2"/>
 <pinref part="U2" gate="B1" pin="IO_L47P_1"/>
@@ -6119,7 +6119,7 @@ Various fiducial points for machine vision alignment.</description>
 <label x="30.48" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LEDS1_CLK" class="0">
+<net name="LEDS0_DATA" class="0">
 <segment>
 <pinref part="U2" gate="B1" pin="IO_L46N_1"/>
 <wire x1="27.94" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
@@ -6129,7 +6129,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="68.58" y1="20.32" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LEDS0_DATA" class="0">
+<net name="LEDS0_CLK" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="A4"/>
 <pinref part="U2" gate="B1" pin="IO_L46P_1"/>
