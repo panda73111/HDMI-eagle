@@ -9904,6 +9904,9 @@ Various fiducial points for machine vision alignment.</description>
 </devices>
 </deviceset>
 <deviceset name="ESP-WROOM-32">
+<description>ESP-WROOM-32 is a powerful, generic WiFi-BT-BLE MCU module that targets a wide variety of applications,
+ranging from low-power sensor networks to the most demanding tasks, such as voice encoding, music streaming
+and MP3 decoding.</description>
 <gates>
 <gate name="G$1" symbol="ESP-WROOM-32" x="0" y="0"/>
 </gates>
