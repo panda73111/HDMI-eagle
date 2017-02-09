@@ -356,6 +356,10 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.127" layer="51"/>
 <rectangle x1="-0.45" y1="-0.2" x2="-0.35" y2="0.2" layer="51"/>
 <rectangle x1="0.35" y1="-0.2" x2="0.45" y2="0.2" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
 </package>
 <package name="R0402">
 <description>generic 0402 package</description>
@@ -374,6 +378,10 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.127" layer="51"/>
 <rectangle x1="-0.45" y1="-0.2" x2="-0.35" y2="0.2" layer="51"/>
 <rectangle x1="0.35" y1="-0.2" x2="0.45" y2="0.2" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
 </package>
 <package name="C0402">
 <wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.0508" layer="39"/>
@@ -390,6 +398,10 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.127" layer="51"/>
 <rectangle x1="-0.45" y1="-0.2" x2="-0.35" y2="0.2" layer="51"/>
 <rectangle x1="0.35" y1="-0.2" x2="0.45" y2="0.2" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
 </package>
 <package name="OSCI-1.6X1.2">
 <wire x1="-0.8" y1="0.6" x2="0.8" y2="0.6" width="0.127" layer="51"/>
@@ -753,6 +765,10 @@ chip</description>
 <wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
 <rectangle x1="-1.55" y1="-0.75" x2="-0.8" y2="0.75" layer="51"/>
 <rectangle x1="0.8" y1="-0.75" x2="1.55" y2="0.75" layer="51"/>
+<wire x1="-2.2" y1="1" x2="2.2" y2="1" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1" x2="2.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1" x2="-2.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1" x2="-2.2" y2="1" width="0.127" layer="21"/>
 </package>
 <package name="USB-UB-S">
 <description>USB Series Micro-B Surface Mounted</description>
@@ -1298,33 +1314,18 @@ chip</description>
 <rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="35"/>
 <smd name="1" x="-0.75" y="0" dx="0.5" dy="0.8" layer="1"/>
 <smd name="2" x="0.75" y="0" dx="0.5" dy="0.8" layer="1"/>
-<text x="-1.4" y="0.7" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
-<text x="-1.4" y="-1.5" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<text x="-1.4" y="0.8" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1.4" y="-1.6" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
 <wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="51"/>
 <wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="51"/>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="51"/>
 <rectangle x1="-0.75" y1="-0.35" x2="-0.5" y2="0.35" layer="51"/>
 <rectangle x1="0.5" y1="-0.35" x2="0.75" y2="0.35" layer="51"/>
-</package>
-<package name="C0805">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
-<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
-<rectangle x1="-0.1" y1="-0.4" x2="0.1" y2="0.4" layer="35"/>
-<smd name="1" x="-1" y="0" dx="0.7" dy="1.25" layer="1"/>
-<smd name="2" x="1" y="0" dx="0.7" dy="1.25" layer="1"/>
-<text x="-1.6" y="1.1" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
-<text x="-1.6" y="-1.8" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
-<rectangle x1="-0.95" y1="-0.6" x2="-0.35" y2="0.6" layer="51"/>
-<rectangle x1="0.35" y1="-0.6" x2="0.95" y2="0.6" layer="51"/>
+<wire x1="-1.2" y1="0.6" x2="1.2" y2="0.6" width="0.127" layer="21"/>
+<wire x1="1.2" y1="0.6" x2="1.2" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-0.6" x2="-1.2" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-0.6" x2="-1.2" y2="0.6" width="0.127" layer="21"/>
 </package>
 <package name="R-PDSO-G16">
 <smd name="16" x="-2.275" y="2.8" dx="0.3" dy="1.6" layer="1"/>
@@ -1547,6 +1548,29 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <wire x1="-8.5" y1="-9.5" x2="-8.5" y2="16.4" width="0.127" layer="39"/>
 <text x="-8.382" y="16.764" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-8.382" y="-11.43" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+</package>
+<package name="C0805">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<rectangle x1="-0.1" y1="-0.4" x2="0.1" y2="0.4" layer="35"/>
+<smd name="1" x="-1" y="0" dx="0.7" dy="1.25" layer="1"/>
+<smd name="2" x="1" y="0" dx="0.7" dy="1.25" layer="1"/>
+<text x="-1.6" y="1.1" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1.6" y="-1.8" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
+<rectangle x1="-0.95" y1="-0.6" x2="-0.35" y2="0.6" layer="51"/>
+<rectangle x1="0.35" y1="-0.6" x2="0.95" y2="0.6" layer="51"/>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
