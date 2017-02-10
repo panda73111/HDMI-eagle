@@ -7686,28 +7686,6 @@ and MP3 decoding.</description>
 <approved hash="104,2,129.54,139.7,U4,VPLL,N$31,,,"/>
 <approved hash="104,2,45.72,27.94,U3,VCC,+3V3,,,"/>
 <approved hash="104,2,45.72,12.7,U3,VSS,GND,,,"/>
-<approved hash="202,8,25.4,40.64,U11,JTAG#,,,,"/>
-<approved hash="202,8,25.4,38.1,U11,TRST#,,,,"/>
-<approved hash="104,8,76.2,53.34,U11,VDD1,+3V3,,,"/>
-<approved hash="104,8,76.2,50.8,U11,VDDUART,+3V3,,,"/>
-<approved hash="104,8,76.2,43.18,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,40.64,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,38.1,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,35.56,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,33.02,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,30.48,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,27.94,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,25.4,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,22.86,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,20.32,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,17.78,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,15.24,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,12.7,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,10.16,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,7.62,U11,VSS,GND,,,"/>
-<approved hash="104,8,76.2,60.96,U11,VSUPPLY,+3V3,,,"/>
-<approved hash="104,8,76.2,58.42,U11,VSUPPLY,+3V3,,,"/>
-<approved hash="104,8,76.2,55.88,U11,VSUPPLY,+3V3,,,"/>
 <approved hash="104,5,162.56,106.68,U9,VCC,+3V3,,,"/>
 <approved hash="104,5,162.56,104.14,U9,VSS,GND,,,"/>
 <approved hash="104,4,81.28,7.62,U7,VCCA,+3V3,,,"/>
@@ -7723,7 +7701,9 @@ and MP3 decoding.</description>
 <approved hash="104,1,22.86,33.02,U12,VIN2,+5V,,,"/>
 <approved hash="104,1,58.42,58.42,U12,PGND1,GND,,,"/>
 <approved hash="104,1,58.42,30.48,U12,PGND2,GND,,,"/>
-<approved hash="117,8,76.2,48.26,VREG,,,,,"/>
+<approved hash="202,8,58.42,63.5,U11,SENSOR_VP,,,,"/>
+<approved hash="202,8,58.42,60.96,U11,SENSOR_VN,,,,"/>
+<approved hash="104,8,58.42,20.32,U11,3V3,+3V3,,,"/>
 </errors>
 </schematic>
 </drawing>
