@@ -3018,16 +3018,18 @@ design rules under a new name.</description>
 <contactref element="J1" pad="CENTER"/>
 <contactref element="C3" pad="1"/>
 <polygon width="0.254" layer="1" isolate="0.254" thermals="no">
-<vertex x="32.5" y="57.5"/>
-<vertex x="32.5" y="48.2"/>
-<vertex x="31.9" y="47.6"/>
+<vertex x="31.3" y="54.8"/>
+<vertex x="31.3" y="48.2"/>
+<vertex x="30.7" y="47.6"/>
 <vertex x="15.2" y="47.6"/>
 <vertex x="13.6" y="46" curve="-180"/>
 <vertex x="10.4" y="48.8"/>
 <vertex x="12.2" y="50.6"/>
 <vertex x="22.3" y="50.6"/>
 <vertex x="23" y="51.3"/>
-<vertex x="23" y="57.4"/>
+<vertex x="23" y="55"/>
+<vertex x="23.6" y="55.6"/>
+<vertex x="30.5" y="55.6"/>
 </polygon>
 <contactref element="SV3" pad="1"/>
 <contactref element="SV4" pad="1"/>
