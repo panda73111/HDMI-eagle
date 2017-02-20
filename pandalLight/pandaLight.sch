@@ -3907,6 +3907,10 @@ and MP3 decoding.</description>
 <attribute name="PARTNO" value="ERJ-2RKF1002X"/>
 </part>
 <part name="PS2" library="pandaLight" deviceset="+3V3" device=""/>
+<part name="R2" library="pandaLight" deviceset="RESISTOR" device="0402" value="4.7k">
+<attribute name="PARTNO" value="ERJ-2RKF1002X"/>
+</part>
+<part name="PS3" library="pandaLight" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6934,30 +6938,30 @@ and MP3 decoding.</description>
 </net>
 <net name="ESP_RX" class="0">
 <segment>
-<label x="38.1" y="22.86" size="1.778" layer="95"/>
-<wire x1="35.56" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U2" gate="B3" pin="IO_L51N_3"/>
+<wire x1="35.56" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U2" gate="B3" pin="IO_L52P_3"/>
+<label x="38.1" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESP_RTS" class="0">
 <segment>
-<label x="38.1" y="27.94" size="1.778" layer="95"/>
-<wire x1="35.56" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U2" gate="B3" pin="IO_L50N_3"/>
+<wire x1="35.56" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U2" gate="B3" pin="IO_L83P_3"/>
+<label x="38.1" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESP_CTS" class="0">
 <segment>
-<label x="38.1" y="20.32" size="1.778" layer="95"/>
-<wire x1="35.56" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="U2" gate="B3" pin="IO_L52P_3"/>
+<wire x1="35.56" y1="12.7" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U2" gate="B3" pin="IO_L83N_VREF_3"/>
+<label x="38.1" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESP_TX" class="0">
 <segment>
-<label x="38.1" y="25.4" size="1.778" layer="95"/>
-<wire x1="35.56" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U2" gate="B3" pin="IO_L51P_3"/>
+<wire x1="35.56" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U2" gate="B3" pin="IO_L51N_3"/>
+<label x="38.1" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HDMI_RX1_SCL" class="0">
@@ -7233,6 +7237,20 @@ and MP3 decoding.</description>
 <label x="93.98" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="ESP_EN" class="0">
+<segment>
+<pinref part="U2" gate="B3" pin="IO_L51P_3"/>
+<wire x1="35.56" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
+<label x="38.1" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ESP_IO0" class="0">
+<segment>
+<pinref part="U2" gate="B3" pin="IO_L52N_3"/>
+<wire x1="35.56" y1="17.78" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
+<label x="38.1" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -7499,10 +7517,14 @@ and MP3 decoding.</description>
 </instance>
 <instance part="GND57" gate="1" x="76.2" y="2.54"/>
 <instance part="PS1" gate="G$1" x="86.36" y="27.94"/>
-<instance part="R1" gate="G$1" x="73.66" y="63.5" rot="R90">
-<attribute name="PARTNO" x="73.66" y="63.5" size="1.778" layer="96" display="off"/>
+<instance part="R1" gate="G$1" x="78.74" y="63.5" rot="R90">
+<attribute name="PARTNO" x="78.74" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PS2" gate="G$1" x="73.66" y="73.66"/>
+<instance part="PS2" gate="G$1" x="78.74" y="73.66"/>
+<instance part="R2" gate="G$1" x="-2.54" y="71.12" rot="R90">
+<attribute name="PARTNO" x="-2.54" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="PS3" gate="G$1" x="-2.54" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -7554,7 +7576,12 @@ and MP3 decoding.</description>
 <segment>
 <pinref part="PS2" gate="G$1" pin="+3V3"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="71.12" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="71.12" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="PS3" gate="G$1" pin="+3V3"/>
+<wire x1="-2.54" y1="76.2" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESP_TX" class="0">
@@ -7585,12 +7612,15 @@ and MP3 decoding.</description>
 <label x="63.5" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="ESP_EN" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="EN"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="55.88" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="55.88" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
+<junction x="78.74" y="55.88"/>
+<label x="63.5" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_TDO" class="0">
@@ -7619,6 +7649,17 @@ and MP3 decoding.</description>
 <pinref part="U11" gate="G$1" pin="IO15"/>
 <wire x1="17.78" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91"/>
 <label x="2.54" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ESP_IO0" class="0">
+<segment>
+<pinref part="U11" gate="G$1" pin="IO0"/>
+<wire x1="17.78" y1="63.5" x2="-2.54" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="63.5" x2="-7.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="66.04" x2="-2.54" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-2.54" y="63.5"/>
+<label x="2.54" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
