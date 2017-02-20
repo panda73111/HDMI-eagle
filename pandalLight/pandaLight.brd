@@ -1438,16 +1438,16 @@ chip</description>
 <smd name="27" x="9.7" y="-5.27" dx="1.8" dy="0.6" layer="1"/>
 <smd name="26" x="9.7" y="-6.54" dx="1.8" dy="0.6" layer="1"/>
 <smd name="25" x="9.7" y="-7.81" dx="1.8" dy="0.6" layer="1"/>
-<smd name="15" x="-5" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="16" x="-3.73" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="17" x="-2.46" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="18" x="-1.19" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="19" x="0.08" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="20" x="1.35" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="21" x="2.62" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="22" x="3.89" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="23" x="5.16" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="24" x="6.43" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="15" x="-5.015" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="16" x="-3.745" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="17" x="-2.475" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="18" x="-1.205" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="19" x="0.065" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="20" x="1.335" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="21" x="2.605" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="22" x="3.875" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="23" x="5.145" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="24" x="6.415" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
 <wire x1="-8.3" y1="10.2" x2="-8.3" y2="-9.3" width="0.127" layer="51"/>
 <wire x1="-8.3" y1="10.2" x2="9.7" y2="10.2" width="0.127" layer="51"/>
 <rectangle x1="-8.3" y1="10.2" x2="9.7" y2="16.2" layer="42"/>
@@ -3190,8 +3190,9 @@ design rules under a new name.</description>
 <wire x1="66.9" y1="17.6" x2="68.3" y2="19" width="0.1524" layer="16"/>
 <wire x1="68.3" y1="19" x2="71.5" y2="19" width="0.1524" layer="16"/>
 <via x="71.5" y="19" extent="1-16" drill="0.3302"/>
-<wire x1="71.5" y1="19" x2="69.83" y2="19" width="0.1524" layer="1"/>
-<wire x1="69.83" y1="19" x2="69.8" y2="19.03" width="0.1524" layer="1"/>
+<wire x1="69.83" y1="19" x2="69.8" y2="19.045" width="0.1524" layer="1"/>
+<wire x1="71.5" y1="19" x2="69.845" y2="19" width="0.1524" layer="1"/>
+<wire x1="69.845" y1="19" x2="69.8" y2="19.045" width="0.1524" layer="1"/>
 </signal>
 <signal name="USB_TDI">
 <contactref element="U4" pad="17"/>
@@ -3236,10 +3237,10 @@ design rules under a new name.</description>
 <wire x1="49.2" y1="22.6" x2="58.7" y2="22.6" width="0.1524" layer="1"/>
 <wire x1="58.7" y1="22.6" x2="59.6" y2="21.7" width="0.1524" layer="1"/>
 <wire x1="59.6" y1="21.7" x2="61.2" y2="21.7" width="0.1524" layer="1"/>
-<wire x1="66.3" y1="12.2" x2="68.36" y2="10.14" width="0.1524" layer="1"/>
-<wire x1="69.8" y1="10.14" x2="68.36" y2="10.14" width="0.1524" layer="1"/>
 <wire x1="66.3" y1="16.6" x2="61.2" y2="21.7" width="0.1524" layer="1"/>
 <wire x1="66.3" y1="16.6" x2="66.3" y2="12.2" width="0.1524" layer="1"/>
+<wire x1="69.8" y1="10.155" x2="68.345" y2="10.155" width="0.1524" layer="1"/>
+<wire x1="68.345" y1="10.155" x2="66.3" y2="12.2" width="0.1524" layer="1"/>
 </signal>
 <signal name="USB_TMS">
 <contactref element="U4" pad="19"/>
@@ -3940,8 +3941,6 @@ design rules under a new name.</description>
 <contactref element="U11" pad="21"/>
 <wire x1="65.2" y1="23.95" x2="67.45" y2="23.95" width="0.1524" layer="1"/>
 <via x="71.5" y="12.7" extent="1-16" drill="0.3302"/>
-<wire x1="71.5" y1="12.7" x2="69.82" y2="12.7" width="0.1524" layer="1"/>
-<wire x1="69.82" y1="12.7" x2="69.8" y2="12.68" width="0.1524" layer="1"/>
 <wire x1="73.1" y1="19.7" x2="73.1" y2="14.3" width="0.1524" layer="16"/>
 <wire x1="73.1" y1="14.3" x2="71.5" y2="12.7" width="0.1524" layer="16"/>
 <wire x1="67.45" y1="23.95" x2="67.5" y2="23.9" width="0.1524" layer="1"/>
@@ -3949,16 +3948,17 @@ design rules under a new name.</description>
 <wire x1="73.1" y1="19.7" x2="71.1" y2="21.7" width="0.1524" layer="16"/>
 <wire x1="71.1" y1="21.7" x2="69.7" y2="21.7" width="0.1524" layer="16"/>
 <wire x1="69.7" y1="21.7" x2="67.5" y2="23.9" width="0.1524" layer="16"/>
+<wire x1="69.8" y1="12.695" x2="71.495" y2="12.695" width="0.1524" layer="1"/>
+<wire x1="71.495" y1="12.695" x2="71.5" y2="12.7" width="0.1524" layer="1"/>
 </signal>
 <signal name="ESP_CTS">
 <contactref element="U2" pad="P6"/>
 <contactref element="U11" pad="22"/>
 <wire x1="65.2" y1="22.45" x2="66.35" y2="22.45" width="0.1524" layer="1"/>
 <wire x1="67.2" y1="21.6" x2="67.2" y2="12.7" width="0.1524" layer="1"/>
-<wire x1="67.2" y1="12.7" x2="68.5" y2="11.4" width="0.1524" layer="1"/>
-<wire x1="69.8" y1="11.41" x2="68.51" y2="11.41" width="0.1524" layer="1"/>
-<wire x1="68.51" y1="11.41" x2="68.5" y2="11.4" width="0.1524" layer="1"/>
 <wire x1="66.35" y1="22.45" x2="67.2" y2="21.6" width="0.1524" layer="1"/>
+<wire x1="69.8" y1="11.425" x2="68.475" y2="11.425" width="0.1524" layer="1"/>
+<wire x1="68.475" y1="11.425" x2="67.2" y2="12.7" width="0.1524" layer="1"/>
 </signal>
 <signal name="HDMI_TX_DATA2_N" class="2">
 <contactref element="U8" pad="22"/>

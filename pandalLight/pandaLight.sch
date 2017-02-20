@@ -1528,16 +1528,16 @@ chip</description>
 <smd name="27" x="9.7" y="-5.27" dx="1.8" dy="0.6" layer="1"/>
 <smd name="26" x="9.7" y="-6.54" dx="1.8" dy="0.6" layer="1"/>
 <smd name="25" x="9.7" y="-7.81" dx="1.8" dy="0.6" layer="1"/>
-<smd name="15" x="-5" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="16" x="-3.73" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="17" x="-2.46" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="18" x="-1.19" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="19" x="0.08" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="20" x="1.35" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="21" x="2.62" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="22" x="3.89" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="23" x="5.16" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
-<smd name="24" x="6.43" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="15" x="-5.015" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="16" x="-3.745" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="17" x="-2.475" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="18" x="-1.205" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="19" x="0.065" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="20" x="1.335" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="21" x="2.605" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="22" x="3.875" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="23" x="5.145" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="24" x="6.415" y="-9.3" dx="1.8" dy="0.6" layer="1" rot="R90"/>
 <wire x1="-8.3" y1="10.2" x2="-8.3" y2="-9.3" width="0.127" layer="51"/>
 <wire x1="-8.3" y1="10.2" x2="9.7" y2="10.2" width="0.127" layer="51"/>
 <rectangle x1="-8.3" y1="10.2" x2="9.7" y2="16.2" layer="42"/>
