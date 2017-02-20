@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -157,14 +157,14 @@
 <hole x="93.05" y="54.95" drill="3.175"/>
 <hole x="93.05" y="2.45" drill="3.175"/>
 <text x="65.2" y="46.6" size="1.778" layer="121" ratio="15">pandaLight</text>
-<text x="75.3" y="44.4" size="1.27" layer="121" ratio="15">rev.1</text>
+<text x="75.3" y="44.4" size="1.27" layer="121" ratio="15">rev.2</text>
 <wire x1="65.9" y1="46.2" x2="76.3" y2="46.2" width="0.254" layer="121"/>
 <wire x1="77.6" y1="46.2" x2="80.2" y2="46.2" width="0.254" layer="121"/>
-<wire x1="75.8" y1="48.4" x2="76.2" y2="48.4" width="0.1778" layer="121"/>
-<wire x1="75.8" y1="48.8" x2="76" y2="49" width="0.1778" layer="121"/>
-<wire x1="75.4" y1="48.9" x2="75.4" y2="49.3" width="0.1778" layer="121"/>
-<wire x1="75" y1="48.8" x2="74.8" y2="49" width="0.1778" layer="121"/>
-<wire x1="75" y1="48.4" x2="74.6" y2="48.4" width="0.1778" layer="121"/>
+<wire x1="75.8" y1="48.4" x2="76.2" y2="48.4" width="0.1778" layer="29"/>
+<wire x1="75.8" y1="48.8" x2="76" y2="49" width="0.1778" layer="29"/>
+<wire x1="75.4" y1="48.9" x2="75.4" y2="49.3" width="0.1778" layer="29"/>
+<wire x1="75" y1="48.8" x2="74.8" y2="49" width="0.1778" layer="29"/>
+<wire x1="75" y1="48.4" x2="74.6" y2="48.4" width="0.1778" layer="29"/>
 <text x="42.6" y="54.1" size="1.27" layer="121" ratio="20">OUT</text>
 <text x="45.7" y="2" size="1.27" layer="121" font="vector" ratio="20">IN1</text>
 <text x="90.6" y="26.6" size="1.27" layer="121" font="vector" ratio="20">IN2</text>
