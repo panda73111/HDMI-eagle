@@ -1548,6 +1548,12 @@ chip</description>
 <wire x1="-8.5" y1="-9.5" x2="-8.5" y2="16.4" width="0.127" layer="39"/>
 <text x="-8.382" y="16.764" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
 <text x="-8.382" y="-11.43" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<wire x1="-5.5" y1="-9.3" x2="-8.3" y2="-9.3" width="0.127" layer="21"/>
+<wire x1="-8.3" y1="-9.3" x2="-8.3" y2="-8.3" width="0.127" layer="21"/>
+<wire x1="6.9" y1="-9.3" x2="9.7" y2="-9.3" width="0.127" layer="21"/>
+<wire x1="9.7" y1="-9.3" x2="9.7" y2="-8.3" width="0.127" layer="21"/>
+<wire x1="9.7" y1="10.1" x2="9.7" y2="9.2" width="0.127" layer="21"/>
+<wire x1="-8.3" y1="10.1" x2="-8.3" y2="9.2" width="0.127" layer="21"/>
 </package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
